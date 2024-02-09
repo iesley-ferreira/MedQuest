@@ -1,0 +1,70 @@
+[
+  {
+    "examId": 1,
+    "nome": "HCPA-2006",
+    "ano": "2006",
+    "edital": "Edital 05/2006",
+    "descrição": "MÉDICO (Medicina Intensiva)",
+    "processoSeletivo": 43,
+    "questions": [
+      {
+        "questionId": 1,
+        "question": "Um paciente encontrado em parada cardiorrespiratória na Unidade de Internação está sendo atendido. Ao chegar o socorro avançado, o monitor revela o ritmo abaixo.",
+        "image": "insira_o_link_da_imagem_aqui",
+        "anulada": false,
+        "alternatives": [
+          {
+            "id": 1,
+            "description": "ressuscitação cardiorrespiratória (RCR) até obter desfibrilador, três choques subseqüentes de 200, 300 e 360 joules, se onda monofásica, ou equivalente, se bifásica, seguidos pela palpação de pulso e pelo reinício das manobras de reanimação."
+          },
+          {
+            "id": 2,
+            "description": "três choques subseqüentes de 200, 300 e 360 joules, se onda monofásica, ou equivalente, se bifásica, seguidos pela administração imediata de adrenalina."
+          },
+          {
+            "id": 3,
+            "description": "RCR até obter desfibrilador, um choque de 360 joules, se onda monofásica, ou equivalente, se bifásica, seguidos pelo reinício imediato das manobras de reanimação."
+          },
+          {
+            "id": 4,
+            "description": "RCR até obter desfibrilador, um choque de 360 joules, se onda monofásica, ou equivalente, se bifásica, seguidos pela palpação do pulso e, depois, pelo reinício das manobras de reanimação."
+          },
+          {
+            "id": 5,
+            "description": "um choque de 360 joules, se onda monofásica, ou equivalente, se bifásica, seguido pela administração imediata de adrenalina."
+          }
+        ],
+        "rightAnswer": 3
+      },
+      {
+        "questionId": 2,
+        "question": "Sobre os índices prognósticos, está bem definido que:",
+        "image": "insira_o_link_da_imagem_aqui",
+        "anulada": false,
+        "alternatives": [
+          {
+            "id": 1,
+            "description": "são capazes de prever complicações clínicas durante a permanência no CTI."
+          },
+          {
+            "id": 2,
+            "description": "não possuem acurácia suficiente para predição de sobrevida individual."
+          },
+          {
+            "id": 3,
+            "description": "não permitem estratificar pacientes de acordo com a gravidade."
+          },
+          {
+            "id": 4,
+            "description": "devem ser usados para decisão de condutas médicas em termos individuais."
+          },
+          {
+            "id": 5,
+            "description": "são amplamente utilizados em medicina intensiva, já que esta é uma especialidade com muita evidência científica para a criação desses índices."
+          }
+        ],
+        "rightAnswer": 2
+      }
+    ]
+  }
+]
