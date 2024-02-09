@@ -1,0 +1,46 @@
+Estou transcrevendo um pdf para o formato Json, preciso de sua ajuda, voce deve utilizar \n para quebra de linhas na chave question, deve copia-las por extenso sem abreviações e deve preencher a chave rightAnswer seguindo este gabarito:
+
+1:C 11:C 21:A 31:E
+2:B 12:C 22:A 32:E
+3:E 13:D 23:C 33:A
+4:B 14:E 24:B 34:D
+5:B 15:D 25:D 35:C
+6:D 16:ANULADA 26:A 36:A
+7:C 17:D 27:A 37:B
+8:A 18:B 28:B 38:E
+9:ANULADA 19:D 29:D 39:E
+10:C 20:A 30:E 40:ANULADA
+
+Onde o numero equivale ao numero da questão e a letra refere-se a resposta correta.
+A chave rightAnswer deve receber então um numero de acordo com o gabarito, caso a resposta correta seja A, rightAnswer recebera o valor 1, caso a resposta correta seja B rightAnswer recebera o valor 2 e assim por diante e caso seja anulada preencher a chave "anulada": true :
+Aqui está o padrão Json que voce deve seguir:
+
+{
+  "questionId": 1,
+  "question": "Um paciente encontrado em parada cardiorrespiratória na Unidade de Internação está sendo atendido. Ao chegar o socorro avançado, o monitor revela o ritmo abaixo.",
+  "image": "null",
+  "anulada": false,
+  "alternatives": [
+    {
+      "id": 1,
+      "description": "ressuscitação cardiorrespiratória (RCR) até obter desfibrilador, três choques subseqüentes de 200, 300 e 360 joules, se onda monofásica, ou equivalente, se bifásica, seguidos pela palpação de pulso e pelo reinício das manobras de reanimação."
+    },
+    {
+      "id": 2,
+      "description": "três choques subseqüentes de 200, 300 e 360 joules, se onda monofásica, ou equivalente, se bifásica, seguidos pela administração imediata de adrenalina."
+    },
+    {
+      "id": 3,
+      "description": "RCR até obter desfibrilador, um choque de 360 joules, se onda monofásica, ou equivalente, se bifásica, seguidos pelo reinício imediato das manobras de reanimação."
+    },
+    {
+      "id": 4,
+      "description": "RCR até obter desfibrilador, um choque de 360 joules, se onda monofásica, ou equivalente, se bifásica, seguidos pela palpação do pulso e, depois, pelo reinício das manobras de reanimação."
+    },
+    {
+      "id": 5,
+      "description": "um choque de 360 joules, se onda monofásica, ou equivalente, se bifásica, seguido pela administração imediata de adrenalina."
+    }
+  ],
+  "rightAnswer": 3
+}
