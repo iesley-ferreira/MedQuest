@@ -3,6 +3,7 @@ import { UPDATE_SETTINGS } from '../actions/actionsName';
 const INITIAL_STATE = {
   examId: '',
   type: '',
+  quantity: 37,
 };
 
 const settings = (state = INITIAL_STATE, action) => {

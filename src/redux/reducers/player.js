@@ -20,7 +20,8 @@ const INITIAL_STATE = {
   disableAlternativesButtons: false,
   difficulty: '',
   examId: '',
-  seconds: 120,
+
+  // seconds: 120,
 };
 
 const player = (state = INITIAL_STATE, action) => {

@@ -9,16 +9,10 @@ import { getQuestionsFromLocalFile } from '../services/api';
 
 class Game extends Component {
   state = {
-    // questionData: {
-    //   questionId: '',
-    //   question: '',
-    //   correctAnswer: '',
-    //   incorrectAnswers: [],
-    //   image: '',
-    //   usedQuestionIds: [],
-    // },
-    // seconds: 120,
+    seconds: 10,
     loading: false,
+    index: 0,
+    buttonClicked: false,
   };
 
   async componentDidMount() {
@@ -31,7 +25,6 @@ class Game extends Component {
     );
 
     this.setState({
-      // questionData: questionData.results[0],
       loading: false,
     });
 
@@ -39,7 +32,11 @@ class Game extends Component {
   }
 
   componentDidUpdate() {
-    const { clearTimer } = this.props;
+    const { clearTimer, seconds, buttonClicked } = this.props;
+
+    if (seconds === 0 && !buttonClicked) {
+      this.setState({ buttonClicked: true });
+    }
 
     if (clearTimer) {
       clearInterval(this.timer);
@@ -52,7 +49,7 @@ class Game extends Component {
 
   startTimer = () => {
     const { dispatch } = this.props;
-    // const second = 1000;
+    const second = 1000;
 
     this.timer = setInterval(() => {
       const { seconds } = this.state;
@@ -66,23 +63,30 @@ class Game extends Component {
   };
 
   handleClick = () => {
-    const { seconds } = this.state;
+    const { index } = this.state;
     const { history, dispatch } = this.props;
 
     dispatch(restartTimer());
-    this.setState({ seconds: 120 });
+    this.setState({ seconds: 10, index: index + 1, buttonClicked: false });
     clearInterval(this.timer);
-    this.startTimer();
 
-    if (seconds === 0) {
+    const questionData = getQuestionsFromLocalFile();
+
+    const maxNumber = 36;
+    if (index === maxNumber) {
       history.push('/feedback');
+    } else {
+      dispatch(
+        setQuestion(questionData.results[0], questionData.results[0].usedQuestionIds),
+      );
     }
 
+    this.startTimer();
     dispatch(enableAlternativesButtons());
   };
 
   render() {
-    const { loading, seconds } = this.state;
+    const { loading, seconds, buttonClicked } = this.state;
     const { clearTimer } = this.props;
 
     return (
@@ -92,8 +96,8 @@ class Game extends Component {
           <div>
             {!loading && (
               <GameSection
-                // questionInfo={ questionData }
                 seconds={ seconds }
+                buttonClicked={ buttonClicked }
               />
             )}
             {(clearTimer || seconds === 0) && (
@@ -126,6 +130,8 @@ Game.propTypes = {
   history: PropTypes.shape({
     push: PropTypes.func.isRequired,
   }).isRequired,
+  buttonClicked: PropTypes.bool.isRequired,
+  seconds: PropTypes.number.isRequired,
 };
 
 const mapStateToProps = ({ player, settings }) => ({
