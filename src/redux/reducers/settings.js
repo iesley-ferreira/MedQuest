@@ -1,20 +1,17 @@
-import { UPDATE_SETTINGS, } from '../actions/actionsName';
+import { UPDATE_SETTINGS } from '../actions/actionsName';
 
 const INITIAL_STATE = {
-  categoryId: '',
-  difficulty: '',
+  examId: '',
   type: '',
-  quantity: 5,
 };
 
 const settings = (state = INITIAL_STATE, action) => {
   switch (action.type) {
   case UPDATE_SETTINGS:
     return { ...state,
-      categoryId: action.payload.categoryId,
-      difficulty: action.payload.difficulty,
-      type: action.payload.type,
-      quantity: action.payload.quantity };
+      examId: action.examId,
+      type: action.type,
+    };
   default:
     return state;
   }

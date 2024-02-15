@@ -1,42 +1,39 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
-import { clear } from '@testing-library/user-event/dist/clear';
 import Header from '../components/Header';
-import { getQuestions } from '../services/api';
 import GameSection from '../components/GameSection';
-import {
-  restartTimer,
-  disableAlternatives, enableAlternativesButtons,
-} from '../redux/actions';
-import logo from './images/logo trivia.png';
+import { restartTimer,
+  disableAlternatives, enableAlternativesButtons, setQuestion } from '../redux/actions';
+import { getQuestionsFromLocalFile } from '../services/api';
 
 class Game extends Component {
   state = {
-    results: [{
-      correct_answer: '',
-      incorrect_answers: [],
-      category: '',
-      question: '',
-      difficulty: '' }],
-    index: 0,
+    // questionData: {
+    //   questionId: '',
+    //   question: '',
+    //   correctAnswer: '',
+    //   incorrectAnswers: [],
+    //   image: '',
+    //   usedQuestionIds: [],
+    // },
+    // seconds: 120,
     loading: false,
-    seconds: 30,
   };
 
   async componentDidMount() {
-    const { history, quantity, type, difficulty, categoryId } = this.props;
-    this.setState({
-      loading: true,
-    });
-    const results = await getQuestions(quantity, type, difficulty, categoryId);
-    this.setState({ results: results.results, loading: false });
+    const { dispatch } = this.props;
+    this.setState({ loading: true });
 
-    const magicNum = 3;
-    if (results.response_code === magicNum) {
-      localStorage.removeItem('token');
-      history.push('/');
-    }
+    const questionData = getQuestionsFromLocalFile();
+    dispatch(
+      setQuestion(questionData.results[0], questionData.results[0].usedQuestionIds),
+    );
+
+    this.setState({
+      // questionData: questionData.results[0],
+      loading: false,
+    });
 
     this.startTimer();
   }
@@ -55,13 +52,12 @@ class Game extends Component {
 
   startTimer = () => {
     const { dispatch } = this.props;
-    const second = 1000;
+    // const second = 1000;
+
     this.timer = setInterval(() => {
       const { seconds } = this.state;
       if (seconds > 0) {
-        this.setState({
-          seconds: seconds - 1,
-        });
+        this.setState({ seconds: seconds - 1 });
       } else {
         clearInterval(this.timer);
         dispatch(disableAlternatives());
@@ -70,51 +66,43 @@ class Game extends Component {
   };
 
   handleClick = () => {
-    const { results, index } = this.state;
+    const { seconds } = this.state;
     const { history, dispatch } = this.props;
 
-    // DEALING WITH THE TIMER
-
     dispatch(restartTimer());
-    this.setState({
-      seconds: 30,
-    });
+    this.setState({ seconds: 120 });
     clearInterval(this.timer);
     this.startTimer();
 
-    if (index === results.length - 1) {
+    if (seconds === 0) {
       history.push('/feedback');
-    } else {
-      this.setState((prevState) => ({
-        index: prevState.index + 1,
-      }));
     }
 
-    // ENABLING BUTTONS
     dispatch(enableAlternativesButtons());
   };
 
   render() {
-    const { results, index, loading, seconds } = this.state;
+    const { loading, seconds } = this.state;
     const { clearTimer } = this.props;
+
     return (
       <>
         <Header />
         <div className="wrapper">
-          <img src={ logo } alt="Page logo" className="question-logo" />
           <div>
-
-            { !loading && <GameSection
-              questionInfo={ results[index] }
-              seconds={ seconds }
-            />}
+            {!loading && (
+              <GameSection
+                // questionInfo={ questionData }
+                seconds={ seconds }
+              />
+            )}
             {(clearTimer || seconds === 0) && (
               <button
                 className="button next-button"
                 data-testid="btn-next"
                 onClick={ this.handleClick }
               >
-                {seconds === 0 ? 'Time is over - Next question' : 'Next' }
+                {seconds === 0 ? 'Time is over - Next question' : 'Next'}
               </button>
             )}
             {(seconds > 0 && !clearTimer && !loading) && (
@@ -126,10 +114,8 @@ class Game extends Component {
               </button>
             )}
           </div>
-
         </div>
       </>
-
     );
   }
 }
@@ -148,6 +134,9 @@ const mapStateToProps = ({ player, settings }) => ({
   difficulty: settings.difficulty,
   type: settings.type,
   quantity: settings.quantity,
+  examId: settings.examId,
+  usedQuestionIds: player.usedQuestionIds,
+  question: player.question,
 });
 
 export default connect(mapStateToProps)(Game);

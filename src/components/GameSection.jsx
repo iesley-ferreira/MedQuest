@@ -11,31 +11,45 @@ class GameSection extends Component {
   };
 
   componentDidMount() {
-    const { questionInfo } = this.props;
-    const
-      {
-        correct_answer: correctAnswer,
-        incorrect_answers: incorrectAnswers,
-      } = questionInfo;
-
-    const allAnswers = [correctAnswer, ...incorrectAnswers];
-    const shuffledAnswers = shuffleArray(allAnswers);
-    this.setState({
-      shuffledAnswers,
-    });
+    this.updateShuffledAnswers();
   }
 
   componentDidUpdate(prevProps) {
     const { questionInfo } = this.props;
-    const
-      {
-        correct_answer: correctAnswer,
-        incorrect_answers: incorrectAnswers,
+    // Verifica se houve uma mudança nas props
+    if (questionInfo !== prevProps.questionInfo) {
+      this.updateShuffledAnswers();
+    }
+  }
+
+  handleClick = ({ target }) => {
+    const { dispatch } = this.props;
+
+    if (target.dataset.testid === 'correct-answer') {
+      dispatch(incrementScore(1));
+    }
+
+    this.setState({
+      buttonClicked: true,
+    });
+
+    dispatch(stopTimer());
+    dispatch(disableAlternatives());
+  };
+
+  updateShuffledAnswers() {
+    const { questionInfo } = this.props;
+
+    // Verifica se questionInfo está disponível antes de acessar suas propriedades
+    if (questionInfo && questionInfo.questionId !== 0) {
+      const {
+        correctAnswer,
+        incorrectAnswers,
       } = questionInfo;
 
-    const allAnswers = [correctAnswer, ...incorrectAnswers];
-    const shuffledAnswers = shuffleArray(allAnswers);
-    if (prevProps.questionInfo !== questionInfo) {
+      const allAnswers = [correctAnswer, ...incorrectAnswers];
+      const shuffledAnswers = shuffleArray(allAnswers);
+
       this.setState({
         buttonClicked: false,
         shuffledAnswers,
@@ -43,102 +57,35 @@ class GameSection extends Component {
     }
   }
 
-  handleClick = ({ target }) => {
-    const { dispatch, seconds, questionInfo } = this.props;
-    if (target.dataset.testid === 'correct-answer') {
-      const difficultyEquivalence = {
-        easy: 1,
-        medium: 2,
-        hard: 3,
-      };
-      const minScore = 10;
-      const score = minScore + (seconds * difficultyEquivalence[questionInfo.difficulty]);
-      dispatch(incrementScore(score));
-    }
-    this.setState({
-      buttonClicked: true,
-    });
-    dispatch(stopTimer());
-    dispatch(disableAlternatives());
-  };
-
   render() {
+    console.log('GameSection props:', this.props);
     const { buttonClicked, shuffledAnswers } = this.state;
+    const { disableAlternativesButtons, questionInfo } = this.props;
+    console.log('shuffle', questionInfo);
 
-    const { questionInfo, disableAlternativesButtons } = this.props;
-    const treatedQuestionInfoQuestion = questionInfo.question.replace(/&quot;|&#039;/g, (match) => {
-      if (match === '&quot;') {
-        return '"';
-      } if (match === '&#039;') {
-        return '\'';
-      }
-    });
-    const
-      {
-        incorrect_answers: incorrectAnswers,
-      } = questionInfo;
+    if (!questionInfo || questionInfo.questionId === 0) {
+      return null; // Ou renderiza algo indicando que as informações estão indisponíveis
+    }
 
     return (
       <section className="question-container">
-
-        <div className="question-category-container">
-          <h2
-            className="category-container"
-            data-testid="question-category"
-          >
-            {questionInfo.category}
-
-          </h2>
-          <p
-            className="question-container"
-            data-testid="question-text"
-          >
-            {treatedQuestionInfoQuestion}
+        <div className="content-question">
+          <p>
+            {questionInfo.question}
           </p>
-
         </div>
-        <div
-          className="answers-container"
-          data-testid="answer-options"
-        >
+        <div className="answers-container" data-testid="answer-options">
           {shuffledAnswers.map((answer, index) => (
-            incorrectAnswers.includes(answer)
-              ? (
-                <button
-                  disabled={ disableAlternativesButtons }
-                  className={ buttonClicked ? 'red button' : 'button' }
-                  key={ index }
-                  data-testid={ `wrong-answer-${incorrectAnswers.indexOf(answer)}` }
-                  type="button"
-                  onClick={ this.handleClick }
-                >
-                  {answer.replace(/&quot;|&#039;/g, (match) => {
-                    if (match === '&quot;') {
-                      return '"';
-                    } if (match === '&#039;') {
-                      return '\'';
-                    }
-                  })}
-                </button>
-              )
-              : (
-                <button
-                  disabled={ disableAlternativesButtons }
-                  className={ buttonClicked ? 'green button' : 'button' }
-                  key={ index }
-                  data-testid="correct-answer"
-                  type="button"
-                  onClick={ this.handleClick }
-                >
-                  {answer.replace(/&quot;|&#039;/g, (match) => {
-                    if (match === '&quot;') {
-                      return '"';
-                    } if (match === '&#039;') {
-                      return '\'';
-                    }
-                  })}
-                </button>
-              )
+            <button
+              key={ index }
+              type="button"
+              data-testid={ answer === questionInfo.correctAnswer
+                ? 'correct-answer' : 'wrong-answer' }
+              onClick={ this.handleClick }
+              disabled={ buttonClicked || disableAlternativesButtons }
+            >
+              {answer}
+            </button>
           ))}
         </div>
       </section>
@@ -148,19 +95,21 @@ class GameSection extends Component {
 
 GameSection.propTypes = {
   disableAlternativesButtons: PropTypes.bool.isRequired,
-  seconds: PropTypes.number.isRequired,
   dispatch: PropTypes.func.isRequired,
   questionInfo: PropTypes.shape({
-    difficulty: PropTypes.string.isRequired,
-    category: PropTypes.string.isRequired,
-    question: PropTypes.string.isRequired,
-    correct_answer: PropTypes.string.isRequired,
-    incorrect_answers: PropTypes.arrayOf(PropTypes.string).isRequired,
+    questionId: PropTypes.number,
+    question: PropTypes.string,
+    image: PropTypes.string,
+    correctAnswer: PropTypes.string,
+    incorrectAnswers: PropTypes.arrayOf(PropTypes.string),
   }).isRequired,
 };
 
 const mapStateToProps = (globalState) => ({
   disableAlternativesButtons: globalState.player.disableAlternativesButtons,
+  seconds: globalState.player.seconds,
+  results: globalState.player.results,
+  questionInfo: globalState.questionInfo.questionInfo[0],
 });
 
 export default connect(mapStateToProps)(GameSection);

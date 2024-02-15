@@ -1,11 +1,11 @@
 @font-face {
   font-family: Caveat;
-  src: url("./fonts/Caveat-VariableFont_wght.ttf") format("truetype");
+  src: url('./fonts/Caveat-VariableFont_wght.ttf') format('truetype');
 }
 
 @font-face {
   font-family: Roboto;
-  src: url("./fonts/Roboto-Regular.ttf") format("truetype");
+  src: url('./fonts/Roboto-Regular.ttf') format('truetype');
 }
 
 /*
@@ -40,10 +40,10 @@ body > * > * > * > * > * > * {
 }
 
 body {
-  background-image: url("../public/images/background.png");
+  background-image: url('../public/images/background.png');
   background-repeat: no-repeat;
   background-size: cover;
-  font-family: Roboto, serif;
+  font-family: Roboto , serif;
   height: 100vh;
   width: 100vw;
 }
@@ -114,7 +114,7 @@ header {
   align-items: center;
   background-color: white;
   display: flex;
-  font-family: Caveat, cursive;
+  font-family: Caveat , cursive;
   justify-content: space-between;
   padding: 10px 25px;
   top: 0;
@@ -178,6 +178,15 @@ header {
   text-align: center;
 }
 
+.content-question {
+  background-color: aliceblue;
+  border-radius: 10px;
+  font-size: 0.8em;
+  margin: 0 30px;
+  margin-bottom: 180px;
+  padding: 20px;
+}
+
 .question-container {
   border-radius: 5px;
   font-size: 1.1em;
@@ -193,15 +202,16 @@ header {
 
 .answers-container {
   display: grid;
+  gap: 5px;
 }
 
 .answers-container > button {
   background-color: rgba(255, 255, 255, 0.903);
-  color: rgb(0, 0, 0);
+  color: black;
 }
 
 .answers-container > button:hover {
-  background-color: rgb(6, 240, 15);
+  background-color: rgb(153, 120, 231);
 }
 
 .next-button {
@@ -232,9 +242,7 @@ header {
   pointer-events: none;
 }
 
-.feedback-card,
-.ranking-container,
-.settings-container {
+.feedback-card, .ranking-container, .settings-container {
   align-items: center;
   background: white;
   border-radius: 5px;
@@ -255,7 +263,7 @@ header {
 }
 
 .feedback-text {
-  font-family: Caveat, cursive;
+  font-family: Caveat , cursive;
   font-size: 4em;
   line-height: 0.9em;
 }
@@ -263,7 +271,7 @@ header {
 .score-text {
   align-items: center;
   display: flex;
-  font-family: Caveat, cursive;
+  font-family: Caveat , cursive;
   font-size: 2em;
 }
 
@@ -302,7 +310,7 @@ header {
 
 .ranking-title {
   color: #23553f;
-  font-family: Caveat, cursive;
+  font-family: Caveat , cursive;
   font-size: 3em;
   margin-bottom: 0.5em;
 }
@@ -313,11 +321,11 @@ header {
 }
 
 fieldset {
-  padding: 16px;
   border: solid 1px #23553f;
   border-radius: 5px;
   display: flex;
   flex-direction: column;
+  padding: 16px;
 }
 
 fieldset label {
@@ -330,13 +338,14 @@ fieldset .button {
 
 .legend1 {
   color: #23553f;
-  font-family: Caveat, cursive;
+  font-family: Caveat , cursive;
   font-size: 2em;
   margin-bottom: 0.5em;
   margin-right: auto;
 }
 
-@media (width <= 600px) {
+@media ( width <= 600px ) {
+
   .avatar {
     display: none;
   }

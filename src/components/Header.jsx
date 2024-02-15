@@ -6,12 +6,8 @@ import { generateGravatarURL } from '../services/gravatarFunctions';
 import house from './images/house.png';
 
 class Header extends Component {
-  handleClick = () => {
-    console.log(this.props);
-  };
-
   render() {
-    const { name, score, gravatarEmail, history } = this.props;
+    const { name, gravatarEmail } = this.props;
     return (
       <header className="header">
         <img
@@ -21,11 +17,6 @@ class Header extends Component {
           className="avatar"
         />
         <h3 data-testid="header-player-name" className="header-name">{name}</h3>
-        <h3 data-testid="header-score" className="header-score">
-          SCORE:
-          {' '}
-          {score}
-        </h3>
 
         <Link to="/">
           {' '}
@@ -45,11 +36,7 @@ const mapStateToProps = (state) => ({
 
 Header.propTypes = {
   name: PropTypes.string.isRequired,
-  score: PropTypes.number.isRequired,
   gravatarEmail: PropTypes.string.isRequired,
-  history: PropTypes.shape({
-    push: PropTypes.func.isRequired,
-  }).isRequired,
 };
 
 export default connect(mapStateToProps)(Header);
