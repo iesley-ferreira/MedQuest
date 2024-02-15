@@ -15,8 +15,13 @@ class GameSection extends Component {
   }
 
   componentDidUpdate(prevProps) {
-    const { questionInfo } = this.props;
+    const { questionInfo, buttonClicked } = this.props;
     // Verifica se houve uma mudança nas props
+    if (buttonClicked === true) {
+      this.setState({
+        buttonClicked: true,
+      });
+    }
     if (questionInfo !== prevProps.questionInfo) {
       this.updateShuffledAnswers();
     }
@@ -63,29 +68,45 @@ class GameSection extends Component {
     const { disableAlternativesButtons, questionInfo } = this.props;
     console.log('shuffle', questionInfo);
 
-    if (!questionInfo || questionInfo.questionId === 0) {
-      return null; // Ou renderiza algo indicando que as informações estão indisponíveis
-    }
+    const {
+      incorrectAnswers,
+    } = questionInfo;
 
     return (
       <section className="question-container">
         <div className="content-question">
-          <p>
+          <h3>
             {questionInfo.question}
-          </p>
+          </h3>
         </div>
         <div className="answers-container" data-testid="answer-options">
           {shuffledAnswers.map((answer, index) => (
-            <button
-              key={ index }
-              type="button"
-              data-testid={ answer === questionInfo.correctAnswer
-                ? 'correct-answer' : 'wrong-answer' }
-              onClick={ this.handleClick }
-              disabled={ buttonClicked || disableAlternativesButtons }
-            >
-              {answer}
-            </button>
+            incorrectAnswers.includes(answer)
+              ? (
+                <button
+                  key={ index }
+                  type="button"
+                  data-testid={ answer === questionInfo.correctAnswer
+                    ? 'correct-answer' : 'wrong-answer' }
+                  onClick={ this.handleClick }
+                  disabled={ disableAlternativesButtons }
+                  className={ buttonClicked ? 'red button' : 'button' }
+                >
+                  {answer}
+                </button>
+              )
+              : (
+                <button
+                  key={ index }
+                  type="button"
+                  data-testid="correct-answer"
+                  onClick={ this.handleClick }
+                  disabled={ disableAlternativesButtons }
+                  className={ buttonClicked ? 'green button' : 'button' }
+                >
+                  {answer}
+                </button>
+              )
           ))}
         </div>
       </section>
@@ -103,6 +124,7 @@ GameSection.propTypes = {
     correctAnswer: PropTypes.string,
     incorrectAnswers: PropTypes.arrayOf(PropTypes.string),
   }).isRequired,
+  buttonClicked: PropTypes.bool.isRequired,
 };
 
 const mapStateToProps = (globalState) => ({
