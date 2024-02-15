@@ -5,112 +5,57 @@ import { updateSettings } from '../redux/actions';
 
 class Settings extends Component {
   state = {
-    categories: [],
-    categoryId: '',
-    difficulty: '',
+    exames: [
+      { id: 1, exam: 'HCPA-2006' },
+      { id: 2, exam: 'HCPA-2007' },
+      { id: 3, exam: 'HCPA-2008' },
+    ],
+    exameId: 1,
     type: '',
-    quantity: 5,
-  };
-
-  componentDidMount() {
-    this.fetchCategories();
-  }
-
-  fetchCategories = async () => {
-    const response = await fetch('https://opentdb.com/api_category.php');
-    const data = await response.json();
-    const categories = data.trivia_categories.sort((a, b) => {
-      const negativeOne = -1;
-      const nameA = a.name.toUpperCase();
-      const nameB = b.name.toUpperCase();
-
-      if (nameA < nameB) {
-        return negativeOne;
-      } if (nameA > nameB) {
-        return 1;
-      }
-      return 0;
-    });
-    this.setState({
-      categories,
-    });
   };
 
   handleChange = ({ target: { name, value } }) => {
     this.setState({
-      [name]: value,
+      [name]: Number(value),
     });
   };
 
   handleSubmit = (event) => {
     const { dispatch, history } = this.props;
     event.preventDefault();
-    const { categoryId, difficulty, type, quantity } = this.state;
+    const { exameId, type } = this.state;
     const settings = {
-      categoryId, difficulty, type, quantity,
+      exameId, type,
     };
+    console.log(exameId);
     dispatch(updateSettings(settings));
     history.push('/');
   };
 
   render() {
-    const { categories, categoryId, difficulty, type, quantity } = this.state;
-    const numbers = [];
-    const maxNumber = 10;
-    for (let index = 1; index <= maxNumber; index += 1) {
-      numbers.push(index);
-    }
+    const { exames, exameId, type } = this.state;
 
     return (
       <form className="settings-container" onSubmit={ this.handleSubmit }>
 
         <fieldset>
           <legend className="legend1">Settings</legend>
-          <label htmlFor="category">
-            Categoria:
+          <label htmlFor="exame">
+            Exame:
             <select
               onChange={ this.handleChange }
-              name="categoryId"
-              id="category"
-              value={ categoryId }
+              name="exameId"
+              id="exame"
+              value={ exameId }
             >
-              <option value={ -1 }> </option>
-              {categories
-                .map((category) => (
+              {exames
+                .map((exame) => (
                   <option
-                    key={ category.id }
-                    value={ category.id }
+                    key={ exame.id }
+                    value={ exame.id }
                   >
-                    {category.name}
+                    {exame.exam}
                   </option>))}
-            </select>
-          </label>
-
-          <label htmlFor="quantity">
-            Quantidade:
-            <select
-              onChange={ this.handleChange }
-              name="quantity"
-              id="quantity"
-              value={ quantity }
-            >
-              {numbers.map((num) => <option key={ num } value={ num }>{num}</option>)}
-            </select>
-          </label>
-
-          <label htmlFor="difficulty">
-            Dificuldade:
-            <select
-              onChange={ this.handleChange }
-              name="difficulty"
-              id="difficulty"
-              data-testid="difficulty-input"
-              value={ difficulty }
-            >
-              <option value=""> </option>
-              <option value="easy">Fácil</option>
-              <option value="medium">Médio</option>
-              <option value="hard">Difícil</option>
             </select>
           </label>
 
@@ -123,14 +68,13 @@ class Settings extends Component {
               data-testid="type-input"
               value={ type }
             >
-              <option value=""> </option>
-              <option value="boolean">Verdadeiro ou Falso</option>
-              <option value="multiple">Múltipla escolha</option>
+              <option value="true">Com Tempo</option>
+              <option value="false">Sem Tempo</option>
             </select>
           </label>
 
           <input
-            className='button play-button'
+            className="button play-button"
             type="submit"
             value="Salvar"
           />

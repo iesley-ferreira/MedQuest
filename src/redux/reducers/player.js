@@ -1,6 +1,13 @@
 import {
-  SAVE_EMAIL, SAVE_NAME, SAVE_SCORE, STOP_TIMER, RESTART_TIMER,
-  DISABLE_ALTERNATIVES_BUTTONS, ENABLE_ALTERNATIVES_BUTTONS, INCREMENT_SCORE, RESET_SCORE, UPDATE_SETTINGS,
+  SAVE_EMAIL,
+  SAVE_NAME,
+  SAVE_SCORE,
+  STOP_TIMER,
+  RESTART_TIMER,
+  DISABLE_ALTERNATIVES_BUTTONS,
+  ENABLE_ALTERNATIVES_BUTTONS,
+  INCREMENT_SCORE,
+  RESET_SCORE,
 }
   from '../actions/actionsName';
 
@@ -11,10 +18,9 @@ const INITIAL_STATE = {
   gravatarEmail: '',
   clearTimer: false,
   disableAlternativesButtons: false,
-  categoryId: '',
   difficulty: '',
-  type: '',
-  quantity: 5,
+  examId: '',
+  seconds: 120,
 };
 
 const player = (state = INITIAL_STATE, action) => {

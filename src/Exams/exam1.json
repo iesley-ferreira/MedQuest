@@ -168,32 +168,6 @@
         "rightAnswer": 1
       },
       {
-        "questionId": 9,
-        "question": "Quanto ao manejo básico de um paciente em parada cardiorrespiratória, é INCORRETO afirmar que",
-        "image": null,
-        "anulada": true,
-        "alternatives": [
-          {
-            "id": 1,
-            "description": "as compressões torácicas devem ser efetuadas numa frequência de 100/min."
-          },
-          {
-            "id": 2,
-            "description": "as compressões torácicas devem ser intercaladas com as ventilações numa proporção de 15/2."
-          },
-          {
-            "id": 3,
-            "description": "as compressões torácicas devem ser intercaladas com as ventilações numa proporção de 30/2."
-          },
-          { "id": 4, "description": "as ventilações devem durar 1 minuto." },
-          {
-            "id": 5,
-            "description": "100 compressões/min e 8 a 10 ventilações/min devem ser mantidas independentemente após a intubação."
-          }
-        ],
-        "rightAnswer": 0
-      },
-      {
         "questionId": 10,
         "question": "Cinco pacientes hipotensos e taquicárdicos são submetidos à monitorização com cateter de Swan-Ganz e apresentam os seguintes padrões hemodinâmicos com relação às medidas de pressão venosa central (PVC), pressão arterial pulmonar (PAP), pressão de oclusão da artéria pulmonar (PAPO) e índice cardíaco (IC):\n a - PVC↑, PAP↑, PAPO normal e IC↓\n b - PVC↓, PAP normal, PAPO normal e IC↑\n c - PVC↑, PAP normal, PAPO↑ e IC↓\n d - PVC↑, PAP normal, PAPO normal e IC↓\n e - PVC normal, PAP normal, PAPO↑ e IC↓\n Os diagnósticos mais prováveis são\n I - sepse;\n II - infarto de VD;\n III - tromboembolismo pulmonar;\n IV - infarto de parede anterior;\n V - tamponamento cardíaco.\n Quais diagnósticos correspondem aos padrões hemodinâmicos?",
         "image": null,
@@ -294,20 +268,6 @@
           { "id": 5, "description": "Apenas III e IV." }
         ],
         "rightAnswer": 4
-      },
-      {
-        "questionId": 16,
-        "question": "Qual das seguintes manifestações é mais freqüentemente encontrada após 20 horas de uma intoxicação por paracetamol sem que o paciente tenha recebido tratamento?",
-        "image": null,
-        "anulada": true,
-        "alternatives": [
-          { "id": 1, "description": "Convulsões." },
-          { "id": 2, "description": "Acidose metabólica." },
-          { "id": 3, "description": "Náuseas e vômitos." },
-          { "id": 4, "description": "Irritabilidade do trato gastrointestinal." },
-          { "id": 5, "description": "Elevação das enzimas hepáticas." }
-        ],
-        "rightAnswer": 0
       },
       {
         "questionId": 17,
@@ -837,35 +797,6 @@
           }
         ],
         "rightAnswer": 5
-      },
-      {
-        "questionId": 40,
-        "question": "Assinale a afirmativa INCORRETA.",
-        "image": null,
-        "anulada": true,
-        "alternatives": [
-          {
-            "id": 1,
-            "description": "O propofol é um agente depressor do Sistema Nervoso Central, mas não causa dependência."
-          },
-          {
-            "id": 2,
-            "description": "O metabolismo dos bloqueadores neuromusculares é independente das funções renal e hepática."
-          },
-          {
-            "id": 3,
-            "description": "Na miopatia por esteróides, é mais indicado o uso dos bloqueadores neuromusculares não-despolarizantes."
-          },
-          {
-            "id": 4,
-            "description": "No despertar do paciente em uso de propofol, a droga deve ser retirada gradativamente para evitar ansiedade e agitação geralmente associadas ao despertar abrupto."
-          },
-          {
-            "id": 5,
-            "description": "Pacientes em choque séptico não devem ser sedados com morfina."
-          }
-        ],
-        "rightAnswer": 0
       }
     ]
   }
