@@ -181,9 +181,9 @@ header {
 .content-question {
   background-color: aliceblue;
   border-radius: 10px;
-  font-size: 0.8em;
+  font-size: 1em;
   margin: 0 30px;
-  margin-bottom: 180px;
+  margin-bottom: 132px;
   padding: 20px;
 }
 
@@ -202,6 +202,7 @@ header {
 
 .answers-container {
   display: grid;
+  font-size: 1.2em;
   gap: 5px;
 }
 
@@ -342,6 +343,21 @@ fieldset .button {
   font-size: 2em;
   margin-bottom: 0.5em;
   margin-right: auto;
+}
+
+.question-year {
+  align-items: center;
+  background-color: #2fc18c;
+  border-radius: 5px;
+  display: flex;
+  font-size: 20px;
+  height: 40px;
+  justify-content: center;
+  margin: 0 auto;
+  margin-top: -40px;
+  padding: 4px;
+  text-align: center;
+  width: 100px;
 }
 
 @media ( width <= 600px ) {

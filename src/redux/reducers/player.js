@@ -20,8 +20,6 @@ const INITIAL_STATE = {
   disableAlternativesButtons: false,
   difficulty: '',
   examId: '',
-
-  // seconds: 120,
 };
 
 const player = (state = INITIAL_STATE, action) => {
@@ -44,11 +42,14 @@ const player = (state = INITIAL_STATE, action) => {
     };
   case STOP_TIMER:
     return {
-      ...state, clearTimer: true,
+      ...state,
+      clearTimer: true,
     };
   case RESTART_TIMER:
     return {
-      ...state, clearTimer: false,
+      ...state,
+      timer: 270,
+      clearTimer: false,
     };
   case DISABLE_ALTERNATIVES_BUTTONS:
     return {

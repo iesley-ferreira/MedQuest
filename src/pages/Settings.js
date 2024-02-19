@@ -5,13 +5,7 @@ import { updateSettings } from '../redux/actions';
 
 class Settings extends Component {
   state = {
-    exames: [
-      { id: 1, exam: 'HCPA-2006' },
-      { id: 2, exam: 'HCPA-2007' },
-      { id: 3, exam: 'HCPA-2008' },
-    ],
-    exameId: 1,
-    type: '',
+    quantity: 10,
   };
 
   handleChange = ({ target: { name, value } }) => {
@@ -23,25 +17,25 @@ class Settings extends Component {
   handleSubmit = (event) => {
     const { dispatch, history } = this.props;
     event.preventDefault();
-    const { exameId, type } = this.state;
+    const { quantity } = this.state;
     const settings = {
-      exameId, type,
+      quantity,
     };
-    console.log(exameId);
     dispatch(updateSettings(settings));
     history.push('/');
   };
 
   render() {
-    const { exames, exameId, type } = this.state;
+    const { quantity } = this.state;
 
     return (
       <form className="settings-container" onSubmit={ this.handleSubmit }>
 
         <fieldset>
           <legend className="legend1">Settings</legend>
-          <label htmlFor="exame">
+          {/* <label htmlFor="exame">
             Exame:
+            {' '}
             <select
               onChange={ this.handleChange }
               name="exameId"
@@ -57,19 +51,24 @@ class Settings extends Component {
                     {exame.exam}
                   </option>))}
             </select>
-          </label>
+          </label> */}
 
           <label htmlFor="type">
-            Tipo:
+            Questões:
+            {' '}
             <select
               onChange={ this.handleChange }
-              name="type"
-              id="type"
-              data-testid="type-input"
-              value={ type }
+              name="quantity"
+              id="quantity"
+              data-testid="quantity-input"
+              value={ quantity }
             >
-              <option value="true">Com Tempo</option>
-              <option value="false">Sem Tempo</option>
+              <option value="10">10</option>
+              <option value="20">20</option>
+              <option value="30">30</option>
+              <option value="40">40</option>
+              <option value="50">50</option>
+              <option value="60">60</option>
             </select>
           </label>
 

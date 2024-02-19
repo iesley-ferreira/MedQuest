@@ -12,6 +12,7 @@
         "question": "Um paciente encontrado em parada cardiorrespiratória na Unidade de Internação está sendo atendido.\n Ao chegar o socorro avançado, o monitor revela o ritmo abaixo.",
         "image": "insira_o_link_da_imagem_aqui",
         "anulada": false,
+        "questionYear": "2006",
         "alternatives": [
           {
             "id": 1,
@@ -41,6 +42,7 @@
         "question": "Sobre os índices prognósticos, está bem definido que:",
         "image": null,
         "anulada": false,
+        "questionYear": "2006",
         "alternatives": [
           {
             "id": 1,
@@ -70,6 +72,7 @@
         "question": "Apenas uma das alternativas abaixo NÃO apresenta sintomas e/ou sinais de hipoxemia. Assinale-a.",
         "image": null,
         "anulada": false,
+        "questionYear": "2006",
         "alternatives": [
           { "id": 1, "description": "Sudorese e hipertensão arterial sistêmica." },
           { "id": 2, "description": "Taquicardia e vasoconstrição periférica." },
@@ -84,6 +87,7 @@
         "question": "Paciente internado com diagnóstico de gastroenterite e diarréia volumosa é encontrado desacordado em seu leito, sendo constatada a ausência de respiração e pulso. É submetido às manobras básicas de ressuscitação enquanto é acionado o socorro avançado. Ao chegar o socorro avançado, o monitor mostra o seguinte ritmo cardíaco:\n O diagnóstico mais provável da causa da PCR é",
         "image": "insira_o_link_da_imagem_aqui",
         "anulada": false,
+        "questionYear": "2006",
         "alternatives": [
           { "id": 1, "description": "infarto agudo do miocárdio." },
           { "id": 2, "description": "hipovolemia." },
@@ -98,6 +102,7 @@
         "question": "As medidas que podem ser úteis no tratamento de emergência do edema agudo pulmonar cardiogênico em paciente com taquicardia sinusal e pressão sistólica de 110 mmHg são",
         "image": null,
         "anulada": false,
+        "questionYear": "2006",
         "alternatives": [
           { "id": 1, "description": "furosemide, isoproterenol e propranolol." },
           { "id": 2, "description": "furosemide, morfina e oxigênio." },
@@ -112,6 +117,7 @@
         "question": "Assinale a afirmativa INCORRETA.",
         "image": null,
         "anulada": false,
+        "questionYear": "2006",
         "alternatives": [
           {
             "id": 1,
@@ -141,6 +147,7 @@
         "question": "Um homem de 35 anos, 70 kg, é vitimado por um acidente automobilístico em que não utilizava cinto de segurança. Na chegada ao Setor de Emergência, como apresentava dificuldades respiratórias, foi realizada intubação orotraqueal e puncionada a veia subclávia direita. Apresentava PA = 120/80 mmHg, FC = 120 bpm, SO2 = 92% e valor na escala de coma Glasgow = 8. Os exames coadjuvantes mostravam fratura de membro inferior (fêmur esquerdo), raio X de coluna cervical normal e raio X de arcos costais com fraturas costais à direita. Tomografia computadorizada de crânio com hemorragia subaracnóide moderada, sem desvio da linha média. Iniciada ventilação mecânica com VC = 600 mL, FR = 20 cpm, FiO2 = 100%, PEEP = 4 cmH2O. Trinta minutos após o início da ventilação mecânica, houve piora hemodinâmica com hipotensão (PA 50/30 mmHg) e aumento da freqüência cardíaca (FC = 150 bpm).\n Qual diagnóstico é o mais provável e deve ser excluído em primeira instância?",
         "image": null,
         "anulada": false,
+        "questionYear": "2006",
         "alternatives": [
           { "id": 1, "description": "Contusão miocárdica." },
           { "id": 2, "description": "Perda sangüínea secundária à fratura de fêmur." },
@@ -155,6 +162,7 @@
         "question": "No manejo de um paciente em fibrilação ventricular/taquicardia ventricular, a sequência mais correta para a administração de drogas intravenosas é",
         "image": null,
         "anulada": false,
+        "questionYear": "2006",
         "alternatives": [
           { "id": 1, "description": "adrenalina, amiodarona, adrenalina e amiodarona." },
           {
@@ -172,6 +180,7 @@
         "question": "Cinco pacientes hipotensos e taquicárdicos são submetidos à monitorização com cateter de Swan-Ganz e apresentam os seguintes padrões hemodinâmicos com relação às medidas de pressão venosa central (PVC), pressão arterial pulmonar (PAP), pressão de oclusão da artéria pulmonar (PAPO) e índice cardíaco (IC):\n a - PVC↑, PAP↑, PAPO normal e IC↓\n b - PVC↓, PAP normal, PAPO normal e IC↑\n c - PVC↑, PAP normal, PAPO↑ e IC↓\n d - PVC↑, PAP normal, PAPO normal e IC↓\n e - PVC normal, PAP normal, PAPO↑ e IC↓\n Os diagnósticos mais prováveis são\n I - sepse;\n II - infarto de VD;\n III - tromboembolismo pulmonar;\n IV - infarto de parede anterior;\n V - tamponamento cardíaco.\n Quais diagnósticos correspondem aos padrões hemodinâmicos?",
         "image": null,
         "anulada": false,
+        "questionYear": "2006",
         "alternatives": [
           { "id": 1, "description": "I-a, II-b, III-c, IV-d, V-e." },
           { "id": 2, "description": "I-b, II-a, III-d, IV-e, V-c." },
@@ -186,6 +195,7 @@
         "question": "As seguintes entidades clínicas podem ser causas de insuficiência respiratória hipercápnica-hipoxêmica, EXCETO uma delas. Assinale-a.",
         "image": null,
         "anulada": false,
+        "questionYear": "2006",
         "alternatives": [
           { "id": 1, "description": "Intoxicação por barbitúrico." },
           { "id": 2, "description": "Miastenia grave." },
@@ -200,6 +210,7 @@
         "question": "Quais são os principais substratos energéticos das células do revestimento mucoso do intestino delgado (enterócitos) e do intestino grosso (colonócitos), respectivamente?",
         "image": null,
         "anulada": false,
+        "questionYear": "2006",
         "alternatives": [
           { "id": 1, "description": "Glicose e peptídeos de baixo peso molecular." },
           {
@@ -217,6 +228,7 @@
         "question": "Ao se monitorizar um paciente em ventilação mecânica, são encontradas as curvas abaixo. Considere-as.\n A complacência estática, a complacência dinâmica e a resistência do sistema respiratório do paciente representado são, respectivamente,",
         "image": "insira_o_link_da_imagem_aqui",
         "anulada": false,
+        "questionYear": "2006",
         "alternatives": [
           { "id": 1, "description": "30 mL/cmH2O, 40 mL/cmH2O e 5 cmH2O/seg." },
           { "id": 2, "description": "30 mL/cmH2O, 40 mL/cmH2O e 12 cmH2O/seg." },
@@ -231,6 +243,7 @@
         "question": "Os três gráficos apresentados na figura abaixo representam três pacientes com diferentes situações clínicas.\n Assinale a alternativa que apresenta a correta associação entre os pacientes e os diagnósticos.",
         "image": "insira_o_link_da_imagem_aqui",
         "anulada": false,
+        "questionYear": "2006",
         "alternatives": [
           {
             "id": 1,
@@ -260,6 +273,7 @@
         "question": "Quatro pacientes em ventilação mecânica apresentam as seguintes curvas fluxo-volume:\n Considere as seguintes afirmações a respeito das curvas anteriores.\n I - Em 1, o paciente apresentou acúmulo de secreções, tendo sido aspirado em 2.\n II - Em 1, o paciente apresentou broncoespasmo, tendo recebido broncodilatadores em 2.\n III - Em 3 e em 4, o paciente apresentou broncoespasmo.\n IV - Em 3 e em 4, o paciente apresentou acúmulo de secreções. Quais estão corretas?",
         "image": "insira_o_link_da_imagem_aqui",
         "anulada": false,
+        "questionYear": "2006",
         "alternatives": [
           { "id": 1, "description": "Apenas I e II." },
           { "id": 2, "description": "Apenas I e III." },
@@ -274,6 +288,7 @@
         "question": "Enquanto o Médico está realizando cardioversão elétrica sincronizada, seu paciente subitamente desenvolve fibrilação ventricular.\n Qual das ações abaixo é a mais apropriada nesse caso?",
         "image": null,
         "anulada": false,
+        "questionYear": "2006",
         "alternatives": [
           { "id": 1, "description": "Administrar lidocaína 75 mg em bolo IV." },
           { "id": 2, "description": "Administrar amiodarona 300 mg em bolo IV." },
@@ -294,6 +309,7 @@
         "question": "Paciente de 45 anos de idade, em tratamento para pneumonia grave e sob ventilação mecânica invasiva, hemodinamicamente estável, pressão venosa central em níveis normais, apresenta piora do quadro clínico, com queda gradual da PaO2. tendo necessidade de um ajuste nos parâmetros de ventilação mecânica com aumento da pressão pulmonar expiratória final (PEEP). Imediatamente após as mudanças ventilatórias, apresentou diminuição significativa da pressão arterial e da freqüência cardíaca, mantendo PVC normal.\n Qual é o diagnóstico mais provável nesse caso e que conduta deve ser tomada?",
         "image": null,
         "anulada": false,
+        "questionYear": "2006",
         "alternatives": [
           { "id": 1, "description": "Hipovolemia: diminuição da PEEP." },
           {
@@ -311,6 +327,7 @@
         "question": "Considere um paciente com lesão pulmonar aguda e em ventilação mecânica, sendo ventilado em modopressão controlada a 30 cm H2O, fração inspirada de O2 (FiO2) de 50%, pressão pulmonar expiratória final (PEEP) de 15 cm H2O, saturação da hemoglobina (SatO2) de 98%, com volume corrente de 10 mL/kg, pressão de platô de 36 cm H2O e pressão de pico de 40 cm H2O. Qual estratégia é recomendada para diminuir o risco de desenvolvimento de pneumotórax nesse paciente?",
         "image": null,
         "anulada": false,
+        "questionYear": "2006",
         "alternatives": [
           { "id": 1, "description": "Ventilação manual com AMBU." },
           { "id": 2, "description": "Aumento da PEEP." },
@@ -328,6 +345,7 @@
         "question": "Mulher de trinta anos, no décimo dia de internação no CTI por fraturas múltiplas após acidente automobilístico, cujo curso inicial fora complicado por choque hemorrágico grave, lesão pulmonar e hemotórax, necessitando de drenagem torácica e ventilação mecânica, vinha melhorando com a possibilidade de ser retirada da ventilação mecânica. No 11o dia de internação, porém, desenvolveu piora de trocas gasosas, hipotensão com diminuição do débito urinário, aumento da necessidade de líquidos endovenosos, elevação das bilirrubinas e hiperglicemia, mas sem sinais de sangramento visível. Levando em conta os sinais apresentados pela paciente, qual é a hipótese diagnóstica mais provável?",
         "image": null,
         "anulada": false,
+        "questionYear": "2006",
         "alternatives": [
           { "id": 1, "description": "Choque séptico." },
           { "id": 2, "description": "Pneumotórax hipertensivo." },
@@ -342,6 +360,7 @@
         "question": "Homem de 65 anos, 75 kg, chega à Emergência com intensa dor no peito, frequência cardíaca de 40 bpm e PA de 70 X 30 mmHg. O monitor mostra bradicardia sinusal com extrassístoles ventriculares ocasionais. Qual das seguintes drogas deve ser indicada primeiro?",
         "image": null,
         "anulada": false,
+        "questionYear": "2006",
         "alternatives": [
           { "id": 1, "description": "Atropina 0,5 mg em bolo IV." },
           { "id": 2, "description": "Morfina 2-5 mg em bolo IV." },
@@ -356,6 +375,7 @@
         "question": "Quanto à diferenciação do edema pulmonar de origem cardíogênica daquele de origem não-cardíogênica, qual das afirmativas abaixo está correta?",
         "image": null,
         "anulada": false,
+        "questionYear": "2006",
         "alternatives": [
           {
             "id": 1,
@@ -385,6 +405,7 @@
         "question": "Considerando a diferenciação do choque cardiogênico daquele de origem séptica, assinale a afirmativa correta.",
         "image": null,
         "anulada": false,
+        "questionYear": "2006",
         "alternatives": [
           {
             "id": 1,
@@ -414,6 +435,7 @@
         "question": "Das alternativas abaixo, todas se constituem em princípios terapêuticos da insuficiência respiratória aguda, EXCETO uma delas. Assinale-a.",
         "image": null,
         "anulada": false,
+        "questionYear": "2006",
         "alternatives": [
           { "id": 1, "description": "Oxigenação." },
           { "id": 2, "description": "Aumento do consumo de O2." },
@@ -428,6 +450,7 @@
         "question": "Um homem de setenta anos é admitido no Centro de Tratamento Intensivo (CTI) por piora da dispnéia e tosse seca, com os seguintes achados clínicos e laboratoriais:\n- Temperatura axilar: 38,3 °C\n- Freqüência cardíaca: 92 bpm\n- Freqüência respiratória: 19 cpm\n- Leucócitos totais: 14.000 cels/mm3\n- PaCO2: 40 mmHg\n- Raio X de tórax: consolidação de lobo inferior esquerdo\n- Duas hemoculturas negativas\nQual das alternativas a seguir descreve melhor o diagnóstico sindrômico desse paciente?",
         "image": null,
         "anulada": false,
+        "questionYear": "2006",
         "alternatives": [
           {
             "id": 1,
@@ -457,6 +480,7 @@
         "question": "Um paciente dá entrada em choque no CTI (sua pressão arterial média é de 50 mmHg). Imediatamente, implanta-se um cateter de monitoração hemodinâmica. As medidas hemodinâmicas mostram um índice cardíaco ligeiramente baixo, com pressão venosa central (PVC), pressão capilar pulmonar (PCP) e resistência vascular periférica bastante baixas. Após vigorosa infusão de volume com soro fisiológico, uma nova medida hemodinâmica é realizada, e os novos resultados mostram uma elevação do índice cardíaco para valores supranormais, elevação da PVC e da PCP a níveis considerados normais e queda da resistência vascular periférica. O paciente continua hipotenso. Com esses achados, pode-se inferir que o quadro é compatível com:",
         "image": null,
         "anulada": false,
+        "questionYear": "2006",
         "alternatives": [
           { "id": 1, "description": "choque séptico." },
           { "id": 2, "description": "choque cardiogênico." },
@@ -471,6 +495,7 @@
         "question": "Sobre o caso de paciente em choque séptico em que a reposição renal por meio de um método dialítico se torna necessária, é correto afirmar que:",
         "image": null,
         "anulada": false,
+        "questionYear": "2006",
         "alternatives": [
           {
             "id": 1,
@@ -500,6 +525,7 @@
         "question": "O uso de proteína C-ativada recombinante está recomendado para pacientes com septicemia na seguinte situação clínica:",
         "image": null,
         "anulada": false,
+        "questionYear": "2006",
         "alternatives": [
           {
             "id": 1,
@@ -529,6 +555,7 @@
         "question": "Durante a reposição volêmica inicial de um paciente com sepse grave ou choque séptico, os seguintes parâmetros fisiológicos devem ser perseguidos:",
         "image": null,
         "anulada": false,
+        "questionYear": "2006",
         "alternatives": [
           {
             "id": 1,
@@ -558,6 +585,7 @@
         "question": "Mulher com 36 semanas de gestação procura auxílio por apresentar dor abdominal epigástrica, acompanhada de náuseas e vômitos de início recente. Apresentava-se pálida, PA = 160 x 110 mmHg, FC = 100 bpm, edema de membros inferiores ++/4+ e sem outros achados ao exame físico. Não havia sinais de sofrimento fetal. Exames laboratoriais mostraram Hb =10,5 g/dL, Ht = 29%, plaquetas = 90.000 mm3, bilirrubina total = 2,5 mg/dL, TGO = 280 UI, TGP = 250 UI, DHL = 580 UI, TP = 96%, TTPA normal, creatinina = 1,5 mg/dL, uréia = 40 mg/dL, Na = 135 mEq/L, K = 4,0 mEq/L, Mg = 1,9 mEq/L, albumina = 2,8 g e proteinúria = 1g/L.\n O diagnóstico mais provável nesse caso é:",
         "image": null,
         "anulada": false,
+        "questionYear": "2006",
         "alternatives": [
           { "id": 1, "description": "Esteatose hepática aguda da gravidez." },
           { "id": 2, "description": "Pré-eclâmpsia." },
@@ -572,6 +600,7 @@
         "question": "Mulher com 36 semanas de gestação procura auxílio por apresentar dor abdominal epigástrica, acompanhada de náuseas e vômitos de início recente. Apresentava-se pálida, PA = 160 x 110 mmHg, FC = 100 bpm, edema de membros inferiores ++/4+ e sem outros achados ao exame físico. Não havia sinais de sofrimento fetal. Exames laboratoriais mostraram Hb =10,5 g/dL, Ht = 29%, plaquetas = 90.000 mm3, bilirrubina total = 2,5 mg/dL, TGO = 280 UI, TGP = 250 UI, DHL = 580 UI, TP = 96%, TTPA normal, creatinina = 1,5 mg/dL, uréia = 40 mg/dL, Na = 135 mEq/L, K = 4,0 mEq/L, Mg = 1,9 mEq/L, albumina = 2,8 g e proteinúria = 1g/L. Na situação clínica descrita, é mais correto proceder da seguinte forma:",
         "image": null,
         "anulada": false,
+        "questionYear": "2006",
         "alternatives": [
           { "id": 1, "description": "Utilizar apenas antieméticos." },
           {
@@ -592,6 +621,7 @@
         "question": "Considerando a sepse grave ou o choque séptico e o tipo de fluido recomendado para a reposição volêmica inicial, assinale a afirmativa correta.",
         "image": null,
         "anulada": false,
+        "questionYear": "2006",
         "alternatives": [
           { "id": 1, "description": "Cristalóides são fluidos recomendados nesse caso." },
           { "id": 2, "description": "Colóides são fluidos recomendados nesse caso." },
@@ -615,6 +645,7 @@
         "question": "Com relação ao uso de vasopressores para tratamento do choque séptico, é mais correto afirmar que",
         "image": null,
         "anulada": false,
+        "questionYear": "2006",
         "alternatives": [
           {
             "id": 1,
@@ -644,6 +675,7 @@
         "question": "Um paciente internado no Centro de Tratamento Intensivo que apresenta, subitamente, hematoquezia franca, sem repercussão hemodinâmica,",
         "image": null,
         "anulada": false,
+        "questionYear": "2006",
         "alternatives": [
           {
             "id": 1,
@@ -673,6 +705,7 @@
         "question": "Uma paciente obesa e tabagista pesada, de 68 anos de idade, chama o SAMU ao seu domicílio por dispnéia após uma janta farta. A ambulância rapidamente a remove para o hospital. Ao chegar à Emergência, a mulher estava em coma. O estudo da gasometria demonstrava PaO2 de 60 mmHg, HCO3 de 23 mEq/L, PaCO2 de 85 mmHg e pH de 7,19. Qual das situações clínicas abaixo melhor descreve o episódio?",
         "image": null,
         "anulada": false,
+        "questionYear": "2006",
         "alternatives": [
           { "id": 1, "description": "Doença neuromuscular." },
           { "id": 2, "description": "DPOC hipercápnico com compensação parcial." },
@@ -687,6 +720,7 @@
         "question": "Um paciente internado no Centro de Tratamento Intensivo, em ventilação mecânica invasiva há mais de 96 horas, sem antibióticos, desenvolve febre, novo infiltrado pulmonar ao radiograma torácico, leucocitose e hipotensão. Nesse caso, é correto afirmar que o paciente",
         "image": null,
         "anulada": false,
+        "questionYear": "2006",
         "alternatives": [
           {
             "id": 1,
@@ -716,6 +750,7 @@
         "question": "Um senhor que recebe um choque elétrico durante o banho de chuveiro apresenta queda ao solo e perda de consciência por tempo indeterminado. Foi, então, admitido no Centro de Tratamento Intensivo com insuficiência renal aguda secundária à rabdomiólise, em coma, PA = 160 x 90 mmHg, FC = 120 bpm, uréia = 120 mg/dL, creatinina = 5,4 mg/dL e potássio = 6,3 mEq/L. Recebeu tratamento com infusão de glicose e insulina, bicarbonato de sódio e enzimas trocadoras, mas houve aumento do potássio sérico (K = 7,8 mEq/L), sem resposta aos diuréticos.\n Nessa situação, a conduta preferencial seria",
         "image": null,
         "anulada": false,
+        "questionYear": "2006",
         "alternatives": [
           {
             "id": 1,
@@ -745,6 +780,7 @@
         "question": "Está INCORRETO afirmar que, no coma mixematoso,",
         "image": null,
         "anulada": false,
+        "questionYear": "2006",
         "alternatives": [
           {
             "id": 1,
@@ -774,6 +810,7 @@
         "question": "Paciente com diagnóstico de IAM, internado em UTI e monitorizado, subitamente perde a consciência. É constatada a ausência de respiração e de pulso e o monitor mostra o ritmo abaixo.\n A conduta mais adequada com esse paciente é",
         "image": "insira_o_link_da_imagem_aqui",
         "anulada": false,
+        "questionYear": "2006",
         "alternatives": [
           {
             "id": 1,

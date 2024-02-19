@@ -26,7 +26,7 @@ export function getQuestionsFromLocalFile(examId, usedQuestionIds = []) {
     usedQuestionIds.push(selectedQuestion.questionId);
     // Separa as respostas corretas e incorretas
     const { rightAnswer, alternatives, ...restOfQuestion } = selectedQuestion;
-    const { questionId, question, image } = restOfQuestion;
+    const { questionId, question, image, questionYear } = restOfQuestion;
     // Mapeia as alternativas para o formato desejado
     const formattedAlternatives = alternatives.map((alternative) => ({
       id: alternative.id,
@@ -47,6 +47,7 @@ export function getQuestionsFromLocalFile(examId, usedQuestionIds = []) {
         incorrectAnswers: incorrectAnswers.map((alternative) => alternative.description),
         image: image || '',
         usedQuestionIds,
+        questionYear,
       }],
     };
 
