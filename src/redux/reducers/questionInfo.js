@@ -9,6 +9,7 @@ const INITIAL_STATE = {
       correctAnswer: '',
       incorrectAnswers: [],
       usedQuestionIds: [],
+      questionYear: '',
     },
   ],
   usedQuestionIds: [],

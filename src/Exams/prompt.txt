@@ -20,6 +20,7 @@ Aqui está o padrão Json que voce deve seguir:
   "question": "Um paciente encontrado em parada cardiorrespiratória na Unidade de Internação está sendo atendido. Ao chegar o socorro avançado, o monitor revela o ritmo abaixo.",
   "image": "null",
   "anulada": false,
+  "questionYear":  "2006",
   "alternatives": [
     {
       "id": 1,

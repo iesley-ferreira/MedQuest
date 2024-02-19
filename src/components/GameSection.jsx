@@ -15,13 +15,8 @@ class GameSection extends Component {
   }
 
   componentDidUpdate(prevProps) {
-    const { questionInfo, buttonClicked } = this.props;
-    // Verifica se houve uma mudança nas props
-    if (buttonClicked === true) {
-      this.setState({
-        buttonClicked: true,
-      });
-    }
+    const { questionInfo } = this.props;
+
     if (questionInfo !== prevProps.questionInfo) {
       this.updateShuffledAnswers();
     }
@@ -45,7 +40,6 @@ class GameSection extends Component {
   updateShuffledAnswers() {
     const { questionInfo } = this.props;
 
-    // Verifica se questionInfo está disponível antes de acessar suas propriedades
     if (questionInfo && questionInfo.questionId !== 0) {
       const {
         correctAnswer,
@@ -63,10 +57,8 @@ class GameSection extends Component {
   }
 
   render() {
-    console.log('GameSection props:', this.props);
     const { buttonClicked, shuffledAnswers } = this.state;
-    const { disableAlternativesButtons, questionInfo } = this.props;
-    console.log('shuffle', questionInfo);
+    const { disableAlternativesButtons, questionInfo, timeOver } = this.props;
 
     const {
       incorrectAnswers,
@@ -75,9 +67,12 @@ class GameSection extends Component {
     return (
       <section className="question-container">
         <div className="content-question">
-          <h3>
+          <h2 className="question-year">
+            {questionInfo.questionYear}
+          </h2>
+          <h1>
             {questionInfo.question}
-          </h3>
+          </h1>
         </div>
         <div className="answers-container" data-testid="answer-options">
           {shuffledAnswers.map((answer, index) => (
@@ -90,7 +85,7 @@ class GameSection extends Component {
                     ? 'correct-answer' : 'wrong-answer' }
                   onClick={ this.handleClick }
                   disabled={ disableAlternativesButtons }
-                  className={ buttonClicked ? 'red button' : 'button' }
+                  className={ buttonClicked || timeOver ? 'red button' : 'button' }
                 >
                   {answer}
                 </button>
@@ -102,7 +97,7 @@ class GameSection extends Component {
                   data-testid="correct-answer"
                   onClick={ this.handleClick }
                   disabled={ disableAlternativesButtons }
-                  className={ buttonClicked ? 'green button' : 'button' }
+                  className={ buttonClicked || timeOver ? 'green button' : 'button' }
                 >
                   {answer}
                 </button>
@@ -123,8 +118,9 @@ GameSection.propTypes = {
     image: PropTypes.string,
     correctAnswer: PropTypes.string,
     incorrectAnswers: PropTypes.arrayOf(PropTypes.string),
+    questionYear: PropTypes.string,
   }).isRequired,
-  buttonClicked: PropTypes.bool.isRequired,
+  timeOver: PropTypes.bool.isRequired,
 };
 
 const mapStateToProps = (globalState) => ({

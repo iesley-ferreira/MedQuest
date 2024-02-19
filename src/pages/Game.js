@@ -9,10 +9,9 @@ import { getQuestionsFromLocalFile } from '../services/api';
 
 class Game extends Component {
   state = {
-    seconds: 10,
+    seconds: 270,
     loading: false,
     index: 0,
-    buttonClicked: false,
   };
 
   async componentDidMount() {
@@ -32,11 +31,7 @@ class Game extends Component {
   }
 
   componentDidUpdate() {
-    const { clearTimer, seconds, buttonClicked } = this.props;
-
-    if (seconds === 0 && !buttonClicked) {
-      this.setState({ buttonClicked: true });
-    }
+    const { clearTimer } = this.props;
 
     if (clearTimer) {
       clearInterval(this.timer);
@@ -64,16 +59,15 @@ class Game extends Component {
 
   handleClick = () => {
     const { index } = this.state;
-    const { history, dispatch } = this.props;
+    const { history, dispatch, quantity } = this.props;
 
     dispatch(restartTimer());
-    this.setState({ seconds: 10, index: index + 1, buttonClicked: false });
+    this.setState({ seconds: 270, index: index + 1 });
     clearInterval(this.timer);
 
     const questionData = getQuestionsFromLocalFile();
 
-    const maxNumber = 36;
-    if (index === maxNumber) {
+    if (index === quantity - 1) {
       history.push('/feedback');
     } else {
       dispatch(
@@ -86,8 +80,9 @@ class Game extends Component {
   };
 
   render() {
-    const { loading, seconds, buttonClicked } = this.state;
+    const { loading, seconds } = this.state;
     const { clearTimer } = this.props;
+    const timeOver = seconds === 0;
 
     return (
       <>
@@ -97,7 +92,7 @@ class Game extends Component {
             {!loading && (
               <GameSection
                 seconds={ seconds }
-                buttonClicked={ buttonClicked }
+                timeOver={ timeOver }
               />
             )}
             {(clearTimer || seconds === 0) && (
@@ -130,8 +125,7 @@ Game.propTypes = {
   history: PropTypes.shape({
     push: PropTypes.func.isRequired,
   }).isRequired,
-  buttonClicked: PropTypes.bool.isRequired,
-  seconds: PropTypes.number.isRequired,
+  quantity: PropTypes.number.isRequired,
 };
 
 const mapStateToProps = ({ player, settings }) => ({
@@ -143,6 +137,7 @@ const mapStateToProps = ({ player, settings }) => ({
   examId: settings.examId,
   usedQuestionIds: player.usedQuestionIds,
   question: player.question,
+  questionYear: player.questionYear,
 });
 
 export default connect(mapStateToProps)(Game);
