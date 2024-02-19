@@ -9,7 +9,7 @@ import { getQuestionsFromLocalFile } from '../services/api';
 
 class Game extends Component {
   state = {
-    seconds: 270,
+    seconds: 5,
     loading: false,
     index: 0,
   };
@@ -62,7 +62,7 @@ class Game extends Component {
     const { history, dispatch, quantity } = this.props;
 
     dispatch(restartTimer());
-    this.setState({ seconds: 270, index: index + 1 });
+    this.setState({ seconds: 5, index: index + 1 });
     clearInterval(this.timer);
 
     const questionData = getQuestionsFromLocalFile();
