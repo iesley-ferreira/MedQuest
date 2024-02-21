@@ -40,6 +40,7 @@ body > * > * > * > * > * > * {
 }
 
 body {
+  background-attachment: fixed;
   background-image: url('../public/images/background.png');
   background-repeat: no-repeat;
   background-size: cover;
