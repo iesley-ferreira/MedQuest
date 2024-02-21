@@ -2,7 +2,9 @@ import {
   SAVE_EMAIL, SAVE_NAME, SAVE_SCORE, GENERATE_RANDOM_INDEX,
   PUSH_ANSWERS_TO_GLOBAL_STATE, STOP_TIMER, RESTART_TIMER,
   DISABLE_ALTERNATIVES_BUTTONS, ENABLE_ALTERNATIVES_BUTTONS,
-  INCREMENT_SCORE, RESET_SCORE, UPDATE_SETTINGS, SET_QUESTION, RESET_USEDQUESTIONIDS,
+  INCREMENT_SCORE, RESET_SCORE,
+  UPDATE_SETTINGS, SET_QUESTION,
+  RESET_USEDQUESTIONIDS, SET_QUESTION_ARRAY,
 } from './actionsName';
 
 export const saveEmail = (email) => ({
@@ -60,9 +62,14 @@ export const updateSettings = (settings) => ({
   payload: settings,
 });
 
-export const setQuestion = (questionInfo, usedQuestionIds) => ({
+export const setQuestion = (questionInfo) => ({
   type: SET_QUESTION,
-  payload: { questionInfo, usedQuestionIds },
+  payload: { questionInfo },
+});
+
+export const setQuestionArray = (questionId) => ({
+  type: SET_QUESTION_ARRAY,
+  payload: questionId,
 });
 
 export const resetUsedQuestionIds = () => ({

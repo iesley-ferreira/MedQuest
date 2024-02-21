@@ -5,6 +5,7 @@ import { updateSettings } from '../redux/actions';
 
 class Settings extends Component {
   state = {
+    examId: 1,
     quantity: 10,
   };
 
@@ -17,8 +18,9 @@ class Settings extends Component {
   handleSubmit = (event) => {
     const { dispatch, history } = this.props;
     event.preventDefault();
-    const { quantity } = this.state;
+    const { quantity, examId } = this.state;
     const settings = {
+      examId,
       quantity,
     };
     dispatch(updateSettings(settings));
@@ -26,13 +28,30 @@ class Settings extends Component {
   };
 
   render() {
-    const { quantity } = this.state;
+    const { examId, quantity } = this.state;
 
     return (
       <form className="settings-container" onSubmit={ this.handleSubmit }>
 
         <fieldset>
           <legend className="legend1">Settings</legend>
+
+          <label htmlFor="examId">
+            Ano:
+            {' '}
+            <select
+              onChange={ this.handleChange }
+              name="examId"
+              id="examId"
+              data-testid="examId-input"
+              value={ examId }
+            >
+              <option value="1">2006</option>
+              <option value="2">2009</option>
+              <option value="3">2013</option>
+              <option value="4">2015</option>
+            </select>
+          </label>
 
           <label htmlFor="type">
             Questões:

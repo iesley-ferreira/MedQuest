@@ -1,4 +1,8 @@
-import { RESET_USEDQUESTIONIDS, SET_QUESTION } from '../actions/actionsName';
+import {
+  RESET_USEDQUESTIONIDS,
+  SET_QUESTION,
+  SET_QUESTION_ARRAY,
+} from '../actions/actionsName';
 
 const INITIAL_STATE = {
   questionInfo: [
@@ -21,7 +25,11 @@ const questionInfo = (state = INITIAL_STATE, action) => {
     return {
       ...state,
       questionInfo: [action.payload.questionInfo],
-      usedQuestionIds: [...state.usedQuestionIds, action.payload.usedQuestionIds],
+    };
+  case SET_QUESTION_ARRAY:
+    return {
+      ...state,
+      usedQuestionIds: [...state.usedQuestionIds, action.payload],
     };
   case RESET_USEDQUESTIONIDS:
     return {

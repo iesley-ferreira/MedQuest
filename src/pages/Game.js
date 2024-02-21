@@ -7,7 +7,9 @@ import { restartTimer,
   disableAlternatives,
   enableAlternativesButtons,
   setQuestion,
-  resetUsedQuestionIds } from '../redux/actions';
+  resetUsedQuestionIds,
+  setQuestionArray,
+} from '../redux/actions';
 import { getQuestionsFromLocalFile } from '../services/api';
 
 class Game extends Component {
@@ -18,15 +20,12 @@ class Game extends Component {
   };
 
   async componentDidMount() {
-    const { dispatch, usedQuestionIds } = this.props;
+    const { dispatch, usedQuestionIds, examId } = this.props;
     this.setState({ loading: true });
-
-    const questionData = getQuestionsFromLocalFile(usedQuestionIds);
+    const questionData = getQuestionsFromLocalFile(examId, usedQuestionIds);
     // estou recebendo o numero corretamente
-    console.log('AQUI', questionData.results[0].usedQuestionId);
-    dispatch(
-      setQuestion(questionData.results[0], questionData.results[0].usedQuestionId),
-    );
+    dispatch(setQuestion(questionData.results[0]));
+    dispatch(setQuestionArray(questionData.results[0].usedQuestionId));
 
     this.setState({
       loading: false,
@@ -69,16 +68,15 @@ class Game extends Component {
     dispatch(restartTimer());
     this.setState({ seconds: 5, index: index + 1 });
     clearInterval(this.timer);
-
-    const questionData = getQuestionsFromLocalFile(usedQuestionIds);
+    const examId = 1;
+    const questionData = getQuestionsFromLocalFile(examId, usedQuestionIds);
 
     if (index === quantity - 1) {
       history.push('/feedback');
       dispatch(resetUsedQuestionIds());
     } else {
-      dispatch(
-        setQuestion(questionData.results[0], questionData.results[0].usedQuestionId),
-      );
+      dispatch(setQuestion(questionData.results[0]));
+      dispatch(setQuestionArray(questionData.results[0].usedQuestionId));
     }
     this.startTimer();
     dispatch(enableAlternativesButtons());
@@ -132,6 +130,7 @@ Game.propTypes = {
   }).isRequired,
   quantity: PropTypes.number.isRequired,
   usedQuestionIds: PropTypes.arrayOf(PropTypes.number).isRequired,
+  examId: PropTypes.number.isRequired,
 };
 
 const mapStateToProps = ({ player, settings, questionInfo }) => ({

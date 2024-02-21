@@ -1,21 +1,19 @@
-import examData from '../Exams/exam1.json';
-
 export async function getToken() {
   const response = await fetch('https://opentdb.com/api_token.php?command=request');
   const data = await response.json();
   return data;
 }
 
-export function getQuestionsFromLocalFile(usedQuestionIds = []) {
+export function getQuestionsFromLocalFile(examId, usedQuestionIds = []) {
   try {
     // Importe o arquivo JSON local com as questões
-    // const examData = require('../Exams/exam1.json');
+    const examData = require(`../Exams/exam${examId}.json`);
     // Filtra as questões que ainda não foram utilizadas
     const unusedQuestions = examData[0].questions
       .filter((question) => !usedQuestionIds.includes(question.questionId));
     // Verifica se há questões não utilizadas
     if (unusedQuestions.length === 0) {
-      console.warn('Voce fez todas as questões.');
+      console.warn('Você fez todas as questões.');
       // Reinicia a lista de IDs de questões utilizadas
       usedQuestionIds.length = 0;
     }
