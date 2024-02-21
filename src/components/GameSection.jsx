@@ -70,6 +70,12 @@ class GameSection extends Component {
           <h2 className="question-year">
             {questionInfo.questionYear}
           </h2>
+          <img
+            src={ questionInfo.image }
+            data-testid="question-image"
+            alt={ `Imagem da questão ${questionInfo.questionId}` }
+            className="question-image"
+          />
           <h1>
             {questionInfo.question}
           </h1>

@@ -4,7 +4,10 @@ import PropTypes from 'prop-types';
 import Header from '../components/Header';
 import GameSection from '../components/GameSection';
 import { restartTimer,
-  disableAlternatives, enableAlternativesButtons, setQuestion } from '../redux/actions';
+  disableAlternatives,
+  enableAlternativesButtons,
+  setQuestion,
+  resetUsedQuestionIds } from '../redux/actions';
 import { getQuestionsFromLocalFile } from '../services/api';
 
 class Game extends Component {
@@ -15,12 +18,14 @@ class Game extends Component {
   };
 
   async componentDidMount() {
-    const { dispatch } = this.props;
+    const { dispatch, usedQuestionIds } = this.props;
     this.setState({ loading: true });
 
-    const questionData = getQuestionsFromLocalFile();
+    const questionData = getQuestionsFromLocalFile(usedQuestionIds);
+    // estou recebendo o numero corretamente
+    console.log('AQUI', questionData.results[0].usedQuestionId);
     dispatch(
-      setQuestion(questionData.results[0], questionData.results[0].usedQuestionIds),
+      setQuestion(questionData.results[0], questionData.results[0].usedQuestionId),
     );
 
     this.setState({
@@ -59,22 +64,22 @@ class Game extends Component {
 
   handleClick = () => {
     const { index } = this.state;
-    const { history, dispatch, quantity } = this.props;
+    const { history, dispatch, quantity, usedQuestionIds } = this.props;
 
     dispatch(restartTimer());
     this.setState({ seconds: 5, index: index + 1 });
     clearInterval(this.timer);
 
-    const questionData = getQuestionsFromLocalFile();
+    const questionData = getQuestionsFromLocalFile(usedQuestionIds);
 
     if (index === quantity - 1) {
       history.push('/feedback');
+      dispatch(resetUsedQuestionIds());
     } else {
       dispatch(
-        setQuestion(questionData.results[0], questionData.results[0].usedQuestionIds),
+        setQuestion(questionData.results[0], questionData.results[0].usedQuestionId),
       );
     }
-
     this.startTimer();
     dispatch(enableAlternativesButtons());
   };
@@ -126,16 +131,17 @@ Game.propTypes = {
     push: PropTypes.func.isRequired,
   }).isRequired,
   quantity: PropTypes.number.isRequired,
+  usedQuestionIds: PropTypes.arrayOf(PropTypes.number).isRequired,
 };
 
-const mapStateToProps = ({ player, settings }) => ({
+const mapStateToProps = ({ player, settings, questionInfo }) => ({
   clearTimer: player.clearTimer,
   categoryId: settings.categoryId,
   difficulty: settings.difficulty,
   type: settings.type,
   quantity: settings.quantity,
   examId: settings.examId,
-  usedQuestionIds: player.usedQuestionIds,
+  usedQuestionIds: questionInfo.usedQuestionIds,
   question: player.question,
   questionYear: player.questionYear,
 });

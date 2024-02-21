@@ -6,7 +6,7 @@ export async function getToken() {
   return data;
 }
 
-export function getQuestionsFromLocalFile(examId, usedQuestionIds = []) {
+export function getQuestionsFromLocalFile(usedQuestionIds = []) {
   try {
     // Importe o arquivo JSON local com as questões
     // const examData = require('../Exams/exam1.json');
@@ -23,7 +23,7 @@ export function getQuestionsFromLocalFile(examId, usedQuestionIds = []) {
     const randomIndex = Math.floor(Math.random() * unusedQuestions.length);
     const selectedQuestion = unusedQuestions[randomIndex];
     // Adiciona o ID da questão escolhida à lista de IDs de questões utilizadas
-    usedQuestionIds.push(selectedQuestion.questionId);
+    // usedQuestionIds.push(selectedQuestion.questionId);
     // Separa as respostas corretas e incorretas
     const { rightAnswer, alternatives, ...restOfQuestion } = selectedQuestion;
     const { questionId, question, image, questionYear } = restOfQuestion;
@@ -46,7 +46,7 @@ export function getQuestionsFromLocalFile(examId, usedQuestionIds = []) {
         correctAnswer: correctAnswer ? correctAnswer.description : '',
         incorrectAnswers: incorrectAnswers.map((alternative) => alternative.description),
         image: image || '',
-        usedQuestionIds,
+        usedQuestionId: selectedQuestion.questionId,
         questionYear,
       }],
     };

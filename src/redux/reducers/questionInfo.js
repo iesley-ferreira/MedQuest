@@ -1,4 +1,4 @@
-import { SET_QUESTION } from '../actions/actionsName';
+import { RESET_USEDQUESTIONIDS, SET_QUESTION } from '../actions/actionsName';
 
 const INITIAL_STATE = {
   questionInfo: [
@@ -18,11 +18,15 @@ const INITIAL_STATE = {
 const questionInfo = (state = INITIAL_STATE, action) => {
   switch (action.type) {
   case SET_QUESTION:
-    console.log('Reducer questionInfo', action.payload.questionInfo);
-    console.log('Reducer usedQuestionIds', action.payload.usedQuestionIds);
-    return { ...state,
+    return {
+      ...state,
       questionInfo: [action.payload.questionInfo],
-      usedQuestionIds: [...action.payload.usedQuestionIds],
+      usedQuestionIds: [...state.usedQuestionIds, action.payload.usedQuestionIds],
+    };
+  case RESET_USEDQUESTIONIDS:
+    return {
+      ...state,
+      usedQuestionIds: [],
     };
   default:
     return state;

@@ -10,7 +10,7 @@
       {
         "questionId": 1,
         "question": "Um paciente encontrado em parada cardiorrespiratória na Unidade de Internação está sendo atendido.\n Ao chegar o socorro avançado, o monitor revela o ritmo abaixo.",
-        "image": "insira_o_link_da_imagem_aqui",
+        "image": "./images/house.png",
         "anulada": false,
         "questionYear": "2006",
         "alternatives": [

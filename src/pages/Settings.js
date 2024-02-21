@@ -33,25 +33,6 @@ class Settings extends Component {
 
         <fieldset>
           <legend className="legend1">Settings</legend>
-          {/* <label htmlFor="exame">
-            Exame:
-            {' '}
-            <select
-              onChange={ this.handleChange }
-              name="exameId"
-              id="exame"
-              value={ exameId }
-            >
-              {exames
-                .map((exame) => (
-                  <option
-                    key={ exame.id }
-                    value={ exame.id }
-                  >
-                    {exame.exam}
-                  </option>))}
-            </select>
-          </label> */}
 
           <label htmlFor="type">
             Questões:
