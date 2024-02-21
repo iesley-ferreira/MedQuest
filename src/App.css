@@ -188,10 +188,19 @@ header {
   padding: 20px;
 }
 
+.content-question img {
+  padding-top: 20px;
+}
+
+.content-question h1 {
+  margin-top: 10px;
+}
+
 .question-container {
   border-radius: 5px;
   font-size: 1.1em;
   text-align: center;
+  white-space: pre-line;
 
   /* position: absolute; */
 }
