@@ -116,6 +116,7 @@ header {
   background-color: white;
   display: flex;
   font-family: Caveat , cursive;
+  font-size: 22px;
   justify-content: space-between;
   padding: 10px 25px;
   top: 0;
