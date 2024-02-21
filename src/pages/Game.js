@@ -22,6 +22,7 @@ class Game extends Component {
   async componentDidMount() {
     const { dispatch, usedQuestionIds, examId } = this.props;
     this.setState({ loading: true });
+
     const questionData = getQuestionsFromLocalFile(examId, usedQuestionIds);
     // estou recebendo o numero corretamente
     dispatch(setQuestion(questionData.results[0]));
