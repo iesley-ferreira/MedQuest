@@ -7,6 +7,7 @@ export async function getToken() {
 export function getQuestionsFromLocalFile(examId, usedQuestionIds = []) {
   try {
     // Importe o arquivo JSON local com as questões
+    // eslint-disable-next-line import/no-dynamic-require, global-require
     const examData = require(`../Exams/exam${examId}.json`);
     // Filtra as questões que ainda não foram utilizadas
     const unusedQuestions = examData[0].questions

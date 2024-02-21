@@ -50,6 +50,9 @@ class Settings extends Component {
               <option value="2">2009</option>
               <option value="3">2013</option>
               <option value="4">2015</option>
+              <option value="5">2017</option>
+              <option value="6">2019</option>
+              <option value="7">2021</option>
             </select>
           </label>
 
