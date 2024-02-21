@@ -10,7 +10,7 @@
       {
         "questionId": 1,
         "question": "Um paciente encontrado em parada cardiorrespiratória na Unidade de Internação está sendo atendido.\n Ao chegar o socorro avançado, o monitor revela o ritmo abaixo.",
-        "image": "./images/house.png",
+        "image": "/images/01-2006.png",
         "anulada": false,
         "questionYear": "2006",
         "alternatives": [
@@ -85,7 +85,7 @@
       {
         "questionId": 4,
         "question": "Paciente internado com diagnóstico de gastroenterite e diarréia volumosa é encontrado desacordado em seu leito, sendo constatada a ausência de respiração e pulso. É submetido às manobras básicas de ressuscitação enquanto é acionado o socorro avançado. Ao chegar o socorro avançado, o monitor mostra o seguinte ritmo cardíaco:\n O diagnóstico mais provável da causa da PCR é",
-        "image": "insira_o_link_da_imagem_aqui",
+        "image": "./images/04-2006.png",
         "anulada": false,
         "questionYear": "2006",
         "alternatives": [
@@ -226,7 +226,7 @@
       {
         "questionId": 13,
         "question": "Ao se monitorizar um paciente em ventilação mecânica, são encontradas as curvas abaixo. Considere-as.\n A complacência estática, a complacência dinâmica e a resistência do sistema respiratório do paciente representado são, respectivamente,",
-        "image": "insira_o_link_da_imagem_aqui",
+        "image": "/images/13-2006.png",
         "anulada": false,
         "questionYear": "2006",
         "alternatives": [
@@ -241,7 +241,7 @@
       {
         "questionId": 14,
         "question": "Os três gráficos apresentados na figura abaixo representam três pacientes com diferentes situações clínicas.\n Assinale a alternativa que apresenta a correta associação entre os pacientes e os diagnósticos.",
-        "image": "insira_o_link_da_imagem_aqui",
+        "image": "/images/14-2006.png",
         "anulada": false,
         "questionYear": "2006",
         "alternatives": [
@@ -271,7 +271,7 @@
       {
         "questionId": 15,
         "question": "Quatro pacientes em ventilação mecânica apresentam as seguintes curvas fluxo-volume:\n Considere as seguintes afirmações a respeito das curvas anteriores.\n I - Em 1, o paciente apresentou acúmulo de secreções, tendo sido aspirado em 2.\n II - Em 1, o paciente apresentou broncoespasmo, tendo recebido broncodilatadores em 2.\n III - Em 3 e em 4, o paciente apresentou broncoespasmo.\n IV - Em 3 e em 4, o paciente apresentou acúmulo de secreções. Quais estão corretas?",
-        "image": "insira_o_link_da_imagem_aqui",
+        "image": "/images/15-2006.png",
         "anulada": false,
         "questionYear": "2006",
         "alternatives": [
@@ -808,7 +808,7 @@
       {
         "questionId": 39,
         "question": "Paciente com diagnóstico de IAM, internado em UTI e monitorizado, subitamente perde a consciência. É constatada a ausência de respiração e de pulso e o monitor mostra o ritmo abaixo.\n A conduta mais adequada com esse paciente é",
-        "image": "insira_o_link_da_imagem_aqui",
+        "image": "/images/39-2006.png",
         "anulada": false,
         "questionYear": "2006",
         "alternatives": [

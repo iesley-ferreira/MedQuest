@@ -10,7 +10,7 @@
       {
         "questionId": 1,
         "question": "Assinale a alternativa que NÃO apresenta manifestação de disfunção do trato gastrintestinal do paciente cursando com choque séptico.",
-        "image": "null",
+        "image": null,
         "anulada": false,
         "questionYear": "2009",
         "alternatives": [
@@ -40,7 +40,7 @@
       {
         "questionId": 2,
         "question": "Um paciente masculino de 49 anos foi internado na UTI com dor torácica (referida principalmente no hemitórax esquerdo) e um quadro prévio de dispneia progressiva e febre baixa nos últimos 5 dias. Previamente, apresentava hipertensão arterial e diabete melito. Usava hidroclorotiazida, enalapril e metformina. Na chegada, verificou-se pressão arterial com 110/70mmHg, frequência cardíaca de 100bpm, frequência respiratória de 27mrpm e oximetria de pulso com saturação de 94% (ar ambiente). O ECG na chegada está abaixo. Qual a conduta a seguir?",
-        "image": "null",
+        "image": null,
         "anulada": false,
         "questionYear": "2009",
         "alternatives": [
@@ -70,7 +70,7 @@
       {
         "questionId": 3,
         "question": "No atendimento hospitalar inicial do paciente com acidente vascular encefálico, candidato a terapia com trombolítico, são corretas todas as condutas abaixo, EXCETO uma delas. Assinale-a.",
-        "image": "null",
+        "image": null,
         "anulada": false,
         "questionYear": "2009",
         "alternatives": [
@@ -96,7 +96,7 @@
       {
         "questionId": 4,
         "question": "Um hipertenso severo, de 45 anos, já com insuficiência renal, mas ainda sem tratamento dialítico, é internado no CTI por encefalopatia hipertensiva. Inicia-se infusão de nitroprussiato de sódio e a PAM é mantida ao redor de 110 mmHg. Após 48 horas, por anorexia, náuseas e vômitos, ainda não tem conseguido receber regularmente a medicação anti-hipertensiva oral. A dose de nitroprussiato de sódio é de 7 microgramas/Kg/min. A creatinina é 4,4, o bicarbonato é 22 e o hemograma e os eletrólitos são normais. O paciente, além das queixas digestivas, refere fraqueza, cansaço e apresenta-se desorientado e com ideias delirantes. Não há outra alteração no exame neurológico. Qual a provável causa destas manifestações?",
-        "image": "null",
+        "image": null,
         "anulada": false,
         "questionYear": "2009",
         "alternatives": [
@@ -126,7 +126,7 @@
       {
         "questionId": 5,
         "question": "Considere as seguintes afirmações sobre os efeitos hemodinâmicos da ventilação.\nI - Os efeitos hemodinâmicos da ventilação com pressão positiva são causados por alterações na pressão intratorácica e no volume pulmonar.\nII - Durante o esforço inspiratório, em ventilação espontânea, o aumento do retorno venoso se dá pela diminuição da pressão atrial direita e da pressão intra-abdominal.\nIII- Durante a inspiração com pressão positiva, o aumento da pressão intratorácica e a diminuição da pressão atrial direita levam a uma diminuição do retorno venoso e do enchimento do ventrículo direito, com consequente diminuição do volume de ejeção ventricular direita.",
-        "image": "null",
+        "image": null,
         "anulada": false,
         "questionYear": "2009",
         "alternatives": [
@@ -156,7 +156,7 @@
       {
         "questionId": 6,
         "question": "Sobre o pós-operatório precoce do transplante pulmonar, assinale a alternativa INCORRETA.",
-        "image": "null",
+        "image": null,
         "anulada": false,
         "questionYear": "2009",
         "alternatives": [
@@ -186,7 +186,7 @@
       {
         "questionId": 7,
         "question": "Sobre infecção de cateteres venosos centrais, assinale a alternativa INCORRETA.",
-        "image": "null",
+        "image": null,
         "anulada": false,
         "questionYear": "2009",
         "alternatives": [
@@ -216,7 +216,7 @@
       {
         "questionId": 8,
         "question": "Em relação à fisiopatologia da Síndrome de Angústia Respiratória Aguda (SARA), assinale a alternativa INCORRETA.",
-        "image": "null",
+        "image": null,
         "anulada": false,
         "questionYear": "2009",
         "alternatives": [
@@ -246,7 +246,7 @@
       {
         "questionId": 9,
         "question": "Que método de substituição renal seria recomendado para um paciente com choque séptico e insuficiência renal aguda?",
-        "image": "null",
+        "image": null,
         "anulada": false,
         "questionYear": "2009",
         "alternatives": [
@@ -276,7 +276,7 @@
       {
         "questionId": 10,
         "question": "Sobre infecções em pacientes críticos, assinale a alternativa INCORRETA.",
-        "image": "null",
+        "image": null,
         "anulada": false,
         "questionYear": "2009",
         "alternatives": [
@@ -306,7 +306,7 @@
       {
         "questionId": 11,
         "question": "Considere os procedimentos abaixo.\nI - Objetivar a PVC >ou = 8mmHg (>ou= 12mmHg em pacientes que estão em ventilação mecânica).\nII - Usar dose baixa de dopamina para proteção renal.\nIII- Usar dobutamina em pacientes com disfunção miocárdica, pressões de enchimento cardíacas elevadas e índice cardíaco baixo.\nQuais são recomendações do “Surviving Sepsis Campaign” ?",
-        "image": "null",
+        "image": null,
         "anulada": false,
         "questionYear": "2009",
         "alternatives": [
@@ -336,7 +336,7 @@
       {
         "questionId": 12,
         "question": "Com relação ao atendimento de paciente terminal, considere as afirmações abaixo.\nI - É admissível utilizar medicação analgésica com o objetivo de reduzir dor insuportável, mesmo que um efeito colateral não intencional seja a morte do indivíduo.\nII - No Brasil, a eutanásia é considerada como sendo homicídio.\nIII- A futilidade terapêutica é sempre inaceitável.\nQuais estão corretas?",
-        "image": "null",
+        "image": null,
         "anulada": false,
         "questionYear": "2009",
         "alternatives": [
@@ -366,7 +366,7 @@
       {
         "questionId": 13,
         "question": "Considere o ECG abaixo, de uma mulher de 60 anos, internada no CTI por embolia pulmonar, que apresenta palpitações de início súbito. Qual das drogas a seguir NÃO pode ser usada para o manejo da situação?",
-        "image": "null",
+        "image": null,
         "anulada": false,
         "questionYear": "2009",
         "alternatives": [
@@ -396,7 +396,7 @@
       {
         "questionId": 14,
         "question": "Um paciente masculino, de 22 anos, vítima de atropelamento, é atendido no Pronto Socorro, onde é feito o diagnóstico de fratura de tíbia direita. Realizada imobilização com tala gessada, foi liberado para casa, pois o traumatologista da cidade estava viajando. Vinte e quatro horas depois, o paciente retorna para a emergência com febre, taquicardia, taquipneia com hipoxemia e coma. Durante o atendimento, apresenta crise convulsiva tônico-clônica generalizada. Com relação à hipótese diagnóstica deste caso, é INCORRETO afirmar que",
-        "image": "null",
+        "image": null,
         "anulada": false,
         "questionYear": "2009",
         "alternatives": [

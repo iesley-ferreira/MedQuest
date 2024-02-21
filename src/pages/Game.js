@@ -64,12 +64,11 @@ class Game extends Component {
 
   handleClick = () => {
     const { index } = this.state;
-    const { history, dispatch, quantity, usedQuestionIds } = this.props;
+    const { history, dispatch, quantity, usedQuestionIds, examId } = this.props;
 
     dispatch(restartTimer());
     this.setState({ seconds: 5, index: index + 1 });
     clearInterval(this.timer);
-    const examId = 1;
     const questionData = getQuestionsFromLocalFile(examId, usedQuestionIds);
 
     if (index === quantity - 1) {

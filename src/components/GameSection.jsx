@@ -62,23 +62,26 @@ class GameSection extends Component {
 
     const {
       incorrectAnswers,
+      image,
     } = questionInfo;
-
+    console.log(questionInfo.questionId);
     return (
       <section className="question-container">
         <div className="content-question">
           <h2 className="question-year">
             {questionInfo.questionYear}
           </h2>
-          <img
-            src={ questionInfo.image }
-            data-testid="question-image"
-            alt={ `Imagem da questão ${questionInfo.questionId}` }
-            className="question-image"
-          />
           <h1>
             {questionInfo.question}
           </h1>
+          {image && (
+            <img
+              src={ image }
+              data-testid="question-image"
+              alt={ `Imagem da questão ${questionInfo.questionId}` }
+              className="question-image"
+            />
+          )}
         </div>
         <div className="answers-container" data-testid="answer-options">
           {shuffledAnswers.map((answer, index) => (

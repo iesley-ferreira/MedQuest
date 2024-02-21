@@ -43,6 +43,7 @@ class Login extends Component {
     const { email, username, disabled } = this.state;
     const { history } = this.props;
     return (
+
       <section className="login-container">
         <img src={ logo } alt="Page logo" />
         <form
