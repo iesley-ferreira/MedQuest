@@ -1,0 +1,732 @@
+[
+  {
+    "examId": 6,
+    "nome": "HCPA-2019",
+    "ano": "2019",
+    "edital": "Edital 02/2019",
+    "descrição": "MÉDICO I (Tratamento da Dor e Medicina Paliativa)",
+    "processoSeletivo": 15,
+    "questions": [
+      {
+        "questionId": 1,
+        "question": "Paciente é internado após reavaliação por equipe de resposta rápida que identificou acidose metabólica e história de intoxicação exógena. Considerando esse quadro clínico, para qual exposição está indicada a hemodiálise?",
+        "image": null,
+        "anulada": false,
+        "questionYear": "2019",
+        "alternatives": [
+          {
+            "id": 1,
+            "description": "Álcool Isopropílico."
+          },
+          {
+            "id": 2,
+            "description": "Acetaminofen."
+          },
+          {
+            "id": 3,
+            "description": "Aspirina."
+          },
+          {
+            "id": 4,
+            "description": "Monóxido de Carbono."
+          },
+          {
+            "id": 5,
+            "description": "Cianeto."
+          }
+        ],
+        "rightAnswer": 3
+      },
+      {
+        "questionId": 2,
+        "question": "Paciente, com síndrome de dor regional complexa do membro superior (CRPS), obteve, com o bloqueio do gânglio estrelado, alívio apenas parcial dessa dor. A explicação para isso pode ser atribuída ao nervo de Kuntz, que recebe contribuição de fibras autonômicas simpáticas da raiz ______ do plexo braquial. Assinale a alternativa que preenche, corretamente, a lacuna do parágrafo acima.",
+        "image": null,
+        "anulada": false,
+        "questionYear": "2019",
+        "alternatives": [
+          {
+            "id": 1,
+            "description": "C4"
+          },
+          {
+            "id": 2,
+            "description": "C5"
+          },
+          {
+            "id": 3,
+            "description": "T1"
+          },
+          {
+            "id": 4,
+            "description": "T2"
+          },
+          {
+            "id": 5,
+            "description": "C7"
+          }
+        ],
+        "rightAnswer": 4
+      },
+      {
+        "questionId": 4,
+        "question": "Fraqueza sustentada, que surge depois de dois meses de um único episódio de compressão do nervo, geralmente, está relacionada ao tipo de desmielinização:",
+        "image": null,
+        "anulada": false,
+        "questionYear": "2019",
+        "alternatives": [
+          {
+            "id": 1,
+            "description": "paranodal isolada, sem bloqueio de condução."
+          },
+          {
+            "id": 2,
+            "description": "multifocal, com bloqueio de condução."
+          },
+          {
+            "id": 3,
+            "description": "completa, com degeneração Walleriana."
+          },
+          {
+            "id": 4,
+            "description": "completa unimodal axonal difusa."
+          },
+          {
+            "id": 5,
+            "description": "multifocal difusa de fibras do tipo C."
+          }
+        ],
+        "rightAnswer": 3
+      },
+      {
+        "questionId": 5,
+        "question": "Enquanto cozinhava, jovem queimou a mão. No dia seguinte, o dedo estava vermelho e inchado e, ao lavar sua mão com água ligeiramente morna (30°C), a área ao redor da queimadura tornou-se dolorosa. Qual das seguintes moléculas contribuiu para a vermelhidão, inchaço e dor?",
+        "image": null,
+        "anulada": false,
+        "questionYear": "2019",
+        "alternatives": [
+          {
+            "id": 1,
+            "description": "Glutamato."
+          },
+          {
+            "id": 2,
+            "description": "Substância P."
+          },
+          {
+            "id": 3,
+            "description": "Encefalina."
+          },
+          {
+            "id": 4,
+            "description": "Norepinefrina."
+          },
+          {
+            "id": 5,
+            "description": "Acetilcolina."
+          }
+        ],
+        "rightAnswer": 2
+      },
+      {
+        "questionId": 6,
+        "question": "Em estudo experimental, em sujeito saudável, observa-se que, durante a aplicação sucessiva de um estímulo térmico supralimiar, a intensidade da dor e a respectiva área são ampliadas. Essa manifestação deve-se ao fenômeno de somação, que se relaciona com",
+        "image": null,
+        "anulada": false,
+        "questionYear": "2019",
+        "alternatives": [
+          {
+            "id": 1,
+            "description": "aumento do número de receptores NMDA."
+          },
+          {
+            "id": 2,
+            "description": "aumento do número de receptores AMPA."
+          },
+          {
+            "id": 3,
+            "description": "redução do número de receptores NMDA."
+          },
+          {
+            "id": 4,
+            "description": "diminuição na inativação dos canais de sódio."
+          },
+          {
+            "id": 5,
+            "description": "diminuição na ativação dos canais de potássio."
+          }
+        ],
+        "rightAnswer": 2
+      },
+      {
+        "questionId": 7,
+        "question": "Paciente feminina, 30 anos de idade, usando oxicodona há mais de três meses, para tratamento de dores difusas, chega à consulta de revisão, queixando-se que a dor está piorando. Depois de examinar a paciente, o médico não encontrou mudança na condição física. O aumento da dor caracteriza uma condição de",
+        "image": null,
+        "anulada": false,
+        "questionYear": "2019",
+        "alternatives": [
+          {
+            "id": 1,
+            "description": "dessensibilização."
+          },
+          {
+            "id": 2,
+            "description": "abstinência."
+          },
+          {
+            "id": 3,
+            "description": "tolerância."
+          },
+          {
+            "id": 4,
+            "description": "dependência."
+          },
+          {
+            "id": 5,
+            "description": "taquifilaxia."
+          }
+        ],
+        "rightAnswer": 3
+      },
+      {
+        "questionId": 8,
+        "question": "Considere os itens abaixo sobre hiperalgesia induzida por opioides.\nI - Aumento de receptores purinérgicos do tipo P2X4 e P2X7\nII - Aumento de receptores do tipo Toll 4 (TLR4)\nIII- Aumento de receptores do tipo NMDA\nQuais itens apresentam mecanismos neurobiológicos desse tipo de hiperalgesia?",
+        "image": null,
+        "anulada": false,
+        "questionYear": "2019",
+        "alternatives": [
+          {
+            "id": 1,
+            "description": "Apenas I."
+          },
+          {
+            "id": 2,
+            "description": "Apenas II."
+          },
+          {
+            "id": 3,
+            "description": "Apenas I e II."
+          },
+          {
+            "id": 4,
+            "description": "Apenas II e III."
+          },
+          {
+            "id": 5,
+            "description": "I, II e III."
+          }
+        ],
+        "rightAnswer": 5
+      },
+      {
+        "questionId": 9,
+        "question": "Médico contratado, questionado pelo residente sobre medidas de efeito que auxiliam na tomada de decisão para definir a escolha de determinada terapêutica, afirma ter lido em uma meta-análise sobre a eficácia da pregabalina e da duloxetina para o tratamento da fibromialgia, e que ambas as drogas foram liberadas pela Food and Drug Administration, para tal condição. Sobre a eficácia dessas substâncias, assinale a alternativa que apresenta um fator que permite avaliar o benefício absoluto desses medicamentos.",
+        "image": null,
+        "anulada": false,
+        "questionYear": "2019",
+        "alternatives": [
+          {
+            "id": 1,
+            "description": "Risco relativo (RR)."
+          },
+          {
+            "id": 2,
+            "description": "Intervalo de confiança (IC)."
+          },
+          {
+            "id": 3,
+            "description": "Número necessário para tratar (NNT)."
+          },
+          {
+            "id": 4,
+            "description": "Razão de chances (OR)."
+          },
+          {
+            "id": 5,
+            "description": "Diferença na média padronizada."
+          }
+        ],
+        "rightAnswer": 3
+      },
+      {
+        "questionId": 10,
+        "question": "Considere as afirmações abaixo sobre o efeito das técnicas neuromodulatórias, no córtex motor primário, para o tratamento da dor.\n\nI - Aumento da excitabilidade com estimulação elétrica transcutânea (TENS) acima de 90 Hz.\nII - O efeito da estimulação do córtex motor primário pode ser revertido pela naloxona.\nIII- A estimulação magnética deve ser com frequências menores do que 5Hz.\n\nQuais estão corretas?",
+        "image": null,
+        "anulada": false,
+        "questionYear": "2019",
+        "alternatives": [
+          {
+            "id": 1,
+            "description": "Apenas I."
+          },
+          {
+            "id": 2,
+            "description": "Apenas II."
+          },
+          {
+            "id": 3,
+            "description": "Apenas I e II."
+          },
+          {
+            "id": 4,
+            "description": "Apenas II e III."
+          },
+          {
+            "id": 5,
+            "description": "I, II e III."
+          }
+        ],
+        "rightAnswer": 2
+      },
+      {
+        "questionId": 11,
+        "question": "Considere as afirmações abaixo sobre o tratamento de dor oncológica, através do dispositivo implantado intratecal de bomba de infusão.\n\nI - Resposta aos opioides de administração sistêmica é indicativo de resposta adequada à infusão intratecal.\nII - A morfina, por ser uma droga lipofílica, tem distribuição rostral pelo liquor e não cruza a barreira hematoencefálica, mantendo alta concentração no liquor.\nIII- Em dores neuropáticas, o uso de ziconotide intratecal, associado aos opioides, melhora a resposta analgésica.\n\nQuais estão corretas?",
+        "image": null,
+        "anulada": false,
+        "questionYear": "2019",
+        "alternatives": [
+          {
+            "id": 1,
+            "description": "Apenas I."
+          },
+          {
+            "id": 2,
+            "description": "Apenas II."
+          },
+          {
+            "id": 3,
+            "description": "Apenas III."
+          },
+          {
+            "id": 4,
+            "description": "Apenas I e III."
+          },
+          {
+            "id": 5,
+            "description": "I, II e III."
+          }
+        ],
+        "rightAnswer": 4
+      },
+      {
+        "questionId": 12,
+        "question": "Assinale a afirmação INCORRETA, em relação à dor por neuralgia primária de trigêmeo.",
+        "image": null,
+        "anulada": false,
+        "questionYear": "2019",
+        "alternatives": [
+          {
+            "id": 1,
+            "description": "Característica em choque ou fisgada."
+          },
+          {
+            "id": 2,
+            "description": "Os ramos do nervo trigêmeo acometidos estão nesta ordem: V2>V3>V1."
+          },
+          {
+            "id": 3,
+            "description": "Carbamazepina é o tratamento farmacológico de primeira escolha."
+          },
+          {
+            "id": 4,
+            "description": "Esclerose múltipla pode ser causa associada à neuralgia do trigêmeo bilateral."
+          },
+          {
+            "id": 5,
+            "description": "Disfunção motora é mais prevalente com a técnica intervencionista cirúrgica de descompressão vascular de fossa posterior."
+          }
+        ],
+        "rightAnswer": 5
+      },
+      {
+        "questionId": 12,
+        "question": "Assinale a afirmação INCORRETA, em relação à dor por neuralgia primária de trigêmeo.",
+        "image": null,
+        "anulada": false,
+        "questionYear": "2019",
+        "alternatives": [
+          {
+            "id": 1,
+            "description": "Característica em choque ou fisgada."
+          },
+          {
+            "id": 2,
+            "description": "Os ramos do nervo trigêmeo acometidos estão nesta ordem: V2>V3>V1."
+          },
+          {
+            "id": 3,
+            "description": "Carbamazepina é o tratamento farmacológico de primeira escolha."
+          },
+          {
+            "id": 4,
+            "description": "Esclerose múltipla pode ser causa associada à neuralgia do trigêmeo bilateral."
+          },
+          {
+            "id": 5,
+            "description": "Disfunção motora é mais prevalente com a técnica intervencionista cirúrgica de descompressão vascular de fossa posterior."
+          }
+        ],
+        "rightAnswer": 5
+      },
+      {
+        "questionId": 13,
+        "question": "Considere as afirmações abaixo sobre bloqueio peridural com corticoide em tratamento da dor lombar crônica.\n\nI - O uso de corticoide não particulado, como a dexametasona, aumenta o risco de isquemia medular por embolização arterial.\nII - A dor por radiculopatia de hérnia discal apresenta maior evidência de resposta a curto prazo do que a estenose de canal medular.\nIII- O uso de corticoide peridural não aumenta o risco de descompensação dos níveis glicêmicos e da pressão arterial, como ocorre na administração sistêmica.\n\nQuais estão corretas?",
+        "image": null,
+        "anulada": false,
+        "questionYear": "2019",
+        "alternatives": [
+          {
+            "id": 1,
+            "description": "Apenas I."
+          },
+          {
+            "id": 2,
+            "description": "Apenas II."
+          },
+          {
+            "id": 3,
+            "description": "Apenas III."
+          },
+          {
+            "id": 4,
+            "description": "Apenas I e III."
+          },
+          {
+            "id": 5,
+            "description": "I, II e III."
+          }
+        ],
+        "rightAnswer": 2
+      },
+      {
+        "questionId": 14,
+        "question": "Numere a segunda coluna de acordo com a primeira, associando os analgésicos adjuvantes utilizados em dor crônica aos seus principais efeitos colaterais.\n\n(1) Clorpromazina\n(2) Amitriptilina\n(3) Venlafaxina\n(4) Carbamazepina\n(5) Pregabalina\n\n( ) Arritmia por distúrbio de condução cardíaca\n( ) Edema periférico\n( ) Aumento da pressão arterial\n( ) Sintomas extrapiramidais\n( ) Síndrome de Stevens Johnson\n\nA sequência numérica correta de preenchimento dos parênteses da segunda coluna, de cima para baixo, é",
+        "image": null,
+        "anulada": false,
+        "questionYear": "2019",
+        "alternatives": [
+          {
+            "id": 1,
+            "description": "1 – 5 – 2 – 3 – 4."
+          },
+          {
+            "id": 2,
+            "description": "2 – 3 – 1 – 4 – 5."
+          },
+          {
+            "id": 3,
+            "description": "3 – 4 – 2 – 1 – 5."
+          },
+          {
+            "id": 4,
+            "description": "2 – 5 – 3 – 1 – 4."
+          },
+          {
+            "id": 5,
+            "description": "3 – 4 – 1 – 2 – 5."
+          }
+        ],
+        "rightAnswer": 4
+      },
+      {
+        "questionId": 15,
+        "question": "Assinale a alternativa cujo critério NÃO é indicador para qualificação de países em relação às ações em cuidados paliativos.",
+        "image": null,
+        "anulada": false,
+        "questionYear": "2019",
+        "alternatives": [
+          {
+            "id": 1,
+            "description": "Disponibilidade de analgésicos opioides para manejo da dor."
+          },
+          {
+            "id": 2,
+            "description": "Avaliação da qualidade em assistência a pacientes oncológicos."
+          },
+          {
+            "id": 3,
+            "description": "Investimento na formação em cuidados paliativos de profissionais da área de saúde."
+          },
+          {
+            "id": 4,
+            "description": "Estruturação de assistência em cuidados paliativos em todos os níveis de atendimento."
+          },
+          {
+            "id": 5,
+            "description": "Implementação de políticas públicas de incentivo para os cuidados paliativos."
+          }
+        ],
+        "rightAnswer": 5
+      },
+      {
+        "questionId": 16,
+        "question": "O uso de hemoderivados em pacientes em cuidados paliativos gera, constantemente, controvérsia. Qual, dentre as alternativas abaixo, NÃO apresenta indicação do uso de hemoderivados para pacientes que se encontram nessa condição e que têm prognóstico de sobrevida maior do que seis meses?",
+        "image": null,
+        "anulada": false,
+        "questionYear": "2019",
+        "alternatives": [
+          {
+            "id": 1,
+            "description": "Plaquetopenia e sangramento ativo."
+          },
+          {
+            "id": 2,
+            "description": "Anemia com nível de hemoglobina igual ou menor do que 8g/dL, sem evidência de sangramento."
+          },
+          {
+            "id": 3,
+            "description": "Plaquetas abaixo de 10.000U/µl."
+          },
+          {
+            "id": 4,
+            "description": "Em pré-operatório e com plaquetas abaixo de 50.000U/µl."
+          },
+          {
+            "id": 5,
+            "description": "Anemia severa e doença isquêmica coronariana sintomática."
+          }
+        ],
+        "rightAnswer": 2
+      },
+      {
+        "questionId": 17,
+        "question": "Assinale a afirmação INCORRETA, em relação à dispneia em cuidados paliativos.",
+        "image": null,
+        "anulada": false,
+        "questionYear": "2019",
+        "alternatives": [
+          {
+            "id": 1,
+            "description": "A correlação entre dispneia e hipoxemia é preditora de mortalidade em 30 dias."
+          },
+          {
+            "id": 2,
+            "description": "Dispneia sem causa reversível estabelece prognóstico reservado em cuidados paliativos oncológicos."
+          },
+          {
+            "id": 3,
+            "description": "Receptores para a dispneia existem no nível das vias aéreas, da parede torácica, dos vasos e do sistema nervoso central."
+          },
+          {
+            "id": 4,
+            "description": "Independente dos fatores desencadeantes da dispneia, os opioides são as principais drogas com evidência de resposta em reduzir esse sintoma."
+          },
+          {
+            "id": 5,
+            "description": "Para reduzir a dispneia em paciente sem hipoxemia, a administração de oxigênio não é superior à administração de ar ambiente."
+          }
+        ],
+        "rightAnswer": 1
+      },
+      {
+        "questionId": 19,
+        "question": "Os analgésicos opioides são drogas fundamentais no manejo da dor em cuidados paliativos, sendo que o conhecimento de suas características farmacodinâmicas permite maior eficácia no controle desse sintoma. Assinale a alternativa correta em relação aos opioides.",
+        "image": null,
+        "anulada": false,
+        "questionYear": "2019",
+        "alternatives": [
+          {
+            "id": 1,
+            "description": "A via de excreção da metadona é 90% renal."
+          },
+          {
+            "id": 2,
+            "description": "Depressão respiratória está relacionada à ação sobre receptores mü e delta."
+          },
+          {
+            "id": 3,
+            "description": "Receptores kappa estão presentes no sistema nervoso central suprassegmentar e ausentes no nível segmentar (medular) e periférico."
+          },
+          {
+            "id": 4,
+            "description": "Receptores delta estão relacionados aos efeitos colaterais sem ação analgésica."
+          },
+          {
+            "id": 5,
+            "description": "A biodisponibilidade da morfina é de, aproximadamente, 70% da dose oral."
+          }
+        ],
+        "rightAnswer": 2
+      },
+      {
+        "questionId": 20,
+        "question": "Considere as afirmações abaixo sobre os bloqueios neurolíticos em dor oncológica.\n\nI - Hipotensão postural, sangramento e diarreia podem ser complicações esperadas pelo bloqueio neurolítico de plexo celíaco.\nII - Álcool e fenol são as substâncias neurolíticas utilizadas nesses casos, sendo o fenol, o único que apresenta efeito anestésico local antes da efetivação da neurólise.\nIII- Bloqueio simpático lombar nos níveis de L2, L3 e L4 são utilizados para dor isquêmica de membro inferior.\n\nQuais estão corretas?",
+        "image": null,
+        "anulada": false,
+        "questionYear": "2019",
+        "alternatives": [
+          {
+            "id": 1,
+            "description": "Apenas I."
+          },
+          {
+            "id": 2,
+            "description": "Apenas II."
+          },
+          {
+            "id": 3,
+            "description": "Apenas III."
+          },
+          {
+            "id": 4,
+            "description": "Apenas I e III."
+          },
+          {
+            "id": 5,
+            "description": "I, II e III."
+          }
+        ],
+        "rightAnswer": 5
+      },
+      {
+        "questionId": 21,
+        "question": "Em cuidados paliativos, a via subcutânea é a via de escolha para administração de fármacos, quando a oral não está acessível. Assinale a alternativa cuja medicação NÃO deve ser administrada pela via subcutânea.",
+        "image": null,
+        "anulada": false,
+        "questionYear": "2019",
+        "alternatives": [
+          {
+            "id": 1,
+            "description": "Furosemida."
+          },
+          {
+            "id": 2,
+            "description": "Tramadol."
+          },
+          {
+            "id": 3,
+            "description": "Diazepam."
+          },
+          {
+            "id": 4,
+            "description": "Dipirona."
+          },
+          {
+            "id": 5,
+            "description": "Ceftriaxona."
+          }
+        ],
+        "rightAnswer": 3
+      },
+      {
+        "questionId": 22,
+        "question": "Em cuidados paliativos, é de fundamental importância o controle de sintomas. Assinale a alternativa que contempla os sintomas da Escala de Sintomas de Edmonton.",
+        "image": null,
+        "anulada": false,
+        "questionYear": "2019",
+        "alternatives": [
+          {
+            "id": 1,
+            "description": "Apetite, náusea, sonolência, dor, falta de ar, ansiedade, depressão, sensação de bem-estar, cansaço."
+          },
+          {
+            "id": 2,
+            "description": "Apetite, náusea, sonolência, dor, falta de ar, ansiedade, depressão, sensação de bem-estar, constipação."
+          },
+          {
+            "id": 3,
+            "description": "Apetite, náusea, confusão, dor, falta de ar, ansiedade, depressão, constipação, sensação de bem-estar."
+          },
+          {
+            "id": 4,
+            "description": "Apetite, náusea, confusão, dor, falta de ar, ansiedade, depressão, constipação, cansaço."
+          },
+          {
+            "id": 5,
+            "description": "Apetite, náusea, confusão, dor, falta de ar, ansiedade, depressão, constipação, diarreia."
+          }
+        ],
+        "rightAnswer": 1
+      },
+      {
+        "questionId": 23,
+        "question": "Considere as afirmações abaixo sobre o plexo hipogástrico superior e sua neurólise por bloqueio.\n\nI - Contém nervos somáticos e inerva bexiga, útero, colo de útero, trompas de falópio, vagina, próstata e reto.\nII - É indicado para alívio de dores pélvicas, refratárias a tratamento clínico, de origem oncológica ou não.\nIII- É indicado para dores isquêmicas de situação distal em membros inferiores.\n\nQuais estão corretas?",
+        "image": null,
+        "anulada": false,
+        "questionYear": "2019",
+        "alternatives": [
+          {
+            "id": 1,
+            "description": "Apenas I."
+          },
+          {
+            "id": 2,
+            "description": "Apenas II."
+          },
+          {
+            "id": 3,
+            "description": "Apenas III."
+          },
+          {
+            "id": 4,
+            "description": "Apenas II e III."
+          },
+          {
+            "id": 5,
+            "description": "I, II e III."
+          }
+        ],
+        "rightAnswer": 4
+      },
+      {
+        "questionId": 24,
+        "question": "Qual a causa mais importante de dor, em pacientes idosos demenciados?",
+        "image": null,
+        "anulada": false,
+        "questionYear": "2019",
+        "alternatives": [
+          {
+            "id": 1,
+            "description": "Perda da via oral."
+          },
+          {
+            "id": 2,
+            "description": "Efeitos colaterais graves aos analgésicos."
+          },
+          {
+            "id": 3,
+            "description": "Subtratamento da dor."
+          },
+          {
+            "id": 4,
+            "description": "Degeneração de estruturas envolvidas no circuito cerebral da dor."
+          },
+          {
+            "id": 5,
+            "description": "Alterações motoras associadas."
+          }
+        ],
+        "rightAnswer": 3
+      },
+      {
+        "questionId": 25,
+        "question": "Numere a segunda coluna de acordo com a primeira, associando os mecanismos de ação dos opioides aos respectivos fármacos.\n(1) Opioide agonista\n(2) Opioide agonista-antagonista\n(3) Opioide agonista parcial\n(4) Opioide antagonista\n(5) Opioide agonista e inibição da recaptação de noradrenalina e serotonina\n\n( ) nalbufina\n( ) tramadol\n( ) oxicodona\n( ) buprenorfina\n( ) naltrexona\n\nA sequência numérica correta de preenchimento dos parênteses da segunda coluna, de cima para baixo, é",
+        "image": null,
+        "anulada": false,
+        "questionYear": "2019",
+        "alternatives": [
+          {
+            "id": 1,
+            "description": "2 – 5 – 1 – 4 – 3."
+          },
+          {
+            "id": 2,
+            "description": "2 – 5 – 1 – 3 – 4."
+          },
+          {
+            "id": 3,
+            "description": "3 – 1 – 2 – 5 – 4."
+          },
+          {
+            "id": 4,
+            "description": "3 – 2 – 1 – 4 – 5."
+          },
+          {
+            "id": 5,
+            "description": "4 – 1 – 2 – 3 – 5."
+          }
+        ],
+        "rightAnswer": 2
+      }
+    ]
+  }
+]
