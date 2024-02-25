@@ -71,9 +71,9 @@ class GameSection extends Component {
           <h2 className="question-year">
             {questionInfo.questionYear}
           </h2>
-          <h1>
+          <p>
             {questionInfo.question}
-          </h1>
+          </p>
           {image && (
             <img
               src={ image }
