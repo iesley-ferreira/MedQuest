@@ -14,7 +14,7 @@ import { getQuestionsFromLocalFile } from '../services/api';
 
 class Game extends Component {
   state = {
-    seconds: 5,
+    seconds: 270,
     loading: false,
     index: 0,
   };
@@ -24,7 +24,6 @@ class Game extends Component {
     this.setState({ loading: true });
 
     const questionData = getQuestionsFromLocalFile(examId, usedQuestionIds);
-    // estou recebendo o numero corretamente
     dispatch(setQuestion(questionData.results[0]));
     dispatch(setQuestionArray(questionData.results[0].usedQuestionId));
 
@@ -67,7 +66,7 @@ class Game extends Component {
     const { history, dispatch, quantity, usedQuestionIds, examId } = this.props;
 
     dispatch(restartTimer());
-    this.setState({ seconds: 5, index: index + 1 });
+    this.setState({ seconds: 270, index: index + 1 });
     clearInterval(this.timer);
     const questionData = getQuestionsFromLocalFile(examId, usedQuestionIds);
 

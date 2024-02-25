@@ -1,0 +1,1178 @@
+[
+  {
+    "examId": 2,
+    "nome": "HCPA-2009",
+    "ano": "2009",
+    "edital": "Edital",
+    "descrição": "MÉDICO (Medicina Intensiva)",
+    "processoSeletivo": 46,
+    "questions": [
+      {
+        "questionId": 1,
+        "question": "Assinale a alternativa que NÃO apresenta manifestação de disfunção do trato gastrintestinal do paciente cursando com choque séptico.",
+        "image": null,
+        "anulada": false,
+        "questionYear": "2009",
+        "alternatives": [
+          {
+            "id": 1,
+            "description": "Íleo"
+          },
+          {
+            "id": 2,
+            "description": "Gastrite erosiva"
+          },
+          {
+            "id": 3,
+            "description": "Translocação de bactérias ou endotoxinas"
+          },
+          {
+            "id": 4,
+            "description": "Pancreatite"
+          },
+          {
+            "id": 5,
+            "description": "Esteatose hepática"
+          }
+        ],
+        "rightAnswer": 5
+      },
+      {
+        "questionId": 2,
+        "question": "Um paciente masculino de 49 anos foi internado na UTI com dor torácica (referida principalmente no hemitórax esquerdo) e um quadro prévio de dispneia progressiva e febre baixa nos últimos 5 dias. Previamente, apresentava hipertensão arterial e diabete melito. Usava hidroclorotiazida, enalapril e metformina. Na chegada, verificou-se pressão arterial com 110/70mmHg, frequência cardíaca de 100bpm, frequência respiratória de 27mrpm e oximetria de pulso com saturação de 94% (ar ambiente). O ECG na chegada está abaixo. Qual a conduta a seguir?",
+        "image": "/images/02-2009.png",
+        "anulada": false,
+        "questionYear": "2009",
+        "alternatives": [
+          {
+            "id": 1,
+            "description": "Ventilação não invasiva com CPAP ou BIPAP."
+          },
+          {
+            "id": 2,
+            "description": "Angioplastia primária."
+          },
+          {
+            "id": 3,
+            "description": "Antiagregante e betabloqueador."
+          },
+          {
+            "id": 4,
+            "description": "Balão intra‐aórtico."
+          },
+          {
+            "id": 5,
+            "description": "Analgesia e anti‐inflamatório."
+          }
+        ],
+        "rightAnswer": 5
+      },
+      {
+        "questionId": 3,
+        "question": "No atendimento hospitalar inicial do paciente com acidente vascular encefálico, candidato a terapia com trombolítico, são corretas todas as condutas abaixo, EXCETO uma delas. Assinale-a.",
+        "image": null,
+        "anulada": false,
+        "questionYear": "2009",
+        "alternatives": [
+          {
+            "id": 1,
+            "description": "Obtenção de acesso venoso."
+          },
+          {
+            "id": 2,
+            "description": "Coleta de exames laboratoriais como tempo de protrombina (TP), tempo de tromboplastina ativado (TTPA), contagem de plaquetas, glicemia, entre outros."
+          },
+          {
+            "id": 3,
+            "description": "Realização de tomografia computadorizada de encéfalo."
+          },
+          {
+            "id": 4,
+            "description": "Administração de ácido acetilsalicílico."
+          }
+        ],
+        "rightAnswer": 4
+      },
+      {
+        "questionId": 4,
+        "question": "Um hipertenso severo, de 45 anos, já com insuficiência renal, mas ainda sem tratamento dialítico, é internado no CTI por encefalopatia hipertensiva. Inicia-se infusão de nitroprussiato de sódio e a PAM é mantida ao redor de 110 mmHg. Após 48 horas, por anorexia, náuseas e vômitos, ainda não tem conseguido receber regularmente a medicação anti-hipertensiva oral. A dose de nitroprussiato de sódio é de 7 microgramas/Kg/min. A creatinina é 4,4, o bicarbonato é 22 e o hemograma e os eletrólitos são normais. O paciente, além das queixas digestivas, refere fraqueza, cansaço e apresenta-se desorientado e com ideias delirantes. Não há outra alteração no exame neurológico. Qual a provável causa destas manifestações?",
+        "image": null,
+        "anulada": false,
+        "questionYear": "2009",
+        "alternatives": [
+          {
+            "id": 1,
+            "description": "Intoxicação por tiocianato, que é dialisável."
+          },
+          {
+            "id": 2,
+            "description": "Intoxicação por tiocianato, que não é dialisável."
+          },
+          {
+            "id": 3,
+            "description": "Intoxicação por tiossulfato, que é dialisável."
+          },
+          {
+            "id": 4,
+            "description": "Intoxicação por tiossulfato, que não é dialisável."
+          },
+          {
+            "id": 5,
+            "description": "Insuficiência vascular cerebral."
+          }
+        ],
+        "rightAnswer": 1
+      },
+      {
+        "questionId": 5,
+        "question": "Considere as seguintes afirmações sobre os efeitos hemodinâmicos da ventilação.\nI - Os efeitos hemodinâmicos da ventilação com pressão positiva são causados por alterações na pressão intratorácica e no volume pulmonar.\nII - Durante o esforço inspiratório, em ventilação espontânea, o aumento do retorno venoso se dá pela diminuição da pressão atrial direita e da pressão intra-abdominal.\nIII- Durante a inspiração com pressão positiva, o aumento da pressão intratorácica e a diminuição da pressão atrial direita levam a uma diminuição do retorno venoso e do enchimento do ventrículo direito, com consequente diminuição do volume de ejeção ventricular direita.",
+        "image": null,
+        "anulada": false,
+        "questionYear": "2009",
+        "alternatives": [
+          {
+            "id": 1,
+            "description": "Apenas I."
+          },
+          {
+            "id": 2,
+            "description": "Apenas II."
+          },
+          {
+            "id": 3,
+            "description": "Apenas III."
+          },
+          {
+            "id": 4,
+            "description": "Apenas I e II."
+          },
+          {
+            "id": 5,
+            "description": "I, II e III."
+          }
+        ],
+        "rightAnswer": 1
+      },
+      {
+        "questionId": 6,
+        "question": "Sobre o pós-operatório precoce do transplante pulmonar, assinale a alternativa INCORRETA.",
+        "image": null,
+        "anulada": false,
+        "questionYear": "2009",
+        "alternatives": [
+          {
+            "id": 1,
+            "description": "Nas primeiras 72h do pós-operatório, a ressuscitação volêmica pode levar à congestão pulmonar."
+          },
+          {
+            "id": 2,
+            "description": "As complicações da via aérea são relacionadas à infecção fúngica."
+          },
+          {
+            "id": 3,
+            "description": "A injúria de isquemia-reperfusão é a causa mais frequente de falência respiratória e de morbidade precoce."
+          },
+          {
+            "id": 4,
+            "description": "Durante as primeiras 72h de pós-operatório, mais de 95% dos pacientes apresentam raio X de tórax com infiltrado no pulmão transplantado."
+          },
+          {
+            "id": 5,
+            "description": "Em transplante pulmonar bilateral, edema pulmonar unilateral pode ocorrer devido à obstrução venosa do enxerto."
+          }
+        ],
+        "rightAnswer": 2
+      },
+      {
+        "questionId": 7,
+        "question": "Sobre infecção de cateteres venosos centrais, assinale a alternativa INCORRETA.",
+        "image": null,
+        "anulada": false,
+        "questionYear": "2009",
+        "alternatives": [
+          {
+            "id": 1,
+            "description": "Uso de cateteres revestidos com prata tem evidência de reduzir colonização ou bacteremia."
+          },
+          {
+            "id": 2,
+            "description": "Antissepsia cutânea com clorexedina é preferencial quando da colocação do cateter."
+          },
+          {
+            "id": 3,
+            "description": "Embora colonização antecipe a infecção, cateteres colonizados podem não causar infecção."
+          },
+          {
+            "id": 4,
+            "description": "Métodos de barreira completos, quando da colocação do cateter, reduzem taxas de colonização e de infecção."
+          },
+          {
+            "id": 5,
+            "description": "Candida sp. é o patógeno associado à maior mortalidade proporcional em infecção sanguínea relacionada a cateter."
+          }
+        ],
+        "rightAnswer": 1
+      },
+      {
+        "questionId": 8,
+        "question": "Em relação à fisiopatologia da Síndrome de Angústia Respiratória Aguda (SARA), assinale a alternativa INCORRETA.",
+        "image": null,
+        "anulada": false,
+        "questionYear": "2009",
+        "alternatives": [
+          {
+            "id": 1,
+            "description": "A vasoconstrição hipóxica, reflexo autorregulatório presente no pulmão normal, encontra-se alterada no pulmão doente, levando a um aumento do “shunt” pulmonar."
+          },
+          {
+            "id": 2,
+            "description": "A fase tardia da SARA é caracterizada pela dificuldade em retirar o suporte ventilatório; uma das causas dela é a capacidade residual pulmonar que se encontra aumentada."
+          },
+          {
+            "id": 3,
+            "description": "O menor volume pulmonar residual na SARA é resultante de alvéolos preenchidos por líquido ou colapsados, o chamado “baby lung”."
+          },
+          {
+            "id": 4,
+            "description": "Na fase tardia da SARA, podem ocorrer piora da complacência pulmonar e aumento do espaço morto."
+          },
+          {
+            "id": 5,
+            "description": "A resistência vascular pulmonar está comumente elevada, resultante da vasoconstrição induzida pela hipóxia e por obstrução trombótica da microvasculatura, o que pode levar à hipertensão pulmonar, inclusive com repercussão na função ventricular direita."
+          }
+        ],
+        "rightAnswer": 2
+      },
+      {
+        "questionId": 9,
+        "question": "Que método de substituição renal seria recomendado para um paciente com choque séptico e insuficiência renal aguda?",
+        "image": null,
+        "anulada": false,
+        "questionYear": "2009",
+        "alternatives": [
+          {
+            "id": 1,
+            "description": "Método contínuo."
+          },
+          {
+            "id": 2,
+            "description": "Método intermitente convencional."
+          },
+          {
+            "id": 3,
+            "description": "Diálise peritoneal."
+          },
+          {
+            "id": 4,
+            "description": "Método contínuo ou intermitente."
+          },
+          {
+            "id": 5,
+            "description": "Método intermitente estendido."
+          }
+        ],
+        "rightAnswer": 4
+      },
+      {
+        "questionId": 10,
+        "question": "Sobre infecções em pacientes críticos, assinale a alternativa INCORRETA.",
+        "image": null,
+        "anulada": false,
+        "questionYear": "2009",
+        "alternatives": [
+          {
+            "id": 1,
+            "description": "Em paciente crítico com febre nova, porém sem hipotensão ou disfunção orgânica nova, pode-se manter o cateter venoso central, desde que sejam coletadas hemoculturas periféricas (ao menos uma) e do cateter venoso central (ao menos uma), sendo opcional o uso de antimicrobiano enquanto se aguarda o resultado das culturas."
+          },
+          {
+            "id": 2,
+            "description": "Em paciente crítico com febre nova, porém sem hipotensão ou disfunção orgânica nova, as culturas periféricas e do catater venoso central foram diagnósticas para infecção de corrente sanguínea relacionada a cateter por Staphylococcus aureus. O recomendado é retirar o cateter e tratar com antimicrobiano por pelo menos 14 dias."
+          },
+          {
+            "id": 3,
+            "description": "Quando há suspeita de infecção pulmonar por Aspergillus, recomenda-se utilizar anfotericina-B deoxicolato ou fluconazol na dose de 800 mg/dia."
+          },
+          {
+            "id": 4,
+            "description": "Pacientes com infecção por Candida Krusei ou glabrata não devem ser tratados inicialmente com fluconazol."
+          },
+          {
+            "id": 5,
+            "description": "Um paciente com desnutrição grave que desenvolveu febre nova sem hipotensão ou disfunção orgânica nova, recebendo nutrição parenteral total, não submetido a cirurgias e que apresenta leveduras no exame qualitativo de urina não é um forte candidato a receber terapia antifúngica em um primeiro momento."
+          }
+        ],
+        "rightAnswer": 3
+      },
+      {
+        "questionId": 11,
+        "question": "Considere os procedimentos abaixo.\nI - Objetivar a PVC >ou = 8mmHg (>ou= 12mmHg em pacientes que estão em ventilação mecânica).\nII - Usar dose baixa de dopamina para proteção renal.\nIII- Usar dobutamina em pacientes com disfunção miocárdica, pressões de enchimento cardíacas elevadas e índice cardíaco baixo.\nQuais são recomendações do “Surviving Sepsis Campaign” ?",
+        "image": null,
+        "anulada": false,
+        "questionYear": "2009",
+        "alternatives": [
+          {
+            "id": 1,
+            "description": "Apenas I."
+          },
+          {
+            "id": 2,
+            "description": "Apenas II."
+          },
+          {
+            "id": 3,
+            "description": "Apenas III."
+          },
+          {
+            "id": 4,
+            "description": "Apenas I e III."
+          },
+          {
+            "id": 5,
+            "description": "I, II e III."
+          }
+        ],
+        "rightAnswer": 4
+      },
+      {
+        "questionId": 12,
+        "question": "Com relação ao atendimento de paciente terminal, considere as afirmações abaixo.\nI - É admissível utilizar medicação analgésica com o objetivo de reduzir dor insuportável, mesmo que um efeito colateral não intencional seja a morte do indivíduo.\nII - No Brasil, a eutanásia é considerada como sendo homicídio.\nIII- A futilidade terapêutica é sempre inaceitável.\nQuais estão corretas?",
+        "image": null,
+        "anulada": false,
+        "questionYear": "2009",
+        "alternatives": [
+          {
+            "id": 1,
+            "description": "Apenas I."
+          },
+          {
+            "id": 2,
+            "description": "Apenas II."
+          },
+          {
+            "id": 3,
+            "description": "Apenas III."
+          },
+          {
+            "id": 4,
+            "description": "Apenas I e II."
+          },
+          {
+            "id": 5,
+            "description": "I, II e III."
+          }
+        ],
+        "rightAnswer": 4
+      },
+      {
+        "questionId": 13,
+        "question": "Considere o ECG abaixo, de uma mulher de 60 anos, internada no CTI por embolia pulmonar, que apresenta palpitações de início súbito. Qual das drogas a seguir NÃO pode ser usada para o manejo da situação?",
+        "image": "./images/13-2009.png",
+        "anulada": false,
+        "questionYear": "2009",
+        "alternatives": [
+          {
+            "id": 1,
+            "description": "Adenosina."
+          },
+          {
+            "id": 2,
+            "description": "Esmolol."
+          },
+          {
+            "id": 3,
+            "description": "Verapamil."
+          },
+          {
+            "id": 4,
+            "description": "Digoxina."
+          },
+          {
+            "id": 5,
+            "description": "Diltiazem."
+          }
+        ],
+        "rightAnswer": 1
+      },
+      {
+        "questionId": 14,
+        "question": "Um paciente masculino, de 22 anos, vítima de atropelamento, é atendido no Pronto Socorro, onde é feito o diagnóstico de fratura de tíbia direita. Realizada imobilização com tala gessada, foi liberado para casa, pois o traumatologista da cidade estava viajando. Vinte e quatro horas depois, o paciente retorna para a emergência com febre, taquicardia, taquipneia com hipoxemia e coma. Durante o atendimento, apresenta crise convulsiva tônico-clônica generalizada. Com relação à hipótese diagnóstica deste caso, é INCORRETO afirmar que",
+        "image": null,
+        "anulada": false,
+        "questionYear": "2009",
+        "alternatives": [
+          {
+            "id": 1,
+            "description": "O achado mais comum na tomografia computadorizada crânio-encefálica é de edema cerebral difuso."
+          },
+          {
+            "id": 2,
+            "description": "Petéquias são achados frequentes."
+          },
+          {
+            "id": 3,
+            "description": "O hemograma pode mostrar trombocitopenia."
+          },
+          {
+            "id": 4,
+            "description": "O tratamento de escolha é o uso de corticosteroides com benefício comprovado por estudos randomizados."
+          },
+          {
+            "id": 5,
+            "description": "O tratamento definitivo precoce da fratura com fixação externa poderia prevenir o quadro."
+          }
+        ],
+        "rightAnswer": 4
+      },
+      {
+        "questionId": 15,
+        "question": "Em relação ao tratamento da anafilaxia, assinale a alternativa INCORRETA.",
+        "image": null,
+        "anulada": false,
+        "questionYear": "2009",
+        "alternatives": [
+          {
+            "id": 1,
+            "description": "O ipratrópio inalatório pode ser especialmente útil no manejo do broncoespasmo em pacientes que usam betabloqueadores."
+          },
+          {
+            "id": 2,
+            "description": "Corticoides endovenosos em altas doses devem ser administrados precocemente no curso do tratamento."
+          },
+          {
+            "id": 3,
+            "description": "A administração subcutânea de adrenalina é preferida em relação ao uso intramuscular porque a absorção é mais rápida."
+          },
+          {
+            "id": 4,
+            "description": "Se a anafilaxia for mais severa, a adrenalina deve ser administrada por via endovenosa em doses intermitentes ou mesmo em infusão contínua."
+          },
+          {
+            "id": 5,
+            "description": "O glucagon pode ser efetivo em pacientes irresponsivos à adrenalina."
+          }
+        ],
+        "rightAnswer": 3
+      },
+      {
+        "questionId": 16,
+        "question": "Considere as condições abaixo. I - diabetes insipidus II - diurese osmótica III- hipotermia Quais delas podem ser consideradas como causa de hipovolemia no paciente em morte encefálica?",
+        "image": null,
+        "anulada": false,
+        "questionYear": "2009",
+        "alternatives": [
+          {
+            "id": 1,
+            "description": "Apenas I."
+          },
+          {
+            "id": 2,
+            "description": "Apenas II."
+          },
+          {
+            "id": 3,
+            "description": "Apenas III."
+          },
+          {
+            "id": 4,
+            "description": "Apenas I e II."
+          },
+          {
+            "id": 5,
+            "description": "I, II e III."
+          }
+        ],
+        "rightAnswer": 5
+      },
+      {
+        "questionId": 17,
+        "question": "O tratamento cirúrgico da endocardite bacteriana pode ser indicado em algumas situações consideradas de maior risco. Considere as situações abaixo. I - Vegetações com dimensão superior a 10 mm. II - Abscesso perivalvar ou formação de fístula. III- Endocardite fúngica. Quais constituem indicações absolutas de tratamento cirúrgico de endocardite, com substituição de válvula nativa por prótese valvar?",
+        "image": null,
+        "anulada": false,
+        "questionYear": "2009",
+        "alternatives": [
+          {
+            "id": 1,
+            "description": "Apenas I."
+          },
+          {
+            "id": 2,
+            "description": "Apenas II."
+          },
+          {
+            "id": 3,
+            "description": "Apenas III."
+          },
+          {
+            "id": 4,
+            "description": "Apenas I e II."
+          },
+          {
+            "id": 5,
+            "description": "Apenas II e III."
+          }
+        ],
+        "rightAnswer": 5
+      },
+      {
+        "questionId": 18,
+        "question": "Qual das condutas abaixo é recomendação para o manejo do traumatismo crânio-encefálico grave?",
+        "image": null,
+        "anulada": false,
+        "questionYear": "2009",
+        "alternatives": [
+          {
+            "id": 1,
+            "description": "Fazer uso profilático de anticonvulsivantes para prevenir convulsões pós-traumáticas."
+          },
+          {
+            "id": 2,
+            "description": "Realizar monitorização da pressão intracerebral apenas quando Glasgow estiver abaixo de 5 com tomografia de crânio anormal."
+          },
+          {
+            "id": 3,
+            "description": "Usar hiperventilação profilática (PaCO2 menor/igual a 35 mmHg) durante as primeiras 24h pós-trauma."
+          },
+          {
+            "id": 4,
+            "description": "Administrar corticoides para melhorar o desfecho ou reduzir a pressão intracraniana."
+          },
+          {
+            "id": 5,
+            "description": "Evitar ou corrigir imediatamente hipotensão (PAS < 90 mmHg) e hipóxia (Sat < 99% ou PO2 < 60 mmHg)."
+          }
+        ],
+        "rightAnswer": 5
+      },
+      {
+        "questionId": 19,
+        "question": "Qual das seguintes condições é fator de risco independente para formação de úlceras de stress?",
+        "image": null,
+        "anulada": false,
+        "questionYear": "2009",
+        "alternatives": [
+          {
+            "id": 1,
+            "description": "Insuficiência renal."
+          },
+          {
+            "id": 2,
+            "description": "Grandes queimaduras."
+          },
+          {
+            "id": 3,
+            "description": "Necessidade de ventilação mecânica prolongada (mais de 48 horas)."
+          },
+          {
+            "id": 4,
+            "description": "Infarto do miocárdio."
+          },
+          {
+            "id": 5,
+            "description": "Trauma crânio-encefálico."
+          }
+        ],
+        "rightAnswer": 3
+      },
+      {
+        "questionId": 20,
+        "question": "Qual das condições abaixo NÃO é indicação de transplante de fígado em um paciente hepatopata crônico?",
+        "image": null,
+        "anulada": false,
+        "questionYear": "2009",
+        "alternatives": [
+          {
+            "id": 1,
+            "description": "Síndrome hepato-renal."
+          },
+          {
+            "id": 2,
+            "description": "Ascite refratária."
+          },
+          {
+            "id": 3,
+            "description": "Peritonite bacteriana espontânea."
+          },
+          {
+            "id": 4,
+            "description": "Síndrome hepato-pulmonar."
+          },
+          {
+            "id": 5,
+            "description": "Prurido grave."
+          }
+        ],
+        "rightAnswer": 4
+      },
+      {
+        "questionId": 21,
+        "question": "Considere as seguintes afirmações. I - Para maior acurácia da medida da temperatura axilar, o sensor deve estar posicionado na linha axilar média. II - Na aferição da pressão arterial pelo método de oscilometria, a maior intensidade de sinal é observada na pressão sistólica. III- A capnografia é útil na determinação do retorno da circulação espontânea após uma parada cardiorrespiratória. Quais estão corretas?",
+        "image": null,
+        "anulada": false,
+        "questionYear": "2009",
+        "alternatives": [
+          {
+            "id": 1,
+            "description": "Apenas I."
+          },
+          {
+            "id": 2,
+            "description": "Apenas II."
+          },
+          {
+            "id": 3,
+            "description": "Apenas III."
+          },
+          {
+            "id": 4,
+            "description": "Apenas I e II."
+          },
+          {
+            "id": 5,
+            "description": "Apenas II e III."
+          }
+        ],
+        "rightAnswer": 3
+      },
+      {
+        "questionId": 22,
+        "question": "Paciente no primeiro pós-operatório de laparotomia exploradora apresenta quadro de íleo com abundante drenagem pela SNG. Os exames laboratoriais demonstraram alcalose metabólica, hipocalemia e função renal normal. Qual das seguintes opções permite avaliação mais acurada do estado volêmico deste paciente?",
+        "image": null,
+        "anulada": false,
+        "questionYear": "2009",
+        "alternatives": [
+          {
+            "id": 1,
+            "description": "Sódio urinário baixo."
+          },
+          {
+            "id": 2,
+            "description": "Cloro urinário baixo."
+          },
+          {
+            "id": 3,
+            "description": "Bicarbonato urinário baixo."
+          },
+          {
+            "id": 4,
+            "description": "Sódio urinário elevado."
+          },
+          {
+            "id": 5,
+            "description": "pH urinário inferior a 5,5."
+          }
+        ],
+        "rightAnswer": 2
+      },
+      {
+        "questionId": 23,
+        "question": "O que o registro de artéria pulmonar abaixo sugere?",
+        "image": "/images/23-2009.png",
+        "anulada": false,
+        "questionYear": "2009",
+        "alternatives": [
+          {
+            "id": 1,
+            "description": "Insuficiência aórtica."
+          },
+          {
+            "id": 2,
+            "description": "Insuficiência tricúspide."
+          },
+          {
+            "id": 3,
+            "description": "Insuficiência mitral."
+          },
+          {
+            "id": 4,
+            "description": "Estenose mitral."
+          },
+          {
+            "id": 5,
+            "description": "Estenose tricúspide."
+          }
+        ],
+        "rightAnswer": 3
+      },
+      {
+        "questionId": 24,
+        "question": "Um homem de 75Kg (peso atual) e peso usual de 73Kg, com 1,69m de altura, está no terceiro dia de evolução de pancreatite aguda grave. Ele apresenta também não disponibilidade atual do trato digestivo, hipermetabólico e catabólico, glicemias capilares oscilando entre 150‐300mg%, e está sendo submetido a ventilação mecânica devido a insuficiência ventilatória associada (relação PaO2/FiO2 de 180). Qual a prescrição de nutrição parenteral (já considerando sua progressão para a oferta calórico‐energética ideal) que melhor contemplaria as necessidades deste paciente?",
+        "image": null,
+        "anulada": false,
+        "questionYear": "2009",
+        "alternatives": [
+          {
+            "id": 1,
+            "description": "Solução de glicose 50%= 800mL, solução de aminoácidos 10%= 1000mL, exclusão de lipídios devido a pancreatite, inclusão de 40g de glutamina cristalina e água (100mL) para completar a quantidade de água a ser administrada."
+          },
+          {
+            "id": 2,
+            "description": "Solução de glicose 50%= 500mL, solução de aminoácidos 10%= 1200mL, solução de lipídios TCM/TCL 20% (combinando moléculas de ácidos graxos de cadeia média e de cadeia longa)= 300mL e água (200mL) para completar a quantidade de água a ser administrada."
+          },
+          {
+            "id": 3,
+            "description": "Solução de glicose 50%= 400mL, solução de aminoácidos ramificados 10%= 1500mL, solução de lipídios TCM 20% (apenas cadeia média)= 400mL e água (500mL) para completar a quantidade de água a ser administrada."
+          },
+          {
+            "id": 4,
+            "description": "Solução de glicose 50%= 500mL, solução de aminoácidos 10%= 750mL, solução de lipídios estruturados 20% (combinando ácidos graxos de cadeia média e longa na mesma molécula)= 500mL e água (500mL) para completar a quantidade de água a ser administrada."
+          },
+          {
+            "id": 5,
+            "description": "Solução de glicose 50%= 200mL, solução de aminoácidos a 10%= 2000mL, solução de lipídios 20% TCM/TCL (combinando moléculas de ácidos graxos de cadeia média e de cadeia longa)= 100mL, caracterizando a proposta de hipoalimentação permissiva."
+          }
+        ],
+        "rightAnswer": 2
+      },
+      {
+        "questionId": 25,
+        "question": "A respeito da atividade do eixo hipotálamo-hipófise-adrenal no paciente crítico, assinale a alternativa INCORRETA.",
+        "image": null,
+        "anulada": false,
+        "questionYear": "2009",
+        "alternatives": [
+          {
+            "id": 1,
+            "description": "Perante situações de estresse, como choque séptico, a resposta fisiológica esperada é a elevação dos níveis de ACTH."
+          },
+          {
+            "id": 2,
+            "description": "Disfunção adrenal é incomum no paciente portador de choque séptico."
+          },
+          {
+            "id": 3,
+            "description": "Cortisol randômico sérico ou sua variação após teste de cortrosina com 250 ug são preconizados para diagnóstico de disfunção adrenal no paciente crítico."
+          },
+          {
+            "id": 4,
+            "description": "CIRCI (critical illness-related corticosteroid insufficiency) pode dever-se ao déficit na produção de cortisol ou à resistência tecidual à ação deste hormônio."
+          },
+          {
+            "id": 5,
+            "description": "Disfunção adrenal no paciente crítico pode dever-se à lesão estrutural das adrenais (por exemplo, sangramento) bem como dever-se à síndrome reversível."
+          }
+        ],
+        "rightAnswer": 2
+      },
+      {
+        "questionId": 26,
+        "question": "Paciente submetido a uma cirurgia cardíaca apresenta o seguinte esquema de enchimento ventricular e ejeção e o seguinte registro de fluxo/pressão intra-ventricular, após a utilização de terapia que reduziu a pós-carga de A para B. Qual a interpretação adequada ao caso?",
+        "image": "/images/26-2009.png",
+        "anulada": false,
+        "questionYear": "2009",
+        "alternatives": [
+          {
+            "id": 1,
+            "description": "Redução do enchimento ventricular."
+          },
+          {
+            "id": 2,
+            "description": "Redução da pressão na raiz da aorta."
+          },
+          {
+            "id": 3,
+            "description": "Aumento do volume ejetado."
+          },
+          {
+            "id": 4,
+            "description": "Aumento do estado inotrópico."
+          },
+          {
+            "id": 5,
+            "description": "Tamponamento cardíaco."
+          }
+        ],
+        "rightAnswer": 3
+      },
+      {
+        "questionId": 27,
+        "question": "Um homem de 53 anos está internado na UTI por Síndrome Coronariana Aguda. Durante o exame físico, torna-se irresponsivo e sem pulso. O monitor mostra FV evidente, sendo iniciadas as compressões torácicas. Qual a medida mais eficiente a ser tomada?",
+        "image": null,
+        "anulada": false,
+        "questionYear": "2009",
+        "alternatives": [
+          {
+            "id": 1,
+            "description": "Cardioversão elétrica."
+          },
+          {
+            "id": 2,
+            "description": "Desfibrilação imediata."
+          },
+          {
+            "id": 3,
+            "description": "Manutenção das manobras de RCP por 2 minutos antes da desfibrilação."
+          },
+          {
+            "id": 4,
+            "description": "Intubação e ventilação com máscara–válvula."
+          },
+          {
+            "id": 5,
+            "description": "Administração de Amiodarona."
+          }
+        ],
+        "rightAnswer": 2
+      },
+      {
+        "questionId": 28,
+        "question": "Em relação às dissecções aórticas, considere as afirmações abaixo. I - O controle da pressão arterial pode ser feito com o emprego de um betabloqueador associado ao nitroprussiato de sódio. II - A aortografia é sempre necessária, pois identifica o ponto de ruptura e tem sensibilidade e especificidade de 95 a 100%. III - As dissecções são, mais frequentemente, do tipo B da classificação de Stanford, envolvendo, predominantemente, a aorta descendente. IV - Deve-se postergar o tratamento cirúrgico das dissecções da aorta ascendente, pois a mortalidade cirúrgica está entre 60 e 80%. Quais estão corretas?",
+        "image": null,
+        "anulada": false,
+        "questionYear": "2009",
+        "alternatives": [
+          {
+            "id": 1,
+            "description": "Apenas I."
+          },
+          {
+            "id": 2,
+            "description": "Apenas I e III."
+          },
+          {
+            "id": 3,
+            "description": "Apenas II e IV."
+          },
+          {
+            "id": 4,
+            "description": "Apenas I, III e IV."
+          },
+          {
+            "id": 5,
+            "description": "Apenas II, III e IV."
+          }
+        ],
+        "rightAnswer": 1
+      },
+      {
+        "questionId": 29,
+        "question": "Em relação à lesão pulmonar aguda induzida por transfusão (TRALI), considere as seguintes afirmações. I - Está associada com transfusão de concentrado de hemácias, plaquetas e sangue total, mas não de plasma fresco. II - A hipótese mais aceita para o mecanismo fisiopatológico se baseia na reação desencadeada por infusão de anticorpos do doador e ativação de granulócitos (two-hit hypothesis). III- O desenvolvimento de TRALI está associado a sobrecarga de volume causado pela infusão dos hemoderivados. IV - Os sintomas costumam aparecer entre 12-24h após a transfusão. Quais estão corretas?",
+        "image": null,
+        "anulada": false,
+        "questionYear": "2009",
+        "alternatives": [
+          {
+            "id": 1,
+            "description": "Apenas I."
+          },
+          {
+            "id": 2,
+            "description": "Apenas II."
+          },
+          {
+            "id": 3,
+            "description": "Apenas I, II e IV."
+          },
+          {
+            "id": 4,
+            "description": "Apenas I, III e IV."
+          },
+          {
+            "id": 5,
+            "description": "Apenas II, III e IV."
+          }
+        ],
+        "rightAnswer": 2
+      },
+      {
+        "questionId": 30,
+        "question": "Em relação ao uso de hemoderivados em cuidados intensivos, considere as afirmações abaixo. I - Plasma fresco está indicado em todos os pacientes com INR > 7 para minimizar o risco de sangramento. II - Níveis de hemoglobina abaixo de 9 g/dL aumentam o risco cardiovascular dos pacientes, sendo necessária transfusão de concentrado de hemácias nestas circunstâncias. III- Mais de 50.000 plaquetas/uL é um nível considerado seguro para a maioria dos procedimentos invasivos em cuidados intensivos, sem necessidade de transfusão de plaquetas. Quais estão corretas?",
+        "image": null,
+        "anulada": false,
+        "questionYear": "2009",
+        "alternatives": [
+          {
+            "id": 1,
+            "description": "Apenas I."
+          },
+          {
+            "id": 2,
+            "description": "Apenas II."
+          },
+          {
+            "id": 3,
+            "description": "Apenas III."
+          },
+          {
+            "id": 4,
+            "description": "Apenas I e II."
+          },
+          {
+            "id": 5,
+            "description": "I, II e III."
+          }
+        ],
+        "rightAnswer": 3
+      },
+      {
+        "questionId": 31,
+        "question": "Observe as curvas fluxo-volume desenhadas abaixo. Quais as alterações que estas curvas expressam?",
+        "image": "/images/31-2009.png",
+        "anulada": false,
+        "questionYear": "2009",
+        "alternatives": [
+          {
+            "id": 1,
+            "description": "Em A, broncoespasmo; em B, broncoespasmo tratado com broncodilatador."
+          },
+          {
+            "id": 2,
+            "description": "Em C, secreção; em D, secreção tratada com aspiração."
+          },
+          {
+            "id": 3,
+            "description": "Em A, broncoespasmo; em C, broncoespasmo tratado com broncodilatador."
+          },
+          {
+            "id": 4,
+            "description": "Em A, secreção; em D, secreção tratada com aspiração."
+          },
+          {
+            "id": 5,
+            "description": "Em B, broncoespasmo; em A, broncoespasmo tratado com broncodilatador."
+          }
+        ],
+        "rightAnswer": 1
+      },
+      {
+        "questionId": 32,
+        "question": "Um paciente de 60 kg, com SARA grave, encontra-se em ventilação mecânica em modo volume controlado, com volume corrente de 360 ml, frequência respiratória (FR) de 14 mpm, PEEP de 5, auto PEEP de 0, pressão de pico (Ppico) de 30, pressão de platô (Pplato) de 25, fluxo de 60 l/min e FIO2 de 50. A gasometria mostra hipoxia e retenção de CO2. Além de aumentar a FIO2, qual dos conjuntos de medidas abaixo é o mais adequado?",
+        "image": null,
+        "anulada": false,
+        "questionYear": "2009",
+        "alternatives": [
+          {
+            "id": 1,
+            "description": "Aumentar volume corrente para 420, aumentar PEEP para 15 e manter FR."
+          },
+          {
+            "id": 2,
+            "description": "Aumentar volume corrente para 420, manter PEEP e aumentar frequência respiratória para 18."
+          },
+          {
+            "id": 3,
+            "description": "Aumentar volume corrente para 420, aumentar PEEP para 10 e aumentar frequência respiratória para 18."
+          },
+          {
+            "id": 4,
+            "description": "Manter volume corrente, aumentar PEEP para 10 e aumentar frequência respiratória para 18."
+          },
+          {
+            "id": 5,
+            "description": "Manter volume corrente, aumentar PEEP para 10 e manter frequência respiratória."
+          }
+        ],
+        "rightAnswer": 4
+      },
+      {
+        "questionId": 33,
+        "question": "Qual das alternativas a seguir é o principal preditor para o diagnóstico de embolia pulmonar em um paciente com dispneia súbita?",
+        "image": null,
+        "anulada": false,
+        "questionYear": "2009",
+        "alternatives": [
+          {
+            "id": 1,
+            "description": "Hemoptise."
+          },
+          {
+            "id": 2,
+            "description": "Episódio prévio de embolia pulmonar."
+          },
+          {
+            "id": 3,
+            "description": "Imobilização por período maior que 3 dias."
+          },
+          {
+            "id": 4,
+            "description": "Taquicardia sinusal."
+          },
+          {
+            "id": 5,
+            "description": "Evidência clínica de trombose venosa profunda."
+          }
+        ],
+        "rightAnswer": 5
+      },
+      {
+        "questionId": 34,
+        "question": "Considere as seguintes afirmações em relação à cetoacidose diabética e à síndrome hiperglicêmica hiperosmolar não cetótica. I - A cetoacidose é mais comum no diabetes tipo 1; e a síndrome hiperglicêmica hiperosmolar não cetótica, no diabetes tipo 2. II - Para o cálculo aproximado da osmolaridade plasmática são utilizados os valores de sódio, potássio, cálcio, cloro, bicarbonato e albumina. III- Deve-se corrigir a hipocalemia antes de iniciar infusão de insulina no tratamento da cetoacidose. IV - Níveis elevados de amilase podem ocorrer na cetoacidose mesmo sem pancreatite associada. Quais estão corretas?",
+        "image": null,
+        "anulada": false,
+        "questionYear": "2009",
+        "alternatives": [
+          {
+            "id": 1,
+            "description": "Apenas I e II."
+          },
+          {
+            "id": 2,
+            "description": "Apenas II e III."
+          },
+          {
+            "id": 3,
+            "description": "Apenas III e IV."
+          },
+          {
+            "id": 4,
+            "description": "Apenas II, III e IV."
+          },
+          {
+            "id": 5,
+            "description": "Apenas I, III e IV."
+          }
+        ],
+        "rightAnswer": 5
+      },
+      {
+        "questionId": 35,
+        "question": "Considere as seguintes afirmações sobre atendimento de situações críticas em gestantes. I - Para a profilaxia de episódios convulsivos em paciente com pré-eclâmpsia, é recomendado o emprego de sulfato de magnésio, que pode ser administrado tanto por via intramuscular como por infusão contínua. II - Pré-eclâmpsia ou eclâmpsia ocorrem em 0,5 a 1,5% das gestações, sendo mais comum nas multíparas e após os 20 anos. III- A gestante em decúbito lateral esquerdo tem débito cardíaco maior que na posição supina. IV - Os seguintes resultados de exames caracterizam síndrome HELLP: plaquetas: 142.000; bilirrubina total: 5,2 e glicemia: 53. Quais estão corretas?",
+        "image": null,
+        "anulada": false,
+        "questionYear": "2009",
+        "alternatives": [
+          {
+            "id": 1,
+            "description": "Apenas I e II."
+          },
+          {
+            "id": 2,
+            "description": "Apenas I e III."
+          },
+          {
+            "id": 3,
+            "description": "Apenas III e IV."
+          },
+          {
+            "id": 4,
+            "description": "Apenas II, III e IV."
+          },
+          {
+            "id": 5,
+            "description": "Apenas I, III e IV."
+          }
+        ],
+        "rightAnswer": 2
+      },
+      {
+        "questionId": 36,
+        "question": "Considere as seguintes afirmações sobre atendimento a paciente em crise asmática aguda grave ou refratária. I - Na ventilação mecânica, para se reduzir a PEEP intrínseca (“auto-PEEP”), devem ser usados altos fluxos inspiratórios para aumentar o tempo expiratório. II - O uso de beta-2-agonistas por via subcutânea ou endovenosa é contraindicado pelo risco de arritmias cardíacas. III- No início da ventilação mecânica, devem-se empre- gar volumes correntes altos (ao redor de 10ml/kg) para corrigir rapidamente a acidose respiratória. Quais estão corretas?",
+        "image": null,
+        "anulada": false,
+        "questionYear": "2009",
+        "alternatives": [
+          {
+            "id": 1,
+            "description": "Apenas I."
+          },
+          {
+            "id": 2,
+            "description": "Apenas II."
+          },
+          {
+            "id": 3,
+            "description": "Apenas III."
+          },
+          {
+            "id": 4,
+            "description": "Apenas I e II."
+          },
+          {
+            "id": 5,
+            "description": "I, II e III."
+          }
+        ],
+        "rightAnswer": 1
+      },
+      {
+        "questionId": 37,
+        "question": "Considere as seguintes afirmações em relação ao emprego de sedativos e analgésicos nos pacientes em ventilação mecânica invasiva. I - A maioria dos pacientes apresenta dor, e os opioides (morfina, fentanil) são preferentemente recomendados para seu controle. II - A metadona, empregada por via digestiva quando da retirada de opioides injetáveis, não apresenta efeito analgésico. III- A clonidina e a dexmedetomidina são agonistas adrenérgicos alfa-2 seletivos com ação sedativa. IV - A indução de amnésia é recomendada a todos os pacientes, e os benzodiazepínicos (lorazepan e midazolan) e o propofol são os fármacos mais empregados. Quais estão corretas?",
+        "image": null,
+        "anulada": false,
+        "questionYear": "2009",
+        "alternatives": [
+          {
+            "id": 1,
+            "description": "Apenas I e II."
+          },
+          {
+            "id": 2,
+            "description": "Apenas I e III."
+          },
+          {
+            "id": 3,
+            "description": "Apenas II e IV."
+          },
+          {
+            "id": 4,
+            "description": "Apenas II, III e IV."
+          },
+          {
+            "id": 5,
+            "description": "Apenas I, III e IV."
+          }
+        ],
+        "rightAnswer": 2
+      },
+      {
+        "questionId": 38,
+        "question": "Considere os seguintes esquemas antimicrobianos iniciais. I - Paciente imunocompetente: piperacilina-tazobactam mais gentamicina. II - Paciente neutropênico: ampicilina-sulbactam mais fluconazol. III- Paciente usuário de drogas endovenosas: oxacilina mais gentamicina. IV - Paciente esplenectomizado: ceftriaxone. Quais são adequados para o tratamento de sepse grave, sem origem definida, no paciente adulto com função renal normal?",
+        "image": null,
+        "anulada": false,
+        "questionYear": "2009",
+        "alternatives": [
+          {
+            "id": 1,
+            "description": "Apenas I e II."
+          },
+          {
+            "id": 2,
+            "description": "Apenas I e III."
+          },
+          {
+            "id": 3,
+            "description": "Apenas II e IV."
+          },
+          {
+            "id": 4,
+            "description": "Apenas II, III e IV."
+          },
+          {
+            "id": 5,
+            "description": "Apenas I, III e IV."
+          }
+        ],
+        "rightAnswer": 5
+      },
+      {
+        "questionId": 39,
+        "question": "Considere as seguintes afirmações sobre o tratamento da SARA. I - A ventilação de alta frequência consiste em volumes correntes muito baixos (1-2 ml/Kg), com frequências de até 20 ciclos por segundo, teoricamente minimizando o risco de lesão pela abertura e fechamento repetitivos das unidades alveolares. II - O uso de posição prona na ventilação de pacientes com SARA resulta em menos atelectasia e melhora na relação V/Q, com melhora na oxigenação, mas sem efeito na mortalidade. III- O uso de corticoesteroides não demonstrou benefício no tratamento da SARA em nenhum estágio de evolução da doença. Quais estão corretas?",
+        "image": null,
+        "anulada": false,
+        "questionYear": "2009",
+        "alternatives": [
+          {
+            "id": 1,
+            "description": "Apenas I."
+          },
+          {
+            "id": 2,
+            "description": "Apenas II."
+          },
+          {
+            "id": 3,
+            "description": "Apenas III."
+          },
+          {
+            "id": 4,
+            "description": "Apenas I e II."
+          },
+          {
+            "id": 5,
+            "description": "I, II e III."
+          }
+        ],
+        "rightAnswer": 4
+      }
+    ]
+  }
+]

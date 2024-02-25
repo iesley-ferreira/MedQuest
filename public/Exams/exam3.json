@@ -1,0 +1,1162 @@
+[
+  {
+    "examId": 3,
+    "nome": "HCPA-2013",
+    "ano": "2013",
+    "edital": "Edital",
+    "descrição": "MÉDICO (Medicina Intensiva)",
+    "processoSeletivo": 50,
+    "questions": [
+      {
+        "questionId": 1,
+        "question": "Sobre a monitorização da pressão de CO2 (PCO2) expirado final, pode-se afirmar que",
+        "image": null,
+        "anulada": false,
+        "questionYear": "2013",
+        "alternatives": [
+          {
+            "id": 1,
+            "description": "Em pacientes respirando espontaneamente, o PCO2 expirado final (PETCO2) está muito próximo da PCO2 venosa (PvCO2)."
+          },
+          {
+            "id": 2,
+            "description": "A diferença entre o PETCO2 e a PaCO2 diminui em pacientes com doença pulmonar."
+          },
+          {
+            "id": 3,
+            "description": "O aumento da diferença entre o PETCO2 e a PaCO2 está associado com o aumento da razão espaço morto/volume corrente."
+          },
+          {
+            "id": 4,
+            "description": "É possível prever as diferenças entre a PaCO2 e o PETCO2, quando a respiração é irregular ou rápida, ou o tempo expiratório é prolongado."
+          },
+          {
+            "id": 5,
+            "description": "A PaCO2 pode ser substituída pelo PETCO2 no momento em que se faz ajuste do respirador."
+          }
+        ],
+        "rightAnswer": 3
+      },
+      {
+        "questionId": 3,
+        "question": "Um paciente em ventilação mecânica invasiva, em modo pressão assistida-controla e curarizado adequadamente, é observado em pausa inspiratória como tendo uma diferença entre a pressão de pico e de platô de 22 cm de água. Esse achado sugere",
+        "image": null,
+        "anulada": false,
+        "questionYear": "2013",
+        "alternatives": [
+          {
+            "id": 1,
+            "description": "obstrução de tubo traqueal."
+          },
+          {
+            "id": 2,
+            "description": "hiperinsuflação (alçaponamento aéreo)."
+          },
+          {
+            "id": 3,
+            "description": "ausência de histerese significativa."
+          },
+          {
+            "id": 4,
+            "description": "resistência elevada em via aérea."
+          },
+          {
+            "id": 5,
+            "description": "baixa complacência estática da caixa torácica."
+          }
+        ],
+        "rightAnswer": 4
+      },
+      {
+        "questionId": 4,
+        "question": "Paciente feminina, branca, 50 anos, lúcida, orientada, está internada com diagnóstico de neoplasia de pulmão metastática e sobrevida estimada em 6 meses. Ciente de seu prognóstico, concorda com o tratamento com prioridades paliativas. Há registro, em prontuário de concordância, para que não seja submetida à reanimação cardiopulmonar, nem a tratamentos fúteis de prolongamento da vida. Após 7 dias de internação, inicia quadro de febre, mal-estar, tosse intensa com expectoração purulenta fétida e abundante, além de dor ventilatório-dependente, sem qualquer instabilidade ventilatória, hemodinâmica, renal ou neurológica. Tendo sido diagnosticado abscesso pulmonar, qual a conduta mais adequada?",
+        "image": null,
+        "anulada": false,
+        "questionYear": "2013",
+        "alternatives": [
+          {
+            "id": 1,
+            "description": "Não tratar infecção vigente e iniciar imediatamente sedação contínua profunda."
+          },
+          {
+            "id": 2,
+            "description": "Analgesia, coletar culturas e iniciar antibióticos conforme microbiologia hospitalar, com o intuito de minimizar tosse, secreção e odor das secreções."
+          },
+          {
+            "id": 3,
+            "description": "Coletar culturas, iniciar antibióticos de amplo espectro, solicitar leito no CTI, se alguma instabilidade surgir, no intuito de resolver o abscesso e aumentar a sobrevida."
+          },
+          {
+            "id": 4,
+            "description": "Acesso venoso central, NPT, se houver ingesta calórica inadequada, fibrobroncoscopia para lavado broncoalveolar, antibioticoterapia de amplo espectro, reanimar, se houver parada cardiorrespiratória, pois intercorrência clínica não está relacionada diretamente à neoplasia."
+          },
+          {
+            "id": 5,
+            "description": "Não informar o novo diagnóstico à paciente e dar alta hospitalar, independentemente dos sintomas novos, já que o prognóstico está definido."
+          }
+        ],
+        "rightAnswer": 2
+      },
+      {
+        "questionId": 5,
+        "question": "Em relação à síndrome hepatopulmonar e à hipertensão portopulmonar do paciente com cirrose hepática, pode-se afirmar que",
+        "image": null,
+        "anulada": false,
+        "questionYear": "2013",
+        "alternatives": [
+          {
+            "id": 1,
+            "description": "Ambas as condições clínicas acima são contraindicações para o transplante de fígado."
+          },
+          {
+            "id": 2,
+            "description": "O shunt intrapulmonar, na síndrome hepatopulmonar, não se reduz após o transplante hepático."
+          },
+          {
+            "id": 3,
+            "description": "É obrigatório o uso de óxido nítrico inalatório durante as primeiras 24 horas, após o transplante hepático, nos pacientes com síndrome hepatopulmonar."
+          },
+          {
+            "id": 4,
+            "description": "Pacientes cirróticos com pressão média da artéria pulmonar de 20 mmHg podem ser submetidos ao transplante hepático sem tratamento prévio para redução da pressão arterial pulmonar."
+          },
+          {
+            "id": 5,
+            "description": "Tanto a utilização de cateter de artéria pulmonar como o emprego de métodos minimamente invasivos de aferição do débito cardíaco são importantes nessas circunstâncias."
+          }
+        ],
+        "rightAnswer": 4
+      },
+      {
+        "questionId": 6,
+        "question": "Paciente masculino, 40 anos, com história de HAS e porfiria aguda intermitente, está internado por quadro de pneumonia bacteriana e insuficiência respiratória aguda com necessidade de entubação orotraqueal. Qual das medi-cações sedativas abaixo está contraindicada para a realização da entubação orotraqueal nesse caso?",
+        "image": null,
+        "anulada": false,
+        "questionYear": "2013",
+        "alternatives": [
+          {
+            "id": 1,
+            "description": "Midazolam"
+          },
+          {
+            "id": 2,
+            "description": "Propofol."
+          },
+          {
+            "id": 3,
+            "description": "Tiopental."
+          },
+          {
+            "id": 4,
+            "description": "Cetamina."
+          },
+          {
+            "id": 5,
+            "description": "Etomidato."
+          }
+        ],
+        "rightAnswer": 3
+      },
+      {
+        "questionId": 7,
+        "question": "Paciente masculino, 30 anos, com quadro de broncopneumonia e de SARA grave. Observe abaixo, as curvas destacadas em negrito. Assinale a alternativa que apresenta a melhor probabilidade de recrutamento alveolar.",
+        "image": "/images/07-2013.png",
+        "anulada": false,
+        "questionYear": "2013",
+        "alternatives": [
+          {
+            "id": 1,
+            "description": "Curva 1."
+          },
+          {
+            "id": 2,
+            "description": "Curva 2."
+          },
+          {
+            "id": 3,
+            "description": "Curva 3."
+          },
+          {
+            "id": 4,
+            "description": "Curvas 1 e 3."
+          },
+          {
+            "id": 5,
+            "description": "Esse tipo de abordagem não serve para essa finalidade."
+          }
+        ],
+        "rightAnswer": 1
+      },
+      {
+        "questionId": 8,
+        "question": "Paciente masculino, 30 anos, usuário de crack e álcool, internado por quadro de pneumonia aspirativa, iniciando medicação cefuroxima e claritromicina. Evoluiu para insuficiência respiratória aguda, necessitando de ventilação mecânica (VM). Após melhora do quadro pulmonar, apresentou dificuldade de desmame da VM por agitação psicomotora, sendo iniciados metadona e haloperidol. Em 48 horas, apresentou episódio de PCR por torsades de pointes de repetição. Foram realizadas manobras de ressuscitação cardiopulmonar e administração de sulfato de magnésio. Houve recuperação da circulação espontânea, mas o ritmo bradicárdico manteve-se. O ECG evidenciou QT = 510 msec. São opções de tratamento dessa arritmia cardíaca, além do sulfato de magnésio:",
+        "image": null,
+        "anulada": false,
+        "questionYear": "2013",
+        "alternatives": [
+          {
+            "id": 1,
+            "description": "marcapasso e amiodarona."
+          },
+          {
+            "id": 2,
+            "description": "marcapasso e isoproterenol."
+          },
+          {
+            "id": 3,
+            "description": "amiodarona e isoproterenol."
+          },
+          {
+            "id": 4,
+            "description": "procainamida e sotalol."
+          },
+          {
+            "id": 5,
+            "description": "amiodarona e procainamide."
+          }
+        ],
+        "rightAnswer": 2
+      },
+      {
+        "questionId": 9,
+        "question": "O ponto de inflexão obtido de um paciente com SARA, a partir de valores da curva PressãoxVolume (PxV), é de 8 cm H2O. Considerando a curva PxV como orientadora, qual valor de pressão expiratória final positiva (PEEP) deveria ser escolhido para este paciente?",
+        "image": null,
+        "anulada": false,
+        "questionYear": "2013",
+        "alternatives": [
+          {
+            "id": 1,
+            "description": "6 cm H20."
+          },
+          {
+            "id": 2,
+            "description": "8 cm H20."
+          },
+          {
+            "id": 3,
+            "description": "10 cm H20."
+          },
+          {
+            "id": 4,
+            "description": "18 cm H20."
+          },
+          {
+            "id": 5,
+            "description": "O valor da PEEP não pode ser determinado seguramente com o informado no enunciado."
+          }
+        ],
+        "rightAnswer": 3
+      },
+      {
+        "questionId": 11,
+        "question": "Um homem de 65 anos, com história de infarto do miocárdio há 1 mês, é atendido com edema agudo de pulmão. Abaixo, o ECG desse paciente. Assinale a alternativa que indica o procedimento apropriado para tratar esse paciente.",
+        "image": "/images/11-2013.png",
+        "anulada": false,
+        "questionYear": "2013",
+        "alternatives": [
+          {
+            "id": 1,
+            "description": "Isossorbida sublingual."
+          },
+          {
+            "id": 2,
+            "description": "Adenosina EV."
+          },
+          {
+            "id": 3,
+            "description": "Digoxina EV."
+          },
+          {
+            "id": 4,
+            "description": "Cardioversão elétrica."
+          },
+          {
+            "id": 5,
+            "description": "Cateterismo cardíaco."
+          }
+        ],
+        "rightAnswer": 4
+      },
+      {
+        "questionId": 12,
+        "question": "Lavrador de 30 anos é admitido na Unidade de Terapia Intensiva em franca insuficiência respiratória, após tentativa de suicídio. No exame clínico, o paciente apresenta sudorese profusa, miofasciculações, broncorreia importante, pupilas mióticas e bradicardia (45 bpm). Diante desse quadro, assinale a alternativa que apresenta, respectivamente, a provável etiologia da intoxicação exógena e como deve ser medicado esse paciente, visando as manifestações muscarínicas.",
+        "image": null,
+        "anulada": false,
+        "questionYear": "2013",
+        "alternatives": [
+          {
+            "id": 1,
+            "description": "Síndrome colinérgica aguda por organofosforado – naloxano."
+          },
+          {
+            "id": 2,
+            "description": "Síndrome colinérgica aguda por organoclorado – pralidoxima."
+          },
+          {
+            "id": 3,
+            "description": "Intoxicação por paraquat – atropina."
+          },
+          {
+            "id": 4,
+            "description": "Síndrome colinérgica aguda por organofosforado – atropina."
+          },
+          {
+            "id": 5,
+            "description": "Hipertermia maligna – dantrolene."
+          }
+        ],
+        "rightAnswer": 4
+      },
+      {
+        "questionId": 13,
+        "question": "Em relação à ventilação mecânica não invasiva (VMNI), é correto afirmar que",
+        "image": null,
+        "anulada": false,
+        "questionYear": "2013",
+        "alternatives": [
+          {
+            "id": 1,
+            "description": "deve ser evitada em pacientes com insuficiência cardíaca congestiva e edema agudo pulmonar."
+          },
+          {
+            "id": 2,
+            "description": "esse procedimento aumenta o risco de sinusite bacteriana."
+          },
+          {
+            "id": 3,
+            "description": "é indicada em pacientes com previsão de longo período de ventilação mecânica."
+          },
+          {
+            "id": 4,
+            "description": "é indicada em exarcebações severas de DPOC com acidose respiratória (pH <7,3)."
+          },
+          {
+            "id": 5,
+            "description": "é indicada no manejo de insuficiência respiratória em pacientes em pós-operatório de anastomose esofágica."
+          }
+        ],
+        "rightAnswer": 4
+      },
+      {
+        "questionId": 14,
+        "question": "Paciente com choque séptico é ressuscitado com volume e drogas vasopressoras. Dados de exame físico: Tempo de enchimento capilar: 6 segundos Diurese horária: 0,5 ml/kg Dados de hemodinâmica: Pressão arterial média: 70 mmHg Frequência cardíaca: 110 bat/min Pressão venosa central: 14 mmHg Dados de laboratório: Hematócrito: 32% Lactato arterial: 4 mmol/L Gasometria arterial: Saturação de O2:94%; HCO3: 25 mmol/L; pH: 7,34; PCO2: 50 mmHg Gasometria venosa central: Saturação de O2:76%; HCO3: 21 mmol/L; pH: 7,28; PCO2: 60 mmHg Levando-se em consideração os dados acima sobre o paciente, após 6 horas de atendimento, é correto afirmar que",
+        "image": null,
+        "anulada": false,
+        "questionYear": "2013",
+        "alternatives": [
+          {
+            "id": 1,
+            "description": "o paciente apresenta disfunção mitocondrial, pois a extração de oxigênio está diminuída."
+          },
+          {
+            "id": 2,
+            "description": "a hiperlactatemia pode ser explicada apenas pela inflamação."
+          },
+          {
+            "id": 3,
+            "description": "o paciente apresenta claramente um fluxo sanguíneo insuficiente para a sua condição."
+          },
+          {
+            "id": 4,
+            "description": "a ressuscitação hemodinâmica inicial parece completa e deve-se aguardar o próximo lactato sérico para uma tomada de decisão."
+          },
+          {
+            "id": 5,
+            "description": "é fundamental melhorar a ventilação para melhorar a hipercapnia."
+          }
+        ],
+        "rightAnswer": 3
+      },
+
+      {
+        "questionId": 15,
+        "question": "Relacione a primeira coluna de acordo com a segunda, associando as situações e quadros clínicos dos pacientes aos respectivos tratamentos. (1) Paciente com TA= 110/70 mm Hg, assintomático (2) Paciente com TA= 70/40 mm Hg, sintomático (3) Paciente sem pulso (4) Paciente com pulso, TA=70/40 mm Hg (a) amiodarona 300 mg EV (b) amiodarona 150 mg EV (c) cardioversão elétrica com 100 J, se aparelho bifásico (d) cardioversão elétrica com 200 J, se aparelho bifásico (e) desfibrilação elétrica com 200 J, se aparelho bifásico Assinale a alternativa que apresenta a correlação adequada.",
+        "image": "/images/15-2013.png",
+        "anulada": false,
+        "questionYear": "2013",
+        "alternatives": [
+          {
+            "id": 1,
+            "description": "1-b; 2-a; 3-c; 4-d."
+          },
+          {
+            "id": 2,
+            "description": "1-a; 2-b; 3-e; 4-d."
+          },
+          {
+            "id": 3,
+            "description": "1-b; 2-c; 3-e; 4-c."
+          },
+          {
+            "id": 4,
+            "description": "1-b; 2-c; 3-e; 4-e."
+          },
+          {
+            "id": 5,
+            "description": "1-a; 2-c; 3-d; 4-d."
+          }
+        ],
+        "rightAnswer": 4
+      },
+
+      {
+        "questionId": 16,
+        "question": "Em relação ao uso da vasopressina com infusão contínua, em dose baixa, no paciente com choque séptico, é correto afirmar que",
+        "image": null,
+        "anulada": false,
+        "questionYear": "2013",
+        "alternatives": [
+          {
+            "id": 1,
+            "description": "reduz a mortalidade em 28 dias."
+          },
+          {
+            "id": 2,
+            "description": "reduz a mortalidade em 180 dias."
+          },
+          {
+            "id": 3,
+            "description": "eleva o débito cardíaco."
+          },
+          {
+            "id": 4,
+            "description": "reduz a necessidade de catecolamina."
+          },
+          {
+            "id": 5,
+            "description": "reduz a mortalidade e aumenta o débito cardíaco."
+          }
+        ],
+        "rightAnswer": 4
+      },
+      {
+        "questionId": 17,
+        "question": "Paciente sexo feminino, 23 anos, com leucemia linfo- cítica aguda, em tratamento quimioterápico, apresenta quadro de choque séptico secundário a fungemia. Nas hemoculturas apresentou crescimento de Candida lusitaniae. Qual dos antifúngicos abaixo NÃO tem atividade fungicida contra essa espécie de Candida?",
+        "image": null,
+        "anulada": false,
+        "questionYear": "2013",
+        "alternatives": [
+          {
+            "id": 1,
+            "description": "Fluconazol."
+          },
+          {
+            "id": 2,
+            "description": "Anfotericina B."
+          },
+          {
+            "id": 3,
+            "description": "Itraconazol."
+          },
+          {
+            "id": 4,
+            "description": "Micafungina."
+          },
+          {
+            "id": 5,
+            "description": "Caspofungina."
+          }
+        ],
+        "rightAnswer": 2
+      },
+      {
+        "questionId": 18,
+        "question": "Paciente sexo feminino, 40 anos, tabagista, apresenta quadro súbito de cefaleia holocraniana, de forte inten- sidade, associada a vômitos. Ao exame físico, apre- senta-se sonolenta e com rigidez nucal. A tomografia (TC) de crânio mostra presença de sangue nas cisternas, ventrículos e hidrocefalia. Evoluiu com importante piora do sensório, sendo submetida à drenagem ventricular. Após 24 horas, houve nova piora do sensório e crises convulsivas. Considere as afirmativas abaixo, em relação às complicações da patologia descrita.",
+        "image": null,
+        "anulada": false,
+        "questionYear": "2013",
+        "alternatives": [
+          {
+            "id": 1,
+            "description": "Hidrocefalia aguda causada por obstrução liquórica é frequente e ocorre, principalmente, nos primeiros 3 dias após a hemorragia."
+          },
+          {
+            "id": 2,
+            "description": "O desenvolvimento de epilepsia persistente é comum."
+          },
+          {
+            "id": 3,
+            "description": "Aproximadamente 30% dos pacientes ressangram durante o primeiro mês, e os pacientes sobrevi- ventes após o primeiro mês têm 2% a 3% de risco anual de ressangramento."
+          }
+        ],
+        "rightAnswer": 3
+      },
+
+      {
+        "questionId": 19,
+        "question": "Sobre os procedimentos comumente realizados numa unidade de terapia intensiva, assinale a alternativa correta.",
+        "image": null,
+        "anulada": false,
+        "questionYear": "2013",
+        "alternatives": [
+          {
+            "id": 1,
+            "description": "Durante a troca do cateter pode-se passar a guia através da entrada do lúmen distal, sendo essa uma prática comum, pois evita novas punções."
+          },
+          {
+            "id": 2,
+            "description": "A colocação de linha arterial na artéria pediosa é rara, pois a medida da pressão arterial média é menos fidedigna que na artéria radial."
+          },
+          {
+            "id": 3,
+            "description": "A realização de paracentese pode ser feita através de punção direta ou através da técnica de Seldinger, sendo a última especialmente útil em pacientes obesos."
+          },
+          {
+            "id": 4,
+            "description": "Cefaleia após punção lombar é comum e não tem associação com história prévia de cefaleia e sim com calibre da agulha de punção."
+          },
+          {
+            "id": 5,
+            "description": "A pressão de oclusão da artéria pulmonar se correlaciona com pressão do átrio esquerdo apenas se a ponta do cateter de Swan-Ganz estiver localizada na Zona 1 do pulmão."
+          }
+        ],
+        "rightAnswer": 3
+      },
+      {
+        "questionId": 20,
+        "question": "Quanto ao delirium, em pacientes críticos, considere as afirmativas abaixo.\n\nI - Abuso de álcool, hipertensão arterial e história prévia de demência consistem em fatores de risco para desenvolver delirium na UTI.\nII - Delirium hipoativo é mais comum que o delirium hiperativo.\nIII- A presença de delirium está associada ao aumento de custos da internação hospitalar e pior desfecho cognitivo a longo prazo.\n\nQuais estão corretas?\n\n(A) Apenas I.\n(B) Apenas I e II.\n(C) Apenas I e III.\n(D) Apenas II e III.\n(E) I, II e III.",
+        "image": null,
+        "anulada": false,
+        "questionYear": "2013",
+        "alternatives": [
+          {
+            "id": 1,
+            "description": "Apenas I."
+          },
+          {
+            "id": 2,
+            "description": "Apenas I e II."
+          },
+          {
+            "id": 3,
+            "description": "Apenas I e III."
+          },
+          {
+            "id": 4,
+            "description": "Apenas II e III."
+          },
+          {
+            "id": 5,
+            "description": "I, II e III."
+          }
+        ],
+        "rightAnswer": 5
+      },
+      {
+        "questionId": 21,
+        "question": "Paciente de 35 anos é trazido ao hospital com dispneia progressiva. Ao exame físico apresenta PA 90/60 e pulmões limpos. Abaixo, o ECG desse paciente.\n\nAssinale a alternativa que apresenta o provável diagnóstico para esse caso.\n\n(A) Pneumotórax.\n(B) Embolia pulmonar.\n(C) Bloqueio AV total.\n(D) Infarto do miocárdio.\n(E) Tamponamento cardíaco.",
+        "image": "/images/21-2013.png",
+        "anulada": false,
+        "questionYear": "2013",
+        "alternatives": [
+          {
+            "id": 1,
+            "description": "Pneumotórax."
+          },
+          {
+            "id": 2,
+            "description": "Embolia pulmonar."
+          },
+          {
+            "id": 3,
+            "description": "Bloqueio AV total."
+          },
+          {
+            "id": 4,
+            "description": "Infarto do miocárdio."
+          },
+          {
+            "id": 5,
+            "description": "Tamponamento cardíaco."
+          }
+        ],
+        "rightAnswer": 5
+      },
+      {
+        "questionId": 22,
+        "question": "Correlacione os quadros clínicos abaixo (I a IV) com os achados de monitorização hemodinâmica mais prováveis (a a e):\n\nI - Sepse\nII - Choque cardiogênico\nIII- Tamponamento cardíaco IV - Choque hipovolêmico\n(a) PVC normal, PAP, PAOP e IC\n(b) PVC, PAP , PAOP , IC\n(c) PVC, PAP normal, PAOP normal e IC\n(d) PVC, PAP , PAOP , IC\n(e) PVC normal, PAPnormal, PAOP e IC\n\nQuais os padrões hemodinâmicos que melhor correspondem aos diagnósticos?\n\n(A) I-a, II-b, III-c, IV-d.\n(B) I-b, II-a, III-c, IV-d.\n(C) I-b, II-c, III-a, IV-e.\n(D) I-d, II-c, III-a, IV-b.\n(E) I-b, II-a, III-d, IV-e.",
+        "image": null,
+        "anulada": false,
+        "questionYear": "2013",
+        "alternatives": [
+          {
+            "id": 1,
+            "description": "I-a, II-b, III-c, IV-d."
+          },
+          {
+            "id": 2,
+            "description": "I-b, II-a, III-c, IV-d."
+          },
+          {
+            "id": 3,
+            "description": "I-b, II-c, III-a, IV-e."
+          },
+          {
+            "id": 4,
+            "description": "I-d, II-c, III-a, IV-b."
+          },
+          {
+            "id": 5,
+            "description": "I-b, II-a, III-d, IV-e."
+          }
+        ],
+        "rightAnswer": 2
+      },
+
+      {
+        "questionId": 23,
+        "question": "A ___________ metabólica é causa de hipocalemia por deslocamento para o meio intracelular. Episódios frequentes de ___________ também são causa de hipocalemia. Embora menos frequente, ___________ também se manifesta classicamente com hipocalemia.",
+        "image": null,
+        "anulada": false,
+        "questionYear": "2013",
+        "alternatives": [
+          {
+            "id": 1,
+            "description": "acidose – vômito – hipoaldosteronismo"
+          },
+          {
+            "id": 2,
+            "description": "acidose – diarreia – hipofosfatemia"
+          },
+          {
+            "id": 3,
+            "description": "acidose – transfusão de hemoderivados – hiperfosfatemia"
+          },
+          {
+            "id": 4,
+            "description": "alcalose – vômito – hiperaldosteronismo"
+          },
+          {
+            "id": 5,
+            "description": "alcalose – diarreia – hipoaldosteronismo"
+          }
+        ],
+        "rightAnswer": 4
+      },
+
+      {
+        "questionId": 24,
+        "question": "Em relação à leptospirose, assinale a alternativa INCORRETA:",
+        "image": null,
+        "anulada": false,
+        "questionYear": "2013",
+        "alternatives": [
+          {
+            "id": 1,
+            "description": "pode ocorrer infecção assintomática."
+          },
+          {
+            "id": 2,
+            "description": "a apresentação inicial pode ser de comprometimento pulmonar severo e necessidade de ventilação mecânica."
+          },
+          {
+            "id": 3,
+            "description": "elevação de transaminases é marcante, em geral acima de 1000 UI/dl, e comparável à elevação observada na hepatite viral."
+          },
+          {
+            "id": 4,
+            "description": "o tratamento com antimicrobianos não excede uma semana e há várias opções de tratamento, na impossibilidade de uso de penicilina."
+          },
+          {
+            "id": 5,
+            "description": "meningite asséptica é uma condição importante na fase de resposta imunológica."
+          }
+        ],
+        "rightAnswer": 3
+      },
+      {
+        "questionId": 25,
+        "question": "Assinale a afirmativa correta em relação ao doente com hemorragia digestiva na UTI.",
+        "image": null,
+        "anulada": false,
+        "questionYear": "2013",
+        "alternatives": [
+          {
+            "id": 1,
+            "description": "Uso de balão gastroesofágico é reservado para os casos de hemorragia do trato digestório superior refratários ou quando a terapia definitiva não está disponível. A probabilidade de ocorrer complicações é de aproximadamente 30%, com mortalidade de 6%."
+          },
+          {
+            "id": 2,
+            "description": "A angiodisplasia de cólon é a causa de sangramento mais prevalente nas hemorragias digestivas alta e baixa, em doentes na UTI."
+          },
+          {
+            "id": 3,
+            "description": "Pacientes graves com hemorragia digestiva devem permanecer sem alimentação enteral por 3-5 dias, após o controle do sangramento."
+          },
+          {
+            "id": 4,
+            "description": "O uso intravenoso de antagonistas do receptor de histamina tipo 2 tem efeito superior na diminuição do ressangramento digestivo não relacionado a varizes de esôfago e de estômago, quando comparado ao uso intravenoso de bloqueadores da bomba de prótons."
+          },
+          {
+            "id": 5,
+            "description": "O uso precoce de octreotide associado a vasopressina deve anteceder a esclerose do vaso durante endoscopia digestiva e a utilização de bandas nos casos de hemorragia digestiva secundários a varizes de esôfago sangrantes."
+          }
+        ],
+        "rightAnswer": 1
+      },
+
+      {
+        "questionId": 26,
+        "question": "Em relação ao controle da glicemia de doentes críticos, é correto afirmar que",
+        "image": null,
+        "anulada": false,
+        "questionYear": "2013",
+        "alternatives": [
+          {
+            "id": 1,
+            "description": "os pacientes críticos, diabéticos ou não, devem ter um esforço terapêutico para manter suas glicemias na faixa normal, ou seja, entre 70-110mg/dL."
+          },
+          {
+            "id": 2,
+            "description": "o uso de escala móvel de glicemias capilares e a utilização de insulina de ação rápida intravenosa ou subcutânea em doentes diabéticos associam-se a melhores desfechos."
+          },
+          {
+            "id": 3,
+            "description": "hiperglicemia sustentada (glicemias médias superiores a 180mg/dL) associa-se ao aumento na incidência de infecção em feridas operatórias, à insuficiência cardíaca e a mais sequelas neurológicas, sem, contudo, associar-se ao aumento de mortalidade."
+          },
+          {
+            "id": 4,
+            "description": "evidências atuais sugerem que a utilização precoce de hipoglicemiante oral associa-se ao melhor controle glicêmico, à menor dose de insulina e a melhores desfechos."
+          },
+          {
+            "id": 5,
+            "description": "a redução da variabilidade glicêmica parece ser benéfica nos doentes críticos porque evita períodos de glicemias ou muito baixas, ou elevadas."
+          }
+        ],
+        "rightAnswer": 5
+      },
+
+      {
+        "questionId": 27,
+        "question": "Paciente em ventilação mecânica apresenta as curvas de fluxo, pressão e volume reproduzidas abaixo.\n\nAssinale a alternativa que apresenta, respectivamente, os valores de complacência estática, complacência dinâmica e resistência relativos à situação do paciente acima.",
+        "image": "/images/27-2013.png",
+        "anulada": false,
+        "questionYear": "2013",
+        "alternatives": [
+          {
+            "id": 1,
+            "description": "40 ml/cmH2O; 30 ml/cmH2O, 5 cmH2O/seg."
+          },
+          {
+            "id": 2,
+            "description": "30 ml/cmH2O; 40 ml/cmH2O, 5 cmH2O/seg."
+          },
+          {
+            "id": 3,
+            "description": "30 ml/cmH2O; 24 ml/cmH2O, 5 cmH2O/seg."
+          },
+          {
+            "id": 4,
+            "description": "30 ml/cmH2O; 40 ml/cmH2O, 12 cmH2O/seg."
+          },
+          {
+            "id": 5,
+            "description": "40 ml/cmH2O; 30 ml/cmH2O, 12 cmH2O/seg."
+          }
+        ],
+        "rightAnswer": 1
+      },
+
+      {
+        "questionId": 28,
+        "question": "Dentre as alternativas abaixo, assinale aquela que NÃO apresenta fator de risco para mediastinite pós-operatória.",
+        "image": null,
+        "anulada": false,
+        "questionYear": "2013",
+        "alternatives": [
+          {
+            "id": 1,
+            "description": "DPOC."
+          },
+          {
+            "id": 2,
+            "description": "Idade avançada."
+          },
+          {
+            "id": 3,
+            "description": "Tempo de CEC prolongado."
+          },
+          {
+            "id": 4,
+            "description": "PO troca valvar por endocardite."
+          },
+          {
+            "id": 5,
+            "description": "Obesidade."
+          }
+        ],
+        "rightAnswer": 4
+      },
+
+      {
+        "questionId": 29,
+        "question": "Observe as afirmações abaixo sobre as infecções necrotizantes de partes moles.\nI - A escolha inicial de antimicrobianos deve abranger cobertura para gram-positivos, gram-negativos e anaeróbios.\nII - O sucesso do uso de clindamicina pode estar associado ao bloqueio da produção de exotoxina, reduzindo a resposta inflamatória tecidual.\nIII- Pelo risco de infecção polimicrobiana, não está indicada a restrição de espectro, mesmo após a identificação do agente etiológico.\nQuais estão corretas?",
+        "image": null,
+        "anulada": false,
+        "questionYear": "2013",
+        "alternatives": [
+          {
+            "id": 1,
+            "description": "Apenas I."
+          },
+          {
+            "id": 2,
+            "description": "Apenas III."
+          },
+          {
+            "id": 3,
+            "description": "Apenas I e II."
+          },
+          {
+            "id": 4,
+            "description": "Apenas I e III."
+          },
+          {
+            "id": 5,
+            "description": "I, II e III."
+          }
+        ],
+        "rightAnswer": 3
+      },
+
+      {
+        "questionId": 30,
+        "question": "Com relação à síndrome compartimental abdominal (SCA), considere as afirmações abaixo.\nI - O uso de bloqueador neuromuscular é parte do manejo clínico (minimamente invasivo) em pacientes sem disfunção orgânica.\nII - A intervenção cirúrgica precoce em pacientes com sinais de disfunção orgânica e SCA está bem documentada na literatura com ensaios clínicos randomizados.\nIII- Uma das dificuldades em reconhecer a importância da SCA é que não há aumento de mortalidade associado ao seu surgimento.\nQuais estão corretas?",
+        "image": null,
+        "anulada": false,
+        "questionYear": "2013",
+        "alternatives": [
+          {
+            "id": 1,
+            "description": "Apenas I."
+          },
+          {
+            "id": 2,
+            "description": "Apenas II."
+          },
+          {
+            "id": 3,
+            "description": "Apenas I e II."
+          },
+          {
+            "id": 4,
+            "description": "Apenas II e III."
+          },
+          {
+            "id": 5,
+            "description": "I, II e III."
+          }
+        ],
+        "rightAnswer": 1
+      },
+
+      {
+        "questionId": 31,
+        "question": "São fatores de risco para mortalidade em pacientes com pneumonia comunitária grave, EXCETO:",
+        "image": null,
+        "anulada": false,
+        "questionYear": "2013",
+        "alternatives": [
+          {
+            "id": 1,
+            "description": "infiltrado rapidamente progressivo."
+          },
+          {
+            "id": 2,
+            "description": "idade avançada ou presença de comorbidades."
+          },
+          {
+            "id": 3,
+            "description": "imunossupressão."
+          },
+          {
+            "id": 4,
+            "description": "presença de consolidação lobar."
+          },
+          {
+            "id": 5,
+            "description": "hipoalbuminemia."
+          }
+        ],
+        "rightAnswer": 4
+      },
+
+      {
+        "questionId": 32,
+        "question": "Em relação aos pacientes com síndrome coronariana aguda/infarto do miocárdio, sem supradesnível do segmento ST, submetidos a manejo conservador, considere as afirmativas:\n\nI - manter o uso de AAS indefinidamente.\nII - manter uso de clopidogrel ou ticagrelor por até 12 meses.\nIII- manter heparina não fracionada por 48 horas ou administrar enoxaparina ou fundaparinux durante a internação (até 8 dias) e descontinuar a anticoagulação.\n\nQuais estão corretas?",
+        "image": null,
+        "anulada": false,
+        "questionYear": "2013",
+        "alternatives": [
+          {
+            "id": 1,
+            "description": "Apenas I."
+          },
+          {
+            "id": 2,
+            "description": "Apenas II."
+          },
+          {
+            "id": 3,
+            "description": "Apenas III."
+          },
+          {
+            "id": 4,
+            "description": "Apenas I e III."
+          },
+          {
+            "id": 5,
+            "description": "I, II e III."
+          }
+        ],
+        "rightAnswer": 5
+      },
+
+      {
+        "questionId": 33,
+        "question": "Na avaliação da responsividade à reposição volêmica de pacientes com sepse grave/choque séptico, observe as seguintes considerações:\n\nI - nas primeiras 6 horas da ressuscitação, um paciente com pressão arterial média de 70 mmHg e com lactato acima de 4 mmol/l, portador de cor pulmonale, com medida de pressão venosa central de 12 mmHg e que já recebeu 30 ml/kg de cristaloides não é candidato à administração de volume adicional.\nII - não é possível valorizar a variação de pressão de pulso em um paciente em ventilação mecânica com volume-corrente de 9 ml/kg.\nIII- a variação do volume sistólico e a variação da pressão de pulso têm sua acurácia prejudicada por arritmias cardíacas.\n\nQuais estão corretas?",
+        "image": null,
+        "anulada": false,
+        "questionYear": "2013",
+        "alternatives": [
+          {
+            "id": 1,
+            "description": "Apenas I."
+          },
+          {
+            "id": 2,
+            "description": "Apenas II."
+          },
+          {
+            "id": 3,
+            "description": "Apenas III."
+          },
+          {
+            "id": 4,
+            "description": "Apenas I e III."
+          },
+          {
+            "id": 5,
+            "description": "I, II e III."
+          }
+        ],
+        "rightAnswer": 3
+      },
+
+      {
+        "questionId": 34,
+        "question": "Paciente de 62 anos, previamente hipertenso, tabagista, chega no hospital com 3 horas de evolução de hemiparesia direita, afasia mista e NIHSS = 12. Tomografia e angiotomografia de crânio e região cervical com hipersinal na porção M1 da artéria cerebral média esquerda, sem sangramentos ou área hipodensa maior que 1/3 do território da respectiva artéria. Na chegada, apresenta pressão arterial de 210/100 mmHg, SatO2 95%, frequência cardíaca de 90 batimentos/min, glicemia capilar de 130 mg/dl, peso informado atual de 110 kg. Eletrocardiograma compatível com fibrilação atrial. Qual a melhor terapêutica a ser instituída nesse momento?",
+        "image": null,
+        "anulada": false,
+        "questionYear": "2013",
+        "alternatives": [
+          {
+            "id": 1,
+            "description": "Trombólise endovenosa com alteplase."
+          },
+          {
+            "id": 2,
+            "description": "Trombólise intra-arterial + trombectomia mecânica."
+          },
+          {
+            "id": 3,
+            "description": "Redução da pressão arterial para um nível inferior a 180/110 mmHg, seguido de trombólise endovenosa com alteplase na dose total de 110 mg."
+          },
+          {
+            "id": 4,
+            "description": "Redução da pressão arterial para um nível inferior a 180/110 mmHg, seguido de trombólise endovenosa com alteplase na dose total de 90 mg."
+          },
+          {
+            "id": 5,
+            "description": "Redução da pressão arterial para um nível inferior a 180/110 mmHg, seguido de trombólise intra-arterial + trombectomia mecânica."
+          }
+        ],
+        "rightAnswer": 4
+      },
+      {
+        "questionId": 35,
+        "question": "O registro abaixo é de curva de pressão em paciente submetido à monitoração das pressões na artéria pulmonar (cateter de Swan-Ganz).\n\nDentre as alternativas abaixo, assinale aquela que apresenta exemplo do quadro clínico do paciente.",
+        "image": "/images/35-2013.png",
+        "anulada": false,
+        "questionYear": "2013",
+        "alternatives": [
+          {
+            "id": 1,
+            "description": "Cateter de artéria pulmonar com balonete de insuflação perfurado."
+          },
+          {
+            "id": 2,
+            "description": "Insuficiência mitral."
+          },
+          {
+            "id": 3,
+            "description": "Cateter com extremidade distal em artéria pulmonar situada na zona 1 de West."
+          },
+          {
+            "id": 4,
+            "description": "Tamponamento cardíaco."
+          },
+          {
+            "id": 5,
+            "description": "Embolia pulmonar com hipertensão pulmonar significativa."
+          }
+        ],
+        "rightAnswer": 2
+      },
+
+      {
+        "questionId": 36,
+        "question": "Assinale a alternativa cujo caso não apresenta contra-indicação absoluta em relação ao uso de trombolítico, no tratamento de um paciente com infarto do miocárdio com supradesnivelamento do segmento ST.",
+        "image": null,
+        "anulada": false,
+        "questionYear": "2013",
+        "alternatives": [
+          {
+            "id": 1,
+            "description": "Hemorragia digestiva ativa."
+          },
+          {
+            "id": 2,
+            "description": "Acidente vascular cerebral isquêmico há mais de 12 meses."
+          },
+          {
+            "id": 3,
+            "description": "Presença conhecida de tumor intracraniano."
+          },
+          {
+            "id": 4,
+            "description": "Acidente vascular cerebral hemorrágico em qualquer época."
+          },
+          {
+            "id": 5,
+            "description": "Dissecção aórtica."
+          }
+        ],
+        "rightAnswer": 2
+      },
+
+      {
+        "questionId": 37,
+        "question": "Paciente de 48 anos, alcoolista e com índice de massa corporal 34, é internado no CTI com diagnóstico de pancreatite aguda grave. Na internação, os exames coletados mostraram:\n\namilase 1280 U/L\nlípase 340 U/L\nglicemia 270 mg/dL cálcio sérico 8,2 mg/dL\ndesidrogenase lática (TGO) 380 U/L creatinina 3,2 mg/dL\nhematócrito 52 %\nleucócitos 12800 /L PaO2 = 53 mmHg bicarbonato = 22 mmol/L\n\nConsiderando o exposto, pode-se afirmar que",
+        "image": null,
+        "anulada": false,
+        "questionYear": "2013",
+        "alternatives": [
+          {
+            "id": 1,
+            "description": "o alcoolismo é, isoladamente, importante fator de piora prognóstica."
+          },
+          {
+            "id": 2,
+            "description": "a idade desse paciente e os elevados níveis de amilase e lípase são fatores de pior prognóstico."
+          },
+          {
+            "id": 3,
+            "description": "no caso, há três critérios (sinais prognósticos) de Ranson presentes."
+          },
+          {
+            "id": 4,
+            "description": "dentre os achados, a elevação da creatinina e do hematócrito não são fatores de piora prognóstica."
+          },
+          {
+            "id": 5,
+            "description": "a redução da PaO2 (pressão parcial de oxigênio), com níveis de 50 a 60, é comum nos primeiros dias e não tem significado prognóstico."
+          }
+        ],
+        "rightAnswer": 3
+      },
+
+      {
+        "questionId": 38,
+        "question": "Senhora de 85 anos, hipertensa e diabética, em tratamento, foi encontrada caída, por familiar que a deixara bem, cerca de uma hora antes. Quando encontrada, falava com dificuldade e tinha perda de força acentuada nos membros superior e inferior direitos. Chega ao hospital uma hora após ter sido encontrada. Na avaliação inicial, queixa-se apenas de um pouco de tontura; está ansiosa, mas lúcida e orientada, e a fala é normal. O déficit motor no membro superior direito é discreto, com queda de menos de 10 centímetros na prova dos braços estendidos; os membros inferiores têm força simétrica. A pressão arterial é de 170/85mmHg, a frequência cardíaca é 80bpm, a frequência respiratória é 14 e a oximetria digital 95%. O hemoglicoteste é 145. A tomografia computadorizada do crânio mostrou sinais de atrofia cerebral difusa e ausência de hemorragia ou de lesão expansiva.\n\nConsidere os critérios que contraindicam a administração de trombolítico (rtPA) nessa paciente:\n\nI - Hipertensão arterial II - Diabetes Melito III- Idade IV - Tempo entre o início dos sintomas e a avaliação inicial V - Sintomas em rápida melhora\n\nQuais estão corretos?",
+        "image": null,
+        "anulada": false,
+        "questionYear": "2013",
+        "alternatives": [
+          {
+            "id": 1,
+            "description": "Apenas V."
+          },
+          {
+            "id": 2,
+            "description": "Apenas III e V."
+          },
+          {
+            "id": 3,
+            "description": "Apenas III, IV e V."
+          },
+          {
+            "id": 4,
+            "description": "Apenas II, III, IV e V."
+          },
+          {
+            "id": 5,
+            "description": "I, II, III, IV e V."
+          }
+        ],
+        "rightAnswer": 1
+      },
+      {
+        "questionId": 39,
+        "question": "Assinale a alternativa INCORRETA em relação à reposição volêmica em pacientes com choque séptico, conforme a Survival Sepsis Campaign 2013.",
+        "image": null,
+        "anulada": false,
+        "questionYear": "2013",
+        "alternatives": [
+          {
+            "id": 1,
+            "description": "Cristaloides devem ser os fluidos iniciais na ressuscitação."
+          },
+          {
+            "id": 2,
+            "description": "Coloides sintéticos apresentam efeito hemodinâmico mais duradouro e, portanto, se associam com menor necessidade de terapia de reposição renal."
+          },
+          {
+            "id": 3,
+            "description": "Albumina pode ser usada em pacientes que necessitam quantidades grandes de cristaloide."
+          },
+          {
+            "id": 4,
+            "description": "Desafio hídrico inicial deve ser feito com pelo menos 30 ml/kg de cristaloide."
+          },
+          {
+            "id": 5,
+            "description": "Devem ser mantidos desafios hídricos, enquanto houver responsividade a volume."
+          }
+        ],
+        "rightAnswer": 2
+      },
+
+      {
+        "questionId": 40,
+        "question": "Sobre a morte encefálica e cuidados com potencial doador de órgãos, assinale a alternativa correta.",
+        "image": null,
+        "anulada": false,
+        "questionYear": "2013",
+        "alternatives": [
+          {
+            "id": 1,
+            "description": "A prova da apneia exige que se observe ausência de movimentos respiratórios por 10 minutos e elevação da PCO2 (maior 50 mmHg)."
+          },
+          {
+            "id": 2,
+            "description": "É ético e legal a suspensão dos procedimentos de suportes terapêuticos, quando determinada a morte encefálica em não doador de órgãos, tecidos e partes do corpo humano para fins de transplante."
+          },
+          {
+            "id": 3,
+            "description": "A presença de diabetes insipidus é uma situação clínica incomum em paciente em morte encefálica, sendo uma causa rara de poliuria nesses pacientes."
+          },
+          {
+            "id": 4,
+            "description": "A medida de temperatura axilar nesses pacientes é adequada, sendo contraindicado uso de termômetro esofágico."
+          },
+          {
+            "id": 5,
+            "description": "Os pacientes que estão evoluindo para morte encefálica apresentam importante labilidade da pressão arterial, mas raramente apresentam arritmias."
+          }
+        ],
+        "rightAnswer": 2
+      }
+    ]
+  }
+]

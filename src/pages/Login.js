@@ -4,7 +4,7 @@ import { connect } from 'react-redux';
 import { getToken } from '../services/api';
 import { saveEmail, saveName } from '../redux/actions';
 import configuracao from './images/configuracao.png';
-import logo from './images/MedQuest.png';
+import logo from './images/MedQuest-Logo.png';
 
 class Login extends Component {
   state = {
