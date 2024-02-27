@@ -5,6 +5,7 @@ import {
   INCREMENT_SCORE, RESET_SCORE,
   UPDATE_SETTINGS, SET_QUESTION,
   RESET_USEDQUESTIONIDS, SET_QUESTION_ARRAY,
+  INCREMENT_QUESTION_NUMBER, RESET_QUESTION_NUMBER,
 } from './actionsName';
 
 export const saveEmail = (email) => ({
@@ -74,4 +75,12 @@ export const setQuestionArray = (questionId) => ({
 
 export const resetUsedQuestionIds = () => ({
   type: RESET_USEDQUESTIONIDS,
+});
+
+export const incrementQuestionNumber = () => ({
+  type: INCREMENT_QUESTION_NUMBER,
+});
+
+export const resetQuestionNumber = () => ({
+  type: RESET_QUESTION_NUMBER,
 });

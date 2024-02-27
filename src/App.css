@@ -370,7 +370,7 @@ fieldset .button {
   margin-top: -40px;
   padding: 4px;
   text-align: center;
-  width: 100px;
+  width: 200px;
 }
 
 @media ( width <= 600px ) {

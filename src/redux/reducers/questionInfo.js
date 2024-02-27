@@ -1,4 +1,6 @@
 import {
+  INCREMENT_QUESTION_NUMBER,
+  RESET_QUESTION_NUMBER,
   RESET_USEDQUESTIONIDS,
   SET_QUESTION,
   SET_QUESTION_ARRAY,
@@ -17,6 +19,7 @@ const INITIAL_STATE = {
     },
   ],
   usedQuestionIds: [],
+  currentQuestionNumber: 1,
 };
 
 const questionInfo = (state = INITIAL_STATE, action) => {
@@ -35,6 +38,16 @@ const questionInfo = (state = INITIAL_STATE, action) => {
     return {
       ...state,
       usedQuestionIds: [],
+    };
+  case INCREMENT_QUESTION_NUMBER:
+    return {
+      ...state,
+      currentQuestionNumber: state.currentQuestionNumber + 1,
+    };
+  case RESET_QUESTION_NUMBER:
+    return {
+      ...state,
+      currentQuestionNumber: 1,
     };
   default:
     return state;
