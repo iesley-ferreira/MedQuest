@@ -6,6 +6,7 @@ export async function getToken() {
 
 export function getQuestionsFromLocalFile(examId, usedQuestionIds) {
   try {
+    // eslint-disable-next-line import/no-dynamic-require, global-require
     const examData = require(`../Exams/exam${examId}.json`);
 
     const unusedQuestions = examData[0].questions
