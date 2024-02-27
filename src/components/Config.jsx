@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 import { updateSettings } from '../redux/actions';
 
-class Settings extends Component {
+class Config extends Component {
   state = {
     examId: 0,
     quantity: 10,
@@ -12,19 +12,15 @@ class Settings extends Component {
   handleChange = ({ target: { name, value } }) => {
     this.setState({
       [name]: Number(value),
+    }, () => {
+      const { dispatch } = this.props;
+      const { examId, quantity } = this.state;
+      const settings = {
+        examId,
+        quantity,
+      };
+      dispatch(updateSettings(settings));
     });
-  };
-
-  handleSubmit = (event) => {
-    const { dispatch, history } = this.props;
-    event.preventDefault();
-    const { quantity, examId } = this.state;
-    const settings = {
-      examId,
-      quantity,
-    };
-    dispatch(updateSettings(settings));
-    history.push('/');
   };
 
   render() {
@@ -76,11 +72,6 @@ class Settings extends Component {
             </select>
           </label>
 
-          <input
-            className="button play-button"
-            type="submit"
-            value="Salvar"
-          />
         </fieldset>
 
       </form>
@@ -88,11 +79,8 @@ class Settings extends Component {
   }
 }
 
-Settings.propTypes = {
-  history: PropTypes.shape({
-    push: PropTypes.func.isRequired,
-  }).isRequired,
+Config.propTypes = {
   dispatch: PropTypes.func.isRequired,
 };
 
-export default connect()(Settings);
+export default connect()(Config);

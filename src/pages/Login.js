@@ -1,47 +1,40 @@
 import { Component } from 'react';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
-import { getToken } from '../services/api';
-import { saveEmail, saveName } from '../redux/actions';
-import configuracao from './images/configuracao.png';
+import { saveName } from '../redux/actions';
 import logo from './images/MedQuest-Logo.png';
+import Config from '../components/Config';
 
 class Login extends Component {
   state = {
-    email: '',
     username: '',
     disabled: true,
   };
 
   handleSubmit = async (event) => {
     event.preventDefault();
-    const { email, username } = this.state;
+    const { username } = this.state;
     const { dispatch } = this.props;
-    dispatch(saveEmail(email));
+
     dispatch(saveName(username));
-    const { token } = await getToken();
-    localStorage.setItem('token', token);
+
     const { history } = this.props;
     history.push('/game');
   };
 
-  handleChange = ({ target: { name, value } }) => {
+  handleValidate = ({ target: { name, value } }) => {
     this.setState({ [name]: value }, () => this.validateForm());
   };
 
   validateForm = () => {
-    const { email, username } = this.state;
+    const { username } = this.state;
     const min = 3;
-    const higher = 7;
-    const validadeInputs = username.length >= min
-    && email.length >= higher
-    && email.includes('@');
+    const validadeInputs = username.length >= min;
     this.setState({ disabled: !validadeInputs });
   };
 
   render() {
-    const { email, username, disabled } = this.state;
-    const { history } = this.props;
+    const { username, disabled } = this.state;
     return (
 
       <section className="login-container">
@@ -54,20 +47,12 @@ class Login extends Component {
             className="login-input"
             name="username"
             value={ username }
-            onChange={ this.handleChange }
+            onChange={ this.handleValidate }
             type="text"
             placeholder="Username"
             data-testid="input-player-name"
           />
-          <input
-            className="login-input"
-            name="email"
-            value={ email }
-            onChange={ this.handleChange }
-            type="email"
-            placeholder="Email"
-            data-testid="input-gravatar-email"
-          />
+          <Config />
           <input
             className="button play-button"
             type="submit"
@@ -75,14 +60,6 @@ class Login extends Component {
             value="Play"
             data-testid="btn-play"
           />
-          <button
-            className="button settings-button"
-            data-testid="btn-settings"
-            onClick={ () => history.push('/settings') }
-          >
-            <img src={ configuracao } alt="Settings Icon" className="settings-icon" />
-            Settings
-          </button>
         </form>
       </section>
 
