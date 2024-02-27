@@ -461,22 +461,30 @@
       },
       {
         "questionId": 18,
-        "question": "Paciente sexo feminino, 40 anos, tabagista, apresenta quadro súbito de cefaleia holocraniana, de forte inten- sidade, associada a vômitos. Ao exame físico, apre- senta-se sonolenta e com rigidez nucal. A tomografia (TC) de crânio mostra presença de sangue nas cisternas, ventrículos e hidrocefalia. Evoluiu com importante piora do sensório, sendo submetida à drenagem ventricular. Após 24 horas, houve nova piora do sensório e crises convulsivas. Considere as afirmativas abaixo, em relação às complicações da patologia descrita.",
+        "question": "Paciente sexo feminino, 40 anos, tabagista, apresenta quadro súbito de cefaleia holocraniana, de forte inten- sidade, associada a vômitos. Ao exame físico, apre- senta-se sonolenta e com rigidez nucal. A tomografia (TC) de crânio mostra presença de sangue nas cisternas, ventrículos e hidrocefalia. Evoluiu com importante piora do sensório, sendo submetida à drenagem ventricular. Após 24 horas, houve nova piora do sensório e crises convulsivas. Considere as afirmativas abaixo, em relação às complicações da patologia descrita.\n\nI - Hidrocefalia aguda causada por obstrução liquórica é frequente e ocorre, principalmente, nos primeiros 3 dias após a hemorragia. \nII - O desenvolvimento de epilepsia persistente é comum.\nIII- Aproximadamente 30% dos pacientes ressangram durante o primeiro mês, e os pacientes sobreviventes após o primeiro mês têm 2% a 3% de risco anual de ressangramento.\n\nQuais estão corretas?",
         "image": null,
         "anulada": false,
         "questionYear": "2013",
         "alternatives": [
           {
             "id": 1,
-            "description": "Hidrocefalia aguda causada por obstrução liquórica é frequente e ocorre, principalmente, nos primeiros 3 dias após a hemorragia."
+            "description": "Apenas I."
           },
           {
             "id": 2,
-            "description": "O desenvolvimento de epilepsia persistente é comum."
+            "description": "Apenas I e II."
           },
           {
             "id": 3,
-            "description": "Aproximadamente 30% dos pacientes ressangram durante o primeiro mês, e os pacientes sobrevi- ventes após o primeiro mês têm 2% a 3% de risco anual de ressangramento."
+            "description": "Apenas I e III."
+          },
+          {
+            "id": 4,
+            "description": "Apenas II e III."
+          },
+          {
+            "id": 5,
+            "description": "I, II e III."
           }
         ],
         "rightAnswer": 3

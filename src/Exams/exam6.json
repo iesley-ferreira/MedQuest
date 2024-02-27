@@ -9,37 +9,37 @@
     "questions": [
       {
         "questionId": 1,
-        "question": "Paciente é internado após reavaliação por equipe de resposta rápida que identificou acidose metabólica e história de intoxicação exógena. Considerando esse quadro clínico, para qual exposição está indicada a hemodiálise?",
+        "question": "Homem de 48 anos de idade, com depressão e história de hipertrofia benigna da próstata (HBP), está tomando gabapentina para dor neuropática. Afirma, no entanto, que a medicação deixa-o deprimido. Nesse caso, qual seria o medicamento antidepressivo tricíclico (TCA) mais apropriado a ser receitado para esse paciente?",
         "image": null,
         "anulada": false,
         "questionYear": "2019",
         "alternatives": [
           {
             "id": 1,
-            "description": "Álcool Isopropílico."
+            "description": "Amitriptilina"
           },
           {
             "id": 2,
-            "description": "Acetaminofen."
+            "description": "Doxepin"
           },
           {
             "id": 3,
-            "description": "Aspirina."
+            "description": "Imipramina"
           },
           {
             "id": 4,
-            "description": "Monóxido de Carbono."
+            "description": "Desipramina"
           },
           {
             "id": 5,
-            "description": "Cianeto."
+            "description": "Fluxoentina"
           }
         ],
-        "rightAnswer": 3
+        "rightAnswer": 4
       },
       {
         "questionId": 2,
-        "question": "Paciente, com síndrome de dor regional complexa do membro superior (CRPS), obteve, com o bloqueio do gânglio estrelado, alívio apenas parcial dessa dor. A explicação para isso pode ser atribuída ao nervo de Kuntz, que recebe contribuição de fibras autonômicas simpáticas da raiz ______ do plexo braquial. Assinale a alternativa que preenche, corretamente, a lacuna do parágrafo acima.",
+        "question": "Paciente, com síndrome de dor regional complexa do membro superior (CRPS), obteve, com o bloqueio do gânglio estrelado, alívio apenas parcial dessa dor. A explicação para isso pode ser atribuída ao nervo de Kuntz, que recebe contribuição de fibras autonômicas simpáticas da raiz __________ do plexo braquial. Assinale a alternativa que preenche, corretamente, a lacuna do parágrafo acima.",
         "image": null,
         "anulada": false,
         "questionYear": "2019",
@@ -66,6 +66,36 @@
           }
         ],
         "rightAnswer": 4
+      },
+      {
+        "questionId": 3,
+        "question": "O método mais sensível para o diagnóstico precoce da necrose avascular da cabeça do fêmur, é a ",
+        "image": null,
+        "anulada": false,
+        "questionYear": "2019",
+        "alternatives": [
+          {
+            "id": 1,
+            "description": "ressonância magnética"
+          },
+          {
+            "id": 2,
+            "description": "cintilografia óssea com radionuclídeo"
+          },
+          {
+            "id": 3,
+            "description": " tomografia computadorizada"
+          },
+          {
+            "id": 4,
+            "description": "radiografia do quadril"
+          },
+          {
+            "id": 5,
+            "description": "ultrassonografia"
+          }
+        ],
+        "rightAnswer": 1
       },
       {
         "questionId": 4,
@@ -189,7 +219,7 @@
       },
       {
         "questionId": 8,
-        "question": "Considere os itens abaixo sobre hiperalgesia induzida por opioides.\nI - Aumento de receptores purinérgicos do tipo P2X4 e P2X7\nII - Aumento de receptores do tipo Toll 4 (TLR4)\nIII- Aumento de receptores do tipo NMDA\nQuais itens apresentam mecanismos neurobiológicos desse tipo de hiperalgesia?",
+        "question": "Considere os itens abaixo sobre hiperalgesia induzida por opioides.\n\nI - Aumento de receptores purinérgicos do tipo P2X4 e P2X7\nII - Aumento de receptores do tipo Toll 4 (TLR4)\nIII- Aumento de receptores do tipo NMDA\n\nQuais itens apresentam mecanismos neurobiológicos desse tipo de hiperalgesia?",
         "image": null,
         "anulada": false,
         "questionYear": "2019",
@@ -306,36 +336,6 @@
           }
         ],
         "rightAnswer": 4
-      },
-      {
-        "questionId": 12,
-        "question": "Assinale a afirmação INCORRETA, em relação à dor por neuralgia primária de trigêmeo.",
-        "image": null,
-        "anulada": false,
-        "questionYear": "2019",
-        "alternatives": [
-          {
-            "id": 1,
-            "description": "Característica em choque ou fisgada."
-          },
-          {
-            "id": 2,
-            "description": "Os ramos do nervo trigêmeo acometidos estão nesta ordem: V2>V3>V1."
-          },
-          {
-            "id": 3,
-            "description": "Carbamazepina é o tratamento farmacológico de primeira escolha."
-          },
-          {
-            "id": 4,
-            "description": "Esclerose múltipla pode ser causa associada à neuralgia do trigêmeo bilateral."
-          },
-          {
-            "id": 5,
-            "description": "Disfunção motora é mais prevalente com a técnica intervencionista cirúrgica de descompressão vascular de fossa posterior."
-          }
-        ],
-        "rightAnswer": 5
       },
       {
         "questionId": 12,
@@ -518,8 +518,38 @@
         "rightAnswer": 1
       },
       {
+        "questionId": 18,
+        "question": "Considere as afirmações abaixo sobre o uso de estimulação medular por dispositivo implantado para manejo de dor crônica. \n\nI - Angina refratária, síndrome complexa de dor regional tipo I e dor isquêmica de membros inferiores são indicações de utilização do estimulador medular.\nII - Na indicação para o uso dessa técnica, o posicionamento dos eletrodos de estimulação medular não interfere na resposta à dor ou aos efeitos colaterais. \nIII - No tratamento da dor, comorbidades psiquiátricas graves têm contraindicação relativa no uso dessa técnica.\n\nQuais estão corretas? ",
+        "image": null,
+        "anulada": false,
+        "questionYear": "2019",
+        "alternatives": [
+          {
+            "id": 1,
+            "description": "Apenas I."
+          },
+          {
+            "id": 2,
+            "description": "Apenas II."
+          },
+          {
+            "id": 3,
+            "description": "Apenas III."
+          },
+          {
+            "id": 4,
+            "description": "Apenas I e III."
+          },
+          {
+            "id": 5,
+            "description": "I, II e III. "
+          }
+        ],
+        "rightAnswer": 4
+      },
+      {
         "questionId": 19,
-        "question": "Os analgésicos opioides são drogas fundamentais no manejo da dor em cuidados paliativos, sendo que o conhecimento de suas características farmacodinâmicas permite maior eficácia no controle desse sintoma. Assinale a alternativa correta em relação aos opioides.",
+        "question": "Os analgésicos opioides são drogas fundamentais no manejo da dor em cuidados paliativos, sendo que o conhecimento de suas características farmacodinâmicas permite maior eficácia no controle desse sintoma. \n\nAssinale a alternativa correta em relação aos opioides.",
         "image": null,
         "anulada": false,
         "questionYear": "2019",
