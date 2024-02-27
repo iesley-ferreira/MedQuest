@@ -76,7 +76,6 @@ body {
 
 .login-input {
   border: solid 1px rgba(230, 229, 229, 0.685);
-  margin-bottom: 20px;
   padding: 12px 16px;
 }
 
@@ -256,7 +255,21 @@ header {
   pointer-events: none;
 }
 
-.feedback-card, .ranking-container, .settings-container {
+.settings-container {
+  align-items: center;
+  background: white;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  /* margin: auto 1em; */
+  min-width: 300px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.feedback-card, .ranking-container {
   align-items: center;
   background: white;
   border-radius: 5px;
@@ -335,14 +348,19 @@ header {
 }
 
 fieldset {
-  border: solid 1px #23553f;
+  align-items: center;
+  border: solid 1px rgba(230, 229, 229, 0.685);
   border-radius: 5px;
   display: flex;
-  flex-direction: column;
+  justify-content: space-evenly;
   padding: 16px;
+  width: 100%;
 }
 
 fieldset label {
+  color: rgba(44, 41, 41, 0.685);
+  font-family: Caveat , cursive;
+  font-size: 20px;
   margin-bottom: 1em;
 }
 
@@ -351,7 +369,7 @@ fieldset .button {
 }
 
 .legend1 {
-  color: #23553f;
+  color: rgba(44, 41, 41, 0.685);
   font-family: Caveat , cursive;
   font-size: 2em;
   margin-bottom: 0.5em;

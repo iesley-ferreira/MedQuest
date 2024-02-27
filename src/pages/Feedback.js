@@ -39,10 +39,11 @@ class Feedback extends Component {
           Correct Answers:
           {' '}
           <span data-testid="feedback-total-question" className="score-text-number">
+            {' '}
             {assertions}
+            {' '}
           </span>
           <span className="score-text-number-dark">
-            {' '}
             /
             {' '}
             {quantity}

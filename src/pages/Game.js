@@ -144,17 +144,6 @@ class Game extends Component {
   }
 }
 
-Game.propTypes = {
-  dispatch: PropTypes.func.isRequired,
-  clearTimer: PropTypes.bool.isRequired,
-  history: PropTypes.shape({
-    push: PropTypes.func.isRequired,
-  }).isRequired,
-  quantity: PropTypes.number.isRequired,
-  usedQuestionIds: PropTypes.shape({}).isRequired,
-  examId: PropTypes.number.isRequired,
-};
-
 const mapStateToProps = ({ player, settings, questionInfo }) => ({
   clearTimer: player.clearTimer,
   categoryId: settings.categoryId,
@@ -166,5 +155,16 @@ const mapStateToProps = ({ player, settings, questionInfo }) => ({
   question: player.question,
   questionYear: player.questionYear,
 });
+
+Game.propTypes = {
+  dispatch: PropTypes.func.isRequired,
+  clearTimer: PropTypes.bool.isRequired,
+  history: PropTypes.shape({
+    push: PropTypes.func.isRequired,
+  }).isRequired,
+  quantity: PropTypes.number.isRequired,
+  usedQuestionIds: PropTypes.shape({}).isRequired,
+  examId: PropTypes.number.isRequired,
+};
 
 export default connect(mapStateToProps)(Game);
