@@ -18,7 +18,15 @@ const INITIAL_STATE = {
       questionYear: '',
     },
   ],
-  usedQuestionIds: [],
+  usedQuestionIds: {
+    exam1: [],
+    exam2: [],
+    exam3: [],
+    exam4: [],
+    exam5: [],
+    exam6: [],
+    exam7: [],
+  },
   currentQuestionNumber: 1,
 };
 
@@ -32,12 +40,26 @@ const questionInfo = (state = INITIAL_STATE, action) => {
   case SET_QUESTION_ARRAY:
     return {
       ...state,
-      usedQuestionIds: [...state.usedQuestionIds, action.payload],
+      usedQuestionIds: {
+        ...state.usedQuestionIds,
+        [`exam${action.payload.examId}`]: [
+          ...(state.usedQuestionIds[`exam${action.payload.examId}`] || []),
+          action.payload.questionId,
+        ],
+      },
     };
   case RESET_USEDQUESTIONIDS:
     return {
       ...state,
-      usedQuestionIds: [],
+      usedQuestionIds: {
+        exam1: [],
+        exam2: [],
+        exam3: [],
+        exam4: [],
+        exam5: [],
+        exam6: [],
+        exam7: [],
+      },
     };
   case INCREMENT_QUESTION_NUMBER:
     return {

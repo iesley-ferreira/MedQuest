@@ -4,25 +4,19 @@ export async function getToken() {
   return data;
 }
 
-export function getQuestionsFromLocalFile(examId, usedQuestionIds = []) {
+export function getQuestionsFromLocalFile(examId, usedQuestionIds) {
   try {
-    // Importe o arquivo JSON local com as questões
-    // eslint-disable-next-line import/no-dynamic-require, global-require
     const examData = require(`../Exams/exam${examId}.json`);
-    // Filtra as questões que ainda não foram utilizadas
+
     const unusedQuestions = examData[0].questions
-      .filter((question) => !usedQuestionIds.includes(question.questionId));
-    // Verifica se há questões não utilizadas
+      .filter((question) => !usedQuestionIds[`exam${examId}`]
+        .includes(question.questionId));
     if (unusedQuestions.length === 0) {
       console.warn('Você fez todas as questões.');
-      // Reinicia a lista de IDs de questões utilizadas
-      usedQuestionIds.length = 0;
+      usedQuestionIds[`exam${examId}`].length = 0;
     }
-    // Escolhe aleatoriamente uma questão não utilizada
     const randomIndex = Math.floor(Math.random() * unusedQuestions.length);
     const selectedQuestion = unusedQuestions[randomIndex];
-    // Adiciona o ID da questão escolhida à lista de IDs de questões utilizadas
-    // usedQuestionIds.push(selectedQuestion.questionId);
     // Separa as respostas corretas e incorretas
     const { rightAnswer, alternatives, ...restOfQuestion } = selectedQuestion;
     const { questionId, question, image, questionYear } = restOfQuestion;
@@ -31,7 +25,6 @@ export function getQuestionsFromLocalFile(examId, usedQuestionIds = []) {
       id: alternative.id,
       description: alternative.description,
     }));
-    // Encontra a resposta correta com base no ID
     const correctAnswer = formattedAlternatives
       .find((alternative) => alternative.id === rightAnswer);
     // Filtra as alternativas corretas e incorretas

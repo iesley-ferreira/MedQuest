@@ -5,7 +5,7 @@ import { updateSettings } from '../redux/actions';
 
 class Settings extends Component {
   state = {
-    examId: 1,
+    examId: 0,
     quantity: 10,
   };
 
@@ -46,6 +46,7 @@ class Settings extends Component {
               data-testid="examId-input"
               value={ examId }
             >
+              <option value="0">Todas</option>
               <option value="1">2006</option>
               <option value="2">2009</option>
               <option value="3">2013</option>

@@ -25,9 +25,17 @@ class Game extends Component {
     const { dispatch, usedQuestionIds, examId } = this.props;
     this.setState({ loading: true });
 
-    const questionData = getQuestionsFromLocalFile(examId, usedQuestionIds);
+    const numberOfExams = 7;
+    let randomExamId;
+    if (examId === 0) {
+      randomExamId = Math.floor(Math.random() * numberOfExams) + 1;
+    } else {
+      randomExamId = examId;
+    }
+
+    const questionData = getQuestionsFromLocalFile(randomExamId, usedQuestionIds);
     dispatch(setQuestion(questionData.results[0]));
-    dispatch(setQuestionArray(questionData.results[0].usedQuestionId));
+    dispatch(setQuestionArray(randomExamId, questionData.results[0].usedQuestionId));
 
     this.setState({
       loading: false,
@@ -68,12 +76,20 @@ class Game extends Component {
 
   handleClick = () => {
     const { index } = this.state;
-    const { history, dispatch, quantity, usedQuestionIds, examId } = this.props;
+    const { history, dispatch, quantity,
+      usedQuestionIds, examId } = this.props;
 
     dispatch(restartTimer());
     this.setState({ seconds: 270, index: index + 1 });
     clearInterval(this.timer);
-    const questionData = getQuestionsFromLocalFile(examId, usedQuestionIds);
+    const numberOfExams = 7;
+    let randomExamId;
+    if (examId === 0) {
+      randomExamId = Math.floor(Math.random() * numberOfExams) + 1;
+    } else {
+      randomExamId = examId;
+    }
+    const questionData = getQuestionsFromLocalFile(randomExamId, usedQuestionIds);
 
     if (index === quantity - 1) {
       history.push('/feedback');
@@ -81,7 +97,7 @@ class Game extends Component {
       dispatch(resetQuestionNumber());
     } else {
       dispatch(setQuestion(questionData.results[0]));
-      dispatch(setQuestionArray(questionData.results[0].usedQuestionId));
+      dispatch(setQuestionArray(randomExamId, questionData.results[0].usedQuestionId));
       dispatch(incrementQuestionNumber());
     }
     this.startTimer();
@@ -135,7 +151,7 @@ Game.propTypes = {
     push: PropTypes.func.isRequired,
   }).isRequired,
   quantity: PropTypes.number.isRequired,
-  usedQuestionIds: PropTypes.arrayOf(PropTypes.number).isRequired,
+  usedQuestionIds: PropTypes.shape({}).isRequired,
   examId: PropTypes.number.isRequired,
 };
 

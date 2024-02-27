@@ -68,9 +68,9 @@ export const setQuestion = (questionInfo) => ({
   payload: { questionInfo },
 });
 
-export const setQuestionArray = (questionId) => ({
+export const setQuestionArray = (examId, questionId) => ({
   type: SET_QUESTION_ARRAY,
-  payload: questionId,
+  payload: { examId, questionId },
 });
 
 export const resetUsedQuestionIds = () => ({

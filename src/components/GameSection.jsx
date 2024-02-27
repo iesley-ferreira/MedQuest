@@ -2,7 +2,8 @@ import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 import { shuffleArray } from '../services/shuffleArray';
-import { stopTimer, disableAlternatives, incrementScore, incrementQuestionNumber } from '../redux/actions';
+import { stopTimer, disableAlternatives, incrementScore,
+} from '../redux/actions';
 
 class GameSection extends Component {
   state = {
@@ -35,7 +36,6 @@ class GameSection extends Component {
 
     dispatch(stopTimer());
     dispatch(disableAlternatives());
-    // dispatch(incrementQuestionNumber());
   };
 
   updateShuffledAnswers() {
@@ -65,7 +65,6 @@ class GameSection extends Component {
       incorrectAnswers,
       image,
     } = questionInfo;
-    console.log(questionInfo.questionId);
     return (
       <section className="question-container">
         <div className="content-question">

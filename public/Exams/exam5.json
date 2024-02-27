@@ -39,8 +39,8 @@
       },
       {
         "questionId": 2,
-        "question": "Observe os gráficos abaixo. Considere as afirmações em relação às curvas de débito cardíaco, registradas com o uso do cateter de artéria pulmonar. I - O eixo Y da curva A representa a temperatura, e a temperatura T1 é maior do que a temperatura T2. II - O eixo X das duas curvas representa o tempo. III- O débito cardíaco da curva B é maior do que o débito cardíaco registrado na curva A. Quais estão corretas? (A) Apenas I. (B) Apenas III. (C) Apenas I e II. (D) Apenas II e III. (E) I, II e III.",
-        "image": null,
+        "question": "Observe os gráficos abaixo. Considere as afirmações em relação às curvas de débito cardíaco, registradas com o uso do cateter de artéria pulmonar. \n\nI - O eixo Y da curva A representa a temperatura, e a temperatura T1 é maior do que a temperatura T2. \nII - O eixo X das duas curvas representa o tempo. \nIII- O débito cardíaco da curva B é maior do que o débito cardíaco registrado na curva A. \n\nQuais estão corretas? ",
+        "image": "/images/02-2017.png",
         "anulada": false,
         "questionYear": "2017",
         "alternatives": [
@@ -69,7 +69,7 @@
       },
       {
         "questionId": 3,
-        "question": "Em relação ao delirium no paciente crítico, assinale a alternativa INCORRETA. (A) O Confusion Assessment Method for the Intensive Care Unit (CAM-ICU) pode ser aplicado em pacientes sob sedação contínua. (B) Os principais fatores de risco de base para o desenvolvimento de delirium são: demência pré-existente, história de hipertensão arterial, alcoolismo e elevada gravidade da doença na admissão à unidade de terapia intensiva (UTI). (C) Coma é fator de risco independente para o desenvolvimento de delirium. (D) A duração do delirium está associada com aumento de mortalidade. (E) Escore maior ou igual a 3 (três) no Intensive Care Delirium Screening Checklist (ICDSC) é compatível com o diagnóstico de delirium.",
+        "question": "Em relação ao delirium no paciente crítico, assinale a alternativa INCORRETA.",
         "image": null,
         "anulada": false,
         "questionYear": "2017",
@@ -99,8 +99,8 @@
       },
       {
         "questionId": 4,
-        "question": "Observe o gráfico abaixo. Considere as afirmações abaixo em relação à curva de pressão intracraniana apresentada acima. I - P1 é denominada onda de percussão e representa o pulso arterial sistólico. II - P2 é a onda dicrótica que ilustra o início da fase diastólica cardíaca. III- A complacência intracraniana está diminuída. Quais estão corretas? (A) Apenas I. (B) Apenas II. (C) Apenas I e III. (D) Apenas II e III. (E) I, II e III.",
-        "image": null,
+        "question": "Observe o gráfico abaixo. Considere as afirmações abaixo em relação à curva de pressão intracraniana apresentada acima. \n\nI - P1 é denominada onda de percussão e representa o pulso arterial sistólico. \nII - P2 é a onda dicrótica que ilustra o início da fase diastólica cardíaca. \nIII- A complacência intracraniana está diminuída. \n\nQuais estão corretas? ",
+        "image": "/images/04-2017.png",
         "anulada": false,
         "questionYear": "2017",
         "alternatives": [
@@ -129,7 +129,7 @@
       },
       {
         "questionId": 5,
-        "question": "Em relação à embolia pulmonar, assinale a alternativa INCORRETA. (A) O radiograma de tórax está alterado em mais de 80% dos pacientes com embolia pulmonar, mas os achados são geralmente inespecíficos e incluem atelectasia, derrame pleural e infiltrados pulmonares. (B) Tromboembolismo pulmonar é classificado como maciço quando ocorre instabilidade hemodinâmica. (C) O sinal de McConnel é um achado ecocardiográfico que pode ocorrer no tromboembolismo pulmonar e é caracterizado por hipocinesia do ápice e hiper- cinesia da parede livre do ventrículo direito. (D) Trombose venosa profunda dos membros inferiores é a causa mais frequente de embolia pulmonar. (E) Acidente vascular hemorrágico prévio é uma contraindicação absoluta à administração de trombolítico no tratamento da embolia pulmonar.",
+        "question": "Em relação à embolia pulmonar, assinale a alternativa INCORRETA.",
         "image": null,
         "anulada": false,
         "questionYear": "2017",
@@ -159,8 +159,8 @@
       },
       {
         "questionId": 6,
-        "question": "Em relação aos sistemas de umidificação e aquecimento do gás inspirado por pacientes em ventilação mecânica, representados abaixo, assinale a afirmação INCORRETA. 1 2 (A) Hipotermia grave é uma contraindicação para o uso do dispositivo número 1. (B) É preferível a utilização do dispositivo número 1 em pacientes com fístula broncopleural grave. (C) A troca do dispositivo número 1 pelo número 2 pode reduzir o espaço morto em pacientes com acidose respiratória. (D) Os dois dispositivos têm eficácia comparável em relação à capacidade de umidificação. (E) A posição correta do dispositivo número 1 é verticalmente acima do tubo orotraqueal.",
-        "image": null,
+        "question": "Em relação aos sistemas de umidificação e aquecimento do gás inspirado por pacientes em ventilação mecânica, representados abaixo, assinale a afirmação INCORRETA.",
+        "image": "/images/06-2017.png",
         "anulada": false,
         "questionYear": "2017",
         "alternatives": [
@@ -189,8 +189,8 @@
       },
       {
         "questionId": 7,
-        "question": "Observe o gráfico abaixo. A curva de Pressão Arterial Média (PAM), exposta no gráfico, representa uma assistência circulatória com balão intra-aórtico (BIA) no modo 1:2. Preencha os parênteses, associando as letras no gráfico às respectivas terminologias. ( ) Pressão final da diástole assistida ( ) Pico de pressão sistólica não assistida ( ) Pico de pressão diastólica aumentada ( ) Pico de pressão sistólica assistida ( ) Insuflação do balão ( ) Pressão final da diástole não assistida A sequência correta de preenchimento dos parênteses, de cima para baixo, é (A) F – A – D – E – C – B. (B) F – A – B – E – C – D. (C) B – E – C – A – D – F. (D) B – C – D – A – E – F. (E) F – A – B – D – C – E.",
-        "image": null,
+        "question": "Observe o gráfico abaixo. \n\nA curva de Pressão Arterial Média (PAM), exposta no gráfico, representa uma assistência circulatória com balão intra-aórtico (BIA) no modo 1:2. Preencha os parênteses, associando as letras no gráfico às respectivas terminologias. \n\n( ) Pressão final da diástole assistida \n( ) Pico de pressão sistólica não assistida \n( ) Pico de pressão diastólica aumentada \n( ) Pico de pressão sistólica assistida \n( ) Insuflação do balão \n( ) Pressão final da diástole não assistida A sequência correta de preenchimento dos parênteses, de cima para baixo, é ",
+        "image": "/images/07-2017.png",
         "anulada": false,
         "questionYear": "2017",
         "alternatives": [
@@ -219,7 +219,7 @@
       },
       {
         "questionId": 8,
-        "question": "Considere as afirmações abaixo em relação ao procedimento de inserção de marca-passo transvenoso (MPTV). I - O local de preferência para inserção venosa é na veia jugular interna direita, pois está associado à menor incidência de complicações e à maior taxa de sucesso na inserção do cateter. II - Durante a inserção do MPTV, o aparecimento do complexo QRS com aumento de amplitude e com alargamento da sua duração implica lesão da parede do ventrículo direito, indicando retirada imediata do dispositivo e realização de ecocardiografia diagnóstica. III- Deve-se estabelecer um output de corrente aproximadamente 1mA superior ao limiar de captura detectado após a implantação do dispositivo para o seu funcionamento adequado. Quais estão corretas? (A) Apenas I. (B) Apenas II. (C) Apenas III. (D) Apenas I e II. (E) I, II e III.",
+        "question": "Considere as afirmações abaixo em relação ao procedimento de inserção de marca-passo transvenoso (MPTV). \nI - O local de preferência para inserção venosa é na veia jugular interna direita, pois está associado à menor incidência de complicações e à maior taxa de sucesso na inserção do cateter. \nII - Durante a inserção do MPTV, o aparecimento do complexo QRS com aumento de amplitude e com alargamento da sua duração implica lesão da parede do ventrículo direito, indicando retirada imediata do dispositivo e realização de ecocardiografia diagnóstica. \nIII- Deve-se estabelecer um output de corrente aproximadamente 1mA superior ao limiar de captura detectado após a implantação do dispositivo para o seu funcionamento adequado. \n\nQuais estão corretas?",
         "image": null,
         "anulada": false,
         "questionYear": "2017",
@@ -249,8 +249,8 @@
       },
       {
         "questionId": 9,
-        "question": "Qual é o grau de visualização laríngea, na classificação de Cormack-Lehane, que está representado? (A) I. (B) II. (C) III. (D) IV. (E) V.",
-        "image": null,
+        "question": "Considere a figura abaixo. \n\nQual é o grau de visualização laríngea, na classificação de Cormack-Lehane, que está representado?",
+        "image": "/images/09-2017.png",
         "anulada": false,
         "questionYear": "2017",
         "alternatives": [
@@ -279,8 +279,8 @@
       },
       {
         "questionId": 10,
-        "question": "Numere a coluna da direita de acordo com a da esquerda, associando as inter-relações pressóricas com a Zona de West correspondente. Legenda: PA, pressão alveolar; Pa, pressão arterial pulmonar; Pv pressão venosa pulmonar (1) Zona 1 (2) Zona 2 (3) Zona 3 ( ) Pa > PA > Pv ( ) Pa > Pv > PA ( ) PA > Pa > Pv A sequência correta de preenchimento dos parênteses da coluna da direita, de cima para baixo, é (A) 3 – 2 – 1. (B) 1 – 2 – 3. (C) 2 – 3 – 1. (D) 2 – 1 – 3. (E) 3 – 1 – 2.",
-        "image": null,
+        "question": "Numere a coluna da direita de acordo com a da esquerda, associando as inter-relações pressóricas com a Zona de West correspondente. \n\nA sequência correta de preenchimento dos parênteses da coluna da direita, de cima para baixo, é",
+        "image": "/images/10-2017.png",
         "anulada": false,
         "questionYear": "2017",
         "alternatives": [
@@ -309,7 +309,7 @@
       },
       {
         "questionId": 11,
-        "question": "Assinale a alternativa correta sobre lesão aguda de mucosa gástrica (LAMG). (A) A maior parte das LAMGs são assintomáticas, sendo infrequente a progressão para sangramento clinicamente significativo. (B) A despeito da melhora empreendida nos cuidados dos pacientes críticos, nas últimas décadas, não houve uma redução significativa na incidência da doença. (C) São fatores de risco independentes para LAMG: a presença de coagulopatia, a necessidade de ventilação mecânica por mais de 48h, a presença de choque persistente por mais de 24h e a necessidade de terapia dialítica na insuficiência renal aguda. (D) Inibidores de bomba de prótons, antagonistas do receptor H2, sucralfato e nutrição parenteral total são intervenções associadas à diminuição na incidência de LAMG. (E) A administração de inibidores de bomba de prótons por via oral é superior na profilaxia de LAMG em comparação a sua administração por via sonda nasoenteral.",
+        "question": "Assinale a alternativa correta sobre lesão aguda de mucosa gástrica (LAMG).",
         "image": null,
         "anulada": false,
         "questionYear": "2017",
@@ -339,7 +339,7 @@
       },
       {
         "questionId": 12,
-        "question": "Considere as afirmações abaixo em relação à coagulação intravascular disseminada (CIVD). I - O diagnóstico de CIVD é sugerido quando existem alterações laboratoriais compatíveis com um aumento na ativação da coagulação (aumento do tempo de protrombina, do tempo de tromboplastina parcial ativada) assim como alterações compatíveis com uma supressão da fibrinólise (elevação nos níveis de D-dímeros). II - Trauma, heat stroke, infecções por gram-negativos, malária e embolização por líquido amniótico são causas bem caracterizadas de CIVD. III- Sangramentos difusos, como hematúria, sangramento em sítio de inserção de cateteres ou sangramento aumentado durante a realização de procedimentos devem levar à suspeita diagnóstica de CIVD. Quais estão corretas? (A) Apenas I. (B) Apenas II. (C) Apenas I e III. (D) Apenas II e III. (E) I, II e III.",
+        "question": "Considere as afirmações abaixo em relação à coagulação intravascular disseminada (CIVD). \n\nI - O diagnóstico de CIVD é sugerido quando existem alterações laboratoriais compatíveis com um aumento na ativação da coagulação (aumento do tempo de protrombina, do tempo de tromboplastina parcial ativada) assim como alterações compatíveis com uma supressão da fibrinólise (elevação nos níveis de D-dímeros). \nII - Trauma, heat stroke, infecções por gram-negativos, malária e embolização por líquido amniótico são causas bem caracterizadas de CIVD. \nIII- Sangramentos difusos, como hematúria, sangramento em sítio de inserção de cateteres ou sangramento aumentado durante a realização de procedimentos devem levar à suspeita diagnóstica de CIVD. \n\nQuais estão corretas?",
         "image": null,
         "anulada": false,
         "questionYear": "2017",
@@ -369,7 +369,7 @@
       },
       {
         "questionId": 13,
-        "question": "Paciente de 65 anos, internada na UTI, necessitou sedação profunda prolongada (fentanil e midazolam). Evoluiu com melhora clínica, iniciando-se a retirada de sedativos. Naquele momento, apresentou agitação motora importante, necessitando reinício de sedação. Considere as afirmações abaixo sobre delirium, analgesia e sedação em relação ao paciente acima. I - A agitação apresentada pelo paciente pode fazer parte de um quadro de abstinência devido ao uso prévio e prolongado de benzodiazepínico e opioide, fazendo parte do manejo a retirada lenta e gradual desses fármacos. II - Paciente deve ser avaliado em relação à dor, delirium, hipoxemia, hipoglicemia, que podem ser a causa de sua agitação. III- O paciente deve ser avaliado com CAM-ICU, que é a escala para diagnóstico de delirium, validada apenas para pacientes críticos em ventilação mecânica. IV - Fazendo-se o diagnóstico de delirium, o manejo inicial deve constar de tratamento farmacológico, pois há fortes evidências na literatura de que o uso de antipsicóticos melhora o desfecho desses pacientes. Quais estão corretas? (A) Apenas I e II. (B) Apenas II e IV. (C) Apenas III e IV. (D) Apenas I, III e IV. (E) I, II, III e IV.",
+        "question": "Paciente de 65 anos, internada na UTI, necessitou sedação profunda prolongada (fentanil e midazolam). Evoluiu com melhora clínica, iniciando-se a retirada de sedativos. Naquele momento, apresentou agitação motora importante, necessitando reinício de sedação. \n\nConsidere as afirmações abaixo sobre delirium, analgesia e sedação em relação ao paciente acima. \n\nI - A agitação apresentada pelo paciente pode fazer parte de um quadro de abstinência devido ao uso prévio e prolongado de benzodiazepínico e opioide, fazendo parte do manejo a retirada lenta e gradual desses fármacos. \nII - Paciente deve ser avaliado em relação à dor, delirium, hipoxemia, hipoglicemia, que podem ser a causa de sua agitação. \nIII- O paciente deve ser avaliado com CAM-ICU, que é a escala para diagnóstico de delirium, validada apenas para pacientes críticos em ventilação mecânica. \nIV - Fazendo-se o diagnóstico de delirium, o manejo inicial deve constar de tratamento farmacológico, pois há fortes evidências na literatura de que o uso de antipsicóticos melhora o desfecho desses pacientes. \n\nQuais estão corretas?",
         "image": null,
         "anulada": false,
         "questionYear": "2017",
@@ -399,7 +399,7 @@
       },
       {
         "questionId": 14,
-        "question": "Paciente masculino, 67 anos, previamente hígido, chega à Emergência queixando-se de falta de ar, e, nos últimos três dias, tem apresentado febre e tosse produtiva com expectoração purulenta. Após sua admissão, é intubado por hipoxemia grave e diminuição da consciência, não apresentando disfunção cardíaca aparente ao exame. A pressão venosa central é de 7cm de água com cabeceira a 45º. A ausculta pulmonar apresenta estertores inspiratórios difusos em ambos os pulmões. Suas extremidades são aquecidas e não tem edema periférico. A gasometria demonstra pressão parcial de oxigênio de 120mmHg com o paciente ventilando com uma fração inspirada de oxigênio de 50% e pressão positiva no final da expiração de 8cm de água. A radiografia de tórax mostra um infiltrado grosseiro difuso e bilateral. Qual das estratégias abaixo tem maior probabilidade de aumentar a sobrevida desse paciente? (A) Ventilação com baixo volume de ar corrente. (B) Bloqueio neuromuscular. (C) Administração de corticoide endovenoso. (D) Pressão positiva no final da expiração elevada. (E) Ventilação em posição prona.",
+        "question": "Paciente masculino, 67 anos, previamente hígido, chega à Emergência queixando-se de falta de ar, e, nos últimos três dias, tem apresentado febre e tosse produtiva com expectoração purulenta. Após sua admissão, é intubado por hipoxemia grave e diminuição da consciência, não apresentando disfunção cardíaca aparente ao exame. A pressão venosa central é de 7cm de água com cabeceira a 45º. A ausculta pulmonar apresenta estertores inspiratórios difusos em ambos os pulmões. Suas extremidades são aquecidas e não tem edema periférico. A gasometria demonstra pressão parcial de oxigênio de 120mmHg com o paciente ventilando com uma fração inspirada de oxigênio de 50% e pressão positiva no final da expiração de 8cm de água. A radiografia de tórax mostra um infiltrado grosseiro difuso e bilateral. \n\nQual das estratégias abaixo tem maior probabilidade de aumentar a sobrevida desse paciente?",
         "image": null,
         "anulada": false,
         "questionYear": "2017",
@@ -429,7 +429,7 @@
       },
       {
         "questionId": 15,
-        "question": "Considere as afirmações abaixo sobre farmacocinética e farmacodinâmica dos antibióticos. I - O tempo acima da concentração inibitória mínima (T>MIC) é um fator determinante na efetividade do antibiótico e pode ser modulado pelo regime de administração da droga. II - A estratégia de administração de antibióticos em infusão contínua, mantendo a concentração do antibiótico estável e acima da MIC, é mais adequada do que a estratégia de infusão estendida da dose que permite uma flutuação da concentração do antibiótico. III- A eficácia dos aminoglicosídeos é maior em regimes com doses elevadas e administradas com menor frequência. IV - A administração de betalactâmicos em tempo estendido aumenta a capacidade de erradicar patógenos, mas também pode aumentar a toxicidade dos mesmos. Quais estão corretas? (A) Apenas II. (B) Apenas I e III. (C) Apenas II e III. (D) Apenas I, III e IV. (E) I, II, III e IV.",
+        "question": "Considere as afirmações abaixo sobre farmacocinética e farmacodinâmica dos antibióticos. \n\nI - O tempo acima da concentração inibitória mínima (T>MIC) é um fator determinante na efetividade do antibiótico e pode ser modulado pelo regime de administração da droga. \nII - A estratégia de administração de antibióticos em infusão contínua, mantendo a concentração do antibiótico estável e acima da MIC, é mais adequada do que a estratégia de infusão estendida da dose que permite uma flutuação da concentração do antibiótico. \nIII- A eficácia dos aminoglicosídeos é maior em regimes com doses elevadas e administradas com menor frequência. \nIV - A administração de betalactâmicos em tempo estendido aumenta a capacidade de erradicar patógenos, mas também pode aumentar a toxicidade dos mesmos. \n\nQuais estão corretas?",
         "image": null,
         "anulada": false,
         "questionYear": "2017",
@@ -459,7 +459,7 @@
       },
       {
         "questionId": 16,
-        "question": "Pacientes obesos geralmente apresentam __________ do Vd (volume de distribuição) para drogas lipofílicas levando __________ da concentração de pico destes agentes e aumento em sua meia-vida. Estas alterações podem __________ a resposta à dose inicial e __________ o tempo para alcançar níveis estáveis. Assinale a alternativa que preenche, correta e respectivamente, as lacunas do texto. (A) aumento – ao aumento – reduzir – aumentar (B) aumento – à diminuição – aumentar – reduzir (C) diminuição – à diminuição – reduzir – aumentar (D) aumento – à diminuição – reduzir – aumentar (E) diminuição – ao aumento – aumentar – reduzir",
+        "question": "Pacientes obesos geralmente apresentam __________ do Vd (volume de distribuição) para drogas lipofílicas levando __________ da concentração de pico destes agentes e aumento em sua meia-vida. Estas alterações podem __________ a resposta à dose inicial e __________ o tempo para alcançar níveis estáveis. \n\nAssinale a alternativa que preenche, correta e respectivamente, as lacunas do texto.",
         "image": null,
         "anulada": false,
         "questionYear": "2017",
@@ -489,7 +489,7 @@
       },
       {
         "questionId": 17,
-        "question": "Homem, 65 anos, tem insuficiência renal crônica secundária à doença renal policística. Recentemente foi submetido à artroplastia do joelho, desenvolvendo sepse por Staphylococcus aureus e infecção da prótese articular. É admitido na unidade de terapia intensiva, devido à hipotensão, com necessidade de uso de vasopressor e com alteração do estado mental; não tem diabetes e sua glicemia atual é 220mg/dL. Assinale a alternativa correta em relação ao tratamento desse paciente. (A) Deve ser tratado com insulinoterapia com alvo de glicemia capilar entre 80 e 110mg/dL. (B) Deve ser tratado com insulinoterapia com alvo de glicemia capilar entre 110 e 140mg/dL. (C) Deve ser tratado com insulinoterapia com alvo de glicemia capilar entre 140 e 180mg/dL. (D) Não há recomendação de controle glicêmico nessa situação. (E) Nesse caso, terapia intensiva com insulina não está associada com aumento da incidência de hipoglicemia grave.",
+        "question": "Homem, 65 anos, tem insuficiência renal crônica secundária à doença renal policística. Recentemente foi submetido à artroplastia do joelho, desenvolvendo sepse por Staphylococcus aureus e infecção da prótese articular. É admitido na unidade de terapia intensiva, devido à hipotensão, com necessidade de uso de vasopressor e com alteração do estado mental; não tem diabetes e sua glicemia atual é 220mg/dL. \n\nAssinale a alternativa correta em relação ao tratamento desse paciente.",
         "image": null,
         "anulada": false,
         "questionYear": "2017",
@@ -519,7 +519,7 @@
       },
       {
         "questionId": 18,
-        "question": "Em relação ao suporte nutricional de pacientes obesos, criticamente enfermos, é INCORRETO afirmar que (A) os alvos de ingesta proteica e calórica calculados para atender as demandas metabólicas e o equilíbrio nitrogenado para um paciente com Índice de Massa Corporal (IMC) de 35kg/cm² deve ser de 11 a 14kcal/kg de peso ideal por dia, com 2.0g de proteinas/kg de peso ideal por dia. (B) o aporte proteico deve ser 2,5g/kg de peso ideal por dia para pacientes com IMC ≥ 40kg/cm². (C) para todas as classes de obesidade, a meta de aporte enteral não deve exceder 65% a 70% da necessidade calórica medida por calorimetria indireta. (D) o aporte calórico calculado deve ser de 22 a 25kcal/kg de peso ideal por dia para pacientes com IMC>50 kg/cm². (E) pacientes adultos obesos, criticamente enfermos, devem receber dieta hipocalórica e com elevado conteúdo proteico.",
+        "question": "Em relação ao suporte nutricional de pacientes obesos, criticamente enfermos, é INCORRETO afirmar que",
         "image": null,
         "anulada": false,
         "questionYear": "2017",
@@ -549,7 +549,7 @@
       },
       {
         "questionId": 19,
-        "question": "Sobre a Síndrome do Eutireoidiano Doente (Non-Thyroidal Illness Syndrome), é correto afirmar que (A) a doença crítica não causa alterações na concentração de hormônio tireoidiano, mesmo nos pacientes sem doença tireoidiana prévia. (B) a dosagem do hormônio estimulante da tireoide (TSH) >10mUI/L confirma o diagnóstico. (C) a reposição de levotiroxina é indicada em grande parte dos casos. (D) níveis séricos elevados de TSH estão associados à maior mortalidade. (E) alterações no metabolismo periférico dos hormônios tireoidianos, alterações na regulação do TSH e alterações na ligação dos hormônios tireoidianos à globulina ligadora da tiroxina (TBG) estão entre os possíveis mecanismos fisiopatológicos da síndrome.",
+        "question": "Sobre a Síndrome do Eutireoidiano Doente (Non-Thyroidal Illness Syndrome), é correto afirmar que",
         "image": null,
         "anulada": false,
         "questionYear": "2017",
@@ -579,7 +579,7 @@
       },
       {
         "questionId": 20,
-        "question": "A gastroparesia pode ser um problema relevante nas unidades de terapia intensiva, pois, ao dificultar a nutrição e impedir a administração correta de diversas medicações, pode influenciar negativamente no quadro clínico dos pacientes. Sobre este tema é INCORRETO afirmar que (A) a gastroparesia no paciente crítico é decorrente de uma confluência de diversos fatores, incluindo medicamentos, disfunção autonômica, estados pós-cirúrgicos, etc. (B) sempre deve ser considerada a possibilidade de obstrução mecânica associada. (C) pacientes com gastroparesia apresentam-se tipicamente com náuseas, vômitos, dor abdominal e saciedade precoce; em doentes recebendo alimentação por sondas enterais, os resíduos gástricos elevados são um sinal de atraso do esvaziamento gástrico. (D) intervenções cirúrgicas devem ser utilizadas apenas como último recurso terapêutico. (E) a associação de eritromicina IV e azitromicina VO mostrou-se bastante eficaz no controle dos sintomas.",
+        "question": "A gastroparesia pode ser um problema relevante nas unidades de terapia intensiva, pois, ao dificultar a nutrição e impedir a administração correta de diversas medicações, pode influenciar negativamente no quadro clínico dos pacientes. \n\nSobre este tema é INCORRETO afirmar que",
         "image": null,
         "anulada": false,
         "questionYear": "2017",
@@ -609,7 +609,7 @@
       },
       {
         "questionId": 22,
-        "question": "Numere a segunda coluna de acordo com a primeira, associando as drogas vasoativas ao seu uso clínico. (1) Adrenalina (2) Isoproterenol (3) Fenilefrina (4) Milrinona (5) Vasopressina ( ) Choque séptico, com síndrome de Takotsubo e obstrução dinâmica da via de saída do ventrículo esquerdo. ( ) Déficit cronotrópico do pós-operatório de transplante cardíaco. ( ) Choque cardiogênico em usuário prévio de betabloqueador. ( ) Vasoplegia no pós-operatório de cirurgia cardíaca. ( ) Alternativa no choque cardiogênico por efeitos cronotrópico e inotrópico positivo em doses baixas. A sequência numérica correta de preenchimento dos parênteses da segunda coluna, de cima para baixo, é (A) 5 – 4 – 2 – 3 – 1. (B) 3 – 4 – 2 – 1 – 5. (C) 3 – 2 – 4 – 1 – 5. (D) 3 – 2 – 4 – 5 – 1. (E) 4 – 2 – 1 – 5 – 3.",
+        "question": "Numere a segunda coluna de acordo com a primeira, associando as drogas vasoativas ao seu uso clínico. \n\n(1) Adrenalina \n(2) Isoproterenol \n(3) Fenilefrina \n(4) Milrinona \n(5) Vasopressina \n\n( ) Choque séptico, com síndrome de Takotsubo e obstrução dinâmica da via de saída do ventrículo esquerdo. \n( ) Déficit cronotrópico do pós-operatório de transplante cardíaco. \n( ) Choque cardiogênico em usuário prévio de betabloqueador. \n( ) Vasoplegia no pós-operatório de cirurgia cardíaca. \n( ) Alternativa no choque cardiogênico por efeitos cronotrópico e inotrópico positivo em doses baixas. \n\nA sequência numérica correta de preenchimento dos parênteses da segunda coluna, de cima para baixo, é",
         "image": null,
         "anulada": false,
         "questionYear": "2017",
@@ -639,8 +639,8 @@
       },
       {
         "questionId": 23,
-        "question": "Observe a figura abaixo que representa duas curvas do cateter de artéria pulmonar. Assinale a alternativa correta em relação a essas curvas A e B. (A) Ambas são normais e representam as curvas de ventrículo direito (curva A) e artéria pulmonar (curva B). (B) Ambas são normais e representam as curvas de pressão de oclusão da artéria pulmonar (curva A) e artéria pulmonar (curva B). (C) Ambas são anormais e podem pertencer a um paciente em choque cardiogênico após infarto agudo do miocárdio e com complicação mecânica. (D) Ambas são normais e representam curvas de pressão da artéria pulmonar, porém a localização do cateter é mais distal na curva A. (E) Ambas são anormais e podem pertencer a um paciente com tromboembolismo pulmonar maciço.",
-        "image": null,
+        "question": "Observe a figura abaixo que representa duas curvas do cateter de artéria pulmonar. \n\nAssinale a alternativa correta em relação a essas curvas A e B.",
+        "image": "/images/23-2017.png",
         "anulada": false,
         "questionYear": "2017",
         "alternatives": [
@@ -669,7 +669,7 @@
       },
       {
         "questionId": 24,
-        "question": "Paciente feminina, 35 anos, com insuficiência cardíaca grave e refratária, por miocardiopatia dilatada idiopática, com hipertensão pulmonar secundária reativa, foi submetida a transplante cardíaco, com tempo de isquemia de cinco horas. Apresentou dificuldade de saída de circulação extracorpórea e as medidas do cateter de artéria pulmonar evidenciaram pressão atrial direita média de 15mmHg, pressão sistólica da artéria pulmonar de 55mmHg e pressão de oclusão da artéria pulmonar média de 10mmHg. O ecocardiograma transesofágico demonstrou a presença de dilatação do ventrículo direito, confirmando o diagnóstico de falência primária do enxerto por disfunção ventricular direita. A paciente estava em uso de noradrenalina a 0,6mcg/kg/min e a associação com óxido nítrico inalatório e milrinona, permitiu a redução progressiva da dose do vasopressor e saída de circulação extracorpórea. Caso isso não fosse possível, poderia se considerar o uso de suporte circulatório mecânico.",
+        "question": "Paciente feminina, 35 anos, com insuficiência cardíaca grave e refratária, por miocardiopatia dilatada idiopática, com hipertensão pulmonar secundária reativa, foi submetida a transplante cardíaco, com tempo de isquemia de cinco horas. Apresentou dificuldade de saída de circulação extracorpórea e as medidas do cateter de artéria pulmonar evidenciaram pressão atrial direita média de 15mmHg, pressão sistólica da artéria pulmonar de 55mmHg e pressão de oclusão da artéria pulmonar média de 10mmHg. O ecocardiograma transesofágico demonstrou a presença de ____________ , confirmando o diagnóstico de ____________. A paciente estava em uso de noradrenalina a 0,6mcg/kg/min e a associação com ____________ e ____________, permitiu a redução progressiva da dose do vasopressor e saída de circulação extracorpórea. Caso isso não fosse possível, poderia se considerar o uso de ____________",
         "image": null,
         "anulada": false,
         "questionYear": "2017",
@@ -700,7 +700,7 @@
       {
         "questionId": 25,
         "question": "Observe os registros de mecânica respiratória abaixo.\n\nAssinale a alternativa correta em relação aos regimes ventilatórios de A, B, C e D.",
-        "image": null,
+        "image": "/images/25-2017.png",
         "anulada": false,
         "questionYear": "2017",
         "alternatives": [
@@ -725,11 +725,11 @@
             "description": "Ventilação com pressão negativa, BiPAP, pressão de suporte, pressão controlada."
           }
         ],
-        "rightAnswer": 2
+        "rightAnswer": 4
       },
       {
         "questionId": 26,
-        "question": "Considere as afirmações sobre febre na unidade de terapia intensiva.\nI - A temperatura central acima de 38,3ºC deve ser considerada febre.\nII - Medida de temperatura axilar é confiável desde que o paciente não esteja recebendo nenhum tipo de aquecimento ou resfriamento externo.\nIII- Punção lombar deve ser considerada como parte da avaliação de febre nosocomial nos pacientes em pós-operatório de neurocirurgia.\nQuais estão corretas?",
+        "question": "Considere as afirmações sobre febre na unidade de terapia intensiva.\n\nI - A temperatura central acima de 38,3ºC deve ser considerada febre.\nII - Medida de temperatura axilar é confiável desde que o paciente não esteja recebendo nenhum tipo de aquecimento ou resfriamento externo.\nIII- Punção lombar deve ser considerada como parte da avaliação de febre nosocomial nos pacientes em pós-operatório de neurocirurgia.\n\nQuais estão corretas?",
         "image": null,
         "anulada": false,
         "questionYear": "2017",
@@ -759,52 +759,30 @@
       },
       {
         "questionId": 27,
-        "question": "Paciente masculino, 50 anos, interna na unidade de terapia intensiva com diagnóstico de meningite bacteriana (bacterioscópico do liquor com diplococo gram-positivo) e hipertensão intracraniana grave. No momento da internação, função renal e eletrólitos estavam dentro dos limites da normalidade. Vinte e quatro horas após a admissão na UTI, o paciente evolui com coma aperceptivo, pupilas médias e fixas, poliúria e hipernatremia (sódio 162mEq/L).",
+        "question": "Paciente masculino, 50 anos, interna na unidade de terapia intensiva com diagnóstico de meningite bacteriana (bacterioscópico do liquor com diplococo gram-positivo) e hipertensão intracraniana grave. No momento da internação, função renal e eletrólitos estavam dentro dos limites da normalidade. Vinte e quatro horas após a admissão na UTI, o paciente evolui com coma aperceptivo, pupilas médias e fixas, poliúria e hipernatremia (sódio 162mEq/L). \n\nSobre o caso acima, considere as afirmações abaixo. \n\nI - De acordo com a nomenclatura da Organização Mundial da Saúde (OMS), esse paciente é elegível para doação de órgãos, a despeito da infecção por pneumococo. \nII - O uso de bloqueadores neuromusculares pode ser considerado para prevenção de reflexos medulares, após o diagnóstico definitivo de morte encefálica. \nIII - A angiotomografia cerebral é considerada um método gráfico complementar para o diagnóstico de morte encefálica em instituições com protocolo de interpretação padronizado. \nIV - O sódio deve estar abaixo de 160mEq/L para abertura do protocolo de morte encefálica. \n\nQuais estão corretas?",
         "image": null,
         "anulada": false,
         "questionYear": "2017",
         "alternatives": [
           {
             "id": 1,
-            "description": "De acordo com a nomenclatura da Organização Mundial da Saúde (OMS), esse paciente é elegível para doação de órgãos, a despeito da infecção por pneumococo."
+            "description": " Apenas I e III"
           },
           {
             "id": 2,
-            "description": "O uso de bloqueadores neuromusculares pode ser considerado para prevenção de reflexos medulares, após o diagnóstico definitivo de morte encefálica."
+            "description": "Apenas II e III"
           },
           {
             "id": 3,
-            "description": "A angiotomografia cerebral é considerada um método gráfico complementar para o diagnóstico de morte encefálica em instituições com protocolo de interpretação padronizado."
+            "description": " Apenas II e IV"
           },
           {
             "id": 4,
-            "description": "O sódio deve estar abaixo de 160mEq/L para abertura do protocolo de morte encefálica."
-          }
-        ],
-        "rightAnswer": 2
-      },
-      {
-        "questionId": 27,
-        "question": "Paciente masculino, 50 anos, interna na unidade de terapia intensiva com diagnóstico de meningite bacteriana (bacterioscópico do liquor com diplococo gram-positivo) e hipertensão intracraniana grave. No momento da internação, função renal e eletrólitos estavam dentro dos limites da normalidade. Vinte e quatro horas após a admissão na UTI, o paciente evolui com coma aperceptivo, pupilas médias e fixas, poliúria e hipernatremia (sódio 162mEq/L).",
-        "image": null,
-        "anulada": false,
-        "questionYear": "2017",
-        "alternatives": [
-          {
-            "id": 1,
-            "description": "De acordo com a nomenclatura da Organização Mundial da Saúde (OMS), esse paciente é elegível para doação de órgãos, a despeito da infecção por pneumococo."
+            "description": "Apenas I, III e IV"
           },
           {
-            "id": 2,
-            "description": "O uso de bloqueadores neuromusculares pode ser considerado para prevenção de reflexos medulares, após o diagnóstico definitivo de morte encefálica."
-          },
-          {
-            "id": 3,
-            "description": "A angiotomografia cerebral é considerada um método gráfico complementar para o diagnóstico de morte encefálica em instituições com protocolo de interpretação padronizado."
-          },
-          {
-            "id": 4,
-            "description": "O sódio deve estar abaixo de 160mEq/L para abertura do protocolo de morte encefálica."
+            "id": 5,
+            "description": "I, II, III e IV"
           }
         ],
         "rightAnswer": 2
@@ -901,7 +879,7 @@
       },
       {
         "questionId": 31,
-        "question": "Considere as afirmações abaixo sobre o atendimento de paciente, 26 anos, grávida de 30 semanas, que evolui com parada cardíaca (PCR) em fibrilação ventricular.\nI - A cesariana deve ser realizada após quatro minutos do início das manobras de ressuscitação, em PCR não testemunhada.\nII - Posicionar a paciente em decúbito lateral esquerdo reduz a qualidade das compressões torácicas.\nIII- A intubação orotraqueal é considerada mais difícil do que em pacientes não grávidas.\nIV - A energia selecionada deve ser a mais alta disponível já que a gravidez aumenta a impedância transtorácica.\nQuais estão corretas?",
+        "question": "Considere as afirmações abaixo sobre o atendimento de paciente, 26 anos, grávida de 30 semanas, que evolui com parada cardíaca (PCR) em fibrilação ventricular.\n\nI - A cesariana deve ser realizada após quatro minutos do início das manobras de ressuscitação, em PCR não testemunhada.\nII - Posicionar a paciente em decúbito lateral esquerdo reduz a qualidade das compressões torácicas.\nIII- A intubação orotraqueal é considerada mais difícil do que em pacientes não grávidas.\nIV - A energia selecionada deve ser a mais alta disponível já que a gravidez aumenta a impedância transtorácica.\n\nQuais estão corretas?",
         "image": null,
         "anulada": false,
         "questionYear": "2017",
@@ -931,8 +909,8 @@
       },
       {
         "questionId": 32,
-        "question": "Observe a figura abaixo.\nEm relação ao fenômeno observado na interação coração-pulmão descrito na figura acima, é INCORRETO afirmar que",
-        "image": null,
+        "question": "Observe a figura abaixo.\n\nEm relação ao fenômeno observado na interação coração-pulmão descrito na figura acima, é INCORRETO afirmar que",
+        "image": "/images/32-2017.png",
         "anulada": false,
         "questionYear": "2017",
         "alternatives": [
@@ -961,7 +939,7 @@
       },
       {
         "questionId": 33,
-        "question": "Numere a segunda coluna de acordo com a primeira, associando os tipos de decisão às respectivas razões que os justificam.\n(1) Não reanimar o paciente\n(2) Não implantação de medidas de suporte à vida\n(3) Retirada de medidas de suporte de vida\n\n( ) decisão tomada previamente à ocorrência de uma parada cardiorrespiratória, no sentido de não implantar as medidas de reanimação.\n( ) assume-se que o paciente morrerá sem a terapêutica em questão, mesmo que seja potencialmente benéfica.\n( ) medida que está indicada quando está claro que o paciente irá morrer no seguimento da alteração do processo terapêutico, estando justificada quando as medidas forem consideradas fúteis.\n\nA sequência numérica correta de preenchimento dos parênteses da segunda coluna, de cima para baixo, é",
+        "question": "Numere a segunda coluna de acordo com a primeira, associando os tipos de decisão às respectivas razões que os justificam. \n\n(1) Não reanimar o paciente\n(2) Não implantação de medidas de suporte à vida\n(3) Retirada de medidas de suporte de vida\n\n( ) decisão tomada previamente à ocorrência de uma parada cardiorrespiratória, no sentido de não implantar as medidas de reanimação.\n( ) assume-se que o paciente morrerá sem a terapêutica em questão, mesmo que seja potencialmente benéfica.\n( ) medida que está indicada quando está claro que o paciente irá morrer no seguimento da alteração do processo terapêutico, estando justificada quando as medidas forem consideradas fúteis.\n\nA sequência numérica correta de preenchimento dos parênteses da segunda coluna, de cima para baixo, é",
         "image": null,
         "anulada": false,
         "questionYear": "2017",
@@ -991,7 +969,7 @@
       },
       {
         "questionId": 34,
-        "question": "Princípio pelo qual é admitida a administração de altas doses de medicamentos com o objetivo de minorar o sofrimento de um paciente, mas que pode ter como efeito indesejado a sua morte.\nA qual princípio bioético refere-se o parágrafo acima?",
+        "question": "Princípio pelo qual é admitida a administração de altas doses de medicamentos com o objetivo de minorar o sofrimento de um paciente, mas que pode ter como efeito indesejado a sua morte.\n\nA qual princípio bioético refere-se o parágrafo acima?",
         "image": null,
         "anulada": false,
         "questionYear": "2017",
@@ -1022,7 +1000,7 @@
       {
         "questionId": 35,
         "question": "Considere as curvas abaixo.\nCurva I\nPressões, em cmH20: PEEP: 5; pressão de pico: 20; platô: 15.\nCurva II\nPressões, em cmH20: PEEP: 5; pressão de pico: 25; platô: 15.\nAssinale a alternativa que apresenta uma causa compatível com a modificação da curva de (I) para (II).",
-        "image": null,
+        "image": "/images/35-2017.png",
         "anulada": false,
         "questionYear": "2017",
         "alternatives": [
