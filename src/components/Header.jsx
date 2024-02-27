@@ -2,8 +2,10 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom/cjs/react-router-dom';
+
 import { generateGravatarURL } from '../services/gravatarFunctions';
 import house from './images/house.png';
+import Contador from './Contador';
 
 class Header extends Component {
   render() {
@@ -17,6 +19,8 @@ class Header extends Component {
           className="avatar"
         />
         <h3 data-testid="header-player-name" className="header-name">{name}</h3>
+
+        <Contador />
 
         <Link to="/">
           {' '}

@@ -9,6 +9,8 @@ import { restartTimer,
   setQuestion,
   resetUsedQuestionIds,
   setQuestionArray,
+  resetQuestionNumber,
+  incrementQuestionNumber,
 } from '../redux/actions';
 import { getQuestionsFromLocalFile } from '../services/api';
 
@@ -43,7 +45,10 @@ class Game extends Component {
   }
 
   componentWillUnmount() {
+    const { dispatch } = this.props;
+
     clearInterval(this.timer);
+    dispatch(resetQuestionNumber());
   }
 
   startTimer = () => {
@@ -73,9 +78,11 @@ class Game extends Component {
     if (index === quantity - 1) {
       history.push('/feedback');
       dispatch(resetUsedQuestionIds());
+      dispatch(resetQuestionNumber());
     } else {
       dispatch(setQuestion(questionData.results[0]));
       dispatch(setQuestionArray(questionData.results[0].usedQuestionId));
+      dispatch(incrementQuestionNumber());
     }
     this.startTimer();
     dispatch(enableAlternativesButtons());
