@@ -351,6 +351,9 @@ header {
   font-size: 48px;
 }
 
+.question-image {
+  width: 100%;
+}
 
 .buttons-container {
   padding-top: 1em;
@@ -376,7 +379,6 @@ header {
 }
 
 .ranking-title {
-  color: #23553f;
   font-family: Caveat , cursive;
   font-size: 3em;
   margin-bottom: 0.5em;
