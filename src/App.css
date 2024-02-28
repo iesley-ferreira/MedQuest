@@ -1,11 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:regular,bold,italic&subset=latin,latin-ext');
 
-/* .abel-regular {
-  font-family: Abel , sans-serif;
-  font-style: normal;
-  font-weight: 400;
-} */
-
 @font-face {
   font-family: Caveat;
   src: url('./fonts/Caveat-VariableFont_wght.ttf') format('truetype');
@@ -179,8 +173,9 @@ header {
   background-color: aliceblue;
   border-radius: 10px;
   font-size: 1em;
-  margin: 0 30px;
-  margin-bottom: 132px;
+
+  /* margin: 0 30px; */
+  margin-bottom: 40px;
   padding: 20px;
 }
 
@@ -189,6 +184,7 @@ header {
 }
 
 .content-question p {
+  font-size: 13px;
   margin-top: 10px;
 }
 
@@ -209,12 +205,14 @@ header {
 .answers-container {
   display: grid;
   font-size: 1.2em;
-  gap: 5px;
+  gap: 10px;
 }
 
 .answers-container > button {
   background-color: rgba(255, 255, 255, 0.903);
   color: black;
+  height: 100%;
+  min-height: 24px;
 }
 
 .answers-container > button:hover {
@@ -316,6 +314,7 @@ header {
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
   display: flex;
   flex-direction: column;
+  font-family: Abel , cursive;
   justify-content: center;
   margin: auto 1em;
   min-width: 300px;
@@ -338,19 +337,20 @@ header {
 .score-text {
   align-items: center;
   display: flex;
+  font-family: Abel , cursive;
+  font-size: 20px;
+  font-weight: 700;
+  justify-content: space-around;
+  width: 240px;
+}
+
+.score-text-container {
+  display: flex;
+  flex-direction: row;
   font-family: Caveat , cursive;
-  font-size: 2em;
+  font-size: 48px;
 }
 
-.score-text-number {
-  color: #35906f;
-  font-size: 2.1em;
-}
-
-.score-text-number-dark {
-  color: #23553f;
-  font-size: 2.1em;
-}
 
 .buttons-container {
   padding-top: 1em;

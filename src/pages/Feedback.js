@@ -44,20 +44,21 @@ class Feedback extends Component {
 
         </p>
 
-        <p className="score-text">
+        <div className="score-text">
           Correct Answers:
-          {' '}
-          <span data-testid="feedback-total-question" className="score-text-number">
-            {' '}
-            {assertions}
-            {' '}
-          </span>
-          <span className="score-text-number-dark">
+          <div className="score-text-container">
+            <div data-testid="feedback-total-question" className="score-text-number">
+              {' '}
+              {assertions}
+              {' '}
+            </div>
             /
-            {' '}
-            {quantity}
-          </span>
-        </p>
+            <div className="score-text-number-dark">
+              {' '}
+              {quantity}
+            </div>
+          </div>
+        </div>
         <div className="buttons-container">
 
           <button
