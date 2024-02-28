@@ -9,7 +9,7 @@
     "questions": [
       {
         "questionId": 1,
-        "question": "Paciente feminina, 45 anos, foi encontrada irresponsiva, em casa, sendo intubada no local. História médica não revela nada digno de nota. Após 48 horas de internação, paciente apresenta, ao exame clínico, coma não perceptivo e ausência de reatividade supraespinhal. Em relação à determinação de morte encefálica (ME), assinale a alternativa correta.",
+        "question": "Paciente feminina, 45 anos, foi encontrada irresponsiva, em casa, sendo intubada no local. História médica não revela nada digno de nota. Após 48 horas de internação, paciente apresenta, ao exame clínico, coma não perceptivo e ausência de reatividade supraespinhal. \n\nEm relação à determinação de morte encefálica (ME), assinale a alternativa correta.",
         "image": null,
         "anulada": false,
         "questionYear": "2021",
@@ -36,7 +36,7 @@
           }
         ],
         "rightAnswer": 2
-    },
+      },
       {
         "questionId": 2,
         "question": "Assinale a alternativa correta em relação à dor e analgesia dos pacientes críticos.",
@@ -69,7 +69,7 @@
       },
       {
         "questionId": 4,
-        "question": "Considere as seguintes afirmativas a respeito da terapia hídrica na sepse. I - A ressuscitação volêmica inicial deve dar-se com cristaloides. II - Em casos em que se necessita de reposição volêmica em quantidades consideráveis de cristaloides, sugere-se a utilização de coloide na ressuscitação volêmica (albumina). III- Recomenda-se a ressuscitação volêmica inicial de 30mL/kg de cristaloide nas primeiras três horas, com base no volume médio administrado pré-randômização nos estudos PROCESS e ARISE. Quais estão de acordo com as diretrizes da Surviving Sepsis Campaign?",
+        "question": "Considere as seguintes afirmativas a respeito da terapia hídrica na sepse. \n\nI - A ressuscitação volêmica inicial deve dar-se com cristaloides. \nII - Em casos em que se necessita de reposição volêmica em quantidades consideráveis de cristaloides, sugere-se a utilização de coloide na ressuscitação volêmica (albumina). \nIII- Recomenda-se a ressuscitação volêmica inicial de 30mL/kg de cristaloide nas primeiras três horas, com base no volume médio administrado pré-randômização nos estudos PROCESS e ARISE. \n\nQuais estão de acordo com as diretrizes da Surviving Sepsis Campaign?",
         "image": null,
         "anulada": false,
         "questionYear": "2021",
@@ -99,7 +99,7 @@
       },
       {
         "questionId": 4,
-        "question": "Considere as seguintes afirmativas a respeito da terapia hídrica na sepse. I - A ressuscitação volêmica inicial deve dar-se com cristaloides. II - Em casos em que se necessita de reposição volêmica em quantidades consideráveis de cristaloides, sugere-se a utilização de coloide na ressuscitação volêmica (albumina). III- Recomenda-se a ressuscitação volêmica inicial de 30mL/kg de cristaloide nas primeiras três horas, com base no volume médio administrado pré-randômização nos estudos PROCESS e ARISE. Quais estão de acordo com as diretrizes da Surviving Sepsis Campaign?",
+        "question": "Considere as seguintes afirmativas a respeito da terapia hídrica na sepse. \n\nI - A ressuscitação volêmica inicial deve dar-se com cristaloides. \nII - Em casos em que se necessita de reposição volêmica em quantidades consideráveis de cristaloides, sugere-se a utilização de coloide na ressuscitação volêmica (albumina). \nIII- Recomenda-se a ressuscitação volêmica inicial de 30mL/kg de cristaloide nas primeiras três horas, com base no volume médio administrado pré-randômização nos estudos PROCESS e ARISE. \n\nQuais estão de acordo com as diretrizes da Surviving Sepsis Campaign?",
         "image": null,
         "anulada": false,
         "questionYear": "2021",
@@ -196,23 +196,23 @@
         "alternatives": [
           {
             "id": 1,
-            "description": "A) F – F – F – V."
+            "description": "F – F – F – V."
           },
           {
             "id": 2,
-            "description": "B) V – V – F – V."
+            "description": "V – V – F – V."
           },
           {
             "id": 3,
-            "description": "C) F – F – V – V."
+            "description": "F – F – V – V."
           },
           {
             "id": 4,
-            "description": "D) V – V – F – F."
+            "description": "V – V – F – F."
           },
           {
             "id": 5,
-            "description": "E) F – V – V – F."
+            "description": "F – V – V – F."
           }
         ],
         "rightAnswer": 3
@@ -226,23 +226,23 @@
         "alternatives": [
           {
             "id": 1,
-            "description": "A) A succinilcolina mimetiza o efeito da acetilcolina, ligando-se ao seu receptor nas fibras musculares. É o principal representante da classe dos bloqueadores não despolarizantes."
+            "description": "A succinilcolina mimetiza o efeito da acetilcolina, ligando-se ao seu receptor nas fibras musculares. É o principal representante da classe dos bloqueadores não despolarizantes."
           },
           {
             "id": 2,
-            "description": "B) A succinilcolina apresenta como principais parefeitos hipotensão, reação anafilactoide, bradicardia e paralisia neuromuscular prolongada."
+            "description": "A succinilcolina apresenta como principais parefeitos hipotensão, reação anafilactoide, bradicardia e paralisia neuromuscular prolongada."
           },
           {
             "id": 3,
-            "description": "C) O pancurônio apresenta como principais vantagens seu rápido início de ação e meia-vida curta (20-30 minutos)."
+            "description": "O pancurônio apresenta como principais vantagens seu rápido início de ação e meia-vida curta (20-30 minutos)."
           },
           {
             "id": 4,
-            "description": "D) O rocurônio tem início de ação entre três e cinco minutos, e duração de efeito superior a 120 minutos."
+            "description": "O rocurônio tem início de ação entre três e cinco minutos, e duração de efeito superior a 120 minutos."
           },
           {
             "id": 5,
-            "description": "E) O atracúrio é considerado uma boa opção para pacientes em insuficiência renal ou hepática, uma vez que sofre degradação não enzimática em laudanosina, através da eliminação de Hoffmann."
+            "description": "O atracúrio é considerado uma boa opção para pacientes em insuficiência renal ou hepática, uma vez que sofre degradação não enzimática em laudanosina, através da eliminação de Hoffmann."
           }
         ],
         "rightAnswer": 5
@@ -256,83 +256,83 @@
         "alternatives": [
           {
             "id": 1,
-            "description": "A) o débito cardíaco é um dos principais determinantes do consumo de oxigênio pelos tecidos."
+            "description": "o débito cardíaco é um dos principais determinantes do consumo de oxigênio pelos tecidos."
           },
           {
             "id": 2,
-            "description": "B) é o produto da frequência cardíaca pela fração de ejeção."
+            "description": "é o produto da frequência cardíaca pela fração de ejeção."
           },
           {
             "id": 3,
-            "description": "C) valores inferiores a 2,5 L/min/m2 estão invariavelmente associados a estados de choque."
+            "description": "valores inferiores a 2,5 L/min/m2 estão invariavelmente associados a estados de choque."
           },
           {
             "id": 4,
-            "description": "D) o débito cardíaco pode ser inferido através da análise de contorno de onda de pulso. A área sob a onda de pulso correlaciona-se com o volume sistólico."
+            "description": "o débito cardíaco pode ser inferido através da análise de contorno de onda de pulso. A área sob a onda de pulso correlaciona-se com o volume sistólico."
           },
           {
             "id": 5,
-            "description": "E) seus valores podem ser mensurados através de métodos minimamente invasivos como os não calibráveis (termo-diluição transpulmonar, diluição de Lítio) ou calibráveis (análise de contorno de pulso)."
+            "description": "seus valores podem ser mensurados através de métodos minimamente invasivos como os não calibráveis (termo-diluição transpulmonar, diluição de Lítio) ou calibráveis (análise de contorno de pulso)."
           }
         ],
         "rightAnswer": 4
       },
       {
         "questionId": 10,
-        "question": "Considere as imagens abaixo.\n\nSuperfície corporal do paciente = 2 m2\n\nEm relação às informações presentes nas imagens, é correto afirmar que:\n(A) o débito cardíaco estimado é 12 L/min.\n(B) a imagem com a legenda A é a distância E-septo e sugere disfunção ventricular grave.\n(C) a linha tracejada com a legenda B é a medida do volume sistólico do VE.\n(D) o índice cardíaco estimado é 3,14 L/min por m2.\n(E) os achados sugerem a presença de choque cardiogênico.",
-        "image": null,
+        "question": "Considere as imagens abaixo.\n\nSuperfície corporal do paciente = 2 m2\nEm relação às informações presentes nas imagens, é correto afirmar que:",
+        "image": "./images/10-2021.png",
         "anulada": false,
         "questionYear": "2021",
         "alternatives": [
           {
             "id": 1,
-            "description": "A) o débito cardíaco estimado é 12 L/min."
+            "description": " o débito cardíaco estimado é 12 L/min."
           },
           {
             "id": 2,
-            "description": "B) a imagem com a legenda A é a distância E-septo e sugere disfunção ventricular grave."
+            "description": " a imagem com a legenda A é a distância E-septo e sugere disfunção ventricular grave."
           },
           {
             "id": 3,
-            "description": "C) a linha tracejada com a legenda B é a medida do volume sistólico do VE."
+            "description": " a linha tracejada com a legenda B é a medida do volume sistólico do VE."
           },
           {
             "id": 4,
-            "description": "D) o índice cardíaco estimado é 3,14 L/min por m2."
+            "description": " o índice cardíaco estimado é 3,14 L/min por m2."
           },
           {
             "id": 5,
-            "description": "E) os achados sugerem a presença de choque cardiogênico."
+            "description": " os achados sugerem a presença de choque cardiogênico."
           }
         ],
         "rightAnswer": 4
       },
       {
         "questionId": 11,
-        "question": "Paciente de 48 anos está internado na UTI após infarto agudo do miocárdio. Evoluiu com choque cardiogênico. Foi monitorizado com o cateter de artéria pulmonar. As imagens abaixo foram obtidas durante a monitorização do paciente. Assinale a afirmativa correta em relação às imagens acima.",
-        "image": null,
+        "question": "Paciente de 48 anos está internado na UTI após infarto agudo do miocárdio. Evoluiu com choque cardiogênico. Foi monitorizado com o cateter de artéria pulmonar. As imagens abaixo foram obtidas durante a monitorização do paciente. \n\nAssinale a afirmativa correta em relação às imagens abaixo.",
+        "image": "./images/11-2021.png",
         "anulada": false,
         "questionYear": "2021",
         "alternatives": [
           {
             "id": 1,
-            "description": "A) O paciente evoluiu com comunicação interventricular decorrente do infarto."
+            "description": " O paciente evoluiu com comunicação interventricular decorrente do infarto."
           },
           {
             "id": 2,
-            "description": "B) O paciente evoluiu com insuficiência mitral secundária à ruptura de músculo papilar ocasionada pelo infarto."
+            "description": " O paciente evoluiu com insuficiência mitral secundária à ruptura de músculo papilar ocasionada pelo infarto."
           },
           {
             "id": 3,
-            "description": "C) O cateter está enrolado no ventrículo direito."
+            "description": " O cateter está enrolado no ventrículo direito."
           },
           {
             "id": 4,
-            "description": "D) O cateter está muito distal e deve ser tracionado."
+            "description": " O cateter está muito distal e deve ser tracionado."
           },
           {
             "id": 5,
-            "description": "E) O paciente tem hipertensão pulmonar grave."
+            "description": " O paciente tem hipertensão pulmonar grave."
           }
         ],
         "rightAnswer": 4
@@ -346,23 +346,23 @@
         "alternatives": [
           {
             "id": 1,
-            "description": "A) O SID (standard ion difference) é a diferença entre cátions e ânions fortes. O SID aparente pode ser calculado através da diferença entre Na+, K+, Ca++, Mg++ e Cl- e Lactato."
+            "description": " O SID (standard ion difference) é a diferença entre cátions e ânions fortes. O SID aparente pode ser calculado através da diferença entre Na+, K+, Ca++, Mg++ e Cl- e Lactato."
           },
           {
             "id": 2,
-            "description": "B) Hipoalbuminemia e hipofosfatemia têm, ambos, efeitos acidificantes."
+            "description": " Hipoalbuminemia e hipofosfatemia têm, ambos, efeitos acidificantes."
           },
           {
             "id": 3,
-            "description": "C) Para ocorrer redução do SID – e por conseguinte, acidose – deverá ocorrer aumento dos cátions fortes."
+            "description": " Para ocorrer redução do SID – e por conseguinte, acidose – deverá ocorrer aumento dos cátions fortes."
           },
           {
             "id": 4,
-            "description": "D) O anion-gap corrigido pode ser calculado pela diferença entre (Na + K) - (HCO3 - Lac)."
+            "description": " O anion-gap corrigido pode ser calculado pela diferença entre (Na + K) - (HCO3 - Lac)."
           },
           {
             "id": 5,
-            "description": "E) A diferença sódio-cloro (normal até 32,5), quando aumentada, é uma das principais causas de acidose metabólica."
+            "description": " A diferença sódio-cloro (normal até 32,5), quando aumentada, é uma das principais causas de acidose metabólica."
           }
         ],
         "rightAnswer": 1
@@ -376,23 +376,23 @@
         "alternatives": [
           {
             "id": 1,
-            "description": "A) Odds ratio."
+            "description": " Odds ratio."
           },
           {
             "id": 2,
-            "description": "B) Risco relativo."
+            "description": " Risco relativo."
           },
           {
             "id": 3,
-            "description": "C) Redução absoluta de risco."
+            "description": " Redução absoluta de risco."
           },
           {
             "id": 4,
-            "description": "D) Risco absoluto."
+            "description": " Risco absoluto."
           },
           {
             "id": 5,
-            "description": "E) Hazard ratio."
+            "description": " Hazard ratio."
           }
         ],
         "rightAnswer": 5
@@ -406,23 +406,23 @@
         "alternatives": [
           {
             "id": 1,
-            "description": "A) Apenas I."
+            "description": " Apenas I."
           },
           {
             "id": 2,
-            "description": "B) Apenas II."
+            "description": " Apenas II."
           },
           {
             "id": 3,
-            "description": "C) Apenas III."
+            "description": " Apenas III."
           },
           {
             "id": 4,
-            "description": "D) Apenas I e II."
+            "description": " Apenas I e II."
           },
           {
             "id": 5,
-            "description": "E) I, II e III."
+            "description": " I, II e III."
           }
         ],
         "rightAnswer": 4
@@ -436,23 +436,23 @@
         "alternatives": [
           {
             "id": 1,
-            "description": "A) A adição do avibactam à ceftazidima protege esta última da degradação pelas enzimas betalactamase, estendendo o espectro antibiótico para bactérias produtoras de KPC, ESBL ou AmpC."
+            "description": " A adição do avibactam à ceftazidima protege esta última da degradação pelas enzimas betalactamase, estendendo o espectro antibiótico para bactérias produtoras de KPC, ESBL ou AmpC."
           },
           {
             "id": 2,
-            "description": "B) Ceftolozone-tazobactam apresenta atividade antimicrobiana potente contra cepas de Pseudomonas e Acinetobacter."
+            "description": " Ceftolozone-tazobactam apresenta atividade antimicrobiana potente contra cepas de Pseudomonas e Acinetobacter."
           },
           {
             "id": 3,
-            "description": "C) Meropenem apresenta atividade antimicrobiana contra bacilos gram-negativos, como também contra espécies de Staphylococcus aureus meticilino-sensíveis."
+            "description": " Meropenem apresenta atividade antimicrobiana contra bacilos gram-negativos, como também contra espécies de Staphylococcus aureus meticilino-sensíveis."
           },
           {
             "id": 4,
-            "description": "D) Amicacina tem um perfil de maior resistência às enzimas inativadoras de aminoglicosídeos, quando comparada com gentamicina, devendo, assim, ser o aminoglicosídeo de escolha para esquemas antimicrobianos empíricos."
+            "description": " Amicacina tem um perfil de maior resistência às enzimas inativadoras de aminoglicosídeos, quando comparada com gentamicina, devendo, assim, ser o aminoglicosídeo de escolha para esquemas antimicrobianos empíricos."
           },
           {
             "id": 5,
-            "description": "E) Nefrotoxicidade é complicação comum da terapia com aminoglicosídeos em doentes criticamente enfermos, acarretando perda persistente da função renal após a suspensão da droga e associando-se, nesse cenário clínico, a uma elevada incidência de terapia dialítica."
+            "description": " Nefrotoxicidade é complicação comum da terapia com aminoglicosídeos em doentes criticamente enfermos, acarretando perda persistente da função renal após a suspensão da droga e associando-se, nesse cenário clínico, a uma elevada incidência de terapia dialítica."
           }
         ],
         "rightAnswer": 5
@@ -466,23 +466,23 @@
         "alternatives": [
           {
             "id": 1,
-            "description": "A) A cricotireoidostomia não deve ser utilizada para manejo de obstrução da via aérea, que ocorre imediatamente após extubação, trauma laríngeo, tumor, bem como em crianças (idade inferior a 12 anos)."
+            "description": " A cricotireoidostomia não deve ser utilizada para manejo de obstrução da via aérea, que ocorre imediatamente após extubação, trauma laríngeo, tumor, bem como em crianças (idade inferior a 12 anos)."
           },
           {
             "id": 2,
-            "description": "B) Pacientes com índice de massa corporal superior a 30 kg/m2 não apresentam risco aumentado de complicações, tanto em traqueostomia aberta quanto percutânea."
+            "description": " Pacientes com índice de massa corporal superior a 30 kg/m2 não apresentam risco aumentado de complicações, tanto em traqueostomia aberta quanto percutânea."
           },
           {
             "id": 3,
-            "description": "C) Em pacientes com traumatismo craniano, a traqueostomia, frequentemente, está associada ao aumento da pressão intracraniana."
+            "description": " Em pacientes com traumatismo craniano, a traqueostomia, frequentemente, está associada ao aumento da pressão intracraniana."
           },
           {
             "id": 4,
-            "description": "D) Coagulopatia e PEEP > 10 cmH2O são contraindicações absolutas para realização de traqueostomia."
+            "description": " Coagulopatia e PEEP > 10 cmH2O são contraindicações absolutas para realização de traqueostomia."
           },
           {
             "id": 5,
-            "description": "E) Estenoses subglóticas ocorrem, mais frequentemente, em pacientes submetidos à traqueostomia do que entre os submetidos à cricotireoidostomia."
+            "description": " Estenoses subglóticas ocorrem, mais frequentemente, em pacientes submetidos à traqueostomia do que entre os submetidos à cricotireoidostomia."
           }
         ],
         "rightAnswer": 1
@@ -496,23 +496,23 @@
         "alternatives": [
           {
             "id": 1,
-            "description": "A) ↑ – ↓ – ↓ – ↑ – ↓"
+            "description": " ↑ – ↓ – ↓ – ↑ – ↓"
           },
           {
             "id": 2,
-            "description": "B) ↑ – ↑ – ↑ – ↓ – ↑"
+            "description": " ↑ – ↑ – ↑ – ↓ – ↑"
           },
           {
             "id": 3,
-            "description": "C) ↓ – ↑ – ↑ – ↑ – ↑"
+            "description": " ↓ – ↑ – ↑ – ↑ – ↑"
           },
           {
             "id": 4,
-            "description": "D) ↑ – ↓ – ↑ – ↓ – ↑"
+            "description": " ↑ – ↓ – ↑ – ↓ – ↑"
           },
           {
             "id": 5,
-            "description": "E) ↓ – ↓ – ↓ – ↓ – ↓"
+            "description": " ↓ – ↓ – ↓ – ↓ – ↓"
           }
         ],
         "rightAnswer": 4
@@ -526,113 +526,113 @@
         "alternatives": [
           {
             "id": 1,
-            "description": "A) Na ventilação controlada à pressão, o volume-minuto é garantido."
+            "description": " Na ventilação controlada à pressão, o volume-minuto é garantido."
           },
           {
             "id": 2,
-            "description": "B) Na ventilação controlada a volume, o fluxo pode ser contínuo, decrescente ou sinusoidal."
+            "description": " Na ventilação controlada a volume, o fluxo pode ser contínuo, decrescente ou sinusoidal."
           },
           {
             "id": 3,
-            "description": "C) O modo pressão-suporte é controlado à pressão e a ciclagem ocorre por fluxo, tendo este último uma curva decrescente."
+            "description": " O modo pressão-suporte é controlado à pressão e a ciclagem ocorre por fluxo, tendo este último uma curva decrescente."
           },
           {
             "id": 4,
-            "description": "D) No modo APRV (airway pressure realease ventilation), o desenvolvimento de auto-peep é desejável."
+            "description": " No modo APRV (airway pressure realease ventilation), o desenvolvimento de auto-peep é desejável."
           },
           {
             "id": 5,
-            "description": "E) O modo PRVC (pressure regulated volume control) é limitado à pressão e ciclado a tempo, porém usa volume como variável condicional, ajustando a pressão ao volume corrente desejado."
+            "description": " O modo PRVC (pressure regulated volume control) é limitado à pressão e ciclado a tempo, porém usa volume como variável condicional, ajustando a pressão ao volume corrente desejado."
           }
         ],
         "rightAnswer": 1
       },
       {
         "questionId": 19,
-        "question": "Considere as curvas ventilatórias representadas a seguir. A análise das curvas acima permite afirmar:",
-        "image": null,
+        "question": "Considere as curvas ventilatórias representadas a seguir. A análise das curvas abaixo permite afirmar:",
+        "image": "./images/19-2021.png",
         "anulada": false,
         "questionYear": "2021",
         "alternatives": [
           {
             "id": 1,
-            "description": "A) o paciente representado nas curvas ventilatórias 1 e 2, provavelmente, apresenta uma patologia pulmonar obstrutiva."
+            "description": " o paciente representado nas curvas ventilatórias 1 e 2, provavelmente, apresenta uma patologia pulmonar obstrutiva."
           },
           {
             "id": 2,
-            "description": "B) o paciente representado nas curvas 3 e 4, provavelmente, apresenta patologia restritiva."
+            "description": " o paciente representado nas curvas 3 e 4, provavelmente, apresenta patologia restritiva."
           },
           {
             "id": 3,
-            "description": "C) o componente resistivo é o predominante no paciente representado na curva 1."
+            "description": " o componente resistivo é o predominante no paciente representado na curva 1."
           },
           {
             "id": 4,
-            "description": "D) no paciente retratado na curva 2, o fluxo expiratório é rápido, em função da retração elástica aumentada no processo restritivo."
+            "description": " no paciente retratado na curva 2, o fluxo expiratório é rápido, em função da retração elástica aumentada no processo restritivo."
           },
           {
             "id": 5,
-            "description": "E) assumindo pressões de pico e volume corrente similares em ambos os pacientes, a complacência estática é maior em 3 do que em 1."
+            "description": " assumindo pressões de pico e volume corrente similares em ambos os pacientes, a complacência estática é maior em 3 do que em 1."
           }
         ],
         "rightAnswer": 5
       },
       {
         "questionId": 20,
-        "question": "Uma paciente com diagnóstico de síndrome da angústia respiratória do adulto recebe ventilação mecânica em modo volume controlado, com volume corrente de 6mL/kg, para peso predito de 50kg. As curvas ventilatórias, a seguir, descrevem o comportamento da mecânica pulmonar antes e após tentativa de titulação de PEEP. Considere as assertivas abaixo. \nI - A complacência estática na figura A é de 30 mL/cmH2O. \nII - A resistência na figura B é de 25 cm/L/s. \nIII - A melhor relação entre PEEP e complacência é obtida na curva B. \nIV - A concavidade voltada para cima, observada na curva de pressão x tempo em B, sugere um stress index >1 e, portanto, aumento na elastância com relação à curva anterior. \nQuais estão corretas?",
-        "image": null,
+        "question": "Uma paciente com diagnóstico de síndrome da angústia respiratória do adulto recebe ventilação mecânica em modo volume controlado, com volume corrente de 6mL/kg, para peso predito de 50kg. As curvas ventilatórias, a seguir, descrevem o comportamento da mecânica pulmonar antes e após tentativa de titulação de PEEP. \nConsidere as assertivas abaixo. \n\nI - A complacência estática na figura A é de 30 mL/cmH2O. \nII - A resistência na figura B é de 25 cm/L/s. \nIII - A melhor relação entre PEEP e complacência é obtida na curva B. \nIV - A concavidade voltada para cima, observada na curva de pressão x tempo em B, sugere um stress index >1 e, portanto, aumento na elastância com relação à curva anterior. \nQuais estão corretas?",
+        "image": "./images/20-2021.png",
         "anulada": false,
         "questionYear": "2021",
         "alternatives": [
           {
             "id": 1,
-            "description": "A) Apenas I."
+            "description": " Apenas I."
           },
           {
             "id": 2,
-            "description": "B) Apenas I e IV."
+            "description": " Apenas I e IV."
           },
           {
             "id": 3,
-            "description": "C) Apenas II e III."
+            "description": " Apenas II e III."
           },
           {
             "id": 4,
-            "description": "D) Apenas I, II e III."
+            "description": " Apenas I, II e III."
           },
           {
             "id": 5,
-            "description": "E) Apenas II, III e IV."
+            "description": " Apenas II, III e IV."
           }
         ],
         "rightAnswer": 2
       },
       {
         "questionId": 21,
-        "question": "A figura abaixo descreve a curva de pressão arterial de indivíduo sob suporte por balão de contrapulsação intra-aórtico em regime 1:2. Assinale a alternativa cuja sequência melhor define os pontos assinalados como 1, 2, 3, 4 e 5.",
-        "image": null,
+        "question": "A figura abaixo descreve a curva de pressão arterial de indivíduo sob suporte por balão de contrapulsação intra-aórtico em regime 1:2. \n\nAssinale a alternativa cuja sequência melhor define os pontos assinalados como 1, 2, 3, 4 e 5.",
+        "image": "./images/21-2021.png",
         "anulada": false,
         "questionYear": "2021",
         "alternatives": [
           {
             "id": 1,
-            "description": "A) 1: incisura dicrótica – 2: sístole não assistida – 3: aumentação diastólica – 4: pressão diastólica final assistida – 5: sístole assistida"
+            "description": " 1: incisura dicrótica – 2: sístole não assistida – 3: aumentação diastólica – 4: pressão diastólica final assistida – 5: sístole assistida"
           },
           {
             "id": 2,
-            "description": "B) 1: fechamento valvar mitral – 2: aumentação diastólica – 3: sístole assistida – 4: pressão diastólica final assistida – 5: sístole não assistida"
+            "description": " 1: fechamento valvar mitral – 2: aumentação diastólica – 3: sístole assistida – 4: pressão diastólica final assistida – 5: sístole não assistida"
           },
           {
             "id": 3,
-            "description": "C) 1: fechamento valvar aórtico – 2: sístole não assistida – 3: sístole assistida – 4: pressão diastólica final não assistida – 5: aumentação diastólica"
+            "description": " 1: fechamento valvar aórtico – 2: sístole não assistida – 3: sístole assistida – 4: pressão diastólica final não assistida – 5: aumentação diastólica"
           },
           {
             "id": 4,
-            "description": "D) 1: fechamento valvar aórtico – 2: sístole assistida – 3: aumentação diastólica – 4: pressão diastólica final assistida – 5: sístole não assistida"
+            "description": " 1: fechamento valvar aórtico – 2: sístole assistida – 3: aumentação diastólica – 4: pressão diastólica final assistida – 5: sístole não assistida"
           },
           {
             "id": 5,
-            "description": "E) 1: incisura dicrótica – 2: sístole não assistida – 3: aumentação diastólica – 4: pressão diastólica final não assistida – 5: sístole assistida"
+            "description": " 1: incisura dicrótica – 2: sístole não assistida – 3: aumentação diastólica – 4: pressão diastólica final não assistida – 5: sístole assistida"
           }
         ],
         "rightAnswer": 1
@@ -646,23 +646,23 @@
         "alternatives": [
           {
             "id": 1,
-            "description": "A) estudos de hipotensão permissiva, uma estratégia para trauma hemorrágico, excluíram pacientes com TCE por preocupações relacionadas à manutenção da pressão de perfusão cerebral."
+            "description": " estudos de hipotensão permissiva, uma estratégia para trauma hemorrágico, excluíram pacientes com TCE por preocupações relacionadas à manutenção da pressão de perfusão cerebral."
           },
           {
             "id": 2,
-            "description": "B) a ressuscitação volêmica no TCE deve ser primordialmente realizada com fluidos isotônicos, já que estudos com solução salina hipertônica tiveram resultados ambíguos quanto à redução do edema cerebral e melhores desfechos."
+            "description": " a ressuscitação volêmica no TCE deve ser primordialmente realizada com fluidos isotônicos, já que estudos com solução salina hipertônica tiveram resultados ambíguos quanto à redução do edema cerebral e melhores desfechos."
           },
           {
             "id": 3,
-            "description": "C) os corticosteroides são contraindicados para o manejo do edema cerebral relacionado ao TCE, pois estão associados a piores desfechos."
+            "description": " os corticosteroides são contraindicados para o manejo do edema cerebral relacionado ao TCE, pois estão associados a piores desfechos."
           },
           {
             "id": 4,
-            "description": "D) no TCE grave, a profilaxia para convulsões durante os primeiros sete dias é o tratamento padrão, pois demonstrou benefício na redução da mortalidade a longo prazo e na incidência de epilepsia, também a longo prazo."
+            "description": " no TCE grave, a profilaxia para convulsões durante os primeiros sete dias é o tratamento padrão, pois demonstrou benefício na redução da mortalidade a longo prazo e na incidência de epilepsia, também a longo prazo."
           },
           {
             "id": 5,
-            "description": "E) a reversão da anticoagulação deve ser realizada imediatamente em pacientes com TCE e hipertensão intracraniana medida ou presumida, sendo o concentrado de complexo protrombínico mais rápido e superior à transfusão de plasma em pacientes que recebem antagonistas da vitamina K."
+            "description": " a reversão da anticoagulação deve ser realizada imediatamente em pacientes com TCE e hipertensão intracraniana medida ou presumida, sendo o concentrado de complexo protrombínico mais rápido e superior à transfusão de plasma em pacientes que recebem antagonistas da vitamina K."
           }
         ],
         "rightAnswer": 4
@@ -676,53 +676,53 @@
         "alternatives": [
           {
             "id": 1,
-            "description": "A) Apenas II."
+            "description": " Apenas II."
           },
           {
             "id": 2,
-            "description": "B) Apenas I e II."
+            "description": " Apenas I e II."
           },
           {
             "id": 3,
-            "description": "C) Apenas III e IV."
+            "description": " Apenas III e IV."
           },
           {
             "id": 4,
-            "description": "D) Apenas I, II e IV."
+            "description": " Apenas I, II e IV."
           },
           {
             "id": 5,
-            "description": "E) I, II, III e IV."
+            "description": " I, II, III e IV."
           }
         ],
         "rightAnswer": 4
       },
       {
         "questionId": 24,
-        "question": "Considere a figura abaixo.\nAssinale a alternativa INCORRETA sobre a arritmia demonstrada na imagem acima.\n",
-        "image": null,
+        "question": "Considere a figura abaixo.\n\nAssinale a alternativa INCORRETA sobre a arritmia demonstrada na imagem acima.\n",
+        "image": "./images/24-2021.png",
         "anulada": false,
         "questionYear": "2021",
         "alternatives": [
           {
             "id": 1,
-            "description": "A) Trata-se de taquicardia ventricular polimórfica com QT longo subjacente."
+            "description": " Trata-se de taquicardia ventricular polimórfica com QT longo subjacente."
           },
           {
             "id": 2,
-            "description": "B) Suas principais causas são drogas que prolongam o intervalo QT e distúrbios eletrolíticos, tais como hipocalemia, hipomagnesemia e hipocalcemia."
+            "description": " Suas principais causas são drogas que prolongam o intervalo QT e distúrbios eletrolíticos, tais como hipocalemia, hipomagnesemia e hipocalcemia."
           },
           {
             "id": 3,
-            "description": "C) Seu diagnóstico diferencial inclui artefatos eletrocardiográficos, fibrilação atrial com aberrância e fibrilação atrial com pré-excitação."
+            "description": " Seu diagnóstico diferencial inclui artefatos eletrocardiográficos, fibrilação atrial com aberrância e fibrilação atrial com pré-excitação."
           },
           {
             "id": 4,
-            "description": "D) A desfibrilação de emergência é necessária para pacientes com ausência de pulso."
+            "description": " A desfibrilação de emergência é necessária para pacientes com ausência de pulso."
           },
           {
             "id": 5,
-            "description": "E) A administração parenteral de magnésio independentemente dos seus níveis e as drogas antiarrítmicas, como amiodarona, são utilizadas para tratamento de pacientes estáveis hemodinamicamente."
+            "description": " A administração parenteral de magnésio independentemente dos seus níveis e as drogas antiarrítmicas, como amiodarona, são utilizadas para tratamento de pacientes estáveis hemodinamicamente."
           }
         ],
         "rightAnswer": 5
@@ -736,23 +736,23 @@
         "alternatives": [
           {
             "id": 1,
-            "description": "A) V – V – V – V."
+            "description": " V – V – V – V."
           },
           {
             "id": 2,
-            "description": "B) V – V – F – F."
+            "description": " V – V – F – F."
           },
           {
             "id": 3,
-            "description": "C) V – F – F – F."
+            "description": " V – F – F – F."
           },
           {
             "id": 4,
-            "description": "D) F – F – F – V."
+            "description": " F – F – F – V."
           },
           {
             "id": 5,
-            "description": "E) F – F – V – V."
+            "description": " F – F – V – V."
           }
         ],
         "rightAnswer": 2
@@ -766,23 +766,23 @@
         "alternatives": [
           {
             "id": 1,
-            "description": "A) Apenas I."
+            "description": " Apenas I."
           },
           {
             "id": 2,
-            "description": "B) Apenas III."
+            "description": " Apenas III."
           },
           {
             "id": 3,
-            "description": "C) Apenas I e II."
+            "description": " Apenas I e II."
           },
           {
             "id": 4,
-            "description": "D) Apenas II e III."
+            "description": " Apenas II e III."
           },
           {
             "id": 5,
-            "description": "E) I, II e III."
+            "description": " I, II e III."
           }
         ],
         "rightAnswer": 2
@@ -796,23 +796,23 @@
         "alternatives": [
           {
             "id": 1,
-            "description": "A) Apenas I."
+            "description": " Apenas I."
           },
           {
             "id": 2,
-            "description": "B) Apenas III."
+            "description": " Apenas III."
           },
           {
             "id": 3,
-            "description": "C) Apenas I e II."
+            "description": " Apenas I e II."
           },
           {
             "id": 4,
-            "description": "D) Apenas II e III."
+            "description": " Apenas II e III."
           },
           {
             "id": 5,
-            "description": "E) I, II e III."
+            "description": " I, II e III."
           }
         ],
         "rightAnswer": 2
@@ -826,23 +826,23 @@
         "alternatives": [
           {
             "id": 1,
-            "description": "A) A hipertensão intra-abdominal acarreta uma redução do fluxo venoso renal, e esse fenômeno, associado a uma diminuição no débito cardíaco, é vetor da insuficiência renal aguda."
+            "description": " A hipertensão intra-abdominal acarreta uma redução do fluxo venoso renal, e esse fenômeno, associado a uma diminuição no débito cardíaco, é vetor da insuficiência renal aguda."
           },
           {
             "id": 2,
-            "description": "B) Em pacientes portadores de hipertensão intra-abdominal, aproximadamente 2/3 da pressão intra-abdominal é transmitida aos pulmões, aumentando a pressão de platô."
+            "description": " Em pacientes portadores de hipertensão intra-abdominal, aproximadamente 2/3 da pressão intra-abdominal é transmitida aos pulmões, aumentando a pressão de platô."
           },
           {
             "id": 3,
-            "description": "C) A variação de colapsibilidade da veia cava inferior é uma mensuração adequada da fluido-responsividade em pacientes portadores de hipertensão intra-abdominal, porém com pontos de corte maiores do que na população usual (maior ou igual a 21%)."
+            "description": " A variação de colapsibilidade da veia cava inferior é uma mensuração adequada da fluido-responsividade em pacientes portadores de hipertensão intra-abdominal, porém com pontos de corte maiores do que na população usual (maior ou igual a 21%)."
           },
           {
             "id": 4,
-            "description": "D) Em casos extremos, está indicada a laparotomia exploradora, com abertura da cavidade abdominal para drenagem de fluidos e de coleções com fechamento posterior da cavidade peritoneal, para otimização clínica na UTI."
+            "description": " Em casos extremos, está indicada a laparotomia exploradora, com abertura da cavidade abdominal para drenagem de fluidos e de coleções com fechamento posterior da cavidade peritoneal, para otimização clínica na UTI."
           },
           {
             "id": 5,
-            "description": "E) Em casos graves e refratários, com medida de pressão intra-abdominal maior que 25cmH2O, está indicada a laparotomia descompressiva."
+            "description": " Em casos graves e refratários, com medida de pressão intra-abdominal maior que 25cmH2O, está indicada a laparotomia descompressiva."
           }
         ],
         "rightAnswer": 1
@@ -856,23 +856,23 @@
         "alternatives": [
           {
             "id": 1,
-            "description": "A) Apenas I."
+            "description": " Apenas I."
           },
           {
             "id": 2,
-            "description": "B) Apenas II."
+            "description": " Apenas II."
           },
           {
             "id": 3,
-            "description": "C) Apenas III."
+            "description": " Apenas III."
           },
           {
             "id": 4,
-            "description": "D) Apenas II e III."
+            "description": " Apenas II e III."
           },
           {
             "id": 5,
-            "description": "E) I, II e III."
+            "description": " I, II e III."
           }
         ],
         "rightAnswer": 5
@@ -886,23 +886,23 @@
         "alternatives": [
           {
             "id": 1,
-            "description": "A) A discussão com familiares acerca dos objetivos terapêuticos, preferências e prognóstico do paciente deve dar-se a partir do momento em que não há uma resposta clínica satisfatória da parte do paciente, após a instituição dos cuidados iniciais na UTI."
+            "description": " A discussão com familiares acerca dos objetivos terapêuticos, preferências e prognóstico do paciente deve dar-se a partir do momento em que não há uma resposta clínica satisfatória da parte do paciente, após a instituição dos cuidados iniciais na UTI."
           },
           {
             "id": 2,
-            "description": "B) Uma estratégia de comunicação regular e efetiva acerca da evolução e dos objetivos terapêuticos para o paciente criticamente enfermo tende a beneficiar os seus familiares, com o potencial benefício de reduzir sintomas de depressão, ansiedade e estresse pós-traumático nos mesmos."
+            "description": " Uma estratégia de comunicação regular e efetiva acerca da evolução e dos objetivos terapêuticos para o paciente criticamente enfermo tende a beneficiar os seus familiares, com o potencial benefício de reduzir sintomas de depressão, ansiedade e estresse pós-traumático nos mesmos."
           },
           {
             "id": 3,
-            "description": "C) Cuidados interdisciplinares do paciente que contemplem os seus sintomas, as suas perspectivas e as suas demandas espirituais devem ser implementados, a fim de se propiciarem cuidados efetivos de final de vida."
+            "description": " Cuidados interdisciplinares do paciente que contemplem os seus sintomas, as suas perspectivas e as suas demandas espirituais devem ser implementados, a fim de se propiciarem cuidados efetivos de final de vida."
           },
           {
             "id": 4,
-            "description": "D) A presença de familiares na UTI, acompanhando o paciente e a sua dinâmica terapêutica, tende a diminuir a incidência de conflitos entre a família e a equipe interdisciplinar."
+            "description": " A presença de familiares na UTI, acompanhando o paciente e a sua dinâmica terapêutica, tende a diminuir a incidência de conflitos entre a família e a equipe interdisciplinar."
           },
           {
             "id": 5,
-            "description": "E) Uma comunicação efetiva e de alta qualidade com os familiares é a intervenção mais efetiva em melhorar a qualidade dos cuidados de final de vida em pacientes criticamente enfermos."
+            "description": " Uma comunicação efetiva e de alta qualidade com os familiares é a intervenção mais efetiva em melhorar a qualidade dos cuidados de final de vida em pacientes criticamente enfermos."
           }
         ],
         "rightAnswer": 1
@@ -916,23 +916,23 @@
         "alternatives": [
           {
             "id": 1,
-            "description": "A) V – V – F – F."
+            "description": " V – V – F – F."
           },
           {
             "id": 2,
-            "description": "B) V – V – F – V."
+            "description": " V – V – F – V."
           },
           {
             "id": 3,
-            "description": "C) F – F – V – F."
+            "description": " F – F – V – F."
           },
           {
             "id": 4,
-            "description": "D) F – V – V – F."
+            "description": " F – V – V – F."
           },
           {
             "id": 5,
-            "description": "E) V – F – F – V."
+            "description": " V – F – F – V."
           }
         ],
         "rightAnswer": 2
@@ -940,29 +940,29 @@
       {
         "questionId": 31,
         "question": "Considere a figura abaixo.\n\nEm relação à curva de capnografia acima, é possível afirmar que:",
-        "image": null,
+        "image": "./images/31-2021.png",
         "anulada": false,
         "questionYear": "2021",
         "alternatives": [
           {
             "id": 1,
-            "description": "A) apresenta um aumento do CO2 exalado ao término da expiração compatível com doença obstrutiva."
+            "description": " apresenta um aumento do CO2 exalado ao término da expiração compatível com doença obstrutiva."
           },
           {
             "id": 2,
-            "description": "B) uma fase de inspiração curta sugere um aumento do espaço morto compatível com lesão pulmonar aguda."
+            "description": " uma fase de inspiração curta sugere um aumento do espaço morto compatível com lesão pulmonar aguda."
           },
           {
             "id": 3,
-            "description": "C) apresenta uma curva de capnografia normal com retorno completo à linha de base."
+            "description": " apresenta uma curva de capnografia normal com retorno completo à linha de base."
           },
           {
             "id": 4,
-            "description": "D) apresenta um aumento na produção de CO2, possivelmente, devido à administração de bicarbonato de sódio."
+            "description": " apresenta um aumento na produção de CO2, possivelmente, devido à administração de bicarbonato de sódio."
           },
           {
             "id": 5,
-            "description": "E) apresenta aumento do espaço morto sugerindo tromboembolismo pulmonar."
+            "description": " apresenta aumento do espaço morto sugerindo tromboembolismo pulmonar."
           }
         ],
         "rightAnswer": 1
@@ -970,29 +970,29 @@
       {
         "questionId": 32,
         "question": "Considere o circuito de ECMO abaixo apresentado.\n\nQual das alternativas abaixo está correta?",
-        "image": null,
+        "image": "./images/32-2021.png",
         "anulada": false,
         "questionYear": "2021",
         "alternatives": [
           {
             "id": 1,
-            "description": "A) Na região 1, a pressão registrada será negativa e proporcional às rotações geradas pela bomba centrífuga."
+            "description": " Na região 1, a pressão registrada será negativa e proporcional às rotações geradas pela bomba centrífuga."
           },
           {
             "id": 2,
-            "description": "B) A região 2 terá pressão negativa. Por encontrar-se antes da membrana oxigenadora, é considerada a “zona segura” do circuito."
+            "description": " A região 2 terá pressão negativa. Por encontrar-se antes da membrana oxigenadora, é considerada a “zona segura” do circuito."
           },
           {
             "id": 3,
-            "description": "C) A região 3 terá pressão positiva, sendo, portanto, a zona de escolha para coleta de sangue para análise de gases arteriais."
+            "description": " A região 3 terá pressão positiva, sendo, portanto, a zona de escolha para coleta de sangue para análise de gases arteriais."
           },
           {
             "id": 4,
-            "description": "D) O fluxo de sangue deve ser, inicialmente, ajustado para 50 a 80 mL/kg/min, e, após, de acordo com as aferições da PaCO2 arterial."
+            "description": " O fluxo de sangue deve ser, inicialmente, ajustado para 50 a 80 mL/kg/min, e, após, de acordo com as aferições da PaCO2 arterial."
           },
           {
             "id": 5,
-            "description": "E) O gradiente transmembrana pode ser calculado através dos valores aferidos nos pontos 4, e, geralmente, resulta num valor negativo."
+            "description": " O gradiente transmembrana pode ser calculado através dos valores aferidos nos pontos 4, e, geralmente, resulta num valor negativo."
           }
         ],
         "rightAnswer": 1
@@ -1006,23 +1006,23 @@
         "alternatives": [
           {
             "id": 1,
-            "description": "A) Apenas I."
+            "description": " Apenas I."
           },
           {
             "id": 2,
-            "description": "B) Apenas II."
+            "description": " Apenas II."
           },
           {
             "id": 3,
-            "description": "C) Apenas I e III."
+            "description": " Apenas I e III."
           },
           {
             "id": 4,
-            "description": "D) Apenas II e IV."
+            "description": " Apenas II e IV."
           },
           {
             "id": 5,
-            "description": "E) Apenas I, II e IV."
+            "description": " Apenas I, II e IV."
           }
         ],
         "rightAnswer": 3
@@ -1030,29 +1030,29 @@
       {
         "questionId": 34,
         "question": "Considere as figuras de monitorização de pressão arterial abaixo apresentadas.\nI - Na figura C, está representada uma curva de funcionamento normal de linha arterial.\nII - As causas mais comuns para o fenômeno encontrado na figura B são bolhas de ar, trombos e dobras no circuito.\nIII- Para corrigir o artefato visualizado em C, deve-se optar por um cateter arterial de maior calibre.\nIV - Em B e C, é necessário realizar novamente a calibração do “zero”.\nQuais afirmativas estão corretas?",
-        "image": null,
+        "image": "./images/34-2021.png",
         "anulada": false,
         "questionYear": "2021",
         "alternatives": [
           {
             "id": 1,
-            "description": "A) Apenas I."
+            "description": " Apenas I."
           },
           {
             "id": 2,
-            "description": "B) Apenas IV."
+            "description": " Apenas IV."
           },
           {
             "id": 3,
-            "description": "C) Apenas III e IV."
+            "description": " Apenas III e IV."
           },
           {
             "id": 4,
-            "description": "D) Apenas II, III e IV."
+            "description": " Apenas II, III e IV."
           },
           {
             "id": 5,
-            "description": "E) I, II, III e IV."
+            "description": " I, II, III e IV."
           }
         ],
         "rightAnswer": 1
@@ -1066,23 +1066,23 @@
         "alternatives": [
           {
             "id": 1,
-            "description": "A) em pacientes com probabilidade clínica pré-teste baixa para TEP, uma cintilografia perfusional negativa não tem valor preditivo negativo suficiente para afastar o diagnóstico de TEP, sendo necessária completação com angioto- mografia."
+            "description": " em pacientes com probabilidade clínica pré-teste baixa para TEP, uma cintilografia perfusional negativa não tem valor preditivo negativo suficiente para afastar o diagnóstico de TEP, sendo necessária completação com angioto- mografia."
           },
           {
             "id": 2,
-            "description": "B) TEP submaciça é definida pelo acometimento de entre 10% e 30% da circulação pulmonar."
+            "description": " TEP submaciça é definida pelo acometimento de entre 10% e 30% da circulação pulmonar."
           },
           {
             "id": 3,
-            "description": "C) a dilatação ventricular direita visualizada na tomografia computadorizada de tórax é um preditor independente de mortalidade em 30 dias."
+            "description": " a dilatação ventricular direita visualizada na tomografia computadorizada de tórax é um preditor independente de mortalidade em 30 dias."
           },
           {
             "id": 4,
-            "description": "D) fondaparinux pode ser considerado tão efetivo quanto heparina de baixo peso molecular, podendo ser uma alter- nativa em pacientes portadores de disfunção renal com clearance de creatinina inferior a 30 mL/min."
+            "description": " fondaparinux pode ser considerado tão efetivo quanto heparina de baixo peso molecular, podendo ser uma alter- nativa em pacientes portadores de disfunção renal com clearance de creatinina inferior a 30 mL/min."
           },
           {
             "id": 5,
-            "description": "E) a terapia anticoagulante com heparina não fracionada deve ser suspensa durante a administração de alteplase para pacientes com instabilidade hemodinâmica, não devendo ser reiniciada antes de 24 horas."
+            "description": " a terapia anticoagulante com heparina não fracionada deve ser suspensa durante a administração de alteplase para pacientes com instabilidade hemodinâmica, não devendo ser reiniciada antes de 24 horas."
           }
         ],
         "rightAnswer": 3
@@ -1096,23 +1096,23 @@
         "alternatives": [
           {
             "id": 1,
-            "description": "A) a derivação ventricular externa é o método mais acurado e custo-efetivo, servindo também como medida terapêutica nos casos de hidrocefalia aguda."
+            "description": " a derivação ventricular externa é o método mais acurado e custo-efetivo, servindo também como medida terapêutica nos casos de hidrocefalia aguda."
           },
           {
             "id": 2,
-            "description": "B) a monitorização intraparenquimatosa é tecnicamente mais fácil nos casos de edema cerebral extenso com colapso do sistema ventricular e apresenta menor risco de sangramento e infecção."
+            "description": " a monitorização intraparenquimatosa é tecnicamente mais fácil nos casos de edema cerebral extenso com colapso do sistema ventricular e apresenta menor risco de sangramento e infecção."
           },
           {
             "id": 3,
-            "description": "C) a monitorização subdural não é mais recomendada por problemas técnicos com confiabilidade e complicações como a herniação do tecido cerebral no sistema, distorcendo as medidas e potencialmente danificando o tecido cerebral, inclusive causando hematomas subdurais."
+            "description": " a monitorização subdural não é mais recomendada por problemas técnicos com confiabilidade e complicações como a herniação do tecido cerebral no sistema, distorcendo as medidas e potencialmente danificando o tecido cerebral, inclusive causando hematomas subdurais."
           },
           {
             "id": 4,
-            "description": "D) suas complicações mais comuns são sangramento e infecção, com taxas mais altas associadas à drenagem ventricular externa."
+            "description": " suas complicações mais comuns são sangramento e infecção, com taxas mais altas associadas à drenagem ventricular externa."
           },
           {
             "id": 5,
-            "description": "E) é recomendada pelas diretrizes da 'Brain Trauma Foundation / American Trauma Association of Neurosurgeons' no traumatismo cranioencefálico grave, apenas quando a tomografia apresenta alterações com efeito de massa."
+            "description": " é recomendada pelas diretrizes da 'Brain Trauma Foundation / American Trauma Association of Neurosurgeons' no traumatismo cranioencefálico grave, apenas quando a tomografia apresenta alterações com efeito de massa."
           }
         ],
         "rightAnswer": 5
@@ -1126,83 +1126,83 @@
         "alternatives": [
           {
             "id": 1,
-            "description": "A) Hiperventilação breve até uma pCO2 de 30 mmHg."
+            "description": " Hiperventilação breve até uma pCO2 de 30 mmHg."
           },
           {
             "id": 2,
-            "description": "B) Hipotermia terapêutica de 32 a 34 ºC."
+            "description": " Hipotermia terapêutica de 32 a 34 ºC."
           },
           {
             "id": 3,
-            "description": "C) Terapia hiperosmolar com manitol ou solução salina hipertônica."
+            "description": " Terapia hiperosmolar com manitol ou solução salina hipertônica."
           },
           {
             "id": 4,
-            "description": "D) Coma barbitúrico."
+            "description": " Coma barbitúrico."
           },
           {
             "id": 5,
-            "description": "E) Craniectomia descompressiva."
+            "description": " Craniectomia descompressiva."
           }
         ],
         "rightAnswer": 3
       },
       {
         "questionId": 39,
-        "question": "Considere as figuras abaixo, que representam diferentes configurações de terapia de substituição renal contínua.",
-        "image": null,
+        "question": "Considere as figuras abaixo, que representam diferentes configurações de terapia de substituição renal contínua. \n\n(1) Ultrafiltração lenta contínua (SCUF). \n(2) Hemodiálise venovenosa contínua (HDVVC). \n(3) Hemofiltração venovenosa contínua (HVVC). \n(4) Hemodiafiltração venovenosa contínua (HDFVVC). \n\nRelacione a primeira coluna de acordo com a segunda, associando cada diagrama com sua modalidade.",
+        "image": "./images/39-2021.png",
         "anulada": false,
         "questionYear": "2021",
         "alternatives": [
           {
             "id": 1,
-            "description": "A) A - 3; B - 2; C - 1; D - 4."
+            "description": " A - 3; B - 2; C - 1; D - 4."
           },
           {
             "id": 2,
-            "description": "B) A - 4; B - 1; C - 3; D - 2."
+            "description": " A - 4; B - 1; C - 3; D - 2."
           },
           {
             "id": 3,
-            "description": "C) A - 3; B - 4; C - 1; D - 2."
+            "description": " A - 3; B - 4; C - 1; D - 2."
           },
           {
             "id": 4,
-            "description": "D) A - 2; B - 1; C - 3; D - 4."
+            "description": " A - 2; B - 1; C - 3; D - 4."
           },
           {
             "id": 5,
-            "description": "E) A - 4; B - 2; C - 1; D - 3."
+            "description": " A - 4; B - 2; C - 1; D - 3."
           }
         ],
         "rightAnswer": 1
       },
       {
         "questionId": 40,
-        "question": "Paciente de 40 anos, portador de hepatopatia por vírus C, foi internado na emergência por hemorragia digestiva alta. Endoscopia digestiva alta (EDA) revelou varizes esofágicas sem sangramento ativo, que foram submetidas à ligadura elástica, além de porejamento gástrico difuso importante. Provas laboratoriais revelaram: Hb: 5g/dL; plaquetas: 110000/mm3; INR: 1,45; e kttp: 45 segundos (controle: 32 segundos). Foi realizado tromboelastograma rotacional (ROTEM), cujas imagens são apresentadas a seguir. Os valores de referência dos testes incluídos no ROTEM estão na tabela abaixo. Com base nas informações apresentadas, a melhor estratégia a ser seguida é:",
-        "image": null,
+        "question": "Paciente de 40 anos, portador de hepatopatia por vírus C, foi internado na emergência por hemorragia digestiva alta. Endoscopia digestiva alta (EDA) revelou varizes esofágicas sem sangramento ativo, que foram submetidas à ligadura elástica, além de porejamento gástrico difuso importante. Provas laboratoriais revelaram: Hb: 5g/dL; plaquetas: 110000/mm3; INR: 1,45; e kttp: 45 segundos (controle: 32 segundos). Foi realizado tromboelastograma rotacional (ROTEM), cujas imagens são apresentadas a seguir. Os valores de referência dos testes incluídos no ROTEM estão na tabela abaixo. \n\nCom base nas informações apresentadas, a melhor estratégia a ser seguida é:",
+        "image": "./images/40-2021.png",
         "anulada": false,
         "questionYear": "2021",
         "alternatives": [
           {
             "id": 1,
-            "description": "A) repetir EDA e considerar estratégia adicional como TIPS ou cirurgia, uma vez que não há sinais de coagulopatia significativa."
+            "description": " repetir EDA e considerar estratégia adicional como TIPS ou cirurgia, uma vez que não há sinais de coagulopatia significativa."
           },
           {
             "id": 2,
-            "description": "B) administrar novamente plasma fresco congelado ou complexo protrombínico (preferencialmente) para correção de deficiência de fatores da coagulação."
+            "description": " administrar novamente plasma fresco congelado ou complexo protrombínico (preferencialmente) para correção de deficiência de fatores da coagulação."
           },
           {
             "id": 3,
-            "description": "C) administrar ácido tranexâmico para correção de hiperfibrinólise."
+            "description": " administrar ácido tranexâmico para correção de hiperfibrinólise."
           },
           {
             "id": 4,
-            "description": "D) administrar fibrinogênio ou crioprecipitado (preferencialmente) para correção de hipofibrinogenemia."
+            "description": " administrar fibrinogênio ou crioprecipitado (preferencialmente) para correção de hipofibrinogenemia."
           },
           {
             "id": 5,
-            "description": "E) iniciar transfusão agressiva e maciça de múltiplos hemoderivados, incluindo plasma, crioprecipitado e plaquetas, já que há sinais de coagulação intravascular disseminada."
+            "description": " iniciar transfusão agressiva e maciça de múltiplos hemoderivados, incluindo plasma, crioprecipitado e plaquetas, já que há sinais de coagulação intravascular disseminada."
           }
         ],
         "rightAnswer": 3
