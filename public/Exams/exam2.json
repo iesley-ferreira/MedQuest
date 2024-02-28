@@ -89,6 +89,10 @@
           {
             "id": 4,
             "description": "Administração de ácido acetilsalicílico."
+          },
+          {
+            "id": 5,
+            "description": "Correção da hipoxemia."
           }
         ],
         "rightAnswer": 4
