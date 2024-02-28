@@ -156,7 +156,6 @@ header {
   margin-bottom: 32px;
   margin-top: 12px;
   padding: 10px;
-  text-align: center;
 }
 
 .category-container {
@@ -205,6 +204,11 @@ header {
   display: grid;
   font-size: 1.2em;
   gap: 10px;
+}
+
+.answers-container > button {
+  padding-left: 12px;
+  text-align: start;
 }
 
 .answers-container > button {
