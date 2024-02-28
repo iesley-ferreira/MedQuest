@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
-import Form from 'react-bootstrap/Form';
 import { updateSettings } from '../redux/actions';
 
 const QUEST_QUANTITY_ALL = 217;
