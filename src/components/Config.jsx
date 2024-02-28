@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
+import Form from 'react-bootstrap/Form';
 import { updateSettings } from '../redux/actions';
 
 const QUEST_QUANTITY_ALL = 217;
@@ -72,8 +73,9 @@ class Config extends Component {
               id="examId"
               data-testid="examId-input"
               value={ examId }
+              className="custom-select"
             >
-              <option value="0">Todas</option>
+              <option value="0">Todos</option>
               <option value="1">2006</option>
               <option value="2">2009</option>
               <option value="3">2013</option>
@@ -93,6 +95,7 @@ class Config extends Component {
               data-testid="quantity-input"
               value={ quantity }
               onChange={ this.handleChange }
+              className="custom-select"
             >
               {options.map((value) => (
                 <option key={ value } value={ value }>
@@ -101,7 +104,6 @@ class Config extends Component {
               ))}
             </select>
           </label>
-
         </fieldset>
 
       </div>

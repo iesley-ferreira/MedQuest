@@ -1,3 +1,11 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:regular,bold,italic&subset=latin,latin-ext');
+
+/* .abel-regular {
+  font-family: Abel , sans-serif;
+  font-style: normal;
+  font-weight: 400;
+} */
+
 @font-face {
   font-family: Caveat;
   src: url('./fonts/Caveat-VariableFont_wght.ttf') format('truetype');
@@ -7,32 +15,6 @@
   font-family: Roboto;
   src: url('./fonts/Roboto-Regular.ttf') format('truetype');
 }
-
-
-/*
-body > * {
-  outline: 1px solid red;
-}
-
-body > * > * {
-  outline: 1px solid yellow;
-}
-
-body > * > * > * {
-  outline: 1px solid blue;
-}
-
-body > * > * > * > * {
-  outline: 1px solid green;
-}
-
-body > * > * > * > * > * {
-  outline: 1px solid rgb(255, 3, 171);
-}
-
-body > * > * > * > * > * > * {
-  outline: 1px solid brown;
-} */
 
 * {
   box-sizing: border-box;
@@ -236,7 +218,7 @@ header {
 }
 
 .answers-container > button:hover {
-  background-color: rgb(153, 120, 231);
+  border: 2px solid rgb(153, 120, 231);
 }
 
 .next-button {
@@ -248,6 +230,54 @@ header {
 .timer-button {
   font-size: 1.2em;
   pointer-events: none;
+}
+
+/* deve centralizar os itens do select */
+.custom-select {
+  align-items: center;
+  appearance: none;
+  background-color: #fff;
+  border: 1px solid #caced1;
+  border-radius: 0.25rem;
+  color: #000;
+  cursor: pointer;
+  display: flex;
+  font-size: 1.15rem;
+  padding: 0.675em 1em;
+  position: relative;
+  width: 70px;
+}
+
+.custom-select, option {
+  align-items: center;
+  color: #606064;
+  display: flex;
+  font-size: 13px;
+  justify-content: center;
+  text-align: center;
+}
+
+.custom-select:before, .custom-select:after {
+
+  --size: 0.3rem;
+  content: '';
+  pointer-events: none;
+  position: absolute;
+  right: 1rem;
+}
+
+.custom-select:before {
+  border-bottom: var(--size) solid black;
+  border-left: var(--size) solid transparent;
+  border-right: var(--size) solid transparent;
+  top: 40%;
+}
+
+.custom-select:after {
+  border-left: var(--size) solid transparent;
+  border-right: var(--size) solid transparent;
+  border-top: var(--size) solid black;
+  top: 55%;
 }
 
 .greenBoard {
@@ -274,8 +304,6 @@ header {
   display: flex;
   flex-direction: column;
   justify-content: center;
-
-  /* margin: auto 1em; */
   min-width: 300px;
   padding-bottom: 20px;
   text-align: center;
@@ -365,15 +393,14 @@ fieldset {
   border-radius: 5px;
   display: flex;
   justify-content: space-evenly;
-  padding: 16px;
   width: 100%;
 }
 
 fieldset label {
   color: rgba(44, 41, 41, 0.685);
-  font-family: Caveat , cursive;
-  font-size: 20px;
-  margin-bottom: 1em;
+  font-family: Abel , cursive;
+  font-size: 18px;
+  margin-bottom: 2em;
 }
 
 fieldset .button {
@@ -382,8 +409,8 @@ fieldset .button {
 
 .legend1 {
   color: rgba(44, 41, 41, 0.685);
-  font-family: Caveat , cursive;
-  font-size: 2em;
+  font-family: Abel , sans-serif;
+  font-size: 24px;
   margin-bottom: 0.5em;
   margin-right: auto;
 }
