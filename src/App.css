@@ -344,6 +344,8 @@ header {
   font-size: 20px;
   font-weight: 700;
   justify-content: space-around;
+  margin-bottom: 20px;
+  margin-top: 20px;
   width: 240px;
 }
 
