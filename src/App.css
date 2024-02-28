@@ -65,6 +65,18 @@ body {
   max-width: 100%;
 }
 
+.home-btn {
+  background: #fff;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+}
+
+.home-btn:hover {
+  transform: scale(1.1);
+}
+
 .login-form {
   background-color: white;
   border-radius: 10px;
@@ -242,12 +254,12 @@ header {
   border: solid 10px rgb(240, 6, 185);
 }
 
-.answers-container > button.red {
+.answers-container > .red {
   background-color: red;
   color: white;
 }
 
-.answers-container > button.green {
+.answers-container > .green {
   background-color: rgb(6, 240, 15);
 }
 

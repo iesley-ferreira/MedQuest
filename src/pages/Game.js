@@ -11,7 +11,6 @@ import { restartTimer,
   setQuestionArray,
   resetQuestionNumber,
   incrementQuestionNumber,
-  updateSettings,
 } from '../redux/actions';
 import { getQuestionsFromLocalFile } from '../services/api';
 
@@ -58,12 +57,6 @@ class Game extends Component {
 
     clearInterval(this.timer);
     dispatch(resetQuestionNumber());
-
-    const settings = {
-      examId: 0,
-      quantity: 10,
-    };
-    dispatch(updateSettings(settings));
   }
 
   startTimer = () => {

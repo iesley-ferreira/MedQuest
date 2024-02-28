@@ -1,26 +1,32 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
-import { Link } from 'react-router-dom/cjs/react-router-dom';
+import { withRouter } from 'react-router-dom';
 
 import house from './images/house.png';
 import Contador from './Contador';
+import { updateSettings } from '../redux/actions';
 
 class Header extends Component {
+  handleClickHome = () => {
+    const { dispatch, history } = this.props;
+    const settings = {
+      examId: 0,
+      quantity: 10,
+    };
+    dispatch(updateSettings(settings));
+    history.push('/');
+  };
+
   render() {
     const { name } = this.props;
     return (
       <header className="header">
-
         <h3 data-testid="header-player-name" className="header-name">{name}</h3>
-
         <Contador />
-
-        <Link to="/">
-          {' '}
+        <button onClick={ this.handleClickHome } type="button" className="home-btn">
           <img src={ house } alt="House" className="house-icon" />
-        </Link>
-
+        </button>
       </header>
     );
   }
@@ -32,7 +38,11 @@ const mapStateToProps = (state) => ({
 });
 
 Header.propTypes = {
+  dispatch: PropTypes.func.isRequired,
   name: PropTypes.string.isRequired,
+  history: PropTypes.shape({
+    push: PropTypes.func.isRequired,
+  }).isRequired,
 };
 
-export default connect(mapStateToProps)(Header);
+export default withRouter(connect(mapStateToProps)(Header));
