@@ -189,7 +189,7 @@
       },
       {
         "questionId": 7,
-        "question": "Assinale como V (verdadeiro) ou F (falso) as seguintes afirmativas, a respeito de complicações imunológicas e infecciosas em pacientes transplantados.\n\n( ) A doença do enxerto contra o hospedeiro é uma condição associada à elevada mortalidade, sendo mais comum em transplantados de órgãos sólidos, em especial os transplantados renais.\n\n( ) Rash cutâneo, febre, diarreia e plaquetopenia são sintomas comuns na doença do enxerto contra o hospedeiro, acarretando investigação para esta condição, especialmente, nas primeiras duas semanas pós-transplante.\n\n( ) Infecções fúngicas são mais comuns em transplantados de órgãos sólidos, em especial os transplantados hepáticos, associando-se a uma mortalidade elevada. Essas infecções costumam ocorrer nos períodos de maior grau de imunossupressão após o transplante.\n\n( ) Infecções por citomegalovírus apresentam um espectro de doença bastante variado, desde sintomas leves, num quadro semelhante ao da mononucleose, até quadros graves sistêmicos, com acometimento hepático, pulmonar e intestinal.\n\nA sequência correta de preenchimento dos parênteses, de cima para baixo, é",
+        "question": "Assinale como V (verdadeiro) ou F (falso) as seguintes afirmativas, a respeito de complicações imunológicas e infecciosas em pacientes transplantados.\n\n( ) A doença do enxerto contra o hospedeiro é uma condição associada à elevada mortalidade, sendo mais comum em transplantados de órgãos sólidos, em especial os transplantados renais.\n( ) Rash cutâneo, febre, diarreia e plaquetopenia são sintomas comuns na doença do enxerto contra o hospedeiro, acarretando investigação para esta condição, especialmente, nas primeiras duas semanas pós-transplante.\n( ) Infecções fúngicas são mais comuns em transplantados de órgãos sólidos, em especial os transplantados hepáticos, associando-se a uma mortalidade elevada. Essas infecções costumam ocorrer nos períodos de maior grau de imunossupressão após o transplante.\n( ) Infecções por citomegalovírus apresentam um espectro de doença bastante variado, desde sintomas leves, num quadro semelhante ao da mononucleose, até quadros graves sistêmicos, com acometimento hepático, pulmonar e intestinal.\n\nA sequência correta de preenchimento dos parênteses, de cima para baixo, é",
         "image": null,
         "anulada": false,
         "questionYear": "2021",
@@ -279,7 +279,7 @@
       },
       {
         "questionId": 10,
-        "question": "Considere as imagens abaixo.\n\nSuperfície corporal do paciente = 2 m2\nEm relação às informações presentes nas imagens, é correto afirmar que:",
+        "question": "Considere as imagens abaixo.\n\nSuperfície corporal do paciente = 2 m2\n\nEm relação às informações presentes nas imagens, é correto afirmar que:",
         "image": "./images/10-2021.png",
         "anulada": false,
         "questionYear": "2021",
@@ -309,7 +309,7 @@
       },
       {
         "questionId": 11,
-        "question": "Paciente de 48 anos está internado na UTI após infarto agudo do miocárdio. Evoluiu com choque cardiogênico. Foi monitorizado com o cateter de artéria pulmonar. As imagens abaixo foram obtidas durante a monitorização do paciente. \n\nAssinale a afirmativa correta em relação às imagens abaixo.",
+        "question": "Paciente de 48 anos está internado na UTI após infarto agudo do miocárdio. Evoluiu com choque cardiogênico. Foi monitorizado com o cateter de artéria pulmonar. \n\nAs imagens abaixo foram obtidas durante a monitorização do paciente. \n\nAssinale a afirmativa correta em relação às imagens abaixo.",
         "image": "./images/11-2021.png",
         "anulada": false,
         "questionYear": "2021",
@@ -399,7 +399,7 @@
       },
       {
         "questionId": 14,
-        "question": "Com relação aos cuidados pós-operatórios de revascularização de isquemia aguda de membros, analise as afirmativas abaixo.\n\nI - A anticoagulação sistêmica deve ser iniciada assim que possível, em virtude da elevada incidência de um novo episódio de trombose ou de embolização recorrente em pacientes não anticoagulados.\nII - A injúria de isquemia-reperfusão é uma complicação possível no pós-operatório de revascularização de isquemia aguda de membros, cujo tratamento consiste em ressuscitação volêmica agressiva e monitorização de complicações secundárias, especialmente com relação a distúrbios eletrolíticos.\nIII- A síndrome compartimental é uma complicação rara, porém potencialmente grave, no membro revascularizado. Dor, ausência de pulso e parestesias são sinais precoces e de alerta.\nQuais estão corretas?",
+        "question": "Com relação aos cuidados pós-operatórios de revascularização de isquemia aguda de membros, analise as afirmativas abaixo.\n\nI - A anticoagulação sistêmica deve ser iniciada assim que possível, em virtude da elevada incidência de um novo episódio de trombose ou de embolização recorrente em pacientes não anticoagulados.\nII - A injúria de isquemia-reperfusão é uma complicação possível no pós-operatório de revascularização de isquemia aguda de membros, cujo tratamento consiste em ressuscitação volêmica agressiva e monitorização de complicações secundárias, especialmente com relação a distúrbios eletrolíticos.\nIII- A síndrome compartimental é uma complicação rara, porém potencialmente grave, no membro revascularizado. Dor, ausência de pulso e parestesias são sinais precoces e de alerta.\n\nQuais estão corretas?",
         "image": null,
         "anulada": false,
         "questionYear": "2021",
@@ -579,7 +579,7 @@
       },
       {
         "questionId": 20,
-        "question": "Uma paciente com diagnóstico de síndrome da angústia respiratória do adulto recebe ventilação mecânica em modo volume controlado, com volume corrente de 6mL/kg, para peso predito de 50kg. As curvas ventilatórias, a seguir, descrevem o comportamento da mecânica pulmonar antes e após tentativa de titulação de PEEP. \nConsidere as assertivas abaixo. \n\nI - A complacência estática na figura A é de 30 mL/cmH2O. \nII - A resistência na figura B é de 25 cm/L/s. \nIII - A melhor relação entre PEEP e complacência é obtida na curva B. \nIV - A concavidade voltada para cima, observada na curva de pressão x tempo em B, sugere um stress index >1 e, portanto, aumento na elastância com relação à curva anterior. \nQuais estão corretas?",
+        "question": "Uma paciente com diagnóstico de síndrome da angústia respiratória do adulto recebe ventilação mecânica em modo volume controlado, com volume corrente de 6mL/kg, para peso predito de 50kg. As curvas ventilatórias, a seguir, descrevem o comportamento da mecânica pulmonar antes e após tentativa de titulação de PEEP. \n\nConsidere as assertivas abaixo. \n\nI - A complacência estática na figura A é de 30 mL/cmH2O. \nII - A resistência na figura B é de 25 cm/L/s. \nIII - A melhor relação entre PEEP e complacência é obtida na curva B. \nIV - A concavidade voltada para cima, observada na curva de pressão x tempo em B, sugere um stress index >1 e, portanto, aumento na elastância com relação à curva anterior. \n\nQuais estão corretas?",
         "image": "./images/20-2021.png",
         "anulada": false,
         "questionYear": "2021",
@@ -669,7 +669,7 @@
       },
       {
         "questionId": 23,
-        "question": "Primigesta com 34 semanas, 17 anos, obesa e sem outras comorbidades, é internada na UTI com hipertensão arterial de início recente, escotomas visuais, cefaleia e dor epigástrica refratárias ao manejo medicamentoso inicial e dispneia. Os exames iniciais demonstraram: plaquetas de 90 mil, transaminases acima de três vezes o valor de referência, creatinina 1.8 mg/dL, elevação de ácido úrico, índice proteína/creatinina urinária 0.2 e radiografía de tórax com infiltrado intersticial/alveolar difuso.\nSobre esse caso clínico, considere as afirmações abaixo.\n\nI - O diagnóstico de pré-eclâmpsia pode ser feito mesmo na ausência de proteinúria, pois a hipertensão de início recente é acompanhada por sinais ou sintomas de disfunção orgânica, tais como: insuficiência renal, disfunção hepática, trombocitopenia, complicações neurológicas incluindo convulsões (eclâmpsia) e edema pulmonar.\nII - A pré-eclâmpsia com características graves é indicação de parto, independentemente da idade gestacional, devido ao alto risco de morbidade materna.\nIII- O sulfato de magnésio intravenoso é o agente de primeira linha para profilaxia de convulsões intraparto e pós-parto. No caso de convulsões estabelecidas, o tratamento de escolha são benzodiazepínicos.\nIV - Os anti-hipertensivos parenterais como betabloqueadores e hidralazina são recomendados para tratamento de hipertensão severa (> 160/110).\n\nQuais estão corretas?",
+        "question": "Primigesta com 34 semanas, 17 anos, obesa e sem outras comorbidades, é internada na UTI com hipertensão arterial de início recente, escotomas visuais, cefaleia e dor epigástrica refratárias ao manejo medicamentoso inicial e dispneia. Os exames iniciais demonstraram: plaquetas de 90 mil, transaminases acima de três vezes o valor de referência, creatinina 1.8 mg/dL, elevação de ácido úrico, índice proteína/creatinina urinária 0.2 e radiografía de tórax com infiltrado intersticial/alveolar difuso.\n\nSobre esse caso clínico, considere as afirmações abaixo.\n\nI - O diagnóstico de pré-eclâmpsia pode ser feito mesmo na ausência de proteinúria, pois a hipertensão de início recente é acompanhada por sinais ou sintomas de disfunção orgânica, tais como: insuficiência renal, disfunção hepática, trombocitopenia, complicações neurológicas incluindo convulsões (eclâmpsia) e edema pulmonar.\nII - A pré-eclâmpsia com características graves é indicação de parto, independentemente da idade gestacional, devido ao alto risco de morbidade materna.\nIII- O sulfato de magnésio intravenoso é o agente de primeira linha para profilaxia de convulsões intraparto e pós-parto. No caso de convulsões estabelecidas, o tratamento de escolha são benzodiazepínicos.\nIV - Os anti-hipertensivos parenterais como betabloqueadores e hidralazina são recomendados para tratamento de hipertensão severa (> 160/110).\n\nQuais estão corretas?",
         "image": null,
         "anulada": false,
         "questionYear": "2021",
@@ -699,7 +699,7 @@
       },
       {
         "questionId": 24,
-        "question": "Considere a figura abaixo.\n\nAssinale a alternativa INCORRETA sobre a arritmia demonstrada na imagem acima.\n",
+        "question": "Considere a figura abaixo.\n\nAssinale a alternativa INCORRETA sobre a arritmia demonstrada na imagem abaixo.",
         "image": "./images/24-2021.png",
         "anulada": false,
         "questionYear": "2021",
@@ -729,7 +729,7 @@
       },
       {
         "questionId": 25,
-        "question": "Sobre o uso de drogas vasoativas na UTI, assinale as afirmações abaixo com V (verdadeiro) ou F (falso).\n\n( ) A noradrenalina é a droga de escolha no choque séptico hiperdinâmico e está associada à redução de mortalidade e eventos arrítmicos quando comparada à dopamina.\n( ) No choque séptico com frequência cardíaca ≥ 90 batimentos por minuto, a adição de esmolol à noradrenalina pode ser considerada.\n( ) Em pacientes com choque cardiogênico grave e vasoplegia concomitante, o milrinone é mais bem tolerado que a dobutamina.\n( ) A vasopressina é alternativa segura aos vasopressores adrenérgicos no choque vasoplégico do pós-operatório de cirurgia cardíaca, e o uso de azul de metileno não é mais recomendado para casos refratários.\nA sequência correta de preenchimento dos parênteses, de cima para baixo, é:",
+        "question": "Sobre o uso de drogas vasoativas na UTI, assinale as afirmações abaixo com V (verdadeiro) ou F (falso).\n\n( ) A noradrenalina é a droga de escolha no choque séptico hiperdinâmico e está associada à redução de mortalidade e eventos arrítmicos quando comparada à dopamina.\n( ) No choque séptico com frequência cardíaca ≥ 90 batimentos por minuto, a adição de esmolol à noradrenalina pode ser considerada.\n( ) Em pacientes com choque cardiogênico grave e vasoplegia concomitante, o milrinone é mais bem tolerado que a dobutamina.\n( ) A vasopressina é alternativa segura aos vasopressores adrenérgicos no choque vasoplégico do pós-operatório de cirurgia cardíaca, e o uso de azul de metileno não é mais recomendado para casos refratários.\n\nA sequência correta de preenchimento dos parênteses, de cima para baixo, é:",
         "image": null,
         "anulada": false,
         "questionYear": "2021",
@@ -759,7 +759,7 @@
       },
       {
         "questionId": 26,
-        "question": "Considere as afirmativas abaixo sobre as drogas vasoativas.\nI - A vasopressina apresenta efeito vasoconstritor pela ativação de receptores V1 vasculares e efeito antidiurético pela ativação de receptores V2 nos túbulos coletores renais. Possui efeito essencialmente cronotrópico e inotrópico positivo.\nII - A noradrenalina é um potente agonista beta-adrenérgico com efeitos alfa-adrenérgicos menos relevantes.\nIII- A adrenalina é um potente agonista beta-1-adrenérgico e moderado agonista beta-2 e alfa-1-adrenérgico. Seu uso pode estar associado à hiperlactatemia.\nQuais estão corretas?",
+        "question": "Considere as afirmativas abaixo sobre as drogas vasoativas.\n\nI - A vasopressina apresenta efeito vasoconstritor pela ativação de receptores V1 vasculares e efeito antidiurético pela ativação de receptores V2 nos túbulos coletores renais. Possui efeito essencialmente cronotrópico e inotrópico positivo.\nII - A noradrenalina é um potente agonista beta-adrenérgico com efeitos alfa-adrenérgicos menos relevantes.\nIII- A adrenalina é um potente agonista beta-1-adrenérgico e moderado agonista beta-2 e alfa-1-adrenérgico. Seu uso pode estar associado à hiperlactatemia.\n\nQuais estão corretas?",
         "image": null,
         "anulada": false,
         "questionYear": "2021",
@@ -789,7 +789,7 @@
       },
       {
         "questionId": 26,
-        "question": "Considere as afirmativas abaixo sobre as drogas vasoativas.\nI - A vasopressina apresenta efeito vasoconstritor pela ativação de receptores V1 vasculares e efeito antidiurético pela ativação de receptores V2 nos túbulos coletores renais. Possui efeito essencialmente cronotrópico e inotrópico positivo.\nII - A noradrenalina é um potente agonista beta-adrenérgico com efeitos alfa-adrenérgicos menos relevantes.\nIII- A adrenalina é um potente agonista beta-1-adrenérgico e moderado agonista beta-2 e alfa-1-adrenérgico. Seu uso pode estar associado à hiperlactatemia.\nQuais estão corretas?",
+        "question": "Considere as afirmativas abaixo sobre as drogas vasoativas.\n\nI - A vasopressina apresenta efeito vasoconstritor pela ativação de receptores V1 vasculares e efeito antidiurético pela ativação de receptores V2 nos túbulos coletores renais. Possui efeito essencialmente cronotrópico e inotrópico positivo.\nII - A noradrenalina é um potente agonista beta-adrenérgico com efeitos alfa-adrenérgicos menos relevantes.\nIII- A adrenalina é um potente agonista beta-1-adrenérgico e moderado agonista beta-2 e alfa-1-adrenérgico. Seu uso pode estar associado à hiperlactatemia.\n\nQuais estão corretas?",
         "image": null,
         "anulada": false,
         "questionYear": "2021",
@@ -849,7 +849,7 @@
       },
       {
         "questionId": 28,
-        "question": "Sobre o manejo pós-operatório de cirurgia abdominal de grande porte, considere as afirmações abaixo.\nI - A fístula pancreática pós-operatória é definida como uma drenagem líquida no terceiro dia de pós-operatório, com um nível de amilase três vezes maior do que os seus níveis sanguíneos.\nII - A esofagectomia é um procedimento associado a uma grande morbidade pós-operatória. São estratégias efetivas para minimizá-la, o emprego da fisioterapia respiratória, a otimização da analgesia, o uso judicioso de fluidos e a extubação precoce.\nIII- Leak anastomótico é uma complicação cirúrgica comum no pós-operatório de esofagectomia. Em pacientes hemodinamicamente estáveis, o manejo pode ser, inicialmente, conservador, com antibioticoterapia, drenagem local e otimização do quadro nutricional.\nQuais estão corretas?",
+        "question": "Sobre o manejo pós-operatório de cirurgia abdominal de grande porte, considere as afirmações abaixo.\n\nI - A fístula pancreática pós-operatória é definida como uma drenagem líquida no terceiro dia de pós-operatório, com um nível de amilase três vezes maior do que os seus níveis sanguíneos.\nII - A esofagectomia é um procedimento associado a uma grande morbidade pós-operatória. São estratégias efetivas para minimizá-la, o emprego da fisioterapia respiratória, a otimização da analgesia, o uso judicioso de fluidos e a extubação precoce.\nIII- Leak anastomótico é uma complicação cirúrgica comum no pós-operatório de esofagectomia. Em pacientes hemodinamicamente estáveis, o manejo pode ser, inicialmente, conservador, com antibioticoterapia, drenagem local e otimização do quadro nutricional.\n\nQuais estão corretas?",
         "image": null,
         "anulada": false,
         "questionYear": "2021",
@@ -999,7 +999,7 @@
       },
       {
         "questionId": 33,
-        "question": "Considere os achados ultrassonográficos abaixo.\nI - Pulso pulmonar\nII - Ponto pulmonar\nIII- Linhas B\nIV - Sinal da estratosfera\nQuais afastam o diagnóstico de pneumotórax na região examinada?",
+        "question": "Considere os achados ultrassonográficos abaixo.\n\nI - Pulso pulmonar\nII - Ponto pulmonar\nIII- Linhas B\nIV - Sinal da estratosfera\n\nQuais afastam o diagnóstico de pneumotórax na região examinada?",
         "image": null,
         "anulada": false,
         "questionYear": "2021",
@@ -1029,7 +1029,7 @@
       },
       {
         "questionId": 34,
-        "question": "Considere as figuras de monitorização de pressão arterial abaixo apresentadas.\nI - Na figura C, está representada uma curva de funcionamento normal de linha arterial.\nII - As causas mais comuns para o fenômeno encontrado na figura B são bolhas de ar, trombos e dobras no circuito.\nIII- Para corrigir o artefato visualizado em C, deve-se optar por um cateter arterial de maior calibre.\nIV - Em B e C, é necessário realizar novamente a calibração do “zero”.\nQuais afirmativas estão corretas?",
+        "question": "Considere as figuras de monitorização de pressão arterial abaixo apresentadas.\n\nI - Na figura C, está representada uma curva de funcionamento normal de linha arterial.\nII - As causas mais comuns para o fenômeno encontrado na figura B são bolhas de ar, trombos e dobras no circuito.\nIII- Para corrigir o artefato visualizado em C, deve-se optar por um cateter arterial de maior calibre.\nIV - Em B e C, é necessário realizar novamente a calibração do “zero”.\n\nQuais afirmativas estão corretas?",
         "image": "./images/34-2021.png",
         "anulada": false,
         "questionYear": "2021",
@@ -1179,7 +1179,7 @@
       },
       {
         "questionId": 40,
-        "question": "Paciente de 40 anos, portador de hepatopatia por vírus C, foi internado na emergência por hemorragia digestiva alta. Endoscopia digestiva alta (EDA) revelou varizes esofágicas sem sangramento ativo, que foram submetidas à ligadura elástica, além de porejamento gástrico difuso importante. Provas laboratoriais revelaram: Hb: 5g/dL; plaquetas: 110000/mm3; INR: 1,45; e kttp: 45 segundos (controle: 32 segundos). Foi realizado tromboelastograma rotacional (ROTEM), cujas imagens são apresentadas a seguir. Os valores de referência dos testes incluídos no ROTEM estão na tabela abaixo. \n\nCom base nas informações apresentadas, a melhor estratégia a ser seguida é:",
+        "question": "Paciente de 40 anos, portador de hepatopatia por vírus C, foi internado na emergência por hemorragia digestiva alta. Endoscopia digestiva alta (EDA) revelou varizes esofágicas sem sangramento ativo, que foram submetidas à ligadura elástica, além de porejamento gástrico difuso importante. Provas laboratoriais revelaram: Hb: 5g/dL; plaquetas: 110000/mm3; INR: 1,45; e kttp: 45 segundos (controle: 32 segundos). \nFoi realizado tromboelastograma rotacional (ROTEM), cujas imagens são apresentadas a seguir. Os valores de referência dos testes incluídos no ROTEM estão na tabela abaixo. \n\nCom base nas informações apresentadas, a melhor estratégia a ser seguida é:",
         "image": "./images/40-2021.png",
         "anulada": false,
         "questionYear": "2021",

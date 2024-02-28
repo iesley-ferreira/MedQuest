@@ -69,7 +69,7 @@
       },
       {
         "questionId": 4,
-        "question": "Paciente feminina, branca, 50 anos, lúcida, orientada, está internada com diagnóstico de neoplasia de pulmão metastática e sobrevida estimada em 6 meses. Ciente de seu prognóstico, concorda com o tratamento com prioridades paliativas. Há registro, em prontuário de concordância, para que não seja submetida à reanimação cardiopulmonar, nem a tratamentos fúteis de prolongamento da vida. Após 7 dias de internação, inicia quadro de febre, mal-estar, tosse intensa com expectoração purulenta fétida e abundante, além de dor ventilatório-dependente, sem qualquer instabilidade ventilatória, hemodinâmica, renal ou neurológica. Tendo sido diagnosticado abscesso pulmonar, qual a conduta mais adequada?",
+        "question": "Paciente feminina, branca, 50 anos, lúcida, orientada, está internada com diagnóstico de neoplasia de pulmão metastática e sobrevida estimada em 6 meses. Ciente de seu prognóstico, concorda com o tratamento com prioridades paliativas. Há registro, em prontuário de concordância, para que não seja submetida à reanimação cardiopulmonar, nem a tratamentos fúteis de prolongamento da vida. Após 7 dias de internação, inicia quadro de febre, mal-estar, tosse intensa com expectoração purulenta fétida e abundante, além de dor ventilatório-dependente, sem qualquer instabilidade ventilatória, hemodinâmica, renal ou neurológica. \nTendo sido diagnosticado abscesso pulmonar, qual a conduta mais adequada?",
         "image": null,
         "anulada": false,
         "questionYear": "2013",
@@ -159,7 +159,7 @@
       },
       {
         "questionId": 7,
-        "question": "Paciente masculino, 30 anos, com quadro de broncopneumonia e de SARA grave. Observe abaixo, as curvas destacadas em negrito. Assinale a alternativa que apresenta a melhor probabilidade de recrutamento alveolar.",
+        "question": "Paciente masculino, 30 anos, com quadro de broncopneumonia e de SARA grave. \n\nObserve abaixo, as curvas destacadas em negrito. \n\nAssinale a alternativa que apresenta a melhor probabilidade de recrutamento alveolar.",
         "image": "/images/07-2013.png",
         "anulada": false,
         "questionYear": "2013",
@@ -249,7 +249,7 @@
       },
       {
         "questionId": 11,
-        "question": "Um homem de 65 anos, com história de infarto do miocárdio há 1 mês, é atendido com edema agudo de pulmão. Abaixo, o ECG desse paciente. Assinale a alternativa que indica o procedimento apropriado para tratar esse paciente.",
+        "question": "Um homem de 65 anos, com história de infarto do miocárdio há 1 mês, é atendido com edema agudo de pulmão. Abaixo, o ECG desse paciente. \n\nAssinale a alternativa que indica o procedimento apropriado para tratar esse paciente.",
         "image": "/images/11-2013.png",
         "anulada": false,
         "questionYear": "2013",
@@ -339,7 +339,7 @@
       },
       {
         "questionId": 14,
-        "question": "Paciente com choque séptico é ressuscitado com volume e drogas vasopressoras. Dados de exame físico: Tempo de enchimento capilar: 6 segundos Diurese horária: 0,5 ml/kg Dados de hemodinâmica: Pressão arterial média: 70 mmHg Frequência cardíaca: 110 bat/min Pressão venosa central: 14 mmHg Dados de laboratório: Hematócrito: 32% Lactato arterial: 4 mmol/L Gasometria arterial: Saturação de O2:94%; HCO3: 25 mmol/L; pH: 7,34; PCO2: 50 mmHg Gasometria venosa central: Saturação de O2:76%; HCO3: 21 mmol/L; pH: 7,28; PCO2: 60 mmHg Levando-se em consideração os dados acima sobre o paciente, após 6 horas de atendimento, é correto afirmar que",
+        "question": "Paciente com choque séptico é ressuscitado com volume e drogas vasopressoras. \n\nDados de exame físico: \nTempo de enchimento capilar: 6 segundos \nDiurese horária: 0,5 ml/kg \n\nDados de hemodinâmica:\n Pressão arterial média: 70 mmHg\n Frequência cardíaca: 110 bat/min\n Pressão venosa central: 14 mmHg\n\n Dados de laboratório:\n Hematócrito: 32%\n Lactato arterial: 4 mmol/L\n\n Gasometria arterial: Saturação de O2:94%; HCO3: 25 mmol/L; pH: 7,34; PCO2: 50 mmHg\n\n Gasometria venosa central: Saturação de O2:76%; HCO3: 21 mmol/L; pH: 7,28; PCO2: 60 mmHg \n\nLevando-se em consideração os dados acima sobre o paciente, após 6 horas de atendimento, é correto afirmar que",
         "image": null,
         "anulada": false,
         "questionYear": "2013",
@@ -370,7 +370,7 @@
 
       {
         "questionId": 15,
-        "question": "Relacione a primeira coluna de acordo com a segunda, associando as situações e quadros clínicos dos pacientes aos respectivos tratamentos. (1) Paciente com TA= 110/70 mm Hg, assintomático (2) Paciente com TA= 70/40 mm Hg, sintomático (3) Paciente sem pulso (4) Paciente com pulso, TA=70/40 mm Hg (a) amiodarona 300 mg EV (b) amiodarona 150 mg EV (c) cardioversão elétrica com 100 J, se aparelho bifásico (d) cardioversão elétrica com 200 J, se aparelho bifásico (e) desfibrilação elétrica com 200 J, se aparelho bifásico Assinale a alternativa que apresenta a correlação adequada.",
+        "question": "Relacione a primeira coluna de acordo com a segunda, associando as situações e quadros clínicos dos pacientes aos respectivos tratamentos. \n\n(a) amiodarona 300 mg EV \n(b) amiodarona 150 mg EV \n(c) cardioversão elétrica com 100 J, se aparelho bifásico \n(d) cardioversão elétrica com 200 J, se aparelho bifásico \n(e) desfibrilação elétrica com 200 J, se aparelho bifásico \n\nAssinale a alternativa que apresenta a correlação adequada.",
         "image": "/images/15-2013.png",
         "anulada": false,
         "questionYear": "2013",
@@ -522,7 +522,7 @@
       },
       {
         "questionId": 20,
-        "question": "Quanto ao delirium, em pacientes críticos, considere as afirmativas abaixo.\n\nI - Abuso de álcool, hipertensão arterial e história prévia de demência consistem em fatores de risco para desenvolver delirium na UTI.\nII - Delirium hipoativo é mais comum que o delirium hiperativo.\nIII- A presença de delirium está associada ao aumento de custos da internação hospitalar e pior desfecho cognitivo a longo prazo.\n\nQuais estão corretas?\n\n(A) Apenas I.\n(B) Apenas I e II.\n(C) Apenas I e III.\n(D) Apenas II e III.\n(E) I, II e III.",
+        "question": "Quanto ao delirium, em pacientes críticos, considere as afirmativas abaixo.\n\nI - Abuso de álcool, hipertensão arterial e história prévia de demência consistem em fatores de risco para desenvolver delirium na UTI.\nII - Delirium hipoativo é mais comum que o delirium hiperativo.\nIII- A presença de delirium está associada ao aumento de custos da internação hospitalar e pior desfecho cognitivo a longo prazo.\n\nQuais estão corretas?",
         "image": null,
         "anulada": false,
         "questionYear": "2013",
@@ -552,7 +552,7 @@
       },
       {
         "questionId": 21,
-        "question": "Paciente de 35 anos é trazido ao hospital com dispneia progressiva. Ao exame físico apresenta PA 90/60 e pulmões limpos. Abaixo, o ECG desse paciente.\n\nAssinale a alternativa que apresenta o provável diagnóstico para esse caso.\n\n(A) Pneumotórax.\n(B) Embolia pulmonar.\n(C) Bloqueio AV total.\n(D) Infarto do miocárdio.\n(E) Tamponamento cardíaco.",
+        "question": "Paciente de 35 anos é trazido ao hospital com dispneia progressiva. Ao exame físico apresenta PA 90/60 e pulmões limpos. Abaixo, o ECG desse paciente.\n\nAssinale a alternativa que apresenta o provável diagnóstico para esse caso.",
         "image": "/images/21-2013.png",
         "anulada": false,
         "questionYear": "2013",
@@ -582,7 +582,7 @@
       },
       {
         "questionId": 22,
-        "question": "Correlacione os quadros clínicos abaixo (I a IV) com os achados de monitorização hemodinâmica mais prováveis (a a e):\n\nI - Sepse\nII - Choque cardiogênico\nIII- Tamponamento cardíaco IV - Choque hipovolêmico\n(a) PVC normal, PAP, PAOP e IC\n(b) PVC, PAP , PAOP , IC\n(c) PVC, PAP normal, PAOP normal e IC\n(d) PVC, PAP , PAOP , IC\n(e) PVC normal, PAPnormal, PAOP e IC\n\nQuais os padrões hemodinâmicos que melhor correspondem aos diagnósticos?\n\n(A) I-a, II-b, III-c, IV-d.\n(B) I-b, II-a, III-c, IV-d.\n(C) I-b, II-c, III-a, IV-e.\n(D) I-d, II-c, III-a, IV-b.\n(E) I-b, II-a, III-d, IV-e.",
+        "question": "Correlacione os quadros clínicos abaixo (I a IV) com os achados de monitorização hemodinâmica mais prováveis (a a e):\n\nI - Sepse\nII - Choque cardiogênico\nIII- Tamponamento cardíaco IV - Choque hipovolêmico\n\n(a) PVC normal, PAP, PAOP e IC\n(b) PVC, PAP , PAOP , IC\n(c) PVC, PAP normal, PAOP normal e IC\n(d) PVC, PAP , PAOP , IC\n(e) PVC normal, PAPnormal, PAOP e IC\n\nQuais os padrões hemodinâmicos que melhor correspondem aos diagnósticos?",
         "image": null,
         "anulada": false,
         "questionYear": "2013",
@@ -798,7 +798,7 @@
 
       {
         "questionId": 29,
-        "question": "Observe as afirmações abaixo sobre as infecções necrotizantes de partes moles.\nI - A escolha inicial de antimicrobianos deve abranger cobertura para gram-positivos, gram-negativos e anaeróbios.\nII - O sucesso do uso de clindamicina pode estar associado ao bloqueio da produção de exotoxina, reduzindo a resposta inflamatória tecidual.\nIII- Pelo risco de infecção polimicrobiana, não está indicada a restrição de espectro, mesmo após a identificação do agente etiológico.\nQuais estão corretas?",
+        "question": "Observe as afirmações abaixo sobre as infecções necrotizantes de partes moles.\n\nI - A escolha inicial de antimicrobianos deve abranger cobertura para gram-positivos, gram-negativos e anaeróbios.\nII - O sucesso do uso de clindamicina pode estar associado ao bloqueio da produção de exotoxina, reduzindo a resposta inflamatória tecidual.\nIII- Pelo risco de infecção polimicrobiana, não está indicada a restrição de espectro, mesmo após a identificação do agente etiológico.\n\nQuais estão corretas?",
         "image": null,
         "anulada": false,
         "questionYear": "2013",
@@ -829,7 +829,7 @@
 
       {
         "questionId": 30,
-        "question": "Com relação à síndrome compartimental abdominal (SCA), considere as afirmações abaixo.\nI - O uso de bloqueador neuromuscular é parte do manejo clínico (minimamente invasivo) em pacientes sem disfunção orgânica.\nII - A intervenção cirúrgica precoce em pacientes com sinais de disfunção orgânica e SCA está bem documentada na literatura com ensaios clínicos randomizados.\nIII- Uma das dificuldades em reconhecer a importância da SCA é que não há aumento de mortalidade associado ao seu surgimento.\nQuais estão corretas?",
+        "question": "Com relação à síndrome compartimental abdominal (SCA), considere as afirmações abaixo.\n\nI - O uso de bloqueador neuromuscular é parte do manejo clínico (minimamente invasivo) em pacientes sem disfunção orgânica.\nII - A intervenção cirúrgica precoce em pacientes com sinais de disfunção orgânica e SCA está bem documentada na literatura com ensaios clínicos randomizados.\nIII- Uma das dificuldades em reconhecer a importância da SCA é que não há aumento de mortalidade associado ao seu surgimento.\n\nQuais estão corretas?",
         "image": null,
         "anulada": false,
         "questionYear": "2013",
@@ -1045,7 +1045,7 @@
 
       {
         "questionId": 37,
-        "question": "Paciente de 48 anos, alcoolista e com índice de massa corporal 34, é internado no CTI com diagnóstico de pancreatite aguda grave. Na internação, os exames coletados mostraram:\n\namilase 1280 U/L\nlípase 340 U/L\nglicemia 270 mg/dL cálcio sérico 8,2 mg/dL\ndesidrogenase lática (TGO) 380 U/L creatinina 3,2 mg/dL\nhematócrito 52 %\nleucócitos 12800 /L PaO2 = 53 mmHg bicarbonato = 22 mmol/L\n\nConsiderando o exposto, pode-se afirmar que",
+        "question": "Paciente de 48 anos, alcoolista e com índice de massa corporal 34, é internado no CTI com diagnóstico de pancreatite aguda grave. Na internação, os exames coletados mostraram:\n\namilase 1280 U/L\nlípase 340 U/L\nglicemia 270 mg/dL \ncálcio sérico 8,2 mg/dL\ndesidrogenase lática (TGO) 380 U/L \ncreatinina 3,2 mg/dL\nhematócrito 52 %\nleucócitos 12800 /L \nPaO2 = 53 mmHg \nbicarbonato = 22 mmol/L\n\nConsiderando o exposto, pode-se afirmar que",
         "image": null,
         "anulada": false,
         "questionYear": "2013",
@@ -1076,7 +1076,7 @@
 
       {
         "questionId": 38,
-        "question": "Senhora de 85 anos, hipertensa e diabética, em tratamento, foi encontrada caída, por familiar que a deixara bem, cerca de uma hora antes. Quando encontrada, falava com dificuldade e tinha perda de força acentuada nos membros superior e inferior direitos. Chega ao hospital uma hora após ter sido encontrada. Na avaliação inicial, queixa-se apenas de um pouco de tontura; está ansiosa, mas lúcida e orientada, e a fala é normal. O déficit motor no membro superior direito é discreto, com queda de menos de 10 centímetros na prova dos braços estendidos; os membros inferiores têm força simétrica. A pressão arterial é de 170/85mmHg, a frequência cardíaca é 80bpm, a frequência respiratória é 14 e a oximetria digital 95%. O hemoglicoteste é 145. A tomografia computadorizada do crânio mostrou sinais de atrofia cerebral difusa e ausência de hemorragia ou de lesão expansiva.\n\nConsidere os critérios que contraindicam a administração de trombolítico (rtPA) nessa paciente:\n\nI - Hipertensão arterial II - Diabetes Melito III- Idade IV - Tempo entre o início dos sintomas e a avaliação inicial V - Sintomas em rápida melhora\n\nQuais estão corretos?",
+        "question": "Senhora de 85 anos, hipertensa e diabética, em tratamento, foi encontrada caída, por familiar que a deixara bem, cerca de uma hora antes. Quando encontrada, falava com dificuldade e tinha perda de força acentuada nos membros superior e inferior direitos. Chega ao hospital uma hora após ter sido encontrada. Na avaliação inicial, queixa-se apenas de um pouco de tontura; está ansiosa, mas lúcida e orientada, e a fala é normal. O déficit motor no membro superior direito é discreto, com queda de menos de 10 centímetros na prova dos braços estendidos; os membros inferiores têm força simétrica. A pressão arterial é de 170/85mmHg, a frequência cardíaca é 80bpm, a frequência respiratória é 14 e a oximetria digital 95%. O hemoglicoteste é 145. A tomografia computadorizada do crânio mostrou sinais de atrofia cerebral difusa e ausência de hemorragia ou de lesão expansiva.\n\nConsidere os critérios que contraindicam a administração de trombolítico (rtPA) nessa paciente:\n\nI - Hipertensão arterial \nII - Diabetes Melito \nIII- Idade \nIV - Tempo entre o início dos sintomas e a avaliação inicial \nV - Sintomas em rápida melhora\n\nQuais estão corretos?",
         "image": null,
         "anulada": false,
         "questionYear": "2013",
