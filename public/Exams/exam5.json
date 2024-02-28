@@ -39,7 +39,7 @@
       },
       {
         "questionId": 2,
-        "question": "Observe os gráficos abaixo. Considere as afirmações em relação às curvas de débito cardíaco, registradas com o uso do cateter de artéria pulmonar. \n\nI - O eixo Y da curva A representa a temperatura, e a temperatura T1 é maior do que a temperatura T2. \nII - O eixo X das duas curvas representa o tempo. \nIII- O débito cardíaco da curva B é maior do que o débito cardíaco registrado na curva A. \n\nQuais estão corretas? ",
+        "question": "Observe os gráficos abaixo. \n\nConsidere as afirmações em relação às curvas de débito cardíaco, registradas com o uso do cateter de artéria pulmonar. \n\nI - O eixo Y da curva A representa a temperatura, e a temperatura T1 é maior do que a temperatura T2. \nII - O eixo X das duas curvas representa o tempo. \nIII- O débito cardíaco da curva B é maior do que o débito cardíaco registrado na curva A. \n\nQuais estão corretas? ",
         "image": "/images/02-2017.png",
         "anulada": false,
         "questionYear": "2017",
@@ -99,7 +99,7 @@
       },
       {
         "questionId": 4,
-        "question": "Observe o gráfico abaixo. Considere as afirmações abaixo em relação à curva de pressão intracraniana apresentada acima. \n\nI - P1 é denominada onda de percussão e representa o pulso arterial sistólico. \nII - P2 é a onda dicrótica que ilustra o início da fase diastólica cardíaca. \nIII- A complacência intracraniana está diminuída. \n\nQuais estão corretas? ",
+        "question": "Observe o gráfico abaixo. \n\nConsidere as afirmações abaixo em relação à curva de pressão intracraniana apresentada abaixo. \n\nI - P1 é denominada onda de percussão e representa o pulso arterial sistólico. \nII - P2 é a onda dicrótica que ilustra o início da fase diastólica cardíaca. \nIII- A complacência intracraniana está diminuída. \n\nQuais estão corretas? ",
         "image": "/images/04-2017.png",
         "anulada": false,
         "questionYear": "2017",
@@ -189,7 +189,7 @@
       },
       {
         "questionId": 7,
-        "question": "Observe o gráfico abaixo. \n\nA curva de Pressão Arterial Média (PAM), exposta no gráfico, representa uma assistência circulatória com balão intra-aórtico (BIA) no modo 1:2. Preencha os parênteses, associando as letras no gráfico às respectivas terminologias. \n\n( ) Pressão final da diástole assistida \n( ) Pico de pressão sistólica não assistida \n( ) Pico de pressão diastólica aumentada \n( ) Pico de pressão sistólica assistida \n( ) Insuflação do balão \n( ) Pressão final da diástole não assistida A sequência correta de preenchimento dos parênteses, de cima para baixo, é ",
+        "question": "Observe o gráfico abaixo. \n\nA curva de Pressão Arterial Média (PAM), exposta no gráfico, representa uma assistência circulatória com balão intra-aórtico (BIA) no modo 1:2. \nPreencha os parênteses, associando as letras no gráfico às respectivas terminologias. \n\n( ) Pressão final da diástole assistida \n( ) Pico de pressão sistólica não assistida \n( ) Pico de pressão diastólica aumentada \n( ) Pico de pressão sistólica assistida \n( ) Insuflação do balão \n( ) Pressão final da diástole não assistida \n\nA sequência correta de preenchimento dos parênteses, de cima para baixo, é ",
         "image": "/images/07-2017.png",
         "anulada": false,
         "questionYear": "2017",
@@ -219,7 +219,7 @@
       },
       {
         "questionId": 8,
-        "question": "Considere as afirmações abaixo em relação ao procedimento de inserção de marca-passo transvenoso (MPTV). \nI - O local de preferência para inserção venosa é na veia jugular interna direita, pois está associado à menor incidência de complicações e à maior taxa de sucesso na inserção do cateter. \nII - Durante a inserção do MPTV, o aparecimento do complexo QRS com aumento de amplitude e com alargamento da sua duração implica lesão da parede do ventrículo direito, indicando retirada imediata do dispositivo e realização de ecocardiografia diagnóstica. \nIII- Deve-se estabelecer um output de corrente aproximadamente 1mA superior ao limiar de captura detectado após a implantação do dispositivo para o seu funcionamento adequado. \n\nQuais estão corretas?",
+        "question": "Considere as afirmações abaixo em relação ao procedimento de inserção de marca-passo transvenoso (MPTV). \n\nI - O local de preferência para inserção venosa é na veia jugular interna direita, pois está associado à menor incidência de complicações e à maior taxa de sucesso na inserção do cateter. \nII - Durante a inserção do MPTV, o aparecimento do complexo QRS com aumento de amplitude e com alargamento da sua duração implica lesão da parede do ventrículo direito, indicando retirada imediata do dispositivo e realização de ecocardiografia diagnóstica. \nIII- Deve-se estabelecer um output de corrente aproximadamente 1mA superior ao limiar de captura detectado após a implantação do dispositivo para o seu funcionamento adequado. \n\nQuais estão corretas?",
         "image": null,
         "anulada": false,
         "questionYear": "2017",
@@ -999,7 +999,7 @@
       },
       {
         "questionId": 35,
-        "question": "Considere as curvas abaixo.\nCurva I\nPressões, em cmH20: PEEP: 5; pressão de pico: 20; platô: 15.\nCurva II\nPressões, em cmH20: PEEP: 5; pressão de pico: 25; platô: 15.\nAssinale a alternativa que apresenta uma causa compatível com a modificação da curva de (I) para (II).",
+        "question": "Considere as curvas abaixo.\n\nAssinale a alternativa que apresenta uma causa compatível com a modificação da curva de (I) para (II).",
         "image": "/images/35-2017.png",
         "anulada": false,
         "questionYear": "2017",
