@@ -12,6 +12,10 @@ class Feedback extends Component {
     localStorage.setItem('players Ranking', JSON.stringify(buildRank));
   }
 
+  componentWillUnmount() {
+    window.location.reload();
+  }
+
   render() {
     const { name, email, assertions, history, dispatch, quantity } = this.props;
     const minimumAssertions = 3;

@@ -57,6 +57,8 @@ class Game extends Component {
 
     clearInterval(this.timer);
     dispatch(resetQuestionNumber());
+
+    window.location.reload();
   }
 
   startTimer = () => {

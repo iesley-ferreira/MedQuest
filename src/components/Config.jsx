@@ -3,6 +3,16 @@ import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 import { updateSettings } from '../redux/actions';
 
+const QUEST_QUANTITY_ALL = 217;
+const QUEST_QUANTITY_2006 = 38;
+const QUEST_QUANTITY_2009 = 39;
+const QUEST_QUANTITY_2013 = 38;
+const QUEST_QUANTITY_2015 = 39;
+const QUEST_QUANTITY_2017 = 39;
+const QUEST_QUANTITY_2019 = 25;
+const QUEST_QUANTITY_2021 = 38;
+const DIVISION_VALUE = 10;
+
 class Config extends Component {
   state = {
     examId: 0,
@@ -10,24 +20,45 @@ class Config extends Component {
   };
 
   handleChange = ({ target: { name, value } }) => {
-    this.setState({
-      [name]: Number(value),
-    }, () => {
-      const { dispatch } = this.props;
-      const { examId, quantity } = this.state;
-      const settings = {
-        examId,
-        quantity,
-      };
-      dispatch(updateSettings(settings));
-    });
+    this.setState(
+      {
+        [name]: Number(value),
+      },
+      () => {
+        const { dispatch } = this.props;
+        const { examId, quantity } = this.state;
+        const settings = {
+          examId,
+          quantity,
+        };
+        dispatch(updateSettings(settings));
+      },
+    );
   };
 
   render() {
     const { examId, quantity } = this.state;
+    const questQuantity = [
+      QUEST_QUANTITY_ALL,
+      QUEST_QUANTITY_2006,
+      QUEST_QUANTITY_2009,
+      QUEST_QUANTITY_2013,
+      QUEST_QUANTITY_2015,
+      QUEST_QUANTITY_2017,
+      QUEST_QUANTITY_2019,
+      QUEST_QUANTITY_2021,
+    ];
+
+    // Calcular os valores para as opções
+    const maxValue = questQuantity[examId];
+    const options = Array
+      .from(
+        { length: Math.ceil(maxValue / DIVISION_VALUE) },
+        (_, index) => Math.min((index + 1) * DIVISION_VALUE, maxValue),
+      );
 
     return (
-      <form className="settings-container" onSubmit={ this.handleSubmit }>
+      <div className="settings-container">
 
         <fieldset>
           <legend className="legend1">Settings</legend>
@@ -57,24 +88,23 @@ class Config extends Component {
             Questões:
             {' '}
             <select
-              onChange={ this.handleChange }
               name="quantity"
               id="quantity"
               data-testid="quantity-input"
               value={ quantity }
+              onChange={ this.handleChange }
             >
-              <option value="10">10</option>
-              <option value="20">20</option>
-              <option value="30">30</option>
-              <option value="40">40</option>
-              <option value="50">50</option>
-              <option value="60">60</option>
+              {options.map((value) => (
+                <option key={ value } value={ value }>
+                  {value}
+                </option>
+              ))}
             </select>
           </label>
 
         </fieldset>
 
-      </form>
+      </div>
     );
   }
 }

@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
-import { generateGravatarURL } from '../services/gravatarFunctions';
+import medImage from './images/med-icon.png';
 import { resetScore } from '../redux/actions';
 
 class Ranking extends Component {
@@ -19,7 +19,7 @@ class Ranking extends Component {
             <div className="player-info-container" key={ index }>
               <img
                 alt="Player Avatar"
-                src={ generateGravatarURL(player.email) }
+                src={ medImage }
                 className="ranking-avatar"
               />
               <h4 data-testid={ `player-name-${index}` }>

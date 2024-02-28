@@ -9,7 +9,7 @@
     "questions": [
       {
         "questionId": 1,
-        "question": "Em relação à determinação de morte encefálica (ME), assinale a alternativa correta.",
+        "question": "Paciente feminina, 45 anos, foi encontrada irresponsiva, em casa, sendo intubada no local. História médica não revela nada digno de nota. Após 48 horas de internação, paciente apresenta, ao exame clínico, coma não perceptivo e ausência de reatividade supraespinhal. Em relação à determinação de morte encefálica (ME), assinale a alternativa correta.",
         "image": null,
         "anulada": false,
         "questionYear": "2021",
@@ -36,7 +36,7 @@
           }
         ],
         "rightAnswer": 2
-      },
+    },
       {
         "questionId": 2,
         "question": "Assinale a alternativa correta em relação à dor e analgesia dos pacientes críticos.",
@@ -189,7 +189,7 @@
       },
       {
         "questionId": 7,
-        "question": "Assinale como V (verdadeiro) ou F (falso) as seguintes afirmativas, a respeito de complicações imunológicas e infecciosas em pacientes transplantados.\n\n( ) A doença do enxerto contra o hospedeiro é uma condição associada à elevada mortalidade, sendo mais comum em transplantados de órgãos sólidos, em especial os transplantados renais.\n\n( ) Rash cutâneo, febre, diarreia e plaquetopenia são sintomas comuns na doença do enxerto contra o hospedeiro, acarretando investigação para esta condição, especialmente, nas primeiras duas semanas pós-transplante.\n\n( ) Infecções fúngicas são mais comuns em transplantados de órgãos sólidos, em especial os transplantados hepáticos, associando-se a uma mortalidade elevada. Essas infecções costumam ocorrer nos períodos de maior grau de imunossupressão após o transplante.\n\n( ) Infecções por citomegalovírus apresentam um espectro de doença bastante variado, desde sintomas leves, num quadro semelhante ao da mononucleose, até quadros graves sistêmicos, com acometimento hepático, pulmonar e intestinal.\n\nA sequência correta de preenchimento dos parênteses, de cima para baixo, é\n(A) F – F – F – V.\n(B) V – V – F – V.\n(C) F – F – V – V.\n(D) V – V – F – F.\n(E) F – V – V – F.",
+        "question": "Assinale como V (verdadeiro) ou F (falso) as seguintes afirmativas, a respeito de complicações imunológicas e infecciosas em pacientes transplantados.\n\n( ) A doença do enxerto contra o hospedeiro é uma condição associada à elevada mortalidade, sendo mais comum em transplantados de órgãos sólidos, em especial os transplantados renais.\n\n( ) Rash cutâneo, febre, diarreia e plaquetopenia são sintomas comuns na doença do enxerto contra o hospedeiro, acarretando investigação para esta condição, especialmente, nas primeiras duas semanas pós-transplante.\n\n( ) Infecções fúngicas são mais comuns em transplantados de órgãos sólidos, em especial os transplantados hepáticos, associando-se a uma mortalidade elevada. Essas infecções costumam ocorrer nos períodos de maior grau de imunossupressão após o transplante.\n\n( ) Infecções por citomegalovírus apresentam um espectro de doença bastante variado, desde sintomas leves, num quadro semelhante ao da mononucleose, até quadros graves sistêmicos, com acometimento hepático, pulmonar e intestinal.\n\nA sequência correta de preenchimento dos parênteses, de cima para baixo, é",
         "image": null,
         "anulada": false,
         "questionYear": "2021",
@@ -219,7 +219,7 @@
       },
       {
         "questionId": 8,
-        "question": "Em relação aos bloqueadores neuromusculares, assinale a alternativa correta.\n\n(A) A succinilcolina mimetiza o efeito da acetilcolina, ligando-se ao seu receptor nas fibras musculares. É o principal representante da classe dos bloqueadores não despolarizantes.\n(B) A succinilcolina apresenta como principais parefeitos hipotensão, reação anafilactoide, bradicardia e paralisia neuromuscular prolongada.\n(C) O pancurônio apresenta como principais vantagens seu rápido início de ação e meia-vida curta (20-30 minutos).\n(D) O rocurônio tem início de ação entre três e cinco minutos, e duração de efeito superior a 120 minutos.\n(E) O atracúrio é considerado uma boa opção para pacientes em insuficiência renal ou hepática, uma vez que sofre degradação não enzimática em laudanosina, através da eliminação de Hoffmann.",
+        "question": "Em relação aos bloqueadores neuromusculares, assinale a alternativa correta.",
         "image": null,
         "anulada": false,
         "questionYear": "2021",
@@ -249,7 +249,7 @@
       },
       {
         "questionId": 9,
-        "question": "Sobre a mensuração do débito cardíaco, pode-se afirmar que:\n(A) o débito cardíaco é um dos principais determinantes do consumo de oxigênio pelos tecidos.\n(B) é o produto da frequência cardíaca pela fração de ejeção.\n(C) valores inferiores a 2,5 L/min/m2 estão invariavelmente associados a estados de choque.\n(D) o débito cardíaco pode ser inferido através da análise de contorno de onda de pulso. A área sob a onda de pulso correlaciona-se com o volume sistólico.\n(E) seus valores podem ser mensurados através de métodos minimamente invasivos como os não calibráveis (termo-diluição transpulmonar, diluição de Lítio) ou calibráveis (análise de contorno de pulso).",
+        "question": "Sobre a mensuração do débito cardíaco, pode-se afirmar que:",
         "image": null,
         "anulada": false,
         "questionYear": "2021",
@@ -280,7 +280,7 @@
       {
         "questionId": 10,
         "question": "Considere as imagens abaixo.\n\nSuperfície corporal do paciente = 2 m2\n\nEm relação às informações presentes nas imagens, é correto afirmar que:\n(A) o débito cardíaco estimado é 12 L/min.\n(B) a imagem com a legenda A é a distância E-septo e sugere disfunção ventricular grave.\n(C) a linha tracejada com a legenda B é a medida do volume sistólico do VE.\n(D) o índice cardíaco estimado é 3,14 L/min por m2.\n(E) os achados sugerem a presença de choque cardiogênico.",
-        "image": "Imagem da superfície corporal do paciente com algumas medidas e informações.",
+        "image": null,
         "anulada": false,
         "questionYear": "2021",
         "alternatives": [
@@ -309,8 +309,8 @@
       },
       {
         "questionId": 11,
-        "question": "Paciente de 48 anos está internado na UTI após infarto agudo do miocárdio. Evoluiu com choque cardiogênico. Foi monitorizado com o cateter de artéria pulmonar. As imagens abaixo foram obtidas durante a monitorização do paciente. Assinale a afirmativa correta em relação às imagens acima.\n(A) O paciente evoluiu com comunicação interventricular decorrente do infarto.\n(B) O paciente evoluiu com insuficiência mitral secundária à ruptura de músculo papilar ocasionada pelo infarto.\n(C) O cateter está enrolado no ventrículo direito.\n(D) O cateter está muito distal e deve ser tracionado.\n(E) O paciente tem hipertensão pulmonar grave.",
-        "image": "Imagem de um cateter de artéria pulmonar com uma marca de medição distante do esperado.",
+        "question": "Paciente de 48 anos está internado na UTI após infarto agudo do miocárdio. Evoluiu com choque cardiogênico. Foi monitorizado com o cateter de artéria pulmonar. As imagens abaixo foram obtidas durante a monitorização do paciente. Assinale a afirmativa correta em relação às imagens acima.",
+        "image": null,
         "anulada": false,
         "questionYear": "2021",
         "alternatives": [
@@ -339,7 +339,7 @@
       },
       {
         "questionId": 12,
-        "question": "Sobre a abordagem físico-química dos distúrbios ácido-básicos, assinale a assertiva correta.\n(A) O SID (standard ion difference) é a diferença entre cátions e ânions fortes. O SID aparente pode ser calculado através da diferença entre Na+, K+, Ca++, Mg++ e Cl- e Lactato.\n(B) Hipoalbuminemia e hipofosfatemia têm, ambos, efeitos acidificantes.\n(C) Para ocorrer redução do SID – e por conseguinte, acidose – deverá ocorrer aumento dos cátions fortes.\n(D) O anion-gap corrigido pode ser calculado pela diferença entre (Na + K) - (HCO3 - Lac).\n(E) A diferença sódio-cloro (normal até 32,5), quando aumentada, é uma das principais causas de acidose metabólica.",
+        "question": "Sobre a abordagem físico-química dos distúrbios ácido-básicos, assinale a assertiva correta.",
         "image": null,
         "anulada": false,
         "questionYear": "2021",
@@ -369,7 +369,7 @@
       },
       {
         "questionId": 13,
-        "question": "O estudo PROSEVA avaliou a mortalidade em 28 dias (desfecho primário) de pacientes portadores de Síndrome da Disfunção Respiratória Aguda submetidos à manobra de prona, em comparação com pacientes que recebem cuidados usuais. Para a análise do desfecho primário, foi utilizada a análise de sobrevida de Kaplan-Meier para a comparação entre os grupos. Qual a medida de associação indicada para esta análise estatística?\n(A) Odds ratio.\n(B) Risco relativo.\n(C) Redução absoluta de risco.\n(D) Risco absoluto.\n(E) Hazard ratio.",
+        "question": "O estudo PROSEVA avaliou a mortalidade em 28 dias (desfecho primário) de pacientes portadores de Síndrome da Disfunção Respiratória Aguda submetidos à manobra de prona, em comparação com pacientes que recebem cuidados usuais. Para a análise do desfecho primário, foi utilizada a análise de sobrevida de Kaplan-Meier para a comparação entre os grupos. Qual a medida de associação indicada para esta análise estatística?",
         "image": null,
         "anulada": false,
         "questionYear": "2021",
@@ -399,7 +399,7 @@
       },
       {
         "questionId": 14,
-        "question": "Com relação aos cuidados pós-operatórios de revascularização de isquemia aguda de membros, analise as afirmativas abaixo.\n\nI - A anticoagulação sistêmica deve ser iniciada assim que possível, em virtude da elevada incidência de um novo episódio de trombose ou de embolização recorrente em pacientes não anticoagulados.\nII - A injúria de isquemia-reperfusão é uma complicação possível no pós-operatório de revascularização de isquemia aguda de membros, cujo tratamento consiste em ressuscitação volêmica agressiva e monitorização de complicações secundárias, especialmente com relação a distúrbios eletrolíticos.\nIII- A síndrome compartimental é uma complicação rara, porém potencialmente grave, no membro revascularizado. Dor, ausência de pulso e parestesias são sinais precoces e de alerta.\nQuais estão corretas?\n(A) Apenas I.\n(B) Apenas II.\n(C) Apenas III.\n(D) Apenas I e II.\n(E) I, II e III.",
+        "question": "Com relação aos cuidados pós-operatórios de revascularização de isquemia aguda de membros, analise as afirmativas abaixo.\n\nI - A anticoagulação sistêmica deve ser iniciada assim que possível, em virtude da elevada incidência de um novo episódio de trombose ou de embolização recorrente em pacientes não anticoagulados.\nII - A injúria de isquemia-reperfusão é uma complicação possível no pós-operatório de revascularização de isquemia aguda de membros, cujo tratamento consiste em ressuscitação volêmica agressiva e monitorização de complicações secundárias, especialmente com relação a distúrbios eletrolíticos.\nIII- A síndrome compartimental é uma complicação rara, porém potencialmente grave, no membro revascularizado. Dor, ausência de pulso e parestesias são sinais precoces e de alerta.\nQuais estão corretas?",
         "image": null,
         "anulada": false,
         "questionYear": "2021",
@@ -429,7 +429,7 @@
       },
       {
         "questionId": 15,
-        "question": "Assinale a alternativa INCORRETA com relação ao emprego de antimicrobianos em terapia intensiva.\n\n(A) A adição do avibactam à ceftazidima protege esta última da degradação pelas enzimas betalactamase, estendendo o espectro antibiótico para bactérias produtoras de KPC, ESBL ou AmpC.\n(B) Ceftolozone-tazobactam apresenta atividade antimicrobiana potente contra cepas de Pseudomonas e Acinetobacter.\n(C) Meropenem apresenta atividade antimicrobiana contra bacilos gram-negativos, como também contra espécies de Staphylococcus aureus meticilino-sensíveis.\n(D) Amicacina tem um perfil de maior resistência às enzimas inativadoras de aminoglicosídeos, quando comparada com gentamicina, devendo, assim, ser o aminoglicosídeo de escolha para esquemas antimicrobianos empíricos.\n(E) Nefrotoxicidade é complicação comum da terapia com aminoglicosídeos em doentes criticamente enfermos, acarretando perda persistente da função renal após a suspensão da droga e associando-se, nesse cenário clínico, a uma elevada incidência de terapia dialítica.",
+        "question": "Assinale a alternativa INCORRETA com relação ao emprego de antimicrobianos em terapia intensiva.",
         "image": null,
         "anulada": false,
         "questionYear": "2021",
@@ -459,7 +459,7 @@
       },
       {
         "questionId": 16,
-        "question": "Em relação a via aérea cirúrgica, assinale a alternativa correta.\n\n(A) A cricotireoidostomia não deve ser utilizada para manejo de obstrução da via aérea, que ocorre imediatamente após extubação, trauma laríngeo, tumor, bem como em crianças (idade inferior a 12 anos).\n(B) Pacientes com índice de massa corporal superior a 30 kg/m2 não apresentam risco aumentado de complicações, tanto em traqueostomia aberta quanto percutânea.\n(C) Em pacientes com traumatismo craniano, a traqueostomia, frequentemente, está associada ao aumento da pressão intracraniana.\n(D) Coagulopatia e PEEP > 10 cmH2O são contraindicações absolutas para realização de traqueostomia.\n(E) Estenoses subglóticas ocorrem, mais frequentemente, em pacientes submetidos à traqueostomia do que entre os submetidos à cricotireoidostomia.",
+        "question": "Em relação a via aérea cirúrgica, assinale a alternativa correta.",
         "image": null,
         "anulada": false,
         "questionYear": "2021",
@@ -579,7 +579,7 @@
       },
       {
         "questionId": 20,
-        "question": "Uma paciente com diagnóstico de síndrome da angústia respiratória do adulto recebe ventilação mecânica em modo volume controlado, com volume corrente de 6mL/kg, para peso predito de 50kg. As curvas ventilatórias, a seguir, descrevem o comportamento da mecânica pulmonar antes e após tentativa de titulação de PEEP. Considere as assertivas abaixo. I - A complacência estática na figura A é de 30 mL/cmH2O. II - A resistência na figura B é de 25 cm/L/s. III - A melhor relação entre PEEP e complacência é obtida na curva B. IV - A concavidade voltada para cima, observada na curva de pressão x tempo em B, sugere um stress index >1 e, portanto, aumento na elastância com relação à curva anterior. Quais estão corretas?",
+        "question": "Uma paciente com diagnóstico de síndrome da angústia respiratória do adulto recebe ventilação mecânica em modo volume controlado, com volume corrente de 6mL/kg, para peso predito de 50kg. As curvas ventilatórias, a seguir, descrevem o comportamento da mecânica pulmonar antes e após tentativa de titulação de PEEP. Considere as assertivas abaixo. \nI - A complacência estática na figura A é de 30 mL/cmH2O. \nII - A resistência na figura B é de 25 cm/L/s. \nIII - A melhor relação entre PEEP e complacência é obtida na curva B. \nIV - A concavidade voltada para cima, observada na curva de pressão x tempo em B, sugere um stress index >1 e, portanto, aumento na elastância com relação à curva anterior. \nQuais estão corretas?",
         "image": null,
         "anulada": false,
         "questionYear": "2021",
@@ -699,7 +699,7 @@
       },
       {
         "questionId": 24,
-        "question": "Considere a figura abaixo.\nAssinale a alternativa INCORRETA sobre a arritmia demonstrada na imagem acima.\n\n(A) Trata-se de taquicardia ventricular polimórfica com QT longo subjacente.\n(B) Suas principais causas são drogas que prolongam o intervalo QT e distúrbios eletrolíticos, tais como hipocalemia, hipomagnesemia e hipocalcemia.\n(C) Seu diagnóstico diferencial inclui artefatos eletrocardiográficos, fibrilação atrial com aberrância e fibrilação atrial com pré-excitação.\n(D) A desfibrilação de emergência é necessária para pacientes com ausência de pulso.\n(E) A administração parenteral de magnésio independentemente dos seus níveis e as drogas antiarrítmicas, como amiodarona, são utilizadas para tratamento de pacientes estáveis hemodinamicamente.",
+        "question": "Considere a figura abaixo.\nAssinale a alternativa INCORRETA sobre a arritmia demonstrada na imagem acima.\n",
         "image": null,
         "anulada": false,
         "questionYear": "2021",
@@ -729,7 +729,7 @@
       },
       {
         "questionId": 25,
-        "question": "Sobre o uso de drogas vasoativas na UTI, assinale as afirmações abaixo com V (verdadeiro) ou F (falso).\n\n( ) A noradrenalina é a droga de escolha no choque séptico hiperdinâmico e está associada à redução de mortalidade e eventos arrítmicos quando comparada à dopamina.\n( ) No choque séptico com frequência cardíaca ≥ 90 batimentos por minuto, a adição de esmolol à noradrenalina pode ser considerada.\n( ) Em pacientes com choque cardiogênico grave e vasoplegia concomitante, o milrinone é mais bem tolerado que a dobutamina.\n( ) A vasopressina é alternativa segura aos vasopressores adrenérgicos no choque vasoplégico do pós-operatório de cirurgia cardíaca, e o uso de azul de metileno não é mais recomendado para casos refratários.\nA sequência correta de preenchimento dos parênteses, de cima para baixo, é\n(A) V – V – V – V.\n(B) V – V – F – F.\n(C) V – F – F – F.\n(D) F – F – F – V.\n(E) F – F – V – V.",
+        "question": "Sobre o uso de drogas vasoativas na UTI, assinale as afirmações abaixo com V (verdadeiro) ou F (falso).\n\n( ) A noradrenalina é a droga de escolha no choque séptico hiperdinâmico e está associada à redução de mortalidade e eventos arrítmicos quando comparada à dopamina.\n( ) No choque séptico com frequência cardíaca ≥ 90 batimentos por minuto, a adição de esmolol à noradrenalina pode ser considerada.\n( ) Em pacientes com choque cardiogênico grave e vasoplegia concomitante, o milrinone é mais bem tolerado que a dobutamina.\n( ) A vasopressina é alternativa segura aos vasopressores adrenérgicos no choque vasoplégico do pós-operatório de cirurgia cardíaca, e o uso de azul de metileno não é mais recomendado para casos refratários.\nA sequência correta de preenchimento dos parênteses, de cima para baixo, é:",
         "image": null,
         "anulada": false,
         "questionYear": "2021",
@@ -759,7 +759,7 @@
       },
       {
         "questionId": 26,
-        "question": "Considere as afirmativas abaixo sobre as drogas vasoativas.\nI - A vasopressina apresenta efeito vasoconstritor pela ativação de receptores V1 vasculares e efeito antidiurético pela ativação de receptores V2 nos túbulos coletores renais. Possui efeito essencialmente cronotrópico e inotrópico positivo.\nII - A noradrenalina é um potente agonista beta-adrenérgico com efeitos alfa-adrenérgicos menos relevantes.\nIII- A adrenalina é um potente agonista beta-1-adrenérgico e moderado agonista beta-2 e alfa-1-adrenérgico. Seu uso pode estar associado à hiperlactatemia.\nQuais estão corretas?\n(A) Apenas I.\n(B) Apenas III.\n(C) Apenas I e II.\n(D) Apenas II e III.\n(E) I, II e III.",
+        "question": "Considere as afirmativas abaixo sobre as drogas vasoativas.\nI - A vasopressina apresenta efeito vasoconstritor pela ativação de receptores V1 vasculares e efeito antidiurético pela ativação de receptores V2 nos túbulos coletores renais. Possui efeito essencialmente cronotrópico e inotrópico positivo.\nII - A noradrenalina é um potente agonista beta-adrenérgico com efeitos alfa-adrenérgicos menos relevantes.\nIII- A adrenalina é um potente agonista beta-1-adrenérgico e moderado agonista beta-2 e alfa-1-adrenérgico. Seu uso pode estar associado à hiperlactatemia.\nQuais estão corretas?",
         "image": null,
         "anulada": false,
         "questionYear": "2021",
@@ -789,7 +789,7 @@
       },
       {
         "questionId": 26,
-        "question": "Considere as afirmativas abaixo sobre as drogas vasoativas.\nI - A vasopressina apresenta efeito vasoconstritor pela ativação de receptores V1 vasculares e efeito antidiurético pela ativação de receptores V2 nos túbulos coletores renais. Possui efeito essencialmente cronotrópico e inotrópico positivo.\nII - A noradrenalina é um potente agonista beta-adrenérgico com efeitos alfa-adrenérgicos menos relevantes.\nIII- A adrenalina é um potente agonista beta-1-adrenérgico e moderado agonista beta-2 e alfa-1-adrenérgico. Seu uso pode estar associado à hiperlactatemia.\nQuais estão corretas?\n(A) Apenas I.\n(B) Apenas III.\n(C) Apenas I e II.\n(D) Apenas II e III.\n(E) I, II e III.",
+        "question": "Considere as afirmativas abaixo sobre as drogas vasoativas.\nI - A vasopressina apresenta efeito vasoconstritor pela ativação de receptores V1 vasculares e efeito antidiurético pela ativação de receptores V2 nos túbulos coletores renais. Possui efeito essencialmente cronotrópico e inotrópico positivo.\nII - A noradrenalina é um potente agonista beta-adrenérgico com efeitos alfa-adrenérgicos menos relevantes.\nIII- A adrenalina é um potente agonista beta-1-adrenérgico e moderado agonista beta-2 e alfa-1-adrenérgico. Seu uso pode estar associado à hiperlactatemia.\nQuais estão corretas?",
         "image": null,
         "anulada": false,
         "questionYear": "2021",
@@ -819,7 +819,7 @@
       },
       {
         "questionId": 27,
-        "question": "Com relação à hipertensão intra-abdominal, assinale a alternativa correta.\n(A) A hipertensão intra-abdominal acarreta uma redução do fluxo venoso renal, e esse fenômeno, associado a uma diminuição no débito cardíaco, é vetor da insuficiência renal aguda.\n(B) Em pacientes portadores de hipertensão intra-abdominal, aproximadamente 2/3 da pressão intra-abdominal é transmitida aos pulmões, aumentando a pressão de platô.\n(C) A variação de colapsibilidade da veia cava inferior é uma mensuração adequada da fluido-responsividade em pacientes portadores de hipertensão intra-abdominal, porém com pontos de corte maiores do que na população usual (maior ou igual a 21%).\n(D) Em casos extremos, está indicada a laparotomia exploradora, com abertura da cavidade abdominal para drenagem de fluidos e de coleções com fechamento posterior da cavidade peritoneal, para otimização clínica na UTI.\n(E) Em casos graves e refratários, com medida de pressão intra-abdominal maior que 25cmH2O, está indicada a laparotomia descompressiva.",
+        "question": "Com relação à hipertensão intra-abdominal, assinale a alternativa correta.",
         "image": null,
         "anulada": false,
         "questionYear": "2021",
@@ -879,7 +879,7 @@
       },
       {
         "questionId": 29,
-        "question": "Sobre a implementação de cuidados paliativos na UTI, assinale a alternativa INCORRETA.\n(A) A discussão com familiares acerca dos objetivos terapêuticos, preferências e prognóstico do paciente deve dar-se a partir do momento em que não há uma resposta clínica satisfatória da parte do paciente, após a instituição dos cuidados iniciais na UTI.\n(B) Uma estratégia de comunicação regular e efetiva acerca da evolução e dos objetivos terapêuticos para o paciente criticamente enfermo tende a beneficiar os seus familiares, com o potencial benefício de reduzir sintomas de depressão, ansiedade e estresse pós-traumático nos mesmos.\n(C) Cuidados interdisciplinares do paciente que contemplem os seus sintomas, as suas perspectivas e as suas demandas espirituais devem ser implementados, a fim de se propiciarem cuidados efetivos de final de vida.\n(D) A presença de familiares na UTI, acompanhando o paciente e a sua dinâmica terapêutica, tende a diminuir a incidência de conflitos entre a família e a equipe interdisciplinar.\n(E) Uma comunicação efetiva e de alta qualidade com os familiares é a intervenção mais efetiva em melhorar a qualidade dos cuidados de final de vida em pacientes criticamente enfermos.",
+        "question": "Sobre a implementação de cuidados paliativos na UTI, assinale a alternativa INCORRETA.",
         "image": null,
         "anulada": false,
         "questionYear": "2021",
@@ -939,7 +939,7 @@
       },
       {
         "questionId": 31,
-        "question": "Considere a figura abaixo.\n\nEm relação à curva de capnografia acima, é possível afirmar que:\n(A) apresenta um aumento do CO2 exalado ao término da expiração compatível com doença obstrutiva.\n(B) uma fase de inspiração curta sugere um aumento do espaço morto compatível com lesão pulmonar aguda.\n(C) apresenta uma curva de capnografia normal com retorno completo à linha de base.\n(D) apresenta um aumento na produção de CO2, possivelmente, devido à administração de bicarbonato de sódio.\n(E) apresenta aumento do espaço morto sugerindo tromboembolismo pulmonar.",
+        "question": "Considere a figura abaixo.\n\nEm relação à curva de capnografia acima, é possível afirmar que:",
         "image": null,
         "anulada": false,
         "questionYear": "2021",
@@ -969,7 +969,7 @@
       },
       {
         "questionId": 32,
-        "question": "Considere o circuito de ECMO abaixo apresentado.\n\nQual das alternativas abaixo está correta?\n(A) Na região 1, a pressão registrada será negativa e proporcional às rotações geradas pela bomba centrífuga.\n(B) A região 2 terá pressão negativa. Por encontrar-se antes da membrana oxigenadora, é considerada a “zona segura” do circuito.\n(C) A região 3 terá pressão positiva, sendo, portanto, a zona de escolha para coleta de sangue para análise de gases arteriais.\n(D) O fluxo de sangue deve ser, inicialmente, ajustado para 50 a 80 mL/kg/min, e, após, de acordo com as aferições da PaCO2 arterial.\n(E) O gradiente transmembrana pode ser calculado através dos valores aferidos nos pontos 4, e, geralmente, resulta num valor negativo.",
+        "question": "Considere o circuito de ECMO abaixo apresentado.\n\nQual das alternativas abaixo está correta?",
         "image": null,
         "anulada": false,
         "questionYear": "2021",
@@ -999,7 +999,7 @@
       },
       {
         "questionId": 33,
-        "question": "Considere os achados ultrassonográficos abaixo.\nI - Pulso pulmonar\nII - Ponto pulmonar\nIII- Linhas B\nIV - Sinal da estratosfera\nQuais afastam o diagnóstico de pneumotórax na região examinada?\n(A) Apenas I.\n(B) Apenas II.\n(C) Apenas I e III.\n(D) Apenas II e IV.\n(E) Apenas I, II e IV.",
+        "question": "Considere os achados ultrassonográficos abaixo.\nI - Pulso pulmonar\nII - Ponto pulmonar\nIII- Linhas B\nIV - Sinal da estratosfera\nQuais afastam o diagnóstico de pneumotórax na região examinada?",
         "image": null,
         "anulada": false,
         "questionYear": "2021",
@@ -1029,7 +1029,7 @@
       },
       {
         "questionId": 34,
-        "question": "Considere as figuras de monitorização de pressão arterial abaixo apresentadas.\nI - Na figura C, está representada uma curva de funcionamento normal de linha arterial.\nII - As causas mais comuns para o fenômeno encontrado na figura B são bolhas de ar, trombos e dobras no circuito.\nIII- Para corrigir o artefato visualizado em C, deve-se optar por um cateter arterial de maior calibre.\nIV - Em B e C, é necessário realizar novamente a calibração do “zero”.\nQuais afirmativas estão corretas?\n(A) Apenas I.\n(B) Apenas IV.\n(C) Apenas III e IV.\n(D) Apenas II, III e IV.\n(E) I, II, III e IV.",
+        "question": "Considere as figuras de monitorização de pressão arterial abaixo apresentadas.\nI - Na figura C, está representada uma curva de funcionamento normal de linha arterial.\nII - As causas mais comuns para o fenômeno encontrado na figura B são bolhas de ar, trombos e dobras no circuito.\nIII- Para corrigir o artefato visualizado em C, deve-se optar por um cateter arterial de maior calibre.\nIV - Em B e C, é necessário realizar novamente a calibração do “zero”.\nQuais afirmativas estão corretas?",
         "image": null,
         "anulada": false,
         "questionYear": "2021",
@@ -1059,7 +1059,7 @@
       },
       {
         "questionId": 35,
-        "question": "A respeito da tromboembolia pulmonar (TEP), pode-se afirmar que:\n(A) em pacientes com probabilidade clínica pré-teste baixa para TEP, uma cintilografia perfusional negativa não tem valor preditivo negativo suficiente para afastar o diagnóstico de TEP, sendo necessária completação com angioto- mografia.\n(B) TEP submaciça é definida pelo acometimento de entre 10% e 30% da circulação pulmonar.\n(C) a dilatação ventricular direita visualizada na tomografia computadorizada de tórax é um preditor independente de mortalidade em 30 dias.\n(D) fondaparinux pode ser considerado tão efetivo quanto heparina de baixo peso molecular, podendo ser uma alter- nativa em pacientes portadores de disfunção renal com clearance de creatinina inferior a 30 mL/min.\n(E) a terapia anticoagulante com heparina não fracionada deve ser suspensa durante a administração de alteplase para pacientes com instabilidade hemodinâmica, não devendo ser reiniciada antes de 24 horas.",
+        "question": "A respeito da tromboembolia pulmonar (TEP), pode-se afirmar que:",
         "image": null,
         "anulada": false,
         "questionYear": "2021",
@@ -1089,7 +1089,7 @@
       },
       {
         "questionId": 37,
-        "question": "Sobre a monitorização da pressão intracraniana invasiva, é INCORRETO afirmar:\n(A) a derivação ventricular externa é o método mais acurado e custo-efetivo, servindo também como medida terapêutica nos casos de hidrocefalia aguda.\n(B) a monitorização intraparenquimatosa é tecnicamente mais fácil nos casos de edema cerebral extenso com colapso do sistema ventricular e apresenta menor risco de sangramento e infecção.\n(C) a monitorização subdural não é mais recomendada por problemas técnicos com confiabilidade e complicações como a herniação do tecido cerebral no sistema, distorcendo as medidas e potencialmente danificando o tecido cerebral, inclusive causando hematomas subdurais.\n(D) suas complicações mais comuns são sangramento e infecção, com taxas mais altas associadas à drenagem ventricular externa.\n(E) é recomendada pelas diretrizes da 'Brain Trauma Foundation / American Trauma Association of Neurosurgeons' no traumatismo cranioencefálico grave, apenas quando a tomografia apresenta alterações com efeito de massa.",
+        "question": "Sobre a monitorização da pressão intracraniana invasiva, é INCORRETO afirmar:",
         "image": null,
         "anulada": false,
         "questionYear": "2021",
@@ -1119,7 +1119,7 @@
       },
       {
         "questionId": 38,
-        "question": "Qual das medidas terapêuticas abaixo é considerada de primeira linha no tratamento da hipertensão intracraniana?\n(A) Hiperventilação breve até uma pCO2 de 30 mmHg.\n(B) Hipotermia terapêutica de 32 a 34 ºC.\n(C) Terapia hiperosmolar com manitol ou solução salina hipertônica.\n(D) Coma barbitúrico.\n(E) Craniectomia descompressiva.",
+        "question": "Qual das medidas terapêuticas abaixo é considerada de primeira linha no tratamento da hipertensão intracraniana?",
         "image": null,
         "anulada": false,
         "questionYear": "2021",
@@ -1149,7 +1149,7 @@
       },
       {
         "questionId": 39,
-        "question": "Considere as figuras abaixo, que representam diferentes configurações de terapia de substituição renal contínua.\n(1) Ultrafiltração lenta contínua (SCUF).\n(2) Hemodiálise venovenosa contínua (HDVVC).\n(3) Hemofiltração venovenosa contínua (HVVC).\n(4) Hemodiafiltração venovenosa contínua (HDFVVC).\nRelacione a primeira coluna de acordo com a segunda, associando cada diagrama com sua modalidade.\n(A) A - 3; B - 2; C - 1; D - 4.\n(B) A - 4; B - 1; C - 3; D - 2.\n(C) A - 3; B - 4; C - 1; D - 2.\n(D) A - 2; B - 1; C - 3; D - 4.\n(E) A - 4; B - 2; C - 1; D - 3.",
+        "question": "Considere as figuras abaixo, que representam diferentes configurações de terapia de substituição renal contínua.",
         "image": null,
         "anulada": false,
         "questionYear": "2021",
@@ -1179,7 +1179,7 @@
       },
       {
         "questionId": 40,
-        "question": "Paciente de 40 anos, portador de hepatopatia por vírus C, foi internado na emergência por hemorragia digestiva alta. Endoscopia digestiva alta (EDA) revelou varizes esofágicas sem sangramento ativo, que foram submetidas à ligadura elástica, além de porejamento gástrico difuso importante. Provas laboratoriais revelaram: Hb: 5g/dL; plaquetas: 110000/mm3; INR: 1,45; e kttp: 45 segundos (controle: 32 segundos). Foi realizado tromboelastograma rotacional (ROTEM), cujas imagens são apresentadas a seguir. Os valores de referência dos testes incluídos no ROTEM estão na tabela abaixo. Com base nas informações apresentadas, a melhor estratégia a ser seguida é: (A) repetir EDA e considerar estratégia adicional como TIPS ou cirurgia, uma vez que não há sinais de coagulopatia significativa. (B) administrar novamente plasma fresco congelado ou complexo protrombínico (preferencialmente) para correção de deficiência de fatores da coagulação. (C) administrar ácido tranexâmico para correção de hiperfibrinólise. (D) administrar fibrinogênio ou crioprecipitado (preferencialmente) para correção de hipofibrinogenemia. (E) iniciar transfusão agressiva e maciça de múltiplos hemoderivados, incluindo plasma, crioprecipitado e plaquetas, já que há sinais de coagulação intravascular disseminada.",
+        "question": "Paciente de 40 anos, portador de hepatopatia por vírus C, foi internado na emergência por hemorragia digestiva alta. Endoscopia digestiva alta (EDA) revelou varizes esofágicas sem sangramento ativo, que foram submetidas à ligadura elástica, além de porejamento gástrico difuso importante. Provas laboratoriais revelaram: Hb: 5g/dL; plaquetas: 110000/mm3; INR: 1,45; e kttp: 45 segundos (controle: 32 segundos). Foi realizado tromboelastograma rotacional (ROTEM), cujas imagens são apresentadas a seguir. Os valores de referência dos testes incluídos no ROTEM estão na tabela abaixo. Com base nas informações apresentadas, a melhor estratégia a ser seguida é:",
         "image": null,
         "anulada": false,
         "questionYear": "2021",
