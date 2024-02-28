@@ -11,6 +11,7 @@ import { restartTimer,
   setQuestionArray,
   resetQuestionNumber,
   incrementQuestionNumber,
+  updateSettings,
 } from '../redux/actions';
 import { getQuestionsFromLocalFile } from '../services/api';
 
@@ -58,7 +59,11 @@ class Game extends Component {
     clearInterval(this.timer);
     dispatch(resetQuestionNumber());
 
-    window.location.reload();
+    const settings = {
+      examId: 0,
+      quantity: 10,
+    };
+    dispatch(updateSettings(settings));
   }
 
   startTimer = () => {
@@ -78,12 +83,21 @@ class Game extends Component {
 
   handleClick = () => {
     const { index } = this.state;
-    const { history, dispatch, quantity,
-      usedQuestionIds, examId } = this.props;
+    const { history, dispatch, quantity, usedQuestionIds, examId } = this.props;
 
     dispatch(restartTimer());
     this.setState({ seconds: 270, index: index + 1 });
     clearInterval(this.timer);
+
+    // Verificar se quantity é igual a index + 1
+    if (quantity === index + 1) {
+      history.push('/feedback');
+      dispatch(resetUsedQuestionIds());
+      dispatch(resetQuestionNumber());
+      return; // Interromper o fluxo aqui
+    }
+
+    // Continuar com as ações normais
     const numberOfExams = 7;
     let randomExamId;
     if (examId === 0) {
@@ -93,15 +107,9 @@ class Game extends Component {
     }
     const questionData = getQuestionsFromLocalFile(randomExamId, usedQuestionIds);
 
-    if (index === quantity - 1) {
-      history.push('/feedback');
-      dispatch(resetUsedQuestionIds());
-      dispatch(resetQuestionNumber());
-    } else {
-      dispatch(setQuestion(questionData.results[0]));
-      dispatch(setQuestionArray(randomExamId, questionData.results[0].usedQuestionId));
-      dispatch(incrementQuestionNumber());
-    }
+    dispatch(setQuestion(questionData.results[0]));
+    dispatch(setQuestionArray(randomExamId, questionData.results[0].usedQuestionId));
+    dispatch(incrementQuestionNumber());
     this.startTimer();
     dispatch(enableAlternativesButtons());
   };

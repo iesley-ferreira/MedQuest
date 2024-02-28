@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
-import { generateGravatarURL } from '../services/gravatarFunctions';
-import { resetScore } from '../redux/actions';
+import medImage from './images/med-icon.png';
+import { resetScore, updateSettings } from '../redux/actions';
 
 class Feedback extends Component {
   componentDidMount() {
@@ -13,11 +13,16 @@ class Feedback extends Component {
   }
 
   componentWillUnmount() {
-    window.location.reload();
+    const { dispatch } = this.props;
+    const settings = {
+      examId: 0,
+      quantity: 10,
+    };
+    dispatch(updateSettings(settings));
   }
 
   render() {
-    const { name, email, assertions, history, dispatch, quantity } = this.props;
+    const { name, assertions, history, dispatch, quantity } = this.props;
     const minimumAssertions = 3;
     return (
       <section className="feedback-card">
@@ -26,7 +31,7 @@ class Feedback extends Component {
           <img
             data-testid="header-profile-picture"
             alt="Player Avatar"
-            src={ generateGravatarURL(email) }
+            src={ medImage }
           />
           <p data-testid="header-player-name" className="score-text">{name}</p>
         </div>
