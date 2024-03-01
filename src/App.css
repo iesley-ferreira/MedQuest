@@ -59,6 +59,7 @@ body {
   display: flex;
   flex-direction: column;
   max-width: 100%;
+  min-width: 180px;
   padding: 20px;
 }
 
@@ -305,7 +306,7 @@ header {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  min-width: 300px;
+  min-width: 135px;
   padding-bottom: 20px;
   text-align: center;
 }
