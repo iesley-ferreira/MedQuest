@@ -105,7 +105,7 @@ header {
   align-items: center;
   background-color: white;
   display: flex;
-  font-family: Caveat , cursive;
+  font-family: Abel , serif;
   font-size: 22px;
   justify-content: space-between;
   padding: 10px 25px;
@@ -149,8 +149,6 @@ header {
   align-items: center;
   background-color: rgba(255, 255, 255, 0.903);
   border-radius: 5px;
-
-  /* position: relative; */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -192,8 +190,6 @@ header {
   font-size: 1.1em;
   text-align: center;
   white-space: pre-line;
-
-  /* position: absolute; */
 }
 
 .question-logo {
@@ -208,15 +204,12 @@ header {
 }
 
 .answers-container > button {
-  padding-left: 12px;
-  text-align: start;
-}
-
-.answers-container > button {
-  background-color: rgba(255, 255, 255, 0.903);
+  background-color: aliceblue;
   color: black;
   height: 100%;
   min-height: 24px;
+  padding-left: 12px;
+  text-align: start;
 }
 
 .answers-container > button:hover {
@@ -234,7 +227,6 @@ header {
   pointer-events: none;
 }
 
-/* deve centralizar os itens do select */
 .custom-select {
   align-items: center;
   appearance: none;
@@ -280,10 +272,6 @@ header {
   border-right: var(--size) solid transparent;
   border-top: var(--size) solid black;
   top: 55%;
-}
-
-.greenBoard {
-  border: solid 10px rgb(240, 6, 185);
 }
 
 .answers-container > .red {
@@ -333,8 +321,8 @@ header {
 }
 
 .feedback-text {
-  font-family: Caveat , cursive;
-  font-size: 4em;
+  font-family: Abel , cursive;
+  font-size: 2em;
   line-height: 0.9em;
 }
 
@@ -385,8 +373,9 @@ header {
 }
 
 .ranking-title {
-  font-family: Caveat , cursive;
+  font-family: Abel , cursive;
   font-size: 3em;
+  font-weight: 500;
   margin-bottom: 0.5em;
 }
 
