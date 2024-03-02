@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:regular,bold,italic&subset=latin,latin-ext');
+/* @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:regular,bold,italic&subset=latin,latin-ext'); */
 
 @font-face {
   font-family: Caveat;
@@ -18,10 +18,10 @@
 
 body {
   background-attachment: fixed;
-  background-image: url('../public/images/background.png');
+  background-color: #673de6;
   background-repeat: no-repeat;
   background-size: cover;
-  font-family: Roboto , serif;
+  font-family: DM Sans , sans-serif;
   height: 100vh;
   width: 100vw;
 }
@@ -35,10 +35,12 @@ body {
 }
 
 .login-container {
+  align-items: center;
   display: flex;
   flex-direction: column;
+  height: 100%;
   margin: auto;
-  max-width: 100%;
+  max-width: 100dvh;
 }
 
 .home-btn {
@@ -53,19 +55,53 @@ body {
   transform: scale(1.1);
 }
 
+.title {
+  align-items: flex-end;
+  color: #fff;
+  display: flex;
+  font-size: 3em;
+  font-weight: 600;
+  justify-content: center;
+  margin-bottom: 0.5em;
+  margin-top: -10px;
+  width: 100%;
+}
+
+.title span {
+  color: #cf0;
+  font-size: 0.5em;
+  font-weight: 400;
+  padding-bottom: 8px;
+}
+
 .login-form {
-  background-color: white;
+  background-color: #673de6;
   border-radius: 10px;
+  box-sizing: border-box;
   display: flex;
   flex-direction: column;
-  max-width: 100%;
+  max-width: 320px;
   min-width: 180px;
-  padding: 20px;
+  padding: 0 20px 20px;
+  width: 100%;
 }
 
 .login-input {
-  border: solid 1px rgba(230, 229, 229, 0.685);
+  background-color: #673de6;
+  border: solid 1px white;
+  border-radius: 5px;
+  color: white;
   padding: 12px 16px;
+}
+
+.login-input:focus {
+  border: solid 1px #cf0;
+  outline: none;
+}
+
+.login-input::placeholder {
+  border: none;
+  color: white;
 }
 
 .button {
@@ -77,34 +113,39 @@ body {
   font-weight: 500;
   height: 45px;
   margin-bottom: 12px;
-  text-transform: uppercase;
 }
 
 .play-button {
-  background: #2fc18c;
+  background-color: #cf0;
+  color: #2f1c6a;
+  font-size: 12px;
+  font-weight: 700;
 }
 
-.settings-button {
+.play-button:disabled {
+  background-color: rgba(110, 134, 13, 0.829);
+  color: #2f1c6a;
+  cursor: not-allowed;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+/* .settings-button {
   align-items: center;
-  background: #35906f;
   display: flex;
   justify-content: center;
-}
+} */
 
 .settings-button > img {
   margin-right: 10px;
 }
 
-.play-button:disabled {
-  background-color: grey;
-  cursor: not-allowed;
-}
-
 header {
   align-items: center;
   background-color: white;
+  color: #2f1c6a;
   display: flex;
-  font-family: Abel , serif;
+  font-family: DM Sans , sans-serif;
   font-size: 22px;
   justify-content: space-between;
   padding: 10px 25px;
@@ -193,11 +234,6 @@ header {
   white-space: pre-line;
 }
 
-.question-logo {
-  margin: 0 30px;
-  width: 300px;
-}
-
 .answers-container {
   display: grid;
   font-size: 1.2em;
@@ -220,23 +256,27 @@ header {
 }
 
 .next-button {
-  background: #2fc18c;
+  background: #cf0;
+  color: #2f1c6a;
+  font-size: 1em;
+  font-weight: 700;
   margin-top: 24px;
   width: 100%;
 }
 
 .timer-button {
+  background: rgb(109, 134, 9);
   font-size: 1.2em;
+  font-weight: 700;
   pointer-events: none;
 }
 
 .custom-select {
   align-items: center;
   appearance: none;
-  background-color: #fff;
   border: 1px solid #caced1;
   border-radius: 0.25rem;
-  color: #000;
+  color: #2f1c6a;
   cursor: pointer;
   display: flex;
   font-size: 1.15rem;
@@ -247,10 +287,14 @@ header {
 
 .custom-select, option {
   align-items: center;
-  color: #606064;
+  background-color: #673de6;
+
+  /* border: 1px solid #fff; */
+  color: #fff;
   display: flex;
   font-size: 13px;
   justify-content: center;
+  outline: 0;
   text-align: center;
 }
 
@@ -278,13 +322,13 @@ header {
 }
 
 .answers-container > .red {
-  background-color: red;
+  background-color: #f66162;
   border: none;
   color: white;
 }
 
 .answers-container > .green {
-  background-color: rgb(6, 240, 15);
+  background-color: #53df83;
   border: none;
 }
 
@@ -295,59 +339,86 @@ header {
 .settings-container {
   align-items: center;
   background: white;
+  background-color: #673de6;
   border-radius: 5px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   min-width: 135px;
-  padding-bottom: 20px;
+  padding-bottom: 16px;
   text-align: center;
 }
 
 .feedback-card, .ranking-container {
   align-items: center;
-  background: white;
   border-radius: 5px;
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  color: #2f1c6a;
   display: flex;
   flex-direction: column;
-  font-family: Abel , cursive;
+  font-size: 1.6em;
+  height: 100vh;
   justify-content: center;
   margin: auto 1em;
+  max-width: 500px;
   min-width: 300px;
-  padding: 2em;
+  padding: 1em;
+  padding-bottom: 2em;
   text-align: center;
+}
+
+.ranking-image {
+  width: 80%;
 }
 
 .feedback-card img {
   border-radius: 50%;
   margin-top: -40px;
-  width: 60px;
+  width: 100%;
 }
 
 .feedback-text {
-  font-family: Abel , cursive;
-  font-size: 2em;
+  color: white;
+  font-family: DM Sans , sans-serif;
+  font-size: 1.8em;
   line-height: 0.9em;
 }
 
 .score-text {
   align-items: center;
+  color: white;
   display: flex;
-  font-family: Abel , cursive;
-  font-size: 20px;
+  font-size: 25px;
   font-weight: 700;
+  gap: 10px;
   justify-content: space-around;
-  margin-bottom: 20px;
-  margin-top: 20px;
-  width: 240px;
+  margin-bottom: 30px;
+  margin-top: 30px;
 }
 
 .score-text-container {
+  color: #2f1c6a;
   display: flex;
   flex-direction: row;
-  font-family: Caveat , cursive;
-  font-size: 48px;
+  font-size: 1.7em;
+}
+
+.score-name-text {
+  color: #2f1c6a;
+  font-size: 1.2em;
+  font-weight: 700;
+  margin-bottom: 30px;
+
+}
+
+.logo {
+  margin: 1em;
+  max-width: 500px;
+  width: 100%;
+}
+
+.logo img {
+  padding-top: 30px;
+  width: 98%;
 }
 
 .question-image {
@@ -355,16 +426,23 @@ header {
 }
 
 .buttons-container {
+  max-width: 350px;
   padding-top: 1em;
   width: 100%;
 }
 
 .feedback-card button {
+  background-color: #cf0;
+  color: #2f1c6a;
+  font-size: 12px;
+  font-weight: 600;
   width: 100%;
 }
 
 .ranking-container button {
-  margin-top: 1em;
+  font-size: 12px;
+  font-weight: 600;
+  max-width: 350px;
   width: 100%;
 }
 
@@ -373,15 +451,17 @@ header {
   border-radius: 5px;
   display: flex;
   flex-direction: row;
-  gap: 0.4em;
-  margin: 1em auto;
+  font-size: 0.9em;
+  gap: 0.2em;
+  margin: 0.2em;
 }
 
 .ranking-title {
-  font-family: Abel , cursive;
-  font-size: 3em;
-  font-weight: 500;
-  margin-bottom: 0.5em;
+  color: #2f1c6a;
+  font-family: DM Sans , sans-serif;
+  font-size: 1.8em;
+  font-weight: 700;
+  margin-bottom: 0.4em;
 }
 
 .ranking-avatar {
@@ -389,17 +469,23 @@ header {
   width: 40px;
 }
 
+.ranking-peoples {
+  padding-bottom: 20px;
+}
+
 fieldset {
   align-items: center;
-  border: solid 1px rgba(230, 229, 229, 0.685);
+  background-color: #673de6;
+  border: 1px solid #fff;
   border-radius: 5px;
   display: flex;
   justify-content: space-evenly;
   width: 100%;
+
 }
 
 fieldset label {
-  color: rgba(44, 41, 41, 0.685);
+  color: #fff;
   font-family: Abel , cursive;
   font-size: 18px;
   margin-bottom: 2em;
@@ -410,17 +496,18 @@ fieldset .button {
 }
 
 .legend1 {
-  color: rgba(44, 41, 41, 0.685);
-  font-family: Abel , sans-serif;
-  font-size: 24px;
+  color: #fff;
+  font-family: DM Sans , sans-serif;
+  font-size: 22px;
   margin-bottom: 0.5em;
   margin-right: auto;
 }
 
 .question-year {
   align-items: center;
-  background-color: #2fc18c;
+  background-color: #cf0;
   border-radius: 5px;
+  color: #2f1c6a;
   display: flex;
   font-size: 20px;
   height: 40px;
@@ -442,7 +529,18 @@ fieldset .button {
     flex-direction: column;
   }
 
-  .question-logo {
-    width: 80px;
+  .logo img {
+    width: 98%;
+  }
+
+  .title {
+    font-size: 2.6em;
+    font-weight: 600;
+    margin-bottom: 0.5em;
+  }
+
+  .title span {
+    font-size: 0.4em;
+    padding-bottom: 8px;
   }
 }

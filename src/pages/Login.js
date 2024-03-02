@@ -2,8 +2,8 @@ import { Component } from 'react';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 import { saveName } from '../redux/actions';
-import logo from './images/MedQuest-Logo.png';
 import Config from '../components/Config';
+import logo from './images/logo1.png';
 
 class Login extends Component {
   state = {
@@ -38,7 +38,13 @@ class Login extends Component {
     return (
 
       <section className="login-container">
-        <img src={ logo } alt="Page logo" />
+        <div className="logo">
+          <img src={ logo } alt="logo" />
+        </div>
+        <div className="title">
+          Med
+          <span>Quest</span>
+        </div>
         <form
           className="login-form"
           onSubmit={ this.handleSubmit }

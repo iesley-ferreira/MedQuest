@@ -62,7 +62,7 @@ class Config extends Component {
           <legend className="legend1">Settings</legend>
 
           <label htmlFor="examId">
-            Ano:
+            Ano
             {' '}
             <select
               onChange={ this.handleChange }
@@ -83,7 +83,7 @@ class Config extends Component {
           </label>
 
           <label htmlFor="quantity">
-            Questões:
+            Questões
             {' '}
             <select
               name="quantity"

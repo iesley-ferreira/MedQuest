@@ -1,15 +1,16 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
-import medImage from './images/med-icon.png';
-import { resetScore, updateSettings } from '../redux/actions';
+import feedbackImage from './images/feedback.png';
+import { enableAlternativesButtons, resetScore, updateSettings } from '../redux/actions';
 
 class Feedback extends Component {
   componentDidMount() {
-    const { score, name, email } = this.props;
+    const { dispatch, score, name, email } = this.props;
     const playersRank = JSON.parse(localStorage.getItem('players Ranking')) || [];
     const buildRank = [...playersRank, { score, name, email }];
     localStorage.setItem('players Ranking', JSON.stringify(buildRank));
+    dispatch(enableAlternativesButtons());
   }
 
   componentWillUnmount() {
@@ -30,10 +31,10 @@ class Feedback extends Component {
 
           <img
             data-testid="header-profile-picture"
-            alt="Player Avatar"
-            src={ medImage }
+            alt="studentsImage"
+            src={ feedbackImage }
           />
-          <p data-testid="header-player-name" className="score-text">{name}</p>
+          <p data-testid="header-player-name" className="score-name-text">{name}</p>
         </div>
 
         <p
@@ -45,7 +46,7 @@ class Feedback extends Component {
         </p>
 
         <div className="score-text">
-          Correct Answers:
+          Correct:
           <div className="score-text-container">
             <div data-testid="feedback-total-question" className="score-text-number">
               {' '}
