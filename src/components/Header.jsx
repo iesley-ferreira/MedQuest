@@ -5,7 +5,7 @@ import { withRouter } from 'react-router-dom';
 
 import house from './images/house.png';
 import Contador from './Contador';
-import { updateSettings } from '../redux/actions';
+import { enableAlternativesButtons, updateSettings } from '../redux/actions';
 
 class Header extends Component {
   handleClickHome = () => {
@@ -15,6 +15,7 @@ class Header extends Component {
       quantity: 10,
     };
     dispatch(updateSettings(settings));
+    dispatch(enableAlternativesButtons());
     history.push('/');
   };
 

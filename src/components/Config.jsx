@@ -85,7 +85,7 @@ class Config extends Component {
             </select>
           </label>
 
-          <label htmlFor="type">
+          <label htmlFor="quantity">
             Questões:
             {' '}
             <select

@@ -82,15 +82,13 @@ class Game extends Component {
     this.setState({ seconds: 270, index: index + 1 });
     clearInterval(this.timer);
 
-    // Verificar se quantity é igual a index + 1
     if (quantity === index + 1) {
       history.push('/feedback');
       dispatch(resetUsedQuestionIds());
       dispatch(resetQuestionNumber());
-      return; // Interromper o fluxo aqui
+      return;
     }
 
-    // Continuar com as ações normais
     const numberOfExams = 7;
     let randomExamId;
     if (examId === 0) {

@@ -51,6 +51,7 @@ class Login extends Component {
             type="text"
             placeholder="Username"
             data-testid="input-player-name"
+            autoComplete="nome"
           />
           <Config />
           <input
