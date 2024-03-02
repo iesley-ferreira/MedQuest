@@ -206,8 +206,7 @@ header {
 
 .answers-container > button {
   background-color: aliceblue;
-
-  /* border: 2px solid aliceblue; */
+  border: 2px solid aliceblue;
   color: black;
   height: 100%;
   min-height: 24px;
