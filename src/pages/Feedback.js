@@ -6,9 +6,10 @@ import { enableAlternativesButtons, resetScore, updateSettings } from '../redux/
 
 class Feedback extends Component {
   componentDidMount() {
-    const { dispatch, score, name, email } = this.props;
+    const { dispatch, score, email } = this.props;
+    const userName = window.localStorage.getItem('username');
     const playersRank = JSON.parse(localStorage.getItem('players Ranking')) || [];
-    const buildRank = [...playersRank, { score, name, email }];
+    const buildRank = [...playersRank, { score, userName, email }];
     localStorage.setItem('players Ranking', JSON.stringify(buildRank));
     dispatch(enableAlternativesButtons());
   }
@@ -23,67 +24,68 @@ class Feedback extends Component {
   }
 
   render() {
-    const { name, assertions, history, dispatch, quantity } = this.props;
+    const { assertions, history, dispatch, quantity } = this.props;
+    const userName = window.localStorage.getItem('username');
     const minimumAssertions = 3;
     return (
-      <section className="feedback-card">
-        <div className="feedback-user-info">
+      <section className="feedback-card-container">
+        <div className="feedback-card">
+          <div className="feedback-user-info">
+            <img
+              data-testid="header-profile-picture"
+              alt="studentsImage"
+              src={ feedbackImage }
+            />
+            <p data-testid="header-player-name" className="score-name-text">{userName}</p>
+          </div>
 
-          <img
-            data-testid="header-profile-picture"
-            alt="studentsImage"
-            src={ feedbackImage }
-          />
-          <p data-testid="header-player-name" className="score-name-text">{name}</p>
-        </div>
+          <p
+            data-testid="feedback-text"
+            className="feedback-text"
+          >
+            {assertions < minimumAssertions ? 'Could be better...' : 'Well Done!'}
 
-        <p
-          data-testid="feedback-text"
-          className="feedback-text"
-        >
-          {assertions < minimumAssertions ? 'Could be better...' : 'Well Done!'}
+          </p>
 
-        </p>
-
-        <div className="score-text">
-          Correct:
-          <div className="score-text-container">
-            <div data-testid="feedback-total-question" className="score-text-number">
-              {' '}
-              {assertions}
-              {' '}
-            </div>
-            /
-            <div className="score-text-number-dark">
-              {' '}
-              {quantity}
+          <div className="score-text">
+            Correct:
+            <div className="score-text-container">
+              <div data-testid="feedback-total-question" className="score-text-number">
+                {' '}
+                {assertions}
+                {' '}
+              </div>
+              /
+              <div className="score-text-number-dark">
+                {' '}
+                {quantity}
+              </div>
             </div>
           </div>
+          <div className="buttons-container">
+
+            <button
+              className="button play-button"
+              data-testid="btn-play-again"
+              onClick={ () => {
+                dispatch(resetScore());
+                history.push('/');
+              } }
+            >
+              Play Again!
+
+            </button>
+
+            <button
+              className="button settings-button"
+              data-testid="btn-ranking"
+              onClick={ () => { history.push('/ranking'); } }
+            >
+              Ranking
+
+            </button>
+          </div>
         </div>
-        <div className="buttons-container">
-
-          <button
-            className="button play-button"
-            data-testid="btn-play-again"
-            onClick={ () => {
-              dispatch(resetScore());
-              history.push('/');
-            } }
-          >
-            Play Again!
-
-          </button>
-
-          <button
-            className="button settings-button"
-            data-testid="btn-ranking"
-            onClick={ () => { history.push('/ranking'); } }
-          >
-            Ranking
-
-          </button>
-        </div>
-
       </section>
     );
   }
@@ -92,7 +94,6 @@ class Feedback extends Component {
 Feedback.propTypes = {
   score: PropTypes.number.isRequired,
   assertions: PropTypes.number.isRequired,
-  name: PropTypes.string.isRequired,
   email: PropTypes.string.isRequired,
   history: PropTypes.shape({
     push: PropTypes.func.isRequired,
@@ -104,7 +105,6 @@ Feedback.propTypes = {
 const mapStateToProps = ({ player, settings }) => ({
   score: player.score,
   assertions: player.assertions,
-  name: player.name,
   email: player.gravatarEmail,
   quantity: settings.quantity,
 });

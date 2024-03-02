@@ -1,15 +1,3 @@
-/* @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:regular,bold,italic&subset=latin,latin-ext'); */
-
-@font-face {
-  font-family: Caveat;
-  src: url('./fonts/Caveat-VariableFont_wght.ttf') format('truetype');
-}
-
-@font-face {
-  font-family: Roboto;
-  src: url('./fonts/Roboto-Regular.ttf') format('truetype');
-}
-
 * {
   box-sizing: border-box;
   margin: 0;
@@ -39,12 +27,11 @@ body {
   display: flex;
   flex-direction: column;
   height: 100%;
-  margin: auto;
-  max-width: 100dvh;
+  min-width: 225px;
 }
 
 .home-btn {
-  background: #fff;
+  background: white;
   border: none;
   border-radius: 5px;
   color: white;
@@ -57,7 +44,7 @@ body {
 
 .title {
   align-items: flex-end;
-  color: #fff;
+  color: white;
   display: flex;
   font-size: 3em;
   font-weight: 600;
@@ -124,17 +111,11 @@ body {
 
 .play-button:disabled {
   background-color: rgba(110, 134, 13, 0.829);
-  color: #2f1c6a;
+  color: #919191;
   cursor: not-allowed;
   font-size: 12px;
   font-weight: 700;
 }
-
-/* .settings-button {
-  align-items: center;
-  display: flex;
-  justify-content: center;
-} */
 
 .settings-button > img {
   margin-right: 10px;
@@ -151,6 +132,24 @@ header {
   padding: 10px 25px;
   top: 0;
   width: 100%;
+}
+
+.material-symbols-outlined {
+  background-color: white;
+  border: none;
+  height: 40px;
+  width: 40px;
+}
+
+.backSvg {
+  border: none;
+  height: 40px;
+  width: 40px;
+}
+
+.material-symbols-outlined:hover {
+  transform: scale(1.2);
+  transition: transform 0.3s ease;
 }
 
 .header-score {
@@ -229,8 +228,6 @@ header {
   border-radius: 5px;
   font-size: 1.1em;
   padding: 2px;
-
-  /* text-align: center; */
   white-space: pre-line;
 }
 
@@ -249,6 +246,21 @@ header {
   padding-left: 12px;
   padding-right: 8px;
   text-align: start;
+}
+
+.ranking-card button {
+  font-size: 12px;
+  font-weight: 800;
+  max-width: 350px;
+  width: 100%;
+}
+
+.feedback-card button {
+  background-color: #cf0;
+  color: #2f1c6a;
+  font-size: 12px;
+  font-weight: 600;
+  width: 100%;
 }
 
 .answers-container > button:hover {
@@ -290,7 +302,7 @@ header {
   background-color: #673de6;
 
   /* border: 1px solid #fff; */
-  color: #fff;
+  color: white;
   display: flex;
   font-size: 13px;
   justify-content: center;
@@ -344,12 +356,26 @@ header {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  min-width: 135px;
   padding-bottom: 16px;
   text-align: center;
 }
 
-.feedback-card, .ranking-container {
+.feedback-card-container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.ranking-container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+}
+
+.feedback-card {
   align-items: center;
   border-radius: 5px;
   color: #2f1c6a;
@@ -358,10 +384,23 @@ header {
   font-size: 1.6em;
   height: 100vh;
   justify-content: center;
-  margin: auto 1em;
   max-width: 500px;
   min-width: 300px;
   padding: 1em;
+  padding-bottom: 2em;
+  text-align: center;
+}
+
+.ranking-card {
+  align-items: center;
+  color: #2f1c6a;
+  display: flex;
+  flex-direction: column;
+  font-size: 1.6em;
+  height: 100vh;
+  justify-content: center;
+  max-width: 500px;
+  min-width: 300px;
   padding-bottom: 2em;
   text-align: center;
 }
@@ -431,21 +470,6 @@ header {
   width: 100%;
 }
 
-.feedback-card button {
-  background-color: #cf0;
-  color: #2f1c6a;
-  font-size: 12px;
-  font-weight: 600;
-  width: 100%;
-}
-
-.ranking-container button {
-  font-size: 12px;
-  font-weight: 600;
-  max-width: 350px;
-  width: 100%;
-}
-
 .player-info-container {
   align-items: center;
   border-radius: 5px;
@@ -476,7 +500,7 @@ header {
 fieldset {
   align-items: center;
   background-color: #673de6;
-  border: 1px solid #fff;
+  border: 1px solid white;
   border-radius: 5px;
   display: flex;
   justify-content: space-evenly;
@@ -485,7 +509,7 @@ fieldset {
 }
 
 fieldset label {
-  color: #fff;
+  color: white;
   font-family: Abel , cursive;
   font-size: 18px;
   margin-bottom: 2em;
@@ -496,7 +520,7 @@ fieldset .button {
 }
 
 .legend1 {
-  color: #fff;
+  color: white;
   font-family: DM Sans , sans-serif;
   font-size: 22px;
   margin-bottom: 0.5em;
@@ -543,4 +567,19 @@ fieldset .button {
     font-size: 0.4em;
     padding-bottom: 8px;
   }
+
+  .login-form {
+    max-width: 300px;
+    min-width: 180px;
+  }
+
+  .feedback-card-container {
+    padding: 20px;
+  }
+
+  .ranking-container {
+    padding: 0 20px 20px;
+
+  }
+
 }

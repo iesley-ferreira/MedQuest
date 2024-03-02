@@ -13,38 +13,40 @@ class Ranking extends Component {
     playersRanked.length = 5;
 
     return (
-      <div className="ranking-container">
-        <img src={ rankingImage } alt="rankingImage" className="ranking-image" />
-        <h2 data-testid="ranking-title" className="ranking-title">Ranking</h2>
-        <div className="ranking-peoples">
-          {playersRanked.map((player, index) => (
-            <div className="player-info-container" key={ index }>
-              <img
-                alt="Player Avatar"
-                src={ medImage }
-                className="ranking-avatar"
-              />
-              <h4 data-testid={ `player-name-${index}` }>
-                {player.name}
-              </h4>
-              <h4>
-                <span data-testid={ `player-score-${index}` }>
-                  {player.score}
-                </span>
-              </h4>
-            </div>))}
+      <section className="ranking-container">
+        <div className="ranking-card">
+          <img src={ rankingImage } alt="rankingImage" className="ranking-image" />
+          <h2 data-testid="ranking-title" className="ranking-title">Ranking</h2>
+          <div className="ranking-peoples">
+            {playersRanked.map((player, index) => (
+              <div className="player-info-container" key={ index }>
+                <img
+                  alt="Player Avatar"
+                  src={ medImage }
+                  className="ranking-avatar"
+                />
+                <h4 data-testid={ `player-name-${index}` }>
+                  {player.name}
+                </h4>
+                <h4>
+                  <span data-testid={ `player-score-${index}` }>
+                    {player.score}
+                  </span>
+                </h4>
+              </div>))}
+          </div>
+          <button
+            className="button play-button"
+            data-testid="btn-go-home"
+            onClick={ () => {
+              dispatch(resetScore());
+              history.push('/');
+            } }
+          >
+            Go Home
+          </button>
         </div>
-        <button
-          className="button play-button"
-          data-testid="btn-go-home"
-          onClick={ () => {
-            dispatch(resetScore());
-            history.push('/');
-          } }
-        >
-          Go Home
-        </button>
-      </div>
+      </section>
     );
   }
 }

@@ -18,6 +18,8 @@ class Login extends Component {
 
     dispatch(saveName(username));
 
+    localStorage.setItem('username', username);
+
     const { history } = this.props;
     history.push('/game');
   };
