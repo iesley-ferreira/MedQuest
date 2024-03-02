@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
-import { generateGravatarURL } from '../services/gravatarFunctions';
+import medImage from './images/medic-icon-ranking.png';
 import { resetScore } from '../redux/actions';
+import rankingImage from './images/ranking-image.png';
 
 class Ranking extends Component {
   render() {
@@ -13,13 +14,14 @@ class Ranking extends Component {
 
     return (
       <div className="ranking-container">
+        <img src={ rankingImage } alt="rankingImage" className="ranking-image" />
         <h2 data-testid="ranking-title" className="ranking-title">Ranking</h2>
-        <div>
+        <div className="ranking-peoples">
           {playersRanked.map((player, index) => (
             <div className="player-info-container" key={ index }>
               <img
                 alt="Player Avatar"
-                src={ generateGravatarURL(player.email) }
+                src={ medImage }
                 className="ranking-avatar"
               />
               <h4 data-testid={ `player-name-${index}` }>

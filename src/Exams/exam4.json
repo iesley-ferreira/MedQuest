@@ -614,8 +614,8 @@
       },
       {
         "questionId": 22,
-        "question": "Numere a coluna da direita de acordo com a da esquerda, associando as variáveis hemodinâmicas às respectivas fórmulas de cálculo.\n\n(1) Índice cardíaco\t( ) (PAM – PVC) X 79,9 ⁄ IC\n(2) Volume sistólico\t( ) (PMAP – PVC) X IVS X 0,0136\n(3) Índice de resistência vascular sistêmica\t( ) DC ⁄ FC\n(4) Índice do trabalho sistólico do VE\t( ) DC ⁄ área de superfície corporal\n(5) Índice do trabalho sistólico do VD\t( ) (PAM – POAP) X IVS X 0,0136\nLegenda: DC – débito cardíaco; FC – frequência cardíaca; IC – índice cardíaco; IVS – índice de volume sistólico; PAM – pressão arterial média; PMAP – pressão média de artéria pulmonar; POAP – pressão de oclusão da artéria pulmonar; PVC – pressão venosa central.\nA sequência numérica correta de preenchimento dos parênteses, de cima para baixo, é",
-        "image": null,
+        "question": "Numere a coluna da direita de acordo com a da esquerda, associando as variáveis hemodinâmicas às respectivas fórmulas de cálculo.\n\nA sequência numérica correta de preenchimento dos parênteses, de cima para baixo, é",
+        "image": "/images/22-2015.png",
         "anulada": false,
         "questionYear": "2015",
         "alternatives": [

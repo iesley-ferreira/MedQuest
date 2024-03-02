@@ -76,12 +76,19 @@ class Game extends Component {
 
   handleClick = () => {
     const { index } = this.state;
-    const { history, dispatch, quantity,
-      usedQuestionIds, examId } = this.props;
+    const { history, dispatch, quantity, usedQuestionIds, examId } = this.props;
 
     dispatch(restartTimer());
     this.setState({ seconds: 270, index: index + 1 });
     clearInterval(this.timer);
+
+    if (quantity === index + 1) {
+      history.push('/feedback');
+      dispatch(resetUsedQuestionIds());
+      dispatch(resetQuestionNumber());
+      return;
+    }
+
     const numberOfExams = 7;
     let randomExamId;
     if (examId === 0) {
@@ -91,15 +98,9 @@ class Game extends Component {
     }
     const questionData = getQuestionsFromLocalFile(randomExamId, usedQuestionIds);
 
-    if (index === quantity - 1) {
-      history.push('/feedback');
-      dispatch(resetUsedQuestionIds());
-      dispatch(resetQuestionNumber());
-    } else {
-      dispatch(setQuestion(questionData.results[0]));
-      dispatch(setQuestionArray(randomExamId, questionData.results[0].usedQuestionId));
-      dispatch(incrementQuestionNumber());
-    }
+    dispatch(setQuestion(questionData.results[0]));
+    dispatch(setQuestionArray(randomExamId, questionData.results[0].usedQuestionId));
+    dispatch(incrementQuestionNumber());
     this.startTimer();
     dispatch(enableAlternativesButtons());
   };
@@ -144,17 +145,6 @@ class Game extends Component {
   }
 }
 
-Game.propTypes = {
-  dispatch: PropTypes.func.isRequired,
-  clearTimer: PropTypes.bool.isRequired,
-  history: PropTypes.shape({
-    push: PropTypes.func.isRequired,
-  }).isRequired,
-  quantity: PropTypes.number.isRequired,
-  usedQuestionIds: PropTypes.shape({}).isRequired,
-  examId: PropTypes.number.isRequired,
-};
-
 const mapStateToProps = ({ player, settings, questionInfo }) => ({
   clearTimer: player.clearTimer,
   categoryId: settings.categoryId,
@@ -166,5 +156,16 @@ const mapStateToProps = ({ player, settings, questionInfo }) => ({
   question: player.question,
   questionYear: player.questionYear,
 });
+
+Game.propTypes = {
+  dispatch: PropTypes.func.isRequired,
+  clearTimer: PropTypes.bool.isRequired,
+  history: PropTypes.shape({
+    push: PropTypes.func.isRequired,
+  }).isRequired,
+  quantity: PropTypes.number.isRequired,
+  usedQuestionIds: PropTypes.shape({}).isRequired,
+  examId: PropTypes.number.isRequired,
+};
 
 export default connect(mapStateToProps)(Game);

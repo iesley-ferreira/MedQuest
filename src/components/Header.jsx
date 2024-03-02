@@ -1,32 +1,33 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
-import { Link } from 'react-router-dom/cjs/react-router-dom';
+import { withRouter } from 'react-router-dom';
 
-import { generateGravatarURL } from '../services/gravatarFunctions';
 import house from './images/house.png';
 import Contador from './Contador';
+import { enableAlternativesButtons, updateSettings } from '../redux/actions';
 
 class Header extends Component {
+  handleClickHome = () => {
+    const { dispatch, history } = this.props;
+    const settings = {
+      examId: 0,
+      quantity: 10,
+    };
+    dispatch(updateSettings(settings));
+    dispatch(enableAlternativesButtons());
+    history.push('/');
+  };
+
   render() {
-    const { name, gravatarEmail } = this.props;
+    const { name } = this.props;
     return (
       <header className="header">
-        <img
-          src={ generateGravatarURL(gravatarEmail) }
-          alt="avatar"
-          data-testid="header-profile-picture"
-          className="avatar"
-        />
         <h3 data-testid="header-player-name" className="header-name">{name}</h3>
-
         <Contador />
-
-        <Link to="/">
-          {' '}
+        <button onClick={ this.handleClickHome } type="button" className="home-btn">
           <img src={ house } alt="House" className="house-icon" />
-        </Link>
-
+        </button>
       </header>
     );
   }
@@ -35,12 +36,14 @@ class Header extends Component {
 const mapStateToProps = (state) => ({
   name: state.player.name,
   score: state.player.score,
-  gravatarEmail: state.player.gravatarEmail,
 });
 
 Header.propTypes = {
+  dispatch: PropTypes.func.isRequired,
   name: PropTypes.string.isRequired,
-  gravatarEmail: PropTypes.string.isRequired,
+  history: PropTypes.shape({
+    push: PropTypes.func.isRequired,
+  }).isRequired,
 };
 
-export default connect(mapStateToProps)(Header);
+export default withRouter(connect(mapStateToProps)(Header));

@@ -1,19 +1,29 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
-import { generateGravatarURL } from '../services/gravatarFunctions';
-import { resetScore } from '../redux/actions';
+import feedbackImage from './images/feedback.png';
+import { enableAlternativesButtons, resetScore, updateSettings } from '../redux/actions';
 
 class Feedback extends Component {
   componentDidMount() {
-    const { score, name, email } = this.props;
+    const { dispatch, score, name, email } = this.props;
     const playersRank = JSON.parse(localStorage.getItem('players Ranking')) || [];
     const buildRank = [...playersRank, { score, name, email }];
     localStorage.setItem('players Ranking', JSON.stringify(buildRank));
+    dispatch(enableAlternativesButtons());
+  }
+
+  componentWillUnmount() {
+    const { dispatch } = this.props;
+    const settings = {
+      examId: 0,
+      quantity: 10,
+    };
+    dispatch(updateSettings(settings));
   }
 
   render() {
-    const { name, email, assertions, history, dispatch, quantity } = this.props;
+    const { name, assertions, history, dispatch, quantity } = this.props;
     const minimumAssertions = 3;
     return (
       <section className="feedback-card">
@@ -21,10 +31,10 @@ class Feedback extends Component {
 
           <img
             data-testid="header-profile-picture"
-            alt="Player Avatar"
-            src={ generateGravatarURL(email) }
+            alt="studentsImage"
+            src={ feedbackImage }
           />
-          <p data-testid="header-player-name" className="score-text">{name}</p>
+          <p data-testid="header-player-name" className="score-name-text">{name}</p>
         </div>
 
         <p
@@ -35,19 +45,21 @@ class Feedback extends Component {
 
         </p>
 
-        <p className="score-text">
-          Correct Answers:
-          {' '}
-          <span data-testid="feedback-total-question" className="score-text-number">
-            {assertions}
-          </span>
-          <span className="score-text-number-dark">
-            {' '}
+        <div className="score-text">
+          Correct:
+          <div className="score-text-container">
+            <div data-testid="feedback-total-question" className="score-text-number">
+              {' '}
+              {assertions}
+              {' '}
+            </div>
             /
-            {' '}
-            {quantity}
-          </span>
-        </p>
+            <div className="score-text-number-dark">
+              {' '}
+              {quantity}
+            </div>
+          </div>
+        </div>
         <div className="buttons-container">
 
           <button
