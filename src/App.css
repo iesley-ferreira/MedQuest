@@ -71,7 +71,6 @@ body {
 .button {
   border: none;
   border-radius: 5px;
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
   color: white;
   cursor: pointer;
   font-size: 10px;
@@ -188,7 +187,9 @@ header {
 .question-container {
   border-radius: 5px;
   font-size: 1.1em;
-  text-align: center;
+  padding: 2px;
+
+  /* text-align: center; */
   white-space: pre-line;
 }
 
@@ -205,10 +206,13 @@ header {
 
 .answers-container > button {
   background-color: aliceblue;
+
+  /* border: 2px solid aliceblue; */
   color: black;
   height: 100%;
   min-height: 24px;
   padding-left: 12px;
+  padding-right: 8px;
   text-align: start;
 }
 
@@ -276,11 +280,13 @@ header {
 
 .answers-container > .red {
   background-color: red;
+  border: none;
   color: white;
 }
 
 .answers-container > .green {
   background-color: rgb(6, 240, 15);
+  border: none;
 }
 
 .answers-container > button:disabled {
