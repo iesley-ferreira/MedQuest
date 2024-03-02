@@ -9,7 +9,6 @@ const QUEST_QUANTITY_2009 = 39;
 const QUEST_QUANTITY_2013 = 38;
 const QUEST_QUANTITY_2015 = 39;
 const QUEST_QUANTITY_2017 = 39;
-const QUEST_QUANTITY_2019 = 25;
 const QUEST_QUANTITY_2021 = 38;
 const DIVISION_VALUE = 10;
 
@@ -45,7 +44,6 @@ class Config extends Component {
       QUEST_QUANTITY_2013,
       QUEST_QUANTITY_2015,
       QUEST_QUANTITY_2017,
-      QUEST_QUANTITY_2019,
       QUEST_QUANTITY_2021,
     ];
 
@@ -80,8 +78,7 @@ class Config extends Component {
               <option value="3">2013</option>
               <option value="4">2015</option>
               <option value="5">2017</option>
-              <option value="6">2019</option>
-              <option value="7">2021</option>
+              <option value="6">2021</option>
             </select>
           </label>
 
