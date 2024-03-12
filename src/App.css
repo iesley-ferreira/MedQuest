@@ -299,11 +299,6 @@ header {
   width: 70px;
 }
 
-.custom-select:focus {
-  border-color: #cf0;
-  outline: none;
-}
-
 .custom-select, option {
   align-items: center;
   background-color: #673de6;
@@ -316,6 +311,12 @@ header {
   outline: 0;
   text-align: center;
 }
+
+.custom-select:focus {
+  border-color: #cf0;
+  outline: none;
+}
+
 
 .custom-select:before, .custom-select:after {
 
