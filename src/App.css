@@ -55,7 +55,7 @@ body {
 }
 
 .title span {
-  color: #cf0;
+  color: #2f1c6a;
   font-size: 0.5em;
   font-weight: 400;
   padding-bottom: 8px;
@@ -106,7 +106,7 @@ body {
   background-color: #cf0;
   color: #2f1c6a;
   font-size: 12px;
-  font-weight: 700;
+  font-weight: 800;
 }
 
 .play-button:disabled {
@@ -114,7 +114,6 @@ body {
   color: #919191;
   cursor: not-allowed;
   font-size: 12px;
-  font-weight: 700;
 }
 
 .settings-button > img {
@@ -251,16 +250,19 @@ header {
 .ranking-card button {
   font-size: 12px;
   font-weight: 800;
+  height: 45px;
   max-width: 350px;
-  width: 100%;
+  min-width: 175px;
+  width: 60vw;
 }
 
 .feedback-card button {
   background-color: #cf0;
   color: #2f1c6a;
   font-size: 12px;
-  font-weight: 600;
-  width: 100%;
+  font-weight: 800;
+  min-width: 175px;
+  width: 60vw;
 }
 
 .answers-container > button:hover {
@@ -295,6 +297,11 @@ header {
   padding: 0.675em 1em;
   position: relative;
   width: 70px;
+}
+
+.custom-select:focus {
+  border-color: #cf0;
+  outline: none;
 }
 
 .custom-select, option {
