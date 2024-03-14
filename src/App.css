@@ -253,7 +253,7 @@ header {
   height: 45px;
   max-width: 350px;
   min-width: 175px;
-  width: 60vw;
+  width: 60%;
 }
 
 .feedback-card button {
@@ -262,7 +262,7 @@ header {
   font-size: 12px;
   font-weight: 800;
   min-width: 175px;
-  width: 60vw;
+  width: 70%;
 }
 
 .answers-container > button:hover {
@@ -473,6 +473,9 @@ header {
 }
 
 .buttons-container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
   max-width: 350px;
   padding-top: 1em;
   width: 100%;
