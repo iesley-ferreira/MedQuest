@@ -1,18 +1,19 @@
-import React, { Component } from 'react';
-import { connect } from 'react-redux';
-import PropTypes from 'prop-types';
-import Header from '../components/Header';
-import GameSection from '../components/GameSection';
-import { restartTimer,
+import PropTypes from "prop-types";
+import React, { Component } from "react";
+import { connect } from "react-redux";
+import GameSection from "../components/GameSection";
+import Header from "../components/Header";
+import {
   disableAlternatives,
   enableAlternativesButtons,
-  setQuestion,
-  resetUsedQuestionIds,
-  setQuestionArray,
-  resetQuestionNumber,
   incrementQuestionNumber,
-} from '../redux/actions';
-import { getQuestionsFromLocalFile } from '../services/api';
+  resetQuestionNumber,
+  resetUsedQuestionIds,
+  restartTimer,
+  setQuestion,
+  setQuestionArray,
+} from "../redux/actions";
+import { getQuestionsFromLocalFile } from "../services/api";
 
 class Game extends Component {
   state = {
@@ -83,7 +84,7 @@ class Game extends Component {
     clearInterval(this.timer);
 
     if (quantity === index + 1) {
-      history.push('/feedback');
+      history.push("/feedback");
       dispatch(resetUsedQuestionIds());
       dispatch(resetQuestionNumber());
       return;
@@ -113,28 +114,20 @@ class Game extends Component {
     return (
       <>
         <Header />
-        <div className="wrapper">
+        <div className='wrapper'>
           <div>
-            {!loading && (
-              <GameSection
-                seconds={ seconds }
-                timeOver={ timeOver }
-              />
-            )}
+            {!loading && <GameSection seconds={seconds} timeOver={timeOver} />}
             {(clearTimer || seconds === 0) && (
               <button
-                className="button next-button"
-                data-testid="btn-next"
-                onClick={ this.handleClick }
+                className='button next-button'
+                data-testid='btn-next'
+                onClick={this.handleClick}
               >
-                {seconds === 0 ? 'Time is over - Next question' : 'Next'}
+                {seconds === 0 ? "Time is over - Next question" : "Next"}
               </button>
             )}
-            {(seconds > 0 && !clearTimer && !loading) && (
-              <button
-                className="button next-button timer-button"
-                data-testid="btn-next"
-              >
+            {seconds > 0 && !clearTimer && !loading && (
+              <button className='button next-button timer-button' data-testid='btn-next'>
                 {seconds}
               </button>
             )}

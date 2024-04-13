@@ -9,7 +9,7 @@ body {
   background-color: #673de6;
   background-repeat: no-repeat;
   background-size: cover;
-  font-family: DM Sans , sans-serif;
+  font-family: DM Sans, sans-serif;
   height: 100vh;
   width: 100vw;
 }
@@ -125,7 +125,7 @@ header {
   background-color: white;
   color: #2f1c6a;
   display: flex;
-  font-family: DM Sans , sans-serif;
+  font-family: DM Sans, sans-serif;
   font-size: 22px;
   justify-content: space-between;
   padding: 10px 25px;
@@ -299,7 +299,8 @@ header {
   width: 70px;
 }
 
-.custom-select, option {
+.custom-select,
+option {
   align-items: center;
   background-color: #673de6;
 
@@ -317,11 +318,10 @@ header {
   outline: none;
 }
 
-
-.custom-select:before, .custom-select:after {
-
+.custom-select:before,
+.custom-select:after {
   --size: 0.3rem;
-  content: '';
+  content: "";
   pointer-events: none;
   position: absolute;
   right: 1rem;
@@ -425,7 +425,7 @@ header {
 
 .feedback-text {
   color: white;
-  font-family: DM Sans , sans-serif;
+  font-family: DM Sans, sans-serif;
   font-size: 1.8em;
   line-height: 0.9em;
 }
@@ -454,7 +454,6 @@ header {
   font-size: 1.2em;
   font-weight: 700;
   margin-bottom: 30px;
-
 }
 
 .logo {
@@ -493,7 +492,7 @@ header {
 
 .ranking-title {
   color: #2f1c6a;
-  font-family: DM Sans , sans-serif;
+  font-family: DM Sans, sans-serif;
   font-size: 1.8em;
   font-weight: 700;
   margin-bottom: 0.4em;
@@ -516,12 +515,11 @@ fieldset {
   display: flex;
   justify-content: space-evenly;
   width: 100%;
-
 }
 
 fieldset label {
   color: white;
-  font-family: Abel , cursive;
+  font-family: Abel, cursive;
   font-size: 18px;
   margin-bottom: 2em;
 }
@@ -532,7 +530,7 @@ fieldset .button {
 
 .legend1 {
   color: white;
-  font-family: DM Sans , sans-serif;
+  font-family: DM Sans, sans-serif;
   font-size: 22px;
   margin-bottom: 0.5em;
   margin-right: auto;
@@ -554,8 +552,16 @@ fieldset .button {
   width: 200px;
 }
 
-@media ( width <= 600px ) {
+.button-loader-content {
+  align-items: center;
+  display: flex;
 
+  flex-direction: row;
+  justify-content: center;
+  gap: 10px;
+}
+
+@media (width <= 600px) {
   .avatar {
     display: none;
   }
@@ -590,7 +596,5 @@ fieldset .button {
 
   .ranking-container {
     padding: 0 20px 20px;
-
   }
-
 }
