@@ -133,6 +133,10 @@ header {
   width: 100%;
 }
 
+.game-container {
+  width: 50vw;
+}
+
 .material-symbols-outlined {
   background-color: white;
   border: none;
@@ -596,5 +600,17 @@ fieldset .button {
 
   .ranking-container {
     padding: 0 20px 20px;
+  }
+}
+
+@media (max-width: 1100px) {
+  .game-container {
+    width: 75%;
+  }
+}
+
+@media (max-width: 600px) {
+  .game-container {
+    width: 100%;
   }
 }

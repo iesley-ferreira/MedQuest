@@ -3,6 +3,7 @@ import React, { Component } from "react";
 import { connect } from "react-redux";
 import GameSection from "../components/GameSection";
 import Header from "../components/Header";
+
 import {
   disableAlternatives,
   enableAlternativesButtons,
@@ -115,7 +116,7 @@ class Game extends Component {
       <>
         <Header />
         <div className='wrapper'>
-          <div>
+          <div className='game-container'>
             {!loading && <GameSection seconds={seconds} timeOver={timeOver} />}
             {(clearTimer || seconds === 0) && (
               <button
