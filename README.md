@@ -44,10 +44,6 @@ MySQL
 
 Git
 
-# You can check the app following the link below 👇
-
-https://medquest.vercel.app/
-
 # Installation
 
 1 - Clone this repository from [https://github.com/iesley-ferreira/MedQuest](https://github.com/iesley-ferreira/MedQuest)
