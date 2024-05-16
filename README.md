@@ -34,7 +34,7 @@ React, Vite, Typescript, Redux
 
 ## Back-end
 
-Node.js, Docker
+Node.js
 
 ## Database
 
