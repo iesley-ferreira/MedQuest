@@ -34,7 +34,7 @@ React, Vite, Typescript, Redux
 
 ## Back-end
 
-Node.js, Docker
+Node.js
 
 ## Database
 
@@ -51,12 +51,6 @@ Git
 2 - Install dependencies npm install
 
 3 - Configure database credentials
-
-# How to run:
-
-1 - Start a container with docker-compose up -d
-
-2 - Run npm run dev to open the application in your browser
 
 # Challenges
 
