@@ -52,12 +52,6 @@ Git
 
 3 - Configure database credentials
 
-# How to run:
-
-1 - Start a container with docker-compose up -d
-
-2 - Run npm run dev to open the application in your browser
-
 # Challenges
 
 For this project, we practiced React skills and how to exchange information between pages and components. After that, we created our own questions based on AI. We used past assessments as a guide, describing how we would need the questions and starting the process of conversion into a JSON file.
