@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "engines": {
-    "node": "16 || 18"
+    "node": "22.x"
   },
   "dependencies": {
     "@redux-devtools/extension": "3.2.5",
