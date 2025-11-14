@@ -160,7 +160,7 @@
       {
         "questionId": 7,
         "question": "Com relação aos eletrocardiogramas de 1 a 5, apresentados no exame, assinale a alternativa que apresenta a correta associação entre o número do traçado do eletrocardiograma e a causa mais provável de elevação do segmento ST.",
-        "image": null,
+        "image": "/images/07-2023.png",
         "anulada": false,
         "questionYear": "2023",
         "alternatives": [
@@ -217,7 +217,7 @@
       {
         "questionId": 9,
         "question": "Em relação ao gráfico que representa as respostas hemodinâmicas a diferentes drogas (frequência cardíaca e pressão arterial em função da dose), assinale a alternativa correta.",
-        "image": null,
+        "image": "/images/09-2023.png",
         "anulada": false,
         "questionYear": "2023",
         "alternatives": [
@@ -277,7 +277,7 @@
       {
         "questionId": 11,
         "question": "Com base na imagem do cateter pulmonar de quatro lúmens apresentada no exame, identifique a afirmação correta sobre suas características.",
-        "image": null,
+        "image": "/images/11-2023.png",
         "anulada": false,
         "questionYear": "2023",
         "alternatives": [
@@ -517,7 +517,7 @@
       {
         "questionId": 21,
         "question": "Em relação à curva do balão intra-aórtico de um paciente internado na UTI, demonstrada no exame, assinale a afirmativa correta.",
-        "image": null,
+        "image": "/images/21-2023.png",
         "anulada": false,
         "questionYear": "2023",
         "alternatives": [
