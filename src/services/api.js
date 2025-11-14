@@ -10,8 +10,10 @@ export function getQuestionsFromLocalFile(examId, usedQuestionIds) {
     const examData = require(`../Exams/exam${examId}.json`);
 
     const unusedQuestions = examData[0].questions
-      .filter((question) => !usedQuestionIds[`exam${examId}`]
-        .includes(question.questionId));
+      .filter((question) => 
+        !question.anulada && // <<–– NÃO PEGAR ANULADA
+        !usedQuestionIds[`exam${examId}`].includes(question.questionId)
+      );
     if (unusedQuestions.length === 0) {
       console.warn('Você fez todas as questões.');
       usedQuestionIds[`exam${examId}`].length = 0;
