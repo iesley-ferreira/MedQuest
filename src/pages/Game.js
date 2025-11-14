@@ -27,7 +27,7 @@ class Game extends Component {
     const { dispatch, usedQuestionIds, examId } = this.props;
     this.setState({ loading: true });
 
-    const numberOfExams = 7;
+    const numberOfExams = 8;
     let randomExamId;
     if (examId === 0) {
       randomExamId = Math.floor(Math.random() * numberOfExams) + 1;
@@ -91,7 +91,7 @@ class Game extends Component {
       return;
     }
 
-    const numberOfExams = 7;
+    const numberOfExams = 8;
     let randomExamId;
     if (examId === 0) {
       randomExamId = Math.floor(Math.random() * numberOfExams) + 1;

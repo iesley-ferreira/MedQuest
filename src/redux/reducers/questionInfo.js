@@ -26,6 +26,7 @@ const INITIAL_STATE = {
     exam5: [],
     exam6: [],
     exam7: [],
+    exam8: [],
   },
   currentQuestionNumber: 1,
 };
@@ -59,6 +60,7 @@ const questionInfo = (state = INITIAL_STATE, action) => {
         exam5: [],
         exam6: [],
         exam7: [],
+        exam8: [],
       },
     };
   case INCREMENT_QUESTION_NUMBER:

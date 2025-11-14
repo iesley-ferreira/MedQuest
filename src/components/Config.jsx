@@ -1,5 +1,5 @@
-import React, { Component } from 'react';
 import PropTypes from 'prop-types';
+import { Component } from 'react';
 import { connect } from 'react-redux';
 import { updateSettings } from '../redux/actions';
 
@@ -9,7 +9,9 @@ const QUEST_QUANTITY_2009 = 39;
 const QUEST_QUANTITY_2013 = 38;
 const QUEST_QUANTITY_2015 = 39;
 const QUEST_QUANTITY_2017 = 39;
+const QUEST_QUANTITY_2019 = 25;
 const QUEST_QUANTITY_2021 = 38;
+const QUEST_QUANTITY_2023 = 24;
 const DIVISION_VALUE = 10;
 
 class Config extends Component {
@@ -37,23 +39,25 @@ class Config extends Component {
 
   render() {
     const { examId, quantity } = this.state;
-    const questQuantity = [
-      QUEST_QUANTITY_ALL,
-      QUEST_QUANTITY_2006,
-      QUEST_QUANTITY_2009,
-      QUEST_QUANTITY_2013,
-      QUEST_QUANTITY_2015,
-      QUEST_QUANTITY_2017,
-      QUEST_QUANTITY_2021,
-    ];
+    const QUEST_QUANTITY_BY_EXAM = {
+      0: QUEST_QUANTITY_ALL,
+      1: QUEST_QUANTITY_2006,
+      2: QUEST_QUANTITY_2009,
+      3: QUEST_QUANTITY_2013,
+      4: QUEST_QUANTITY_2015,
+      5: QUEST_QUANTITY_2017,
+      6: QUEST_QUANTITY_2019,
+      7: QUEST_QUANTITY_2021,
+      8: QUEST_QUANTITY_2023, // 👈 2023 = exam8.json
+    };
 
     // Calcular os valores para as opções
-    const maxValue = questQuantity[examId];
-    const options = Array
-      .from(
-        { length: Math.ceil(maxValue / DIVISION_VALUE) },
-        (_, index) => Math.min((index + 1) * DIVISION_VALUE, maxValue),
-      );
+    const maxValue = QUEST_QUANTITY_BY_EXAM[examId] ?? DIVISION_VALUE;
+
+    const options = Array.from(
+      { length: Math.ceil(maxValue / DIVISION_VALUE) },
+      (_, index) => Math.min((index + 1) * DIVISION_VALUE, maxValue),
+    );
 
     return (
       <div className="settings-container">
@@ -78,7 +82,9 @@ class Config extends Component {
               <option value="3">2013</option>
               <option value="4">2015</option>
               <option value="5">2017</option>
-              <option value="6">2021</option>
+              <option value="6">2019</option>
+              <option value="7">2021</option>
+              <option value="8">2023</option>
             </select>
           </label>
 

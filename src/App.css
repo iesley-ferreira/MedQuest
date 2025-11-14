@@ -236,7 +236,7 @@ header {
 
 .answers-container {
   display: grid;
-  font-size: 1.2em;
+  font-size: 14px;
   gap: 10px;
 }
 
@@ -246,6 +246,7 @@ header {
   color: black;
   height: 100%;
   min-height: 24px;
+  font-size: 14px;
   padding-left: 12px;
   padding-right: 8px;
   text-align: start;
@@ -354,6 +355,7 @@ option {
 .answers-container > .green {
   background-color: #53df83;
   border: none;
+  font-size: 14px;
 }
 
 .answers-container > button:disabled {

@@ -1,0 +1,666 @@
+[
+  {
+    "examId": 8,
+    "nome": "HCPA-2023",
+    "ano": "2023",
+    "edital": "Edital 08/2023",
+    "descrição": "MÉDICO I (Medicina Intensiva)",
+    "processoSeletivo": 73,
+    "questions": [
+      {
+        "questionId": 1,
+        "question": "Em relação ao manejo da cetoacidose diabética (CAD) e do estado hiperosmolar não cetótico (EHNC), marque a alternativa correta.",
+        "image": null,
+        "anulada": false,
+        "questionYear": "2023",
+        "alternatives": [
+          {
+            "id": 1,
+            "description": "Na CAD, o uso de insulina é a medida prioritária no manejo clínico, seguido pela expansão volêmica e pela correção eletrolítica."
+          },
+          {
+            "id": 2,
+            "description": "A normalização do ânion GAP, com pH normal, independentemente da glicemia capilar, é critério de resolução da CAD."
+          },
+          {
+            "id": 3,
+            "description": "A resolução do EHNC ocorre quando há redução da osmolaridade sérica para abaixo de 350 mOsm/L, retorno ao estado basal de consciência e glicemia menor ou igual a 200 mg/dL."
+          },
+          {
+            "id": 4,
+            "description": "Na CAD, podemos ter dois distúrbios ácido-base associados dependendo do estágio do tratamento, sendo que a acidose hiperclorêmica é comum no decorrer do tratamento."
+          },
+          {
+            "id": 5,
+            "description": "A insulina de uso corrente deve ser iniciada 3 horas após a suspensão da insulina regular parenteral nos pacientes com CAD."
+          }
+        ],
+        "rightAnswer": 4
+      },
+      {
+        "questionId": 2,
+        "question": "Em relação à dissecção aguda de aorta, assinale a afirmativa correta.",
+        "image": null,
+        "anulada": true,
+        "questionYear": "2023",
+        "alternatives": [
+          {
+            "id": 1,
+            "description": "Quando acomete a aorta ascendente, o tratamento é cirúrgico, mesmo não apresentando benefício em redução da mortalidade quando comparado ao manejo clínico."
+          },
+          {
+            "id": 2,
+            "description": "Vasodilatadores parenterais, como nitroprussiato de sódio, são a classe de anti-hipertensivos iniciais de primeira escolha a serem utilizados como monoterapia."
+          },
+          {
+            "id": 3,
+            "description": "Betabloqueadores parenterais podem ser uma alternativa terapêutica, como terapia adjunta de vasodilatadores."
+          },
+          {
+            "id": 4,
+            "description": "O alvo pressórico é uma pressão sistólica menor que 120 mmHg e uma FC de 60 batimentos por minuto."
+          },
+          {
+            "id": 5,
+            "description": "Em dissecção Stanford A, é necessária a realização de angiografia coronária."
+          }
+        ],
+        "rightAnswer": null
+      },
+      {
+        "questionId": 3,
+        "question": "Paciente de 48 anos, masculino, portador de hipertensão arterial sistêmica e asma, apresenta quadro de pneumonia comunitária grave associado à disfunção multiorgânica. Necessitou de ventilação mecânica após 24 horas do início dos sintomas. Estava com os seguintes parâmetros ventilatórios: modo volume controlado, recebendo um volume de ar corrente (VC) de 420 mL; frequência respiratória de 22 movimentos por minuto; pressão expiratória final (PEEP) 7 cm H2O, fração inspirada de oxigênio de 0,4. Na avaliação da mecânica ventilatória, apresenta pressão de pico 34 cm H2O; pressão de platô 20 cm H2O e fluxo inspiratório de 50 L/min. Considerando as informações acima, assinale as afirmações a seguir com V (verdadeiro) ou F (falso): (  ) O modo ventilatório tem como limitante de fase a pressão. (  ) A diferença entre pressão de pico e pressão de platô pode ser reduzida aumentando o fluxo inspiratório. (  ) Aumentando-se a PEEP, não há repercussão sobre o fluxo. (  ) A pressão de pico pode ser reduzida aumentando o tempo inspiratório. (  ) Alterando a frequência respiratória, não alteramos a pressão de pico. A sequência correta de preenchimento dos parênteses, de cima para baixo, é:",
+        "image": null,
+        "anulada": false,
+        "questionYear": "2023",
+        "alternatives": [
+          { "id": 1, "description": "V – F – F – V – F." },
+          { "id": 2, "description": "F – F – V – V – F." },
+          { "id": 3, "description": "F – V – V – F – V." },
+          { "id": 4, "description": "V – V – F – F – V." },
+          { "id": 5, "description": "F – F – V – V – V." }
+        ],
+        "rightAnswer": 2
+      },
+      {
+        "questionId": 4,
+        "question": "Para o manejo da síndrome do desconforto respiratório do adulto, relacione as colunas abaixo, associando as intervenções terapêuticas propostas à sua classificação em relação à mortalidade: (1) Redução (2) Aumento (3) Sem efeito. (  ) Realização de manobra de prona. (  ) Ventilação mecânica por alta frequência. (  ) Uso de estatinas. (  ) Realização de manobra de recrutamento alveolar máximo. (  ) Estratégia restritiva de volume (manejo volêmico). (  ) Uso de óxido nítrico (NO) inalatório. A sequência numérica correta de preenchimento dos parênteses, de cima para baixo, é:",
+        "image": null,
+        "anulada": false,
+        "questionYear": "2023",
+        "alternatives": [
+          { "id": 1, "description": "3 – 3 – 3 – 2 – 3 – 1." },
+          { "id": 2, "description": "1 – 3 – 2 – 2 – 1 – 3." },
+          { "id": 3, "description": "1 – 2 – 3 – 2 – 3 – 3." },
+          { "id": 4, "description": "3 – 2 – 2 – 3 – 1 – 2." },
+          { "id": 5, "description": "1 – 2 – 3 – 3 – 1 – 2." }
+        ],
+        "rightAnswer": 3
+      },
+      {
+        "questionId": 5,
+        "question": "Em relação aos métodos dialíticos aplicados na UTI, podemos afirmar:",
+        "image": null,
+        "anulada": false,
+        "questionYear": "2023",
+        "alternatives": [
+          {
+            "id": 1,
+            "description": "que, nas terapias contínuas, o método de depuração capilar por difusão necessita de um fluido de reposição."
+          },
+          {
+            "id": 2,
+            "description": "que o efluente da hemodiafiltração veno-venosa contínua (HDFVVC) é composto pela ultrafiltração."
+          },
+          {
+            "id": 3,
+            "description": "que os métodos dialíticos contínuos por difusão retiram moléculas de médio peso molecular mais efetivamente que o método por convecção."
+          },
+          {
+            "id": 4,
+            "description": "que as principais vantagens dos métodos contínuos em relação à terapia intermitente (convencional) são a maior estabilidade hemodinâmica e a maior rapidez em eliminar eletrólitos e toxinas."
+          },
+          {
+            "id": 5,
+            "description": "que o uso de citrato de sódio a 4% como anticoagulação regional pode levar à alcalose metabólica, sendo o aumento da dose de hemodiálise (fluxo dialisante) uma forma de controlar esse efeito."
+          }
+        ],
+        "rightAnswer": 5
+      },
+      {
+        "questionId": 6,
+        "question": "Paciente de 50 anos, 70 kg, teve uma parada cardíaca (PCR) e foi reanimado por cerca de 10 minutos, com sucesso. O ritmo inicial foi fibrilação ventricular. Recebeu, no total, 4 choques de 200 J, 2 mg de adrenalina e 30 mg de lidocaína. O desfibrilador registrou uma fração de compressão de 70%, e as compressões apresentaram uma frequência média de 110/min e uma profundidade de 4 cm. Assinale a alternativa correta em relação ao atendimento, segundo as recomendações da American Heart Association.",
+        "image": null,
+        "anulada": false,
+        "questionYear": "2023",
+        "alternatives": [
+          {
+            "id": 1,
+            "description": "Em relação às compressões torácicas, a profundidade e a frequência estavam adequadas."
+          },
+          {
+            "id": 2,
+            "description": "O objetivo é atingir uma fração de compressão superior a 80%."
+          },
+          {
+            "id": 3,
+            "description": "A dose de lidocaína recomendada na parada cardíaca para esse paciente é de 70 mg."
+          },
+          {
+            "id": 4,
+            "description": "A dose inicial do choque deveria ser obrigatoriamente aumentada em choques subsequentes até dose máxima de 360 J."
+          },
+          {
+            "id": 5,
+            "description": "Para o tempo total de PCR, esse paciente deveria ter recebido no mínimo 4 mg de adrenalina."
+          }
+        ],
+        "rightAnswer": 3
+      },
+      {
+        "questionId": 7,
+        "question": "Com relação aos eletrocardiogramas de 1 a 5, apresentados no exame, assinale a alternativa que apresenta a correta associação entre o número do traçado do eletrocardiograma e a causa mais provável de elevação do segmento ST.",
+        "image": null,
+        "anulada": false,
+        "questionYear": "2023",
+        "alternatives": [
+          {
+            "id": 1,
+            "description": "1 – Hipertrofia ventricular esquerda; 2 – Bloqueio de ramo esquerdo; 3 – Pericardite aguda; 4 – Hipercalemia; 5 – Infarto agudo anterosseptal."
+          },
+          {
+            "id": 2,
+            "description": "1 – Bloqueio de ramo direito; 2 – Hipertrofia ventricular esquerda; 3 – Pericardite aguda; 4 – Hipercalemia; 5 – Hipertrofia ventricular esquerda."
+          },
+          {
+            "id": 3,
+            "description": "1 – Pericardite; 2 – Hipercalemia; 3 – Hipertrofia ventricular esquerda; 4 – Infarto agudo de ventrículo direito; 5 – Hipotermia."
+          },
+          {
+            "id": 4,
+            "description": "1 – Infarto agudo anterosseptal; 2 – Bloqueio de ramo esquerdo; 3 – Hipotermia; 4 – Hipercalemia; 5 – Infarto de parede posterior."
+          },
+          {
+            "id": 5,
+            "description": "1 – Infarto agudo de ventrículo direito; 2 – Hipocalcemia; 3 – Hipotermia; 4 – Infarto agudo anterosseptal; 5 – Bloqueio de ramo direito."
+          }
+        ],
+        "rightAnswer": 1
+      },
+      {
+        "questionId": 8,
+        "question": "Um paciente de 70 anos é internado com quadro de insuficiência cardíaca descompensada. No momento da admissão, foi iniciada infusão contínua de furosemida a uma dose de 20 mg/h, resultando em um aumento significativo da diurese. Após 24 horas, o paciente continua a apresentar sinais de congestão, mas houve uma piora na creatinina de 1,2 mg/dL para 1,5 mg/dL. No momento, ele está acordado, utilizando ventilação não invasiva (VNI), com pressão arterial de 90/60 mmHg e frequência cardíaca de 110 bpm. Assinale a alternativa que apresenta a melhor opção de tratamento para esse paciente.",
+        "image": null,
+        "anulada": false,
+        "questionYear": "2023",
+        "alternatives": [
+          { "id": 1, "description": "O diurético pode ser continuado, apesar da piora da função renal." },
+          {
+            "id": 2,
+            "description": "O uso de vasodilatadores está contraindicado devido aos níveis pressóricos."
+          },
+          {
+            "id": 3,
+            "description": "Betabloqueadores devem ser iniciados, independentemente do status volêmico."
+          },
+          {
+            "id": 4,
+            "description": "Deve-se iniciar hemodiálise para tratar a hipervolemia, evitando a nefrotoxicidade da furosemida."
+          },
+          {
+            "id": 5,
+            "description": "Passagem de cateter pulmonar e início de dobutamina com um alvo de índice cardíaco acima de 2,6 L/min/m²."
+          }
+        ],
+        "rightAnswer": 1
+      },
+      {
+        "questionId": 9,
+        "question": "Em relação ao gráfico que representa as respostas hemodinâmicas a diferentes drogas (frequência cardíaca e pressão arterial em função da dose), assinale a alternativa correta.",
+        "image": null,
+        "anulada": false,
+        "questionYear": "2023",
+        "alternatives": [
+          {
+            "id": 1,
+            "description": "A resposta da droga 1 a 10 µg/min assemelha-se à ação da dobutamina."
+          },
+          {
+            "id": 2,
+            "description": "A droga 3, a 10 µg/min, demonstra uma resposta compatível com o isoproterenol."
+          },
+          {
+            "id": 3,
+            "description": "A droga 2, a 10 µg/min, apresenta uma resposta condizente com a ação da vasopressina."
+          },
+          {
+            "id": 4,
+            "description": "A resposta da droga 3 a 10 µg/min é consistente com a ação da noradrenalina."
+          },
+          {
+            "id": 5,
+            "description": "As drogas 1 e 2, a 10 µg/min, têm uma ação predominante no receptor β2 cardíaco."
+          }
+        ],
+        "rightAnswer": 2
+      },
+      {
+        "questionId": 10,
+        "question": "Um paciente internado na Unidade de Terapia Intensiva (UTI) após cirurgia cardíaca apresenta flutter atrial com uma frequência em torno de 140 bpm. Assinale a afirmação correta sobre esse caso.",
+        "image": null,
+        "anulada": false,
+        "questionYear": "2023",
+        "alternatives": [
+          {
+            "id": 1,
+            "description": "Em paciente com instabilidade hemodinâmica, está indicada a desfibrilação com 200 J."
+          },
+          {
+            "id": 2,
+            "description": "A terapia primária dessa arritmia é corrigir a sua causa base, sendo a hipomagnesemia a etiologia mais frequente nesse cenário."
+          },
+          {
+            "id": 3,
+            "description": "Pode-se utilizar o marca-passo epicárdico para terminar o flutter atrial, devendo-se ajustar a frequência cardíaca para 125% da frequência atrial."
+          },
+          {
+            "id": 4,
+            "description": "O uso de esmolol é contraindicado nesse contexto, devido ao risco de depressão da função ventricular esquerda."
+          },
+          {
+            "id": 5,
+            "description": "A reversão imediata do flutter atrial pode ser alcançada através da administração de metoprolol endovenoso."
+          }
+        ],
+        "rightAnswer": 3
+      },
+      {
+        "questionId": 11,
+        "question": "Com base na imagem do cateter pulmonar de quatro lúmens apresentada no exame, identifique a afirmação correta sobre suas características.",
+        "image": null,
+        "anulada": false,
+        "questionYear": "2023",
+        "alternatives": [
+          { "id": 1, "description": "As marcações do cateter ocorrem a cada 15 cm de incremento." },
+          { "id": 2, "description": "O número 4 identifica o lúmen distal do cateter." },
+          { "id": 3, "description": "O número 1 identifica o lúmen proximal." },
+          { "id": 4, "description": "O número 5 identifica o termistor." },
+          { "id": 5, "description": "O número 3 indica a conexão para inflar o balão do cateter." }
+        ],
+        "rightAnswer": 4
+      },
+      {
+        "questionId": 12,
+        "question": "Paciente do sexo masculino desenvolveu quadro de hipoxemia no terceiro dia de internação hospitalar por pancreatite aguda biliar grave, com saturação periférica de oxigênio (SO2) de 82%. A ultrassonografia pulmonar apresenta linhas B difusas bilaterais, associadas a consolidações subpleurais. Instalada oxigenioterapia através de cânula nasal de alto fluxo (CNAF) nos seguintes parâmetros: fluxo de 40 L/min e FiO2 de 100%. Após esse manejo, a saturação periférica de oxigênio ficou em 98%. Frente ao quadro descrito, assinale a alternativa correta com respeito à presença ou não de síndrome da disfunção respiratória aguda (SDRA) nesse caso.",
+        "image": null,
+        "anulada": false,
+        "questionYear": "2023",
+        "alternatives": [
+          {
+            "id": 1,
+            "description": "O diagnóstico de SDRA só pode ser feito com a realização de radiografia de tórax ou de tomografia computadorizada de tórax."
+          },
+          {
+            "id": 2,
+            "description": "Para se estabelecer o diagnóstico de SDRA, é necessária a coleta de gasometria arterial que contemple os critérios diagnósticos da síndrome."
+          },
+          {
+            "id": 3,
+            "description": "Pode-se estabelecer o critério diagnóstico para SDRA grave desse paciente, uma vez que a relação SO2/FiO2 é de 98%."
+          },
+          {
+            "id": 4,
+            "description": "O diagnóstico de SDRA não pode ser estabelecido com o uso de CNAF nos parâmetros descritos."
+          },
+          {
+            "id": 5,
+            "description": "A doença de base do paciente não é condição predisponente para SDRA, e deve-se considerar a presença de edema agudo de pulmão."
+          }
+        ],
+        "rightAnswer": 2
+      },
+      {
+        "questionId": 13,
+        "question": "Paciente de 65 anos, do sexo feminino, com histórico de colonização por Klebsiella sp. produtora de KPC isolada em swab de rastreamento, em medidas de precaução de contato, foi submetida à sigmoidectomia por neoplasia. No terceiro pós-operatório do procedimento, desenvolveu quadro de insuficiência ventilatória associado à hipoxemia, choque e necessidade de intubação orotraqueal. Ultrassonografia pulmonar apresentou nova consolidação no lobo inferior direito. Iniciados empiricamente polimixina B e meropenem, conforme protocolo institucional. No terceiro dia após o início de antibiótico, com resolução do choque e melhora da hipoxemia, foi isolada, em amostra de aspirado traqueal, Pseudomonas aeruginosa resistente a carbapenêmicos, cefalosporinas e piperacilina-tazobactam, porém sensível à polimixina B e à amicacina. Optou-se por um desescalonamento antimicrobiano, com o emprego de monoterapia com polimixina B por mais cinco dias. A respeito do manejo clínico dessa paciente, assinale a alternativa INCORRETA.",
+        "image": null,
+        "anulada": false,
+        "questionYear": "2023",
+        "alternatives": [
+          {
+            "id": 1,
+            "description": "O emprego da terapia antimicrobiana empírica inicial, composta por dois antibióticos com cobertura para gram-negativos, se justifica pelo risco de a paciente apresentar infecção por microrganismo multirresistente."
+          },
+          {
+            "id": 2,
+            "description": "O uso empírico de meropenem se justifica, a despeito de a paciente ser colonizada por microrganismo multirresistente."
+          },
+          {
+            "id": 3,
+            "description": "O emprego de monoterapia antimicrobiana após o resultado da cultura se justifica, a despeito de se tratar de uma infecção por microrganismo multirresistente."
+          },
+          {
+            "id": 4,
+            "description": "Apesar de ser uma paciente em pós-operatório de cirurgia abdominal, não se justifica o uso empírico inicial de terapia antifúngica."
+          },
+          {
+            "id": 5,
+            "description": "O tempo total de administração de polimixina está errado, pois essa paciente apresenta pneumonia por Pseudomonas aeruginosa. Nestes casos, o emprego de 14 dias de antibioticoterapia efetiva se associa a maior sobrevida em comparação ao seu uso por 8 dias."
+          }
+        ],
+        "rightAnswer": 5
+      },
+      {
+        "questionId": 14,
+        "question": "Assinale com V (verdadeiro) ou F (falso) as seguintes afirmações sobre a terapia nutricional do doente criticamente enfermo: (  ) O emprego de nutrição enteral trófica ou hipocalórica é factível nesses pacientes, independentemente do seu estado nutricional. (  ) As equações preditivas são as ferramentas ideais para o estabelecimento do alvo energético-proteico desses pacientes. (  ) A alimentação por sonda em posição pós-pilórica está indicada para pacientes com intolerância à dieta por sonda em posição gástrica, para pacientes com alto risco para aspiração e para pacientes cuja intolerância à dieta não foi resolvida com o uso de procinéticos. (  ) O emprego da dieta enteral é contraindicado quando há a necessidade de uso de vasopressores. (  ) A droga procinética de primeira linha no manejo da intolerância à alimentação gástrica é a eritromicina intravenosa. A sequência correta de preenchimento dos parênteses, de cima para baixo, é:",
+        "image": null,
+        "anulada": false,
+        "questionYear": "2023",
+        "alternatives": [
+          { "id": 1, "description": "V – V – F – V – F." },
+          { "id": 2, "description": "V – V – F – F – V." },
+          { "id": 3, "description": "F – F – V – V – F." },
+          { "id": 4, "description": "V – F – V – F – V." },
+          { "id": 5, "description": "F – F – V – F – V." }
+        ],
+        "rightAnswer": 4
+      },
+      {
+        "questionId": 15,
+        "question": "Sobre o manejo da hemorragia digestiva aguda nos pacientes internados em UTI, assinale a afirmativa correta.",
+        "image": null,
+        "anulada": false,
+        "questionYear": "2023",
+        "alternatives": [
+          {
+            "id": 1,
+            "description": "O emprego de shunt portossistêmico intra-hepático transjugular deve sempre ser considerado em situações de sangramento varicoso refratário à terapia endoscópica e farmacológica, independentemente da topografia do sangramento (esofágico ou gástrico)."
+          },
+          {
+            "id": 2,
+            "description": "O uso de inibidores da somatostatina pode ser indicado em casos de sangramento não varicoso refratários à terapia endoscópica, enquanto se aguarda a intervenção angiográfica ou cirúrgica."
+          },
+          {
+            "id": 3,
+            "description": "A angiografia é um procedimento diagnóstico e terapêutico naqueles pacientes cuja topografia de sangramento não permita um tratamento endoscópico efetivo. Ela deve ser sempre uma alternativa anterior à intervenção cirúrgica nesse subgrupo de pacientes."
+          },
+          {
+            "id": 4,
+            "description": "Profilaxia de úlcera de estresse, preferencialmente com o uso de inibidor da bomba de prótons, deve ser administrada a todos os pacientes criticamente enfermos após a sua admissão na UTI."
+          },
+          {
+            "id": 5,
+            "description": "A ausência de drenagem sanguinolenta após passagem de sonda nasogástrica está associada a sangramentos digestivos de melhor prognóstico, podendo-se postergar a realização de endoscopia digestiva alta até melhor estabilização do quadro clínico do paciente."
+          }
+        ],
+        "rightAnswer": 1
+      },
+      {
+        "questionId": 16,
+        "question": "Com relação ao manejo da hemorragia subaracnoide, assinale a afirmativa correta.",
+        "image": null,
+        "anulada": false,
+        "questionYear": "2023",
+        "alternatives": [
+          {
+            "id": 1,
+            "description": "O ressangramento de aneurisma não clipado é uma complicação grave, associada a uma elevada mortalidade. Até o tratamento definitivo do aneurisma, recomenda-se o tratamento agressivo da pressão arterial, com alvo de pressão arterial sistólica < 140 mmHg."
+          },
+          {
+            "id": 2,
+            "description": "O vasoespasmo cerebral pode se apresentar nas primeiras 48 horas pós-sangramento, com um pico entre os dias 7 e 8, podendo estar presente por até 21 dias após o ictus."
+          },
+          {
+            "id": 3,
+            "description": "A nimodipina é a terapia-padrão no manejo da hemorragia subaracnoide, sendo administrada num período de 21 dias após o ictus. Ela não previne o vasoespasmo cerebral, mas, sim, diminui a morbidade dessa complicação."
+          },
+          {
+            "id": 4,
+            "description": "O tratamento do vasoespasmo consiste na indução de hipertensão e de hemodiluição nesses pacientes, associada à hipernatremia."
+          },
+          {
+            "id": 5,
+            "description": "O uso de anticonvulsivante profilático, em especial a fenitoína, está indicado até a alta hospitalar."
+          }
+        ],
+        "rightAnswer": 3
+      },
+      {
+        "questionId": 17,
+        "question": "Paciente de 58 anos, portador de fibrilação atrial crônica, em uso de rivaroxabana, é internado na UTI oriundo da enfermaria por episódio de coma, com escala de coma de Glasgow de 5. Realizou tomografia computadorizada de crânio, que apresentou hematoma intraparenquimatoso extenso. Qual dos seguintes tratamentos é preconizado como terapia inicial para reversão da anticoagulação?",
+        "image": null,
+        "anulada": false,
+        "questionYear": "2023",
+        "alternatives": [
+          { "id": 1, "description": "Ácido tranexâmico." },
+          { "id": 2, "description": "Desmopressina." },
+          { "id": 3, "description": "Complexo protrombínico." },
+          { "id": 4, "description": "Crioprecipitado." },
+          { "id": 5, "description": "Fibrinogênio sintético." }
+        ],
+        "rightAnswer": 3
+      },
+      {
+        "questionId": 18,
+        "question": "Sobre o choque hemorrágico, analise as seguintes afirmativas: I - Coagulopatia dilucional secundária à ressuscitação com cristaloides, coagulopatia de consumo de fatores de coagulação e hiperativação da cascata fibrinolítica são causas da coagulopatia que pacientes vítimas de trauma apresentam durante o curso do choque hemorrágico. II - Nas fases iniciais do choque hemorrágico, há uma redução da massa de hemoglobina, mas a concentração de hemoglobina permanece relativamente estável. III - A normalização dos níveis séricos de lactato sugere uma ressuscitação hemodinâmica efetiva, uma vez que há uma efetiva oferta de oxigênio para os tecidos periféricos, minimizando-se, assim, o metabolismo anaeróbico. Quais estão corretas?",
+        "image": null,
+        "anulada": false,
+        "questionYear": "2023",
+        "alternatives": [
+          { "id": 1, "description": "Apenas I." },
+          { "id": 2, "description": "Apenas III." },
+          { "id": 3, "description": "Apenas I e II." },
+          { "id": 4, "description": "Apenas I e III." },
+          { "id": 5, "description": "I, II e III." }
+        ],
+        "rightAnswer": 5
+      },
+      {
+        "questionId": 19,
+        "question": "Sobre as alterações fisiológicas presentes na gravidez, é correto afirmar que:",
+        "image": null,
+        "anulada": false,
+        "questionYear": "2023",
+        "alternatives": [
+          {
+            "id": 1,
+            "description": "há um aumento na resistência vascular sistêmica, em decorrência da expansão do volume sanguíneo, que se dá a partir do início do terceiro trimestre."
+          },
+          {
+            "id": 2,
+            "description": "há um aumento significativo do débito cardíaco ao longo da gestação, iniciando-se já a partir do primeiro trimestre."
+          },
+          {
+            "id": 3,
+            "description": "há um aumento na ventilação alveolar ao longo da gestação, em decorrência dos aumentos dos níveis de estrogênio que as gestantes apresentam."
+          },
+          {
+            "id": 4,
+            "description": "pequenos aumentos na creatinina sérica são relativamente comuns na gestação, em decorrência da hidronefrose que costuma ocorrer nas gestantes."
+          },
+          {
+            "id": 5,
+            "description": "a diminuição na capacidade residual funcional no terceiro trimestre de gestação acarreta pequenos aumentos na PCO2."
+          }
+        ],
+        "rightAnswer": 2
+      },
+      {
+        "questionId": 20,
+        "question": "Paciente com 75 anos, com hipertensão arterial sistêmica não controlada de longa data, usuário de propranolol, é internado na UTI devido à bradicardia acompanhada de instabilidade hemodinâmica. Eletrocardiograma evidenciou bloqueio atrioventricular total. Foi instalado marca-passo transvenoso temporário via jugular interna direita com eletrodo localizado no ápice do ventrículo direito. No ajuste do marca-passo, foi selecionado o modo VVI. Frequência cardíaca ajustada em 80 bpm. Sensibilidade de 2 mV. Sobre esse caso, assinale a alternativa correta.",
+        "image": null,
+        "anulada": false,
+        "questionYear": "2023",
+        "alternatives": [
+          {
+            "id": 1,
+            "description": "No modo VVI, a primeira letra refere-se à câmara cardíaca em que o estímulo elétrico cardíaco é sentido pelo marca-passo."
+          },
+          {
+            "id": 2,
+            "description": "Se a sensibilidade for modificada de 2 mV para 10 mV, a sensibilidade do marca-passo aumentará."
+          },
+          {
+            "id": 3,
+            "description": "Caso o modo do gerador do marca-passo seja trocado para DDD, tanto o átrio direito quanto o ventrículo direito serão estimulados."
+          },
+          {
+            "id": 4,
+            "description": "O eletrocardiograma de controle pós-instalação do marca-passo transvenoso deve mostrar bloqueio de ramo direito."
+          },
+          {
+            "id": 5,
+            "description": "O modo VVI pode resultar em aumento da pressão atrial direita, bem como em regurgitação mitral e tricúspide intermitentes."
+          }
+        ],
+        "rightAnswer": 5
+      },
+      {
+        "questionId": 21,
+        "question": "Em relação à curva do balão intra-aórtico de um paciente internado na UTI, demonstrada no exame, assinale a afirmativa correta.",
+        "image": null,
+        "anulada": false,
+        "questionYear": "2023",
+        "alternatives": [
+          {
+            "id": 1,
+            "description": "A curva representada pela letra A corresponde à pressão sistólica assistida."
+          },
+          { "id": 2, "description": "A deflação do balão intra-aórtico está muito tardia." },
+          {
+            "id": 3,
+            "description": "A curva representada pela letra B corresponde ao aumento diastólico."
+          },
+          {
+            "id": 4,
+            "description": "Podem estar ocorrendo perfusão coronariana inadequada e redução subótima da pós-carga do ventrículo esquerdo."
+          },
+          {
+            "id": 5,
+            "description": "A curva representada pela letra C corresponde à pressão diastólica assistida."
+          }
+        ],
+        "rightAnswer": 4
+      },
+      {
+        "questionId": 22,
+        "question": "Em relação aos procedimentos para determinação do diagnóstico de morte encefálica, assinale a afirmativa correta.",
+        "image": null,
+        "anulada": false,
+        "questionYear": "2023",
+        "alternatives": [
+          {
+            "id": 1,
+            "description": "O intervalo mínimo de tempo entre os exames clínicos para uma criança de 3 anos é de 12 horas."
+          },
+          {
+            "id": 2,
+            "description": "São considerados pré-requisitos para o diagnóstico de morte encefálica em adultos: temperatura corporal (esofagiana, vesical ou retal) superior a 35,5º C, saturação arterial de oxigênio acima de 94%; pressão arterial sistólica maior ou igual a 110 mmHg ou pressão arterial média maior ou igual a 65 mmHg."
+          },
+          {
+            "id": 3,
+            "description": "Na avaliação do reflexo fotomotor, as pupilas deverão estar fixas e sem resposta à estimulação luminosa intensa, podendo ter contorno irregular, diâmetros variáveis ou assimétricos."
+          },
+          {
+            "id": 4,
+            "description": "Em pacientes com disfunção hepática e/ou renal que receberam infusão de fármacos depressores do sistema nervoso central, deve-se priorizar a realização de exame complementar que avalie a atividade elétrica encefálica."
+          },
+          {
+            "id": 5,
+            "description": "O teste de apneia é considerado positivo quando há um aumento de 20 mmHg da PaCO2 em relação à PaCO2 da gasometria arterial inicial na ausência de movimentos respiratórios."
+          }
+        ],
+        "rightAnswer": 3
+      },
+      {
+        "questionId": 23,
+        "question": "Paciente de 45 anos com história de insuficiência renal crônica, em tratamento dialítico 3 vezes por semana, foi admitido na UTI com insuficiência respiratória após tentativa de passagem de cateter de diálise em veia jugular interna direita na enfermaria. Não é submetido a sessões de diálise há uma semana devido a trombose da fístula arteriovenosa. Foi intubado e evoluiu com choque circulatório. Durante a avaliação ultrassonográfica à beira do leito, foram obtidas as seguintes informações: – ecografia pulmonar: pulmão direito com presença de linhas A com deslizamento pleural ausente; pulmão esquerdo com presença de linhas B em número maior que 5 por espaço intercostal. – ecocardiografia: presença de derrame pericárdico com 2 cm junto ao ventrículo direito, variabilidade do influxo mitral e tricúspide igual a 15% e 25%, respectivamente. Diâmetro da via de saída do ventrículo esquerdo igual a 2 cm e VTI (integral velocidade-tempo) da via de saída do ventrículo esquerdo = 10 cm. Frequência cardíaca = 100 bpm. As informações clínico-ecográficas acima são sugestivas de:",
+        "image": null,
+        "anulada": false,
+        "questionYear": "2023",
+        "alternatives": [
+          {
+            "id": 1,
+            "description": "pneumotórax à direita, tamponamento cardíaco e índice cardíaco = 3,14 L/min."
+          },
+          {
+            "id": 2,
+            "description": "atelectasia à direita, ausência de tamponamento cardíaco e débito cardíaco = 6,28 L/min."
+          },
+          {
+            "id": 3,
+            "description": "pneumotórax à direita, ausência de tamponamento cardíaco e débito cardíaco = 3,14 L/min."
+          },
+          {
+            "id": 4,
+            "description": "atelectasia à direita, tamponamento cardíaco e débito cardíaco = 3,14 L/min."
+          },
+          {
+            "id": 5,
+            "description": "pneumotórax à direita, tamponamento cardíaco e débito cardíaco = 3,14 L/min."
+          }
+        ],
+        "rightAnswer": 3
+      },
+      {
+        "questionId": 24,
+        "question": "Em relação ao uso de fármacos antimicrobianos no paciente criticamente enfermo, assinale a afirmativa correta.",
+        "image": null,
+        "anulada": false,
+        "questionYear": "2023",
+        "alternatives": [
+          {
+            "id": 1,
+            "description": "A ressuscitação volêmica e o leak capilar reduzem o volume de distribuição de antimicrobianos hidrofílicos."
+          },
+          {
+            "id": 2,
+            "description": "Pacientes com sepse podem ter resposta fisiológica hiperdinâmica com aumento do fluxo de sangue para o fígado e os rins, ocasionando o aumento do clearance de fármacos antimicrobianos."
+          },
+          {
+            "id": 3,
+            "description": "A redução do fluxo sanguíneo mesentérico em pacientes com choque séptico aumenta o pico da concentração de antimicrobianos administrados por sonda nasoentérica."
+          },
+          {
+            "id": 4,
+            "description": "As betalactamases da classe A são chamadas de metalobetalactamases devido à dependência do zinco para a hidrólise dos antibióticos betalactâmicos."
+          },
+          {
+            "id": 5,
+            "description": "Penicilinas, cefalosporinas e fluoroquinolonas são exemplos de antibióticos tempo-dependentes, isto é, antibióticos que são mais eficazes se a concentração for mantida o maior tempo possível acima da concentração inibitória mínima."
+          }
+        ],
+        "rightAnswer": 2
+      },
+      {
+        "questionId": 25,
+        "question": "Em relação à avaliação e ao tratamento da dor em pacientes criticamente enfermos, assinale a afirmativa correta.",
+        "image": null,
+        "anulada": false,
+        "questionYear": "2023",
+        "alternatives": [
+          {
+            "id": 1,
+            "description": "A morfina é conjugada pelo fígado a metabólitos que incluem morfina-6-glicuronídeo, um metabólito ativo."
+          },
+          {
+            "id": 2,
+            "description": "A ferramenta Behavioral Pain Scale (BPS) tem 4 domínios, que são expressão facial, movimento corporal, tensão muscular e interação com o ventilador. Os pacientes são pontuados em cada seção entre 0 e 2, resultando numa pontuação de 0 (sem dor) a 8 (dor máxima)."
+          },
+          {
+            "id": 3,
+            "description": "Remifentanil é metabolizado no fígado, transformando-se em metabólitos inativos que são eliminados pelos rins."
+          },
+          {
+            "id": 4,
+            "description": "A dexmedetomidina é um antagonista alfa-2 de ação central com ação sedativa e propriedades analgésicas."
+          },
+          {
+            "id": 5,
+            "description": "A ligação a receptores opioides µ1 promove constipação, enquanto a ligação ao receptor µ2 produz analgesia."
+          }
+        ],
+        "rightAnswer": 1
+      }
+    ]
+  }
+]
